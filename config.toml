@@ -1,0 +1,63 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "GPK"
+theme = "hugo-resume"
+#theme = "ananke"
+enableGitInfo = true
+
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+
+
+[taxonomies]
+    tag = "tags"
+
+[params]
+    firstName = "Garrard"
+    lastName = "Kitchen"
+    address = "Southport, UK"
+    phone = "+44 (0)1704 220226"
+    contactNote = "Solutions Architect & CTO" #used in QR code only
+    profileImage = "https://en.gravatar.com/userimage/7070223/a5408955d5ac2cc7b975f64bf1e9dcb1.jpg"
+    email = "garrardkitchen@gmail.com"
+    description = "Software Platform Engineer with experience leveraging agile, DevOps, and CI/CD to manage large scale distributed platforms both on prem and in public cloud."
+    favicon = "images/favicon.ico"
+
+    # what sections to display.  Setting to false disables navigation and section.
+    showSkills = true
+    showProjects = true
+    showOpenSource = false
+    showPublications = false
+    showExperience = true
+    showEducation = true
+    showQr = true
+    showBlog = true
+
+    # do you want to show git hash on page footer and link to repo? Add commit URl for repo here.
+    gitCommitPrefix = "https://github.com/YOURNAME/REPONAME/commit/"
+
+
+[[params.handles]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/garrard-kitchen/"
+
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/garrardkitchen/"
+
+[[params.handles]]
+    name = "Bitbucket"
+    link = "https://bitbucket.org/garrardkitchen/"
+
+[[params.handles]]
+    name = "Stack Overflow"
+    link = "https://stackoverflow.com/users/5958408/garrard-kitchen"
+    icon = "stack-overflow" #optional icon attribute used for Font Awesome icons, otherwise the name is lowercased.
+
+[[params.handles]]
+    name = "Keybase"
+    link = "https://keybase.io/garrardkitchen"
+    icon = "key" #optional icon attribute used for Font Awesome icons, otherwise the name is lowercased.
+
+[outputs] #only required for search
+    home = ["HTML", "JSON"]

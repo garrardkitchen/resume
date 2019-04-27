@@ -1,0 +1,44 @@
+[
+    {
+        "school":"AWS Certification",
+        "degree":"Solutions Architect",
+        "major":"Associate Level",
+        "notes":"",
+        "range":"2018"
+    },
+    {
+        "school":"AWS Certification",
+        "degree":"Developer",
+        "major":"Associate Level",
+        "notes":"",
+        "range":"2017"
+    },
+    {
+        "school":"Shogun World - Southport",
+        "degree":"1st Dan",
+        "major":"Black Belt",
+        "notes":"",
+        "range":"2010"
+    },
+    {
+        "school":"Liverpool Business School",
+        "degree":"Bachelor of Science (Hons)",
+        "major":"Business Information Systems",
+        "notes":"Honors",
+        "range":"1990 - 1994"
+    },
+    {
+        "school":"North East Wales Institute",
+        "degree":"National Diploma in Computer Science",
+        "major":"Computer Information Systems",
+        "notes":"National Diploma",
+        "range":"1988 - 1990"
+    },
+    {
+        "school":"Connah's Quay High School",
+        "degree":"GCSE",
+        "major":"Including Computer Science, Mathematics, Visual Design, Physics, Design Engineering",
+        "notes":"",
+        "range":"1988"
+    }
+]

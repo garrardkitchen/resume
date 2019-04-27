@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on GPK</title>
+    <link>http://example.org/tags/</link>
+    <description>Recent content in Tags on GPK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Apr 2019 11:49:14 +0100</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CakePHP</title>
+      <link>http://example.org/tags/cakephp/</link>
+      <pubDate>Fri, 26 Apr 2019 11:49:14 +0100</pubDate>
+      
+      <guid>http://example.org/tags/cakephp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>clickheat</title>
+      <link>http://example.org/tags/clickheat/</link>
+      <pubDate>Fri, 26 Apr 2019 11:49:14 +0100</pubDate>
+      
+      <guid>http://example.org/tags/clickheat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>layouts</title>
+      <link>http://example.org/tags/layouts/</link>
+      <pubDate>Fri, 26 Apr 2019 11:49:14 +0100</pubDate>
+      
+      <guid>http://example.org/tags/layouts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>visitor tracking</title>
+      <link>http://example.org/tags/visitor-tracking/</link>
+      <pubDate>Fri, 26 Apr 2019 11:49:14 +0100</pubDate>
+      
+      <guid>http://example.org/tags/visitor-tracking/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

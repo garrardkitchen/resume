@@ -1,0 +1,86 @@
+[
+    {
+        "role":"Chief Technology Officer",
+        "company":"Qualtrak Solutions",
+        "summary":"Delivering Cloud and HA solutions with CI/CD",
+        "range":"Sept 2008 - Present"
+    },
+    {
+        "role":"Contractor",
+        "company":"Qualtrak Solutions",
+        "summary":"Using C# .NET and Javascript to create APIs and develop a learning platform",
+        "range":"Jan 2007 - Sept 2008"
+    },
+    {
+        "role":"Contractor",
+        "company":"Various companies",
+        "summary":"Using C# .NET and Javascript to create APIs and Web applications",
+        "range":"Mar 2004 - Sept 2008"
+    },
+    {
+        "role":"Contractor",
+        "company":"Co-op",
+        "summary":"Using C# ASP .NET and Javascript to create APIs, Web applications nd maintain extant systems including Holis",
+        "range":"2005 - Jan 2006"
+    },
+    {
+        "role":"Client-side web developer Team Lead",
+        "company":"AIM Technology",
+        "summary":"Headed up the client-side development effort of a Scorecard web-application.",
+        "range":"Nov 2002 - Aug 2003"
+    },
+    {
+        "role":"Data Architect",
+        "company":"AIM Technology",
+        "summary":"My primary role was to consolidate data from disparate systems into a Scorecard application. My responsibilities included to provide OLAP solution, BI, data analytics, pre-sales support, product installation, support and diagnostics. I worked both onsite and offsite. Other duties included enhancing corporate website.",
+        "range":"Nov 2002 - Aug 2003"
+    },
+    {
+        "role":"Technical Contractor",
+        "company":"Toyota",
+        "summary":"Computer support, process streamlining, help train department managers in best ways to collect data, check stock and compile aids for presentations and department workflow. I was also commissioned to compile a specification for a web based learning application to expedite the learning cycle for new intakes regarding site Health & Safety and the particular machines, and their components of a specific department.",
+        "range":"Jul 2002 - Sept 2002"
+    },
+    {
+        "role":"BI Consultant",
+        "company":"GE Capital",
+        "summary":"To develop and maintain a BI applications using the Holos BI tool.  My engagement was spread across several months.",
+        "range":"Feb 2001 - Sept 2001"
+    },
+    {
+        "role":"BI Consultant",
+        "company":"Morgan Stanley Dean Witter",
+        "summary":"To maintain a BI application using the Holos BI tool with",
+        "range":"Nov 2000 - Sept 2000"
+    },
+    {
+        "role":"BI Consultant",
+        "company":"GUS",
+        "summary":"To develop and maintain a BI applications using the Holos BI tool. Responsibilities included working closely with accounting department to translate requirements into features, assessment of work, development, support and maintenance.",
+        "range":"Jan 2000 - Nov 2000"
+    },
+    {
+        "role":"BI Consultant",
+        "company":"Equitas",
+        "summary":"I was brought in to develop and maintain a suite of BI applications using the Holos BI tool. My responsibilities included development, support, training, planning, managing a team of BI developers, assess / deliver on requirements, interface with other teams and to project management.",
+        "range":"Mar 1998 - Dec 1999"
+    },
+    {
+        "role":"Consultant",
+        "company":"Crystal Decisions UK",
+        "summary":"BI Support Engineer then BI Consultant.",
+        "range":"1996 - 1998"
+    },
+    {
+        "role":"Consultant",
+        "company":"Lintel Software",
+        "summary":"Informix DBA and developer.",
+        "range":"1996 Mar - 1996 Oct"
+    },
+    {
+        "role":"Developer",
+        "company":"ITC",
+        "summary":"Develop and maintain in house applications on a Unix platform using Recital language.",
+        "range":"1994 - 1996"
+    }
+]

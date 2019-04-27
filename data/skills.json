@@ -1,0 +1,90 @@
+[
+    {
+        "grouping":"Architecture & Concepts",
+        "skills":[ 
+            "API Management Platforms", 
+            "Configuration as Code",             
+            "DevOps",
+            "DNS",
+            "Disaster Recovery & HA", 
+            "Firewalls", 
+            "Microservices", 
+            "REST", 
+            "SOA",             
+            "VPC",
+            "SaaS/FaaS/PaaS/IaaS", 
+            "Serverless",
+            "Webservices"]
+    },
+    {
+        "grouping":"Serverless Technology",
+        "skills":[ 
+            "AWS Lambda",
+            "AWS API Gateway",
+            "AWS Step Functions",
+            "Amazon ECS Fargate",
+            "Amazon Aurora Serverless",
+            "Azure Functions",
+            "Serverless Framework",
+            "Serverless Application Model",
+            "Serverless Application Repository"
+        ]
+    },
+    {
+        "grouping":"Databases",
+        "skills":[ 
+            "AWS Aurora - MySQL",
+            "AWS ElastiCache - Redis",
+            "AWS DynamoDB",
+            "Amazon ElasticSearch",
+            "MSSQL"            
+        ]
+    },
+    {
+        "grouping":"Languages, Operating Systems",
+        "skills":[ "C#", "F#", "Python", "Node.js", "go", "git", "Windows", "linux", "bash", "PowerShell", "Windows 10", "Windows Server 2008-2016"]
+    },    
+    {
+        "grouping": "Microsoft",
+        "skills":[ "IIS", "MSSQL", ".NET Frameworks 4.6", ".NET Core", "ASP.NET", "ASP.NET Core", "Razor Pages"]
+    },
+    {
+        "grouping":"Front-end",
+        "skills":[ "Javascript", "JQuery", "Angular", "Vue", "React", "Ajax", "Bootstrap", "CSS", "HTML5", "Silveright"]
+    },
+    {
+        "grouping":"IDEs, Dev Tools & Productivities Tools",
+        "skills":[ "VS 2019", "VSCode", "Rider", "PyCharm", "WebStorm",  "DataGrip", "SSMS", "MySQL Workbench", "DotTrace", "DotMemory", "ANTS Performance Pro", "ANTS Memory Profiler", "Slack", "Skype", "GotoMeeting", "Jira Clooud", "Google Docs & Keep", "Office 365"]
+    },
+    {
+        "grouping":"Testing & Load Testing",
+        "skills":[ "XUnit.net", "SpecFlow", "Mocha" , "Cucumber", "DotCover", "JMeter", "Locust", "Artillery"]
+    },  
+    
+    {
+        "grouping":"System Integration",
+        "skills":[ "Altitude", "Amazon Connect", "Comways", "DataVoice", "Dubber", "Frequentis", "Novo", "Redbox", "ServiceNow", "Spitch", "Telax", "Twilio", "Twilio Flex", "ZenDesk"]
+    },  
+    {
+        "grouping":"Security",
+        "skills":[ "OAuth 2.0", "OIDC", "AD", "LDAP", "MFA", "VyprVPN", "PCI DSS", "Keybase", "Forms Authentication", "Windows Authentication", "JWT"]
+    },
+    {
+        "grouping":"AWS",
+        "skills":[ "ACM", "ADM", "ALB", "AMI", "API Gateway", "Athena", "Aurora", "Backup", "Cloud9", "CloudFormation", "CloudTrail", "CloudWatch", "CodeBuild", "CodeCommit", "CodeDeploy", "CodePipeline", "Cognito", "Comprehend", "Config", "Data Pipelines", "DynamoDB", "EBS", "EC2", "ECS", "ECS Fargate", "EMR", "EFS", "Elastic BeanStalk",  "ElasticCache", "ElasticSearch", "Glue", "Kinesis", "Lambda", "MarketPlace", "Metering Service", "Quick Start", "RDS", "Route53", "S3", "Simple AD", "SES", "SNS", "SQS", "SSM", "Step Functions", "Transcribe", "VPC", "WAF", "Workspaces", "X-Ray"]
+    },    
+    {
+      "grouping":"Platform, Container & Cloud Administration",
+        "skills":[
+            {"name":"Atlassian","link":"https://atlassian.com/"},            
+            {"name":"AWS","link":"https://aws.amazon.com/"},            
+            {"name":"Azure","link":"https://azure.microsoft.com/en-gb"},    
+            {"name":"Chef","link":"https://www.chef.io/"},    
+            {"name":"Chocolately","link":"https://www.chocolatey.org/"},    
+            {"name":"Docker","link":"https://docker.com/"},                        
+            {"name":"NGINX","link":"https://www.nginx.com/"},            
+            {"name":"Octopus Deploy","link":"https://www.octopusdeploy.com/"},      
+            {"name":"Terraform","link":"https://www.terraform.io/"}
+        ]
+    }
+  ]
