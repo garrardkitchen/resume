@@ -14,6 +14,10 @@
             "VPC",
             "SaaS/FaaS/PaaS/IaaS", 
             "Serverless",
+            "TDD",
+            "BDD",
+            "DDD",
+            "Agile",
             "Webservices"]
     },
     {
@@ -37,7 +41,13 @@
             "AWS ElastiCache - Redis",
             "AWS DynamoDB",
             "Amazon ElasticSearch",
-            "MSSQL"            
+            "MSSQL",
+            "Azure SQL",
+            "CosmosDB",
+            "CoachBase",
+            "Firebird",
+            "mongoDB",
+            "PostgreSql"            
         ]
     },
     {
@@ -58,7 +68,7 @@
     },
     {
         "grouping":"Testing & Load Testing",
-        "skills":[ "XUnit.net", "SpecFlow", "Mocha" , "Cucumber", "DotCover", "JMeter", "Locust", "Artillery"]
+        "skills":[ "XUnit.net", "SpecFlow", "Mocha" , "Cucumber", "karma", "chai", "sinon", "istanbul", "zombie.js", "JustMock", "DotCover", "JMeter", "Locust", "Artillery", "loader.io - blazemeter"]
     },  
     
     {
@@ -67,18 +77,27 @@
     },  
     {
         "grouping":"Security",
-        "skills":[ "OAuth 2.0", "OIDC", "AD", "LDAP", "MFA", "VyprVPN", "PCI DSS", "Keybase", "Forms Authentication", "Windows Authentication", "JWT"]
+        "skills":[ "OAuth 2.0", "OIDC", "Active Directory", "LDAP", "MFA", "Cognito", "VyprVPN", "PCI DSS", "Keybase", "Forms Authentication", "Windows Authentication", "JWT", "IWA", "Azure AD"]
+    },
+    {
+        "grouping":"Observability & telemetry",
+        "skills":["CloudWatch", "Datadog", "Epsagon", "Sentry.io", "Azure Application Insights", "Stackify", "NewRelic"]
     },
     {
         "grouping":"AWS",
-        "skills":[ "ACM", "ADM", "ALB", "AMI", "API Gateway", "Athena", "Aurora", "Backup", "Cloud9", "CloudFormation", "CloudTrail", "CloudWatch", "CodeBuild", "CodeCommit", "CodeDeploy", "CodePipeline", "Cognito", "Comprehend", "Config", "Data Pipelines", "DynamoDB", "EBS", "EC2", "ECS", "ECS Fargate", "EMR", "EFS", "Elastic BeanStalk",  "ElasticCache", "ElasticSearch", "Glue", "Kinesis", "Lambda", "MarketPlace", "Metering Service", "Quick Start", "RDS", "Route53", "S3", "Simple AD", "SES", "SNS", "SQS", "SSM", "Step Functions", "Transcribe", "VPC", "WAF", "Workspaces", "X-Ray"]
+        "skills":[ "ACM", "ADM", "ALB", "AMI", "API Gateway", "Athena", "Aurora", "Backup", "Cloud9", "CloudFormation", "CloudTrail", "CloudWatch", "CodeBuild", "CodeCommit", "CodeDeploy", "CodePipeline", "Cognito", "Comprehend", "Config", "Data Pipelines", "DynamoDB", "EBS", "EC2", "ECR", "ECS", "ECS Fargate", "EMR", "EFS", "Elastic BeanStalk",  "ElasticCache", "ElasticSearch", "Glue", "Kinesis", "Lambda", "MarketPlace", "Metering Service", "Quick Start", "RDS", "Route53", "S3", "Simple AD", "SES", "SNS", "SQS", "SSM", "Step Functions", "Transcribe", "VPC", "WAF", "Workspaces", "X-Ray"]
     },    
     {
       "grouping":"Platform, Container & Cloud Administration",
         "skills":[
             {"name":"Atlassian","link":"https://atlassian.com/"},            
             {"name":"AWS","link":"https://aws.amazon.com/"},            
+            {"name":"CloudFormation","link":"https://aws.amazon.com/cloudformation"},      
+            {"name":"ECS","link":"https://aws.amazon.com/ecs/"}, 
+            {"name":"OpsWorks","link":"https://aws.amazon.com/opsworks/"}, 
+            {"name":"Elastic Beanstalk","link":"https://aws.amazon.com/elasticbeanstalk/"},             
             {"name":"Azure","link":"https://azure.microsoft.com/en-gb"},    
+            {"name":"ARM","link":"https://docs.microsoft.com/en-us/azure/azure-resource-manager/"},    
             {"name":"Chef","link":"https://www.chef.io/"},    
             {"name":"Chocolately","link":"https://www.chocolatey.org/"},    
             {"name":"Docker","link":"https://docker.com/"},                        

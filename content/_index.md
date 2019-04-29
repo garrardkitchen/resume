@@ -13,7 +13,7 @@ I have spent the last 10+ years building a development team and helping to shape
 
 Previously a contractor in the Business Intelligence space, I have worked for GE Capital, Morgan Stanley Dean Witter, Equitas & GUS.  Following university I worked my way to a position of personal interest, known at the time as building and supporting EIS (Executive information systems).  This propelled me into the BI space where I took the plunge into the contracting world.  Since this time, I have pursued another passion; web application development.  I took a number of small gigs to help fine tune my skills.  This enabled me to offer a greater repertoire of skills and abillities to prospective employers.  I had a number of interesting roles which lead me into my most recent role of a lifetime; CTO.  
 
-During this time I became SME (subject matter expert) in the contact centre space, system integrations, cloud solutions architecture (AWS),  serverless solutions (AWS) and was both the technical voice and advisor for Qualtrak, working with teams around the world.
+During this time I have become a SME (subject matter expert) in the contact centre space, an seasoned systems integrator, cloud solutions architect,  experienced serverless developer, DevOps evangelist and a technical voice and advisor for Qualtrak, working with teams around the world of all company sizes.
 
 ### Where I see my passion and the skills to offer a company
 
