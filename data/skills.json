@@ -103,7 +103,8 @@
             {"name":"Docker","link":"https://docker.com/"},                        
             {"name":"NGINX","link":"https://www.nginx.com/"},            
             {"name":"Octopus Deploy","link":"https://www.octopusdeploy.com/"},      
-            {"name":"Terraform","link":"https://www.terraform.io/"}
+            {"name":"Terraform","link":"https://www.terraform.io/"},
+            {"name":"VMWare","link":"https://www.vmware.com/"}
         ]
     }
   ]

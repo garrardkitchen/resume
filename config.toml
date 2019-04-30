@@ -1,4 +1,5 @@
 #baseURL = "https://github.com/garrardkitchen/garrardkitchen.github.io/"
+baseURL = "http://www.garrardkitchen.com/"
 languageCode = "en-us"
 title = "GPK"
 theme = "hugo-resume"
@@ -7,7 +8,7 @@ enableGitInfo = true
 
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
-
+googleAnalytics = "UA-10838611-1"
 
 [taxonomies]
     tag = "tags"
@@ -49,10 +50,10 @@ pygmentsCodeFencesGuessSyntax = true
     name = "Bitbucket"
     link = "https://bitbucket.org/garrardkitchen/"
 
-[[params.handles]]
-    name = "Stack Overflow"
-    link = "https://stackoverflow.com/users/5958408/garrard-kitchen"
-    icon = "stack-overflow" #optional icon attribute used for Font Awesome icons, otherwise the name is lowercased.
+#[[params.handles]]
+#    name = "Stack Overflow"
+#    link = "https://stackoverflow.com/users/5958408/garrard-kitchen"
+#    icon = "stack-overflow" #optional icon attribute used for Font Awesome icons, otherwise the name is lowercased.
 
 [[params.handles]]
     name = "Keybase"

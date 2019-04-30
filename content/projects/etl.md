@@ -2,7 +2,7 @@
 title: "ETL"
 date: 2019-04-28T17:29:12+01:00
 featured: true
-description: "It's always in the shape you want or need it"
+description: "It's always never in the shape you want or need it"
 tags: ["etl", "glue", "s3", "pandas", "python", "numpy", "athena", "aws data pipelines"]
 image: ""
 fact: ""

@@ -3,13 +3,15 @@ title: "Migrations"
 date: 2019-04-28T17:16:53+01:00
 featured: true
 description: "Remove dependency of Silverlight and MSSQL"
-tags: ["silverlight", "mssql", "restful api", "asp.net mvc", "asp.net core", "aws aurora", "ux", "aws dms"]
+tags: ["serverless", "ecs fargate", "lambda", "api gateway", "step functions", "silverlight", "mssql", "restful api", "asp.net mvc", "asp.net core", "aws aurora", "ux", "aws dms"]
 image: ""
 fact: ""
 weight: 500
 sitemap:
   priority : 0.8
 ---
+
+- Migrate Coach product away from a monolyth to being 100% serverless.  Main web platform hosted via ECS Fargate and all features, RESTul APIs be Lambda backed API Gateways and Step Functions.  Data repositories used are dynamoDB, ElasticSearch, Amazon Aurora (mySQL), Redis and S3.
 
 - Coach migrated from MSSQL to MySQL as costs were too high for Always-On capabilities. I was accepted onto Aurora MySQL Preview programme and contributed to this phase.  The product had a key dependency that required a specific version of MySQL. As a result we are now using Amazon Aurora and plan to migrate over to  Aurora Serverless when version 5.7 is supported.  
 

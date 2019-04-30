@@ -2,7 +2,7 @@
 title: "Corporate Website"
 date: 2019-04-28T17:31:27+01:00
 featured: true
-description: "Removing unnecessary costs due to stack dependency"
+description: "Remove unnecessary costs due to stack dependency"
 tags: ["serverless", "aws api gateway", "aws sam", "ci/cd"]
 image: ""
 fact: ""
