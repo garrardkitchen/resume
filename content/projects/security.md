@@ -15,6 +15,7 @@ These are some of the areas where I have dedicated my efforts when it comes to s
 
 - All vital and IPR associated systems are protected via MFA
 - Grandular IAM permissions configured for AWS services, users and roles
+- I always adhere to the Least Privilege Principle
 - Web Application Firewall (OWASP)
 - Web application XSS, SQL Injection, encoding, securing cookies, role & claims based authz
 - I always encrypt data at rest and also when in transit

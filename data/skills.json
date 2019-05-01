@@ -2,22 +2,23 @@
     {
         "grouping":"Architecture & Concepts",
         "skills":[ 
+            "Agile",
             "API Management Platforms", 
+            "BDD",
+            "DDD",
             "Configuration as Code",             
             "DevOps",
-            "DNS",
             "Disaster Recovery & HA", 
+            "DNS",
             "Firewalls", 
             "Microservices", 
             "REST", 
-            "SOA",             
-            "VPC",
             "SaaS/FaaS/PaaS/IaaS", 
             "Serverless",
+            "SOA",
+            "SOLID Principles",             
             "TDD",
-            "BDD",
-            "DDD",
-            "Agile",
+            "VPC",
             "Webservices"]
     },
     {
@@ -68,11 +69,11 @@
     },
     {
         "grouping":"IDEs, Dev Tools & Productivities Tools",
-        "skills":[ "VS 2019", "VSCode", "Rider", "PyCharm", "WebStorm",  "DataGrip", "SSMS", "MySQL Workbench", "DotTrace", "DotMemory", "ANTS Performance Pro", "ANTS Memory Profiler", "Slack", "Skype", "GotoMeeting", "Jira Clooud", "Google Docs & Keep", "Office 365"]
+        "skills":[ "VS 2019", "VSCode", "Rider", "PyCharm", "WebStorm",  "DataGrip", "SSMS", "MySQL Workbench", "Postman", "DotTrace", "DotMemory", "ANTS Performance Pro", "ANTS Memory Profiler", "Slack", "Skype", "GotoMeeting", "Jira Clooud", "Google Docs & Keep", "Office 365"]
     },
     {
         "grouping":"Testing & Load Testing",
-        "skills":[ "XUnit.net", "SpecFlow", "Mocha" , "Cucumber", "karma", "chai", "sinon", "istanbul", "zombie.js", "JustMock", "DotCover", "JMeter", "Locust", "Artillery", "loader.io - blazemeter"]
+        "skills":[ "Postman", "XUnit.net", "SpecFlow", "Mocha" , "Cucumber", "karma", "chai", "sinon", "istanbul", "zombie.js", "JustMock", "DotCover", "JMeter", "Locust", "Artillery", "loader.io - blazemeter"]
     },      
     {
         "grouping":"System Integration",
