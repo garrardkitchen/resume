@@ -3,7 +3,7 @@ title: "QTag"
 date: 2019-04-28T16:09:25+01:00
 featured: true
 description: "Help prepare search data for Data Connector by using bespoke application"
-tags: ["node.js", "Azure mobile services", "table storage", "service bus", "Azure Web App"]
+tags: ["node.js", "azure mobile services", "table storage", "service bus", "azure web services"]
 image: ""
 fact: ""
 weight: 500

@@ -3,7 +3,7 @@ title: "Serverless"
 date: 2019-04-28T16:01:53+01:00
 featured: true
 description: "All things serverless, most things serverless, ok, ok, only the appropriate things"
-tags: ["serverless","lambda","api gateway","step functions", "serverless framework", "SAM", "reduce cost", "reduce time to market"]
+tags: ["serverless","lambda","api gateway","step functions", "serverless framework", "serverless application model", "reduce cost", "reduce time to market"]
 image: ""
 fact: ""
 weight: 500

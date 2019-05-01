@@ -3,7 +3,7 @@ title: "Continuous Integration, Continuous Deployment & Continuous Delivery"
 date: 2019-04-28T15:35:31+01:00
 featured: true
 description: "The proliferation of CI/CD"
-tags: ["continuous integration", "continuous deployment", "continuous delivery", "BitBucket Pipelines", "AWS CodeBuild", "AWS CodePipeLine", "AWS CodeDeploy", "AWS CodeCommit", "GitHub", "Azure DevOps"]
+tags: ["continuous integration", "continuous deployment", "continuous delivery", "bitbucket pipelines", "codebuild", "codepipeLine", "codedeploy", "codecommit", "github", "azure devops"]
 image: ""
 fact: "CI/CD implemented across all projects"
 weight: 500

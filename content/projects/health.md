@@ -3,7 +3,7 @@ title: "Health of the SaaS product"
 date: 2019-04-28T17:09:54+01:00
 featured: true
 description: "Ensuring a positive CX"
-tags: ["cx", "cloudwatch trigger", "lambda", "alb", "python", "Lambda lb target", "elasticsearch", "http", "amazon aurora", "s3", "redis"]
+tags: ["cx", "cloudwatch trigger", "lambda", "alb", "python", "lambda load balancer target", "elasticsearch", "http", "amazon aurora", "s3", "redis"]
 image: ""
 fact: ""
 weight: 500

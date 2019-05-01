@@ -3,7 +3,7 @@ title: "Streamline deployment of HA app"
 date: 2019-04-28T15:56:30+01:00
 featured: true
 description: "High Availability"
-tags: ["NATS", "HA", "AWS", "single-server", "multi-server", "CI/CD"]
+tags: ["nats.io", "high availability", "aws", "single-server", "multi-server", "CI/CD"]
 image: ""
 fact: "Using multiple cloud vendor tools to continuously deliver solution"
 weight: 500

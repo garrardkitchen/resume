@@ -3,7 +3,7 @@ title: "Coach"
 date: 2019-04-28T16:13:20+01:00
 featured: true
 description: "Develop web version of client/server app"
-tags: ["asp.net mvc", "silverlight", "c#", "jquery", "angular", "html", "css", "bootstrap", "javascript", "ajax", "RESTful API", "RIA Services", "KendoUI", "Telerik Silverlight"]
+tags: ["asp.net mvc", "silverlight", "c#", "jquery", "angular", "html", "css", "bootstrap", "javascript", "ajax", "restful api", "ria services", "kendoui", "telerik silverlight"]
 image: ""
 fact: ""
 weight: 500

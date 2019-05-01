@@ -3,7 +3,7 @@ title: "SDK"
 date: 2019-04-28T16:30:38+01:00
 featured: true
 description: "Enpower others to create Data Connectors"
-tags: ["integration tool", "developer site", "sdk", "documentation", "RESTful API", "dependency injection", "data connector"]
+tags: ["integration tool", "developer site", "sdk", "documentation", "restful api", "dependency injection", "data connector"]
 image: ""
 link: "https://data-connector-api.readthedocs.io/en/latest/"
 fact: "Interesting little tidbit shown below image on summary and detail page"

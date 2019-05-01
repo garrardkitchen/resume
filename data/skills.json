@@ -21,10 +21,14 @@
             "Webservices"]
     },
     {
+        "grouping":"Analytics",
+        "skills":[ "speech analytics", "Sentiment analysis", "emotion detection", "big data"]
+    },
+    {
         "grouping":"Serverless Technology",
         "skills":[ 
             "AWS Lambda",
-            "AWS API Gateway",
+            "Amazon API Gateway",
             "AWS Step Functions",
             "Amazon ECS Fargate",
             "Amazon Aurora Serverless",
@@ -37,16 +41,16 @@
     {
         "grouping":"Databases",
         "skills":[ 
-            "AWS Aurora - MySQL",
-            "AWS ElastiCache - Redis",
-            "AWS DynamoDB",
+            "Amazon Aurora - MySQL",
+            "Amazon ElastiCache - Redis",
+            "Amazon DynamoDB",
             "Amazon ElasticSearch",
             "MSSQL",
             "Azure SQL",
             "CosmosDB",
             "CoachBase",
             "Firebird",
-            "mongoDB",
+            "MongoDB",
             "PostgreSql"            
         ]
     },
@@ -69,8 +73,7 @@
     {
         "grouping":"Testing & Load Testing",
         "skills":[ "XUnit.net", "SpecFlow", "Mocha" , "Cucumber", "karma", "chai", "sinon", "istanbul", "zombie.js", "JustMock", "DotCover", "JMeter", "Locust", "Artillery", "loader.io - blazemeter"]
-    },  
-    
+    },      
     {
         "grouping":"System Integration",
         "skills":[ "Altitude", "Amazon Connect", "Comways", "DataVoice", "Dubber", "Frequentis", "Novo", "Redbox", "ServiceNow", "Spitch", "Telax", "Twilio", "Twilio Flex", "ZenDesk"]
@@ -81,28 +84,28 @@
     },
     {
         "grouping":"Observability & telemetry",
-        "skills":["CloudWatch", "Datadog", "Epsagon", "Sentry.io", "Azure Application Insights", "Stackify", "NewRelic"]
+        "skills":["Amazon CloudWatch", "Stackify", "Datadog", "Epsagon", "Sentry.io", "Azure Application Insights", "NewRelic"]
     },
     {
         "grouping":"AWS",
         "skills":[ "ACM", "ADM", "ALB", "AMI", "API Gateway", "Athena", "Aurora", "Backup", "Cloud9", "CloudFormation", "CloudTrail", "CloudWatch", "CodeBuild", "CodeCommit", "CodeDeploy", "CodePipeline", "Cognito", "Comprehend", "Config", "Data Pipelines", "DynamoDB", "EBS", "EC2", "ECR", "ECS", "ECS Fargate", "EMR", "EFS", "Elastic BeanStalk",  "ElasticCache", "ElasticSearch", "Glue", "Kinesis", "Lambda", "MarketPlace", "Metering Service", "Quick Start", "RDS", "Route53", "S3", "Simple AD", "SES", "SNS", "SQS", "SSM", "Step Functions", "Transcribe", "VPC", "WAF", "Workspaces", "X-Ray"]
-    },    
+    },        
     {
       "grouping":"Platform, Container & Cloud Administration",
         "skills":[
+            {"name":"ARM","link":"https://docs.microsoft.com/en-us/azure/azure-resource-manager/"},    
             {"name":"Atlassian","link":"https://atlassian.com/"},            
             {"name":"AWS","link":"https://aws.amazon.com/"},            
-            {"name":"CloudFormation","link":"https://aws.amazon.com/cloudformation"},      
-            {"name":"ECS","link":"https://aws.amazon.com/ecs/"}, 
-            {"name":"OpsWorks","link":"https://aws.amazon.com/opsworks/"}, 
-            {"name":"Elastic Beanstalk","link":"https://aws.amazon.com/elasticbeanstalk/"},             
             {"name":"Azure","link":"https://azure.microsoft.com/en-gb"},    
-            {"name":"ARM","link":"https://docs.microsoft.com/en-us/azure/azure-resource-manager/"},    
             {"name":"Chef","link":"https://www.chef.io/"},    
             {"name":"Chocolately","link":"https://www.chocolatey.org/"},    
             {"name":"Docker","link":"https://docker.com/"},                        
+            {"name":"CloudFormation","link":"https://aws.amazon.com/cloudformation"},      
+            {"name":"ECS","link":"https://aws.amazon.com/ecs/"}, 
+            {"name":"Elastic Beanstalk","link":"https://aws.amazon.com/elasticbeanstalk/"},             
             {"name":"NGINX","link":"https://www.nginx.com/"},            
             {"name":"Octopus Deploy","link":"https://www.octopusdeploy.com/"},      
+            {"name":"OpsWorks","link":"https://aws.amazon.com/opsworks/"}, 
             {"name":"Terraform","link":"https://www.terraform.io/"},
             {"name":"VMWare","link":"https://www.vmware.com/"}
         ]
