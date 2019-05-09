@@ -11,9 +11,10 @@ sitemap:
   priority : 0.8
 ---
 
-- Assess whether or not to update existing non-maintained Jekyll site
-- Researched other options
-- Experimented with Hugo and different templaes (focus on resume style), expedited learning curve
-- Complete resume rewrite in 3 days
+- Assessed whether or not to update existing non-maintained Jekyll site to promote myself
+- Researched other options (e.g. Hugo)
+- Experimented with Hugo and different templaes (focus on resume style)
+- Expedited my learning curve
+- Completed resume rewrite in 3 days
 - Configured GitHub pages and custom domain
 - Configured Google Analytics

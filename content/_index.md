@@ -4,7 +4,9 @@ sitemap:
   priority : 0.9
 ---
 
-Chief Technology Officer @ [Qualtrak] (http://www.qualtrak.com) - [Download my resume here](/resume.pdf).
+Last position: Chief Technology Officer @ [Qualtrak] (http://www.qualtrak.com)
+
+[Download my resumé here](/resume.pdf).
 
 [![developer](/img/aws-developer-badge.png)] (https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2017-12-13&ci=AWS00351917)
 [![solutions architect](/img/aws-solutions-architect-badge.png)] (https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-09-27&ci=AWS00351917)
@@ -18,6 +20,7 @@ During this time I have become a SME (subject matter expert) in the contact cent
 
 ### Where I see my passions and the skills to offer a company and my willingness to keep on learning and evolving
 
+- **I can help you migrate enterprise solutions and web applications to the serverless stack (reduce maintenance and running costs) as well as help you rapidly test Hypotheses by developed & deploying new features to assess traction and revenue opportunities** 
 - One of my passions lies in serverless technologies.  It has been for some time.  It started with Azure functions a few years back then migrated towards AWS.  The benefits of this approach outweighed any other approach experienced by me in my time in the industry.  Some of my favourite benefits are (1) rapidness from concept to implementation, (2) cost [to you and your customers], (3) SRP [reuse; patterns], (4) isolated scaling and resilience and (5) apportioning the right amount of effort on the business logic and not the infrasture.  
 - I was granted a few weeks to research ML & AI and present it to the Upper Management last year.  
 ML is something that, coming from a big data background, was exciting and a place I knew where I wanted to spend most of my time.  I realised that as soon as I started my research into ML, that I was hooked and wholeheartedly fascinated by it.  I have started studying for the AWS Machine Learning Speciality certification.
@@ -27,4 +30,4 @@ ML is something that, coming from a big data background, was exciting and a plac
 
 I have captured most of his career timeline here in the [Projects] (#projects), [Skills] (#skills) and [Experience] (#experience) sections.
 
-[Download my resume here](/resume.pdf)
+[Download my resumé here](/resume.pdf)

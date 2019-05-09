@@ -56,8 +56,8 @@
         ]
     },
     {
-        "grouping":"Languages, Operating Systems",
-        "skills":[ "C#", "F#", "Python", "Node.js", "go", "git", "Windows", "linux", "bash", "PowerShell", "Windows 10", "Windows Server 2008-2016"]
+        "grouping":"Languages, Operating Systems, Frameworks",
+        "skills":[ "C#", "F#", "Python", "Node.js", "go", "git", "Windows", "linux", "bash", "PowerShell", "Windows 10", "Windows Server 2008-2016", "Flask", "Express.js"]
     },    
     {
         "grouping": "Microsoft",
