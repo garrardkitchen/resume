@@ -1,8 +1,9 @@
 ---
 title: "My First Post - New blogging, projects and skills site"
 date: 2019-04-26T11:49:14+01:00
-draft: false
-tags: [Hugo, blogging, day 1, Hello this is me!]
+draft: true
+featured: false
+tags: [Hugo, blogging, day 1, Hello this is me!, blog]
 ---
 
 For the last 10+ years I've been a CTO for an exciting start-up. Recently that came to an abrupt and sad end. I will blog about the days and the efforts involved to keep the company afloat in the comming months and only when rawness of this fades.  Great team, great vision, great imagination.

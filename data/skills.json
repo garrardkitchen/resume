@@ -1,23 +1,34 @@
 [
     {
-        "grouping":"Architecture & Concepts",
+        "grouping":"Agile",
         "skills":[ 
             "Agile",
+            "Backlog Refinement",
+            "Inception", 
+            "Retrospective",
+            "Sprint Planning"]
+    },
+    {
+        "grouping":"Architecture & Concepts",
+        "skills":[
             "API Management Platforms", 
             "BDD",
-            "DDD",
             "Configuration as Code",             
+            "Design patterns - Structural, Creational & Behavioural",
+            "DDD",
             "DevOps",
             "Disaster Recovery & HA", 
             "DNS",
-            "Firewalls", 
+            "Firewalls",            
             "Microservices", 
-            "REST", 
+            "Queue",
+            "REST",             
             "SaaS/FaaS/PaaS/IaaS", 
             "Serverless",
-            "SOA",
+            "SOA",  
             "SOLID Principles",             
             "TDD",
+            "Multithreading",
             "VPC",
             "Webservices"]
     },
@@ -34,6 +45,8 @@
             "Amazon ECS Fargate",
             "Amazon Aurora Serverless",
             "Azure Functions",
+            "Google Cloud Run (Knative)",
+            "Google Functions",
             "Serverless Framework",
             "Serverless Application Model",
             "Serverless Application Repository"
@@ -48,11 +61,13 @@
             "Amazon ElasticSearch",
             "MSSQL",
             "Azure SQL",
+            "CockroachDB",
             "CosmosDB",
             "CoachBase",
             "Firebird",
+            "InfluxDB",
             "MongoDB",
-            "PostgreSql"            
+            "PostgreSql"          
         ]
     },
     {
@@ -73,7 +88,7 @@
     },
     {
         "grouping":"Testing & Load Testing",
-        "skills":[ "Postman", "XUnit.net", "SpecFlow", "Mocha" , "Cucumber", "karma", "chai", "sinon", "istanbul", "zombie.js", "JustMock", "DotCover", "JMeter", "Locust", "Artillery", "loader.io - blazemeter"]
+        "skills":[ "Artillery.io", "Postman", "XUnit.net", "SpecFlow", "Mocha" , "Cucumber", "karma", "chai", "sinon", "istanbul", "zombie.js", "JustMock", "DotCover", "JMeter", "Locust", "loader.io - blazemeter"]
     },      
     {
         "grouping":"System Integration",
@@ -81,29 +96,38 @@
     },  
     {
         "grouping":"Security",
-        "skills":[ "OAuth 2.0", "OIDC", "Active Directory", "LDAP", "MFA", "Cognito", "VyprVPN", "PCI DSS", "Keybase", "Forms Authentication", "Windows Authentication", "JWT", "IWA", "Azure AD"]
+        "skills":[ "OAuth 2.0", "OIDC", "Active Directory", "LDAP", "MFA", "Cognito", "VyprVPN", "PCI DSS", "Keybase", "Forms Authentication", "Windows Authentication", "JWT", "IWA", "Azure AD", "SAML"]
     },
     {
         "grouping":"Observability & telemetry",
-        "skills":["Amazon CloudWatch", "Stackify", "Datadog", "Epsagon", "Sentry.io", "Azure Application Insights", "NewRelic"]
+        "skills":["Amazon CloudWatch", "Stackify", "Datadog", "Prometheus", "Grafana", "Kibana", "Epsagon", "Sentry.io", "Azure Application Insights", "NewRelic"]
     },
     {
         "grouping":"AWS",
         "skills":[ "ACM", "ADM", "ALB", "AMI", "API Gateway", "Athena", "Aurora", "Backup", "Cloud9", "CloudFormation", "CloudTrail", "CloudWatch", "CodeBuild", "CodeCommit", "CodeDeploy", "CodePipeline", "Cognito", "Comprehend", "Config", "Data Pipelines", "DynamoDB", "EBS", "EC2", "ECR", "ECS", "ECS Fargate", "EMR", "EFS", "Elastic BeanStalk",  "ElasticCache", "ElasticSearch", "Glue", "Kinesis", "Lambda", "MarketPlace", "Metering Service", "Quick Start", "RDS", "Route53", "S3", "Simple AD", "SES", "SNS", "SQS", "SSM", "Step Functions", "Transcribe", "VPC", "WAF", "Workspaces", "X-Ray"]
-    },        
+    },      
+    {
+        "grouping" : "Azure",
+        "skills" : [
+            "Application Gateway","Azure Functions", "DevOps", "Load Balancer" 
+        ]
+    },  
     {
       "grouping":"Platform, Container & Cloud Administration",
         "skills":[
             {"name":"ARM","link":"https://docs.microsoft.com/en-us/azure/azure-resource-manager/"},    
             {"name":"Atlassian","link":"https://atlassian.com/"},            
-            {"name":"AWS","link":"https://aws.amazon.com/"},            
+            {"name":"AWS","link":"https://aws.amazon.com/"},  
+            {"name":"AKS","link":"https://azure.microsoft.com/en-us/services/kubernetes-service/"},            
             {"name":"Azure","link":"https://azure.microsoft.com/en-gb"},    
             {"name":"Chef","link":"https://www.chef.io/"},    
             {"name":"Chocolately","link":"https://www.chocolatey.org/"},    
             {"name":"Docker","link":"https://docker.com/"},                        
             {"name":"CloudFormation","link":"https://aws.amazon.com/cloudformation"},      
             {"name":"ECS","link":"https://aws.amazon.com/ecs/"}, 
-            {"name":"Elastic Beanstalk","link":"https://aws.amazon.com/elasticbeanstalk/"},             
+            {"name":"EKS","link":"https://aws.amazon.com/eks/"}, 
+            {"name":"Elastic Beanstalk","link":"https://aws.amazon.com/elasticbeanstalk/"}, 
+            {"name":"GKE","link":"https://cloud.google.com/kubernetes-engine/"},             
             {"name":"NGINX","link":"https://www.nginx.com/"},            
             {"name":"Octopus Deploy","link":"https://www.octopusdeploy.com/"},      
             {"name":"OpsWorks","link":"https://aws.amazon.com/opsworks/"}, 

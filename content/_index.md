@@ -4,15 +4,20 @@ sitemap:
   priority : 0.9
 ---
 
+---
 
-[Download my resumé here](/resume.pdf).
+[Click here to download my resumé](/resume.pdf).
 
 ---
 
 **Certifications**
 
-[![developer](/img/aws-developer-badge.png)] (https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2017-12-13&ci=AWS00351917)
-[![solutions architect](/img/aws-solutions-architect-badge.png)] (https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-09-27&ci=AWS00351917)
+{{% table %}}
+|          |                    |
+|----------|--------------------|
+| [![developer](/img/aws-developer-badge.png)](https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2017-12-13&ci=AWS00351917) | [![solutions architect](/img/aws-solutions-architect-badge.png)](https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-09-27&ci=AWS00351917) |
+{{% /table %}}
+
 
 ---
 
@@ -55,4 +60,8 @@ ML is something that, coming from a big data background, was exciting and a plac
 
 I have captured most of my career timeline here in the [Projects] (#projects), [Skills] (#skills) and [Experience] (#experience) sections.
 
-[Download my resumé here](/resume.pdf)
+---
+
+[Click here to download my resumé](/resume.pdf)
+
+---
