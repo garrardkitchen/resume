@@ -34,7 +34,7 @@
     },
     {
         "grouping":"Analytics",
-        "skills":[ "speech analytics", "Sentiment analysis", "emotion detection", "big data"]
+        "skills":[ "Speech analytics", "Sentiment analysis", "emotion detection", "big data"]
     },
     {
         "grouping":"Serverless Technology",
@@ -76,7 +76,7 @@
     },    
     {
         "grouping": "Microsoft",
-        "skills":[ "IIS", "MSSQL", ".NET Frameworks 4.6", ".NET Core", "ASP.NET", "ASP.NET Core", "Razor Pages"]
+        "skills":[ "IIS", "MSSQL", ".NET Frameworks 4.6", ".NET Core 2.1, 2.2 & 3.1", "ASP.NET", "ASP.NET Core", "Razor Pages", "Blazer Pages"]
     },
     {
         "grouping":"Front-end",
@@ -109,8 +109,45 @@
     {
         "grouping" : "Azure",
         "skills" : [
-            "Application Gateway","Azure Functions", "DevOps", "Load Balancer" 
+            "Application Gateway",
+            "Azure Functions", 
+            "DevOps", 
+            "Application Insights", 
+            "Kusto query language", 
+            "Load Balancer",
+            "Event Grid",
+            "LogicApps",
+            "App Services",
+            "Virtual Machines",
+            "Key Vault",
+            "ARM",
+            "Virtual Network",
+            "VPN Gateway",
+            "CDN",
+            "Traffic Manager",
+            "Azure Monitor",
+            "Storge - Table, Queue, File & Blob",
+            "Service Bus - Messaging & Relay",
+            "VMSS - Virtual Machine Scale Sets",
+            "Azure SignalR Service",
+            "API Management",
+            "Web Apps",
+            "Event Hubs",
+            "Azure Stream Analytics",
+            "Service Fabric",
+            "Web App for Containers",
+            "Container Registry",
+            "Container Instances",
+            "Azure Cache for Redis",
+            "Azure CosmosB (including MongoDB, Core SQL APIs)",
+            "Azure Database Migration Services",
+            "Azure Active Directory",
+            "Azure Backup"
         ]
+    },
+    {
+        "grouping":"Google Cloud",
+        "skills":[ "Cloud Functions", "Cloud Run", "Cloud Run on GKE", "Stackdriver", "Knative", "Cloud Pub/Sub", "Cloud Shell", "Compute Engine" , "GKE", "Cloud Storage", "Cloud Firestore", "BigQuery", "App Engine", "Container Registry"]
     },  
     {
       "grouping":"Platform, Container & Cloud Administration",
@@ -120,6 +157,7 @@
             {"name":"AWS","link":"https://aws.amazon.com/"},  
             {"name":"AKS","link":"https://azure.microsoft.com/en-us/services/kubernetes-service/"},            
             {"name":"Azure","link":"https://azure.microsoft.com/en-gb"},    
+            {"name":"Bamboo","link":"https://www.atlassian.com/software/bamboo/"},
             {"name":"Chef","link":"https://www.chef.io/"},    
             {"name":"Chocolately","link":"https://www.chocolatey.org/"},    
             {"name":"Docker","link":"https://docker.com/"},                        
@@ -131,6 +169,7 @@
             {"name":"NGINX","link":"https://www.nginx.com/"},            
             {"name":"Octopus Deploy","link":"https://www.octopusdeploy.com/"},      
             {"name":"OpsWorks","link":"https://aws.amazon.com/opsworks/"}, 
+            {"name":"Portainer","link":"https://github.com/portainer/portainer/"},
             {"name":"Terraform","link":"https://www.terraform.io/"},
             {"name":"VMWare","link":"https://www.vmware.com/"}
         ]

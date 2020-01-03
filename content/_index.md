@@ -6,7 +6,13 @@ sitemap:
 
 ---
 
-[Click here to download my resumé](/resume.pdf).
+{{% table %}}
+|          |                    |
+|----------|--------------------|
+| [Click here to download my resumé](/resume.pdf) ||
+| [Click here to download my reference](/reference.pdf) ||
+{{% /table %}}
+
 
 ---
 
@@ -21,32 +27,43 @@ sitemap:
 
 ---
 
-**Current position:** Principal Engineer @ [Carfinance247] (http://www.carfinance247.co.uk)
+*Current position:* **Principal Engineer** @ [Carfinance247](http://www.carfinance247.co.uk)
 
-- Delivered Brown Bags on AWS serverless services and Google serverless options (Cloud Functions & Cloud Run *Knative*, deployed via Github Actions)
+- Delivered Brown Bags on AWS serverless services and Google serverless options (Cloud Functions & Cloud Run *Knative*, deployed via GitHub Actions)
 - Help maintain enterprise Twilio CRM using angular 1.x
 - Worked on a Pilot project that assessed both Google and Azure Cloud services
+- Created solution that subscribed to Azure Event Grid and Azure Service Bus and using Azure SignalR Service would update a UI hosted on AKS.
 - Worked on new Vehicles team, helped shape development principals and used Jenkins and Google services *including GKE*
-- Work with Phoenix & Integration team to help maintain several git .NET Core c# repositories
+- Working with the Phoenix & Integration team to help maintain and add features to several git .NET Core c# and UI repositories
+- Created equivalent EDA in AWS (*node.js, Serverless, SQS, SignalR, ASP.NET Core*) from PoC written/architected using Google servcies in fraction of time plus architected solution to deal with edge/corner cases using architecture instead of code
 - Created, usage and maintain Bamboo & Azure DevOps CI/CD pipelines
-- Researched Snyk for code quality and image scanning
-- Used observability experience to implement / deploy Prometheus time series Db for use with mulitple Grafana dashboards
-- Working on project that uses github GraphQL to provide better visibility on repository  dependencies
-- Educated, provided guidance & insight and assisted colleagues
-- Using load/stress testing experience to assess demand limitations and help identify and fix defects
-- Active participant in Sprint and advocate of Scrum/Agile development
-- Recently worked on side projects and experimental work with DoE
-- Working on PoC project with Azure services, Twilio & Terraform
+- Researched Snyk for code quality and docker image scanning
+- Participated in mulitple inceptions, helped shape HLA and define requirements
+- Drew on observability experience to (a) implement / deploy Prometheus time series Db for use with (b) new Grafana dashboards (*based on google's USE & RED methods*) to help monitor both infrastructure and application performance
+- Architecting a solution that used github GraphQL to provide better visibility on repository  dependencies
+- Educate, provide guidance & insight and assist colleagues across multiple teams
+- Called on load/stress testing experience to assess HTTP API demand limitations and help identify and fix defects
+- Active participant in Sprints and advocate of Scrum/Agile development in generak
+- Recently worked on side projects and experimental work for DoE
+- Working on PoC project using Azure services (*CosmosDB MongoDB API, Azure Functions, Event Grid, Service Bus*, DevOps), Twilio & Terraform
 
+---
 
-**Previous position:** Chief Technology Officer @ [Qualtrak] (http://www.qualtrak.com)
+*Previous position:* **Chief Technology Officer** @ [Qualtrak](http://www.qualtrak.com)
 
 I have spent the last 10+ years building a development team and helping to shape the company's direction.  Over this time I have embedded an Agile approach to delivering features across multiple products, driven CI/CD initiatives and made the space necessary for the Technical department’s  Europe-wide development team to be productive, engaged and committed.  
 
+---
+
+*Other positions:* **BI contractor** & **.NET contractor**
+
 Previously working as a contractor in the Business Intelligence space, I have worked for GE Capital, Morgan Stanley Dean Witter, Equitas & GUS.  
+
 Following University I worked my way to a position of personal interest, known at the time as EIS (Executive information systems).  This propelled me into the BI space where I took the plunge into the contracting world.  Since this time, I have pursued another passion; web application development.  I took a number of small appointments and opportunities to help fine tune my skills.  This enabled me to offer a greater repertoire of skills and abilities to prospective employers.  I have had a number of interesting roles which lead me into my previous role of a lifetime; CTO.  
 
-During this time I have become a SME (subject matter expert) in the contact centre space, a seasoned systems integrator, a cloud solutions architect,  an experienced serverless developer, a DevOps Evangelist and a technical voice and advisor for Qualtrak, working with teams around the world from all sizes of companies.
+---
+
+During the last 12 years+ I have become a SME (subject matter expert) in the contact centre space, a seasoned systems integrator, a cloud solutions architect, an experienced serverless developer, a DevOps Evangelist and a technical voice and advisor for Qualtrak, working with teams around the world from all sizes of companies.
 
 ### Where I see my passions and the skills to offer a company and my willingness to keep on learning and evolving
 
@@ -58,10 +75,15 @@ ML is something that, coming from a big data background, was exciting and a plac
 - I have rarely had the opportunity to contribute to OSS.  This, hopefully, will change. With my experience of developing products and solutions, OSS has been pivotal to their success. As soon as the opportunities arises, I will start paying that back
 - I regularly update and complete personal research on the developing world of security and serverless technologies.
 
-I have captured most of my career timeline here in the [Projects] (#projects), [Skills] (#skills) and [Experience] (#experience) sections.
+I have captured most of my career timeline here in the [Projects](#projects), [Skills](#skills) and [Experience](#experience) sections.
 
 ---
 
-[Click here to download my resumé](/resume.pdf)
+{{% table %}}
+|          |                    |
+|----------|--------------------|
+| [Click here to download my resumé](/resume.pdf) ||
+| [Click here to download my reference](/reference.pdf) ||
+{{% /table %}}
 
 ---
