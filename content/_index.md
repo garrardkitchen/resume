@@ -29,23 +29,23 @@ sitemap:
 
 *Current position:* **Principal Engineer** @ [Carfinance247](http://www.carfinance247.co.uk)
 
-- Delivered Brown Bags on AWS serverless services and Google serverless options (Cloud Functions & Cloud Run *Knative*, deployed via GitHub Actions)
-- Help maintain enterprise Twilio CRM using angular 1.x
-- Worked on a Pilot project that assessed both Google and Azure Cloud services
-- Created solution that subscribed to Azure Event Grid and Azure Service Bus and using Azure SignalR Service would update a UI hosted on AKS.
+- Delivered Brown Bags on AWS serverless services and Google serverless options (*Cloud Functions & Cloud Run *Knative*, deployed via GitHub Actions*)
+- Help maintain enterprise Twilio CRM using angular 1.x and supporting HTTP API microservices hosted & load balanced in docker Swarm
+- Worked on a Pilot project that assessed both Google and Azure Cloud services. Some of this work, especially story spikes, required pair programming
+- Created solution that subscribed to Azure Event Grid and Azure Service Bus and using Azure SignalR Service would update a UI hosted on AKS
 - Worked on new Vehicles team, helped shape development principals and used Jenkins and Google services *including GKE*
 - Working with the Phoenix & Integration team to help maintain and add features to several git .NET Core c# and UI repositories
 - Created equivalent EDA in AWS (*node.js, Serverless, SQS, SignalR, ASP.NET Core*) from PoC written/architected using Google servcies in fraction of time plus architected solution to deal with edge/corner cases using architecture instead of code
 - Created, usage and maintain Bamboo & Azure DevOps CI/CD pipelines
-- Researched Snyk for code quality and docker image scanning
+- Researched Snyk for vulnerabilities, code quality and docker image scanning
 - Participated in mulitple inceptions, helped shape HLA and define requirements
 - Drew on observability experience to (a) implement / deploy Prometheus time series Db for use with (b) new Grafana dashboards (*based on google's USE & RED methods*) to help monitor both infrastructure and application performance
 - Architecting a solution that used github GraphQL to provide better visibility on repository  dependencies
 - Educate, provide guidance & insight and assist colleagues across multiple teams
 - Called on load/stress testing experience to assess HTTP API demand limitations and help identify and fix defects
-- Active participant in Sprints and advocate of Scrum/Agile development in generak
+- Active participant in Sprints and advocate of Scrum/Agile development in general
 - Recently worked on side projects and experimental work for DoE
-- Working on PoC project using Azure services (*CosmosDB MongoDB API, Azure Functions, Event Grid, Service Bus*, DevOps), Twilio & Terraform
+- Working on PoC project using Azure services (*CosmosDB MongoDB API, Azure Functions, Event Grid, Service Bus, DevOps*), Twilio & Terraform
 
 ---
 
