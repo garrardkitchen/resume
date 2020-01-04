@@ -29,14 +29,15 @@ sitemap:
 
 *Current position:* **Principal Engineer** @ [Carfinance247](http://www.carfinance247.co.uk)
 
-- Delivered Brown Bags on AWS serverless services and Google serverless options (*Cloud Functions & Cloud Run *Knative*, deployed via GitHub Actions*)
+- Delivered brown bags on AWS serverless services and Google serverless options (*Cloud Functions & Cloud Run *Knative*, deployed via GitHub Actions*)
 - Help maintain enterprise Twilio CRM using angular 1.x and supporting HTTP API microservices hosted & load balanced in docker Swarm
 - Worked on a Pilot project that assessed both Google and Azure Cloud services. Some of this work, especially story spikes, required pair programming
 - Created solution that subscribed to Azure Event Grid and Azure Service Bus (*topics & queues*) and used Azure SignalR Service to update a UI hosted on AKS
 - Worked on new Vehicles team, helped shape development principals and used Jenkins and Google services *including GKE*
 - Working with the Phoenix & Integration team to help maintain and add features to several .NET Core C# and UI git repositories
 - Created equivalent EDA in AWS (*node.js, Serverless, SQS, SignalR, ASP.NET Core*) from PoC written/architected using Google servcies in fraction of time plus architected solution to deal with edge/corner cases using architecture instead of code
-- I have created a Bamboo build & release projects as well as Azure DevOps CI/CD pipelines
+- I have created Bamboo build & deployments projects as well as Azure DevOps CI/CD pipelines
+- Created as part of the GitHub/Jenkins CI/CD pipeline, .NET Core WebApplicationFactory based functional tests that span multiple docker services
 - Researched and deployed (docker) Snyk for checking for code/library vulnerabilities, code quality and docker image scanning
 - Participated in mulitple inceptions, helped shape HLA and define requirements
 - Drew on observability experience to (a) implement / deploy Prometheus time series Db for use with (b) new Grafana dashboards (*based on google's USE & RED methods*) to help monitor both infrastructure and application performance
