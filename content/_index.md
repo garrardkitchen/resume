@@ -36,7 +36,7 @@ sitemap:
 - Worked on new Vehicles team, helped shape development principals and used Jenkins and Google services *including GKE*
 - Working with the Phoenix & Integration team to help maintain and add features to several .NET Core C# and UI git repositories
 - Created equivalent EDA in AWS (*node.js, Serverless, SQS, SignalR, ASP.NET Core*) from PoC written/architected using Google servcies in fraction of time plus architected solution to deal with edge/corner cases using architecture instead of code
-- I have created Bamboo build & deployments projects as well as Azure DevOps CI/CD pipelines
+- I have created Bamboo build & deployment projects as well as Azure DevOps CI/CD pipelines
 - Created as part of the GitHub/Jenkins CI/CD pipeline, .NET Core WebApplicationFactory based functional tests that span multiple docker services
 - Researched and deployed (docker) Snyk for checking for code/library vulnerabilities, code quality and docker image scanning
 - Participated in mulitple inceptions, helped shape HLA and define requirements
