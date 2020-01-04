@@ -36,14 +36,14 @@ sitemap:
 - Worked on new Vehicles team, helped shape development principals and used Jenkins and Google services *including GKE*
 - Working with the Phoenix & Integration team to help maintain and add features to several .NET Core C# and UI git repositories
 - Created equivalent EDA in AWS (*node.js, Serverless, SQS, SignalR, ASP.NET Core*) from PoC written/architected using Google servcies in fraction of time plus architected solution to deal with edge/corner cases using architecture instead of code
-- Creat and maintain Bamboo & Azure DevOps CI/CD pipelines
+- I have created a Bamboo build & release projects as well as Azure DevOps CI/CD pipelines
 - Researched and deployed (docker) Snyk for checking for code/library vulnerabilities, code quality and docker image scanning
 - Participated in mulitple inceptions, helped shape HLA and define requirements
 - Drew on observability experience to (a) implement / deploy Prometheus time series Db for use with (b) new Grafana dashboards (*based on google's USE & RED methods*) to help monitor both infrastructure and application performance
-- Architecting a solution that used github GraphQL to provide better visibility on repository dependencies
+- Architecting a solution that uses github GraphQL to provide better visibility on repository dependencies
 - Educate, provide guidance, insight and assist colleagues across multiple teams
 - Called on load/stress testing experience to assess HTTP API demand limitations and help identify and fix defects
-- Active participant in sprints and I am a strong advocate of Agile (Scrum) & XP development in general
+- Active participant in sprints and a strong advocate of Agile (Scrum) & XP development in general
 - Have worked on side projects and experimental work for DoE
 - Working on PoC project using Azure services (*CosmosDB MongoDB API, Azure Functions, Event Grid, Service Bus, DevOps*), Twilio & Terraform
 

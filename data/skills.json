@@ -13,8 +13,9 @@
         "skills":[
             "API Management Platforms", 
             "BDD",
+            "Cloud patterns",
             "Configuration as Code",             
-            "Design patterns - Structural, Creational & Behavioural",
+            "Design patterns - Structural, Creational & Behavioural",            
             "DDD",
             "DevOps",
             "Disaster Recovery & HA", 
