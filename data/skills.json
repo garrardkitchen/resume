@@ -54,6 +54,29 @@
         ]
     },
     {
+        "grouping":"EDA/MDA",
+        "skills":[ 
+            "ActiveMQ",
+            "Akka .NET",
+            "Azure Event Grid",
+            "Azure Event Hub",            
+            "Google Pub/Sub",
+            "gRPC",
+            "Apache Kafka",
+            "Amazon Kinesis Data Firehouse",
+            "Amazon Kinesis Data Streams",
+            "Amazon Kinesis Data Analytics",
+            "NATS",            
+            "RabbitMQ",
+            "Redis Pub/Sub",
+            "Azure Service Bus",            
+            "Amazon SNS",
+            "Amazon SQS",            
+            "Azure Storage Queue",            
+            "ZeroMQ"
+        ]
+    },
+    {
         "grouping":"Databases",
         "skills":[ 
             "Amazon Aurora - MySQL",
@@ -85,7 +108,7 @@
     },
     {
         "grouping":"IDEs, Dev Tools & Productivities Tools",
-        "skills":[ "VS 2019", "VSCode", "Rider", "PyCharm", "WebStorm",  "DataGrip", "SSMS", "MySQL Workbench", "Postman", "DotTrace", "DotMemory", "ANTS Performance Pro", "ANTS Memory Profiler", "Slack", "Skype", "GotoMeeting", "Jira Clooud", "Google Docs & Keep", "Office 365"]
+        "skills":[ "VS 2019", "VSCode", "Rider", "PyCharm", "WebStorm",  "DataGrip", "SSMS", "MySQL Workbench", "Postman", "DotTrace", "DotMemory", "ANTS Performance Pro", "ANTS Memory Profiler", "Slack", "Skype", "GotoMeeting", "Jira Cloud", "Google Docs & Keep", "Office 365"]
     },
     {
         "grouping":"Testing & Load Testing",
