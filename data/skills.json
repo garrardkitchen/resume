@@ -1,29 +1,41 @@
 [
     {
-        "grouping":"Architecture & Concepts",
+        "grouping":"Agile",
         "skills":[ 
             "Agile",
+            "Backlog Refinement",
+            "Inception", 
+            "Retrospective",
+            "Sprint Planning"]
+    },
+    {
+        "grouping":"Architecture & Concepts",
+        "skills":[
             "API Management Platforms", 
             "BDD",
-            "DDD",
+            "Cloud patterns",
             "Configuration as Code",             
+            "Design patterns - Structural, Creational & Behavioural",            
+            "DDD",
             "DevOps",
             "Disaster Recovery & HA", 
             "DNS",
-            "Firewalls", 
+            "Firewalls",            
             "Microservices", 
-            "REST", 
+            "Queue",
+            "REST",             
             "SaaS/FaaS/PaaS/IaaS", 
             "Serverless",
-            "SOA",
+            "SOA",  
             "SOLID Principles",             
             "TDD",
+            "Multithreading",
             "VPC",
             "Webservices"]
     },
     {
         "grouping":"Analytics",
-        "skills":[ "speech analytics", "Sentiment analysis", "emotion detection", "big data"]
+        "skills":[ "Speech analytics", "Sentiment analysis", "emotion detection", "big data"]
     },
     {
         "grouping":"Serverless Technology",
@@ -34,9 +46,34 @@
             "Amazon ECS Fargate",
             "Amazon Aurora Serverless",
             "Azure Functions",
+            "Google Cloud Run (Knative)",
+            "Google Functions",
             "Serverless Framework",
             "Serverless Application Model",
             "Serverless Application Repository"
+        ]
+    },
+    {
+        "grouping":"EDA/MDA",
+        "skills":[ 
+            "ActiveMQ",
+            "Akka .NET",
+            "Azure Event Grid",
+            "Azure Event Hub",            
+            "Google Pub/Sub",
+            "gRPC",
+            "Apache Kafka",
+            "Amazon Kinesis Data Firehouse",
+            "Amazon Kinesis Data Streams",
+            "Amazon Kinesis Data Analytics",
+            "NATS",            
+            "RabbitMQ",
+            "Redis Pub/Sub",
+            "Azure Service Bus",            
+            "Amazon SNS",
+            "Amazon SQS",            
+            "Azure Storage Queue",            
+            "ZeroMQ"
         ]
     },
     {
@@ -48,11 +85,13 @@
             "Amazon ElasticSearch",
             "MSSQL",
             "Azure SQL",
+            "CockroachDB",
             "CosmosDB",
             "CoachBase",
             "Firebird",
+            "InfluxDB",
             "MongoDB",
-            "PostgreSql"            
+            "PostgreSql"          
         ]
     },
     {
@@ -61,7 +100,7 @@
     },    
     {
         "grouping": "Microsoft",
-        "skills":[ "IIS", "MSSQL", ".NET Frameworks 4.6", ".NET Core", "ASP.NET", "ASP.NET Core", "Razor Pages"]
+        "skills":[ "IIS", "MSSQL", ".NET Frameworks 4.6", ".NET Core 2.1, 2.2 & 3.1", "ASP.NET", "ASP.NET Core", "Razor Pages", "Blazer Pages"]
     },
     {
         "grouping":"Front-end",
@@ -69,11 +108,11 @@
     },
     {
         "grouping":"IDEs, Dev Tools & Productivities Tools",
-        "skills":[ "VS 2019", "VSCode", "Rider", "PyCharm", "WebStorm",  "DataGrip", "SSMS", "MySQL Workbench", "Postman", "DotTrace", "DotMemory", "ANTS Performance Pro", "ANTS Memory Profiler", "Slack", "Skype", "GotoMeeting", "Jira Clooud", "Google Docs & Keep", "Office 365"]
+        "skills":[ "VS 2019", "VSCode", "Rider", "PyCharm", "WebStorm",  "DataGrip", "SSMS", "MySQL Workbench", "Postman", "DotTrace", "DotMemory", "ANTS Performance Pro", "ANTS Memory Profiler", "Slack", "Skype", "GotoMeeting", "Jira Cloud", "Google Docs & Keep", "Office 365"]
     },
     {
         "grouping":"Testing & Load Testing",
-        "skills":[ "Postman", "XUnit.net", "SpecFlow", "Mocha" , "Cucumber", "karma", "chai", "sinon", "istanbul", "zombie.js", "JustMock", "DotCover", "JMeter", "Locust", "Artillery", "loader.io - blazemeter"]
+        "skills":[ "Artillery.io", "Postman", "XUnit.net", "SpecFlow", "Mocha" , "Cucumber", "karma", "chai", "sinon", "istanbul", "zombie.js", "JustMock", "DotCover", "JMeter", "Locust", "loader.io - blazemeter"]
     },      
     {
         "grouping":"System Integration",
@@ -81,32 +120,80 @@
     },  
     {
         "grouping":"Security",
-        "skills":[ "OAuth 2.0", "OIDC", "Active Directory", "LDAP", "MFA", "Cognito", "VyprVPN", "PCI DSS", "Keybase", "Forms Authentication", "Windows Authentication", "JWT", "IWA", "Azure AD"]
+        "skills":[ "OAuth 2.0", "OIDC", "Active Directory", "LDAP", "MFA", "Cognito", "VyprVPN", "PCI DSS", "Keybase", "Forms Authentication", "Windows Authentication", "JWT", "IWA", "Azure AD", "SAML"]
     },
     {
         "grouping":"Observability & telemetry",
-        "skills":["Amazon CloudWatch", "Stackify", "Datadog", "Epsagon", "Sentry.io", "Azure Application Insights", "NewRelic"]
+        "skills":["Amazon CloudWatch", "Stackify", "Datadog", "Prometheus", "Grafana", "Kibana", "Epsagon", "Sentry.io", "Azure Application Insights", "NewRelic"]
     },
     {
         "grouping":"AWS",
         "skills":[ "ACM", "ADM", "ALB", "AMI", "API Gateway", "Athena", "Aurora", "Backup", "Cloud9", "CloudFormation", "CloudTrail", "CloudWatch", "CodeBuild", "CodeCommit", "CodeDeploy", "CodePipeline", "Cognito", "Comprehend", "Config", "Data Pipelines", "DynamoDB", "EBS", "EC2", "ECR", "ECS", "ECS Fargate", "EMR", "EFS", "Elastic BeanStalk",  "ElasticCache", "ElasticSearch", "Glue", "Kinesis", "Lambda", "MarketPlace", "Metering Service", "Quick Start", "RDS", "Route53", "S3", "Simple AD", "SES", "SNS", "SQS", "SSM", "Step Functions", "Transcribe", "VPC", "WAF", "Workspaces", "X-Ray"]
-    },        
+    },      
+    {
+        "grouping" : "Azure",
+        "skills" : [
+            "Application Gateway",
+            "Azure Functions", 
+            "DevOps", 
+            "Application Insights", 
+            "Kusto query language", 
+            "Load Balancer",
+            "Event Grid",
+            "LogicApps",
+            "App Services",
+            "Virtual Machines",
+            "Key Vault",
+            "ARM",
+            "Virtual Network",
+            "VPN Gateway",
+            "CDN",
+            "Traffic Manager",
+            "Azure Monitor",
+            "Storge - Table, Queue, File & Blob",
+            "Service Bus - Messaging & Relay",
+            "VMSS - Virtual Machine Scale Sets",
+            "Azure SignalR Service",
+            "API Management",
+            "Web Apps",
+            "Event Hubs",
+            "Azure Stream Analytics",
+            "Service Fabric",
+            "Web App for Containers",
+            "Container Registry",
+            "Container Instances",
+            "Azure Cache for Redis",
+            "Azure CosmosB (including MongoDB, Core SQL APIs)",
+            "Azure Database Migration Services",
+            "Azure Active Directory",
+            "Azure Backup"
+        ]
+    },
+    {
+        "grouping":"Google Cloud",
+        "skills":[ "Cloud Functions", "Cloud Run", "Cloud Run on GKE", "Stackdriver", "Knative", "Cloud Pub/Sub", "Cloud Shell", "Compute Engine" , "GKE", "Cloud Storage", "Cloud Firestore", "BigQuery", "App Engine", "Container Registry"]
+    },  
     {
       "grouping":"Platform, Container & Cloud Administration",
         "skills":[
             {"name":"ARM","link":"https://docs.microsoft.com/en-us/azure/azure-resource-manager/"},    
             {"name":"Atlassian","link":"https://atlassian.com/"},            
-            {"name":"AWS","link":"https://aws.amazon.com/"},            
+            {"name":"AWS","link":"https://aws.amazon.com/"},  
+            {"name":"AKS","link":"https://azure.microsoft.com/en-us/services/kubernetes-service/"},            
             {"name":"Azure","link":"https://azure.microsoft.com/en-gb"},    
+            {"name":"Bamboo","link":"https://www.atlassian.com/software/bamboo/"},
             {"name":"Chef","link":"https://www.chef.io/"},    
             {"name":"Chocolately","link":"https://www.chocolatey.org/"},    
             {"name":"Docker","link":"https://docker.com/"},                        
             {"name":"CloudFormation","link":"https://aws.amazon.com/cloudformation"},      
             {"name":"ECS","link":"https://aws.amazon.com/ecs/"}, 
-            {"name":"Elastic Beanstalk","link":"https://aws.amazon.com/elasticbeanstalk/"},             
+            {"name":"EKS","link":"https://aws.amazon.com/eks/"}, 
+            {"name":"Elastic Beanstalk","link":"https://aws.amazon.com/elasticbeanstalk/"}, 
+            {"name":"GKE","link":"https://cloud.google.com/kubernetes-engine/"},             
             {"name":"NGINX","link":"https://www.nginx.com/"},            
             {"name":"Octopus Deploy","link":"https://www.octopusdeploy.com/"},      
             {"name":"OpsWorks","link":"https://aws.amazon.com/opsworks/"}, 
+            {"name":"Portainer","link":"https://github.com/portainer/portainer/"},
             {"name":"Terraform","link":"https://www.terraform.io/"},
             {"name":"VMWare","link":"https://www.vmware.com/"}
         ]

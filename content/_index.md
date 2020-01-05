@@ -4,19 +4,54 @@ sitemap:
   priority : 0.9
 ---
 
-Last position: Chief Technology Officer @ [Qualtrak] (http://www.qualtrak.com)
+---
 
-[Download my resumé here](/resume.pdf).
+{{% table %}}
+|          |                    |
+|----------|--------------------|
+| [Click here to download my resumé](/resume.pdf) ||
+| [Click here to download my reference](/reference.pdf) ||
+{{% /table %}}
 
-[![developer](/img/aws-developer-badge.png)] (https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2017-12-13&ci=AWS00351917)
-[![solutions architect](/img/aws-solutions-architect-badge.png)] (https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-09-27&ci=AWS00351917)
+
+---
+
+**Certifications**
+
+{{% table %}}
+|          |                    |
+|----------|--------------------|
+| [![developer](/img/aws-developer-badge.png)](https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2017-12-13&ci=AWS00351917) | [![solutions architect](/img/aws-solutions-architect-badge.png)](https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-09-27&ci=AWS00351917) |
+{{% /table %}}
+
+
+---
+
+*Current position:* **Principal Engineer** @ [Carfinance247](http://www.carfinance247.co.uk)
+
+[Click here to see projects worked on while at Carfinance247](#projects)
+
+I report directly to the DoE (Director of Engineering). I work across teams to educate, assist & advise. I also contribute to the active sprint. I work on side projects and PoC (proof of concept) projects. I have delivered brown bags on both AWS & Google Serverless services. I help to shape HLA, improve coding quality and engineering standards. I am a team player and help support my colleagues and CF247 operations whenever the opportunity arises. I provide direction and guidance on matters relating to cloud computing, architecting and developing for the cloud. I am cloud first, a polyglot and an advocate of serverless technologies.
+
+---
+
+*Previous position:* **Chief Technology Officer** @ [Qualtrak](http://www.qualtrak.com)
+
+[Click here to see projects worked on while at Qualtrak Solutions](#projects)
 
 I have spent the last 10+ years building a development team and helping to shape the company's direction.  Over this time I have embedded an Agile approach to delivering features across multiple products, driven CI/CD initiatives and made the space necessary for the Technical department’s  Europe-wide development team to be productive, engaged and committed.  
 
-Previously working as a contractor in the Business Intelligence space, I have worked for GE Capital, Morgan Stanley Dean Witter, Equitas & GUS.  
-Following University I worked my way to a position of personal interest, known at the time as EIS (Executive information systems).  This propelled me into the BI space where I took the plunge into the contracting world.  Since this time, I have pursued another passion; web application development.  I took a number of small appointments and opportunities to help fine tune my skills.  This enabled me to offer a greater repertoire of skills and abilities to prospective employers.  I have had a number of interesting roles which lead me into my most recent role of a lifetime; CTO.  
+---
 
-During this time I have become a SME (subject matter expert) in the contact centre space, a seasoned systems integrator, a cloud solutions architect,  an experienced serverless developer, a DevOps Evangelist and a technical voice and advisor for Qualtrak, working with teams around the world from all sizes of companies.
+*Other positions:* **BI contractor** & **.NET contractor**
+
+Previously working as a contractor in the Business Intelligence space, I have worked for GE Capital, Morgan Stanley Dean Witter, Equitas & GUS.  
+
+Following University I worked my way to a position of personal interest, known at the time as EIS (Executive information systems).  This propelled me into the BI space where I took the plunge into the contracting world.  Since this time, I have pursued another passion; web application development.  I took a number of small appointments and opportunities to help fine tune my skills.  This enabled me to offer a greater repertoire of skills and abilities to prospective employers.  I have had a number of interesting roles which lead me into my previous role of a lifetime; CTO.  
+
+---
+
+During the last 12 years+ I have become a SME (subject matter expert) in the contact centre space, a seasoned systems integrator, a cloud solutions architect, an experienced serverless developer, a DevOps Evangelist and a technical voice and advisor for Qualtrak, working with teams around the world from all sizes of companies.
 
 ### Where I see my passions and the skills to offer a company and my willingness to keep on learning and evolving
 
@@ -28,6 +63,15 @@ ML is something that, coming from a big data background, was exciting and a plac
 - I have rarely had the opportunity to contribute to OSS.  This, hopefully, will change. With my experience of developing products and solutions, OSS has been pivotal to their success. As soon as the opportunities arises, I will start paying that back
 - I regularly update and complete personal research on the developing world of security and serverless technologies.
 
-I have captured most of his career timeline here in the [Projects] (#projects), [Skills] (#skills) and [Experience] (#experience) sections.
+I have captured most of my career timeline here in the [Projects](#projects), [Skills](#skills) and [Experience](#experience) sections.
 
-[Download my resumé here](/resume.pdf)
+---
+
+{{% table %}}
+|          |                    |
+|----------|--------------------|
+| [Click here to download my resumé](/resume.pdf) ||
+| [Click here to download my reference](/reference.pdf) ||
+{{% /table %}}
+
+---

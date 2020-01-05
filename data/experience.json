@@ -1,9 +1,15 @@
-[
+[   
+    {
+        "role":"Principal Engineer",
+        "company":"Carfinance247",
+        "summary":"I report directly to the DoE (Director of Engineering). I work across teams to educate, assist & advise. I contribute to the active sprint. I work on side projects and PoC (proof of concept) projects. I have delivered brown bags on both AWS & Google Serverless services. I help to shape HLA, improve coding quality and engineering standards. I am a team player and help support my colleagues and CF247 operations whenever the opportunity arises. I provide direction and guidance on matters relating to cloud computing, architecting and developing for the cloud.  I am cloud first, a polyglot and an advocate of serverless technologies.",
+        "range":"May 2019 - Present"
+    },
     {
         "role":"Chief Technology Officer",
         "company":"Qualtrak Solutions",
         "summary":"I manage a team of remote workers around Europe to develop single server, HA & cloud based solutions using a range of technologies. I lead technical projects, architecturing product systems and feature solutions and coordinating integrations with partner/SI teams around the globe. The role is varied; ranging from technical presentations to CxO to root cause analysis.  I categorise myself as a CTO/developer with extensive serverless development experience. Reporting directly to the CEO.",
-        "range":"Sept 2008 - Present"
+        "range":"Sept 2008 - Apr 2019"
     },
     {
         "role":"Contractor",
