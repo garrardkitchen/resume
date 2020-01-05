@@ -31,7 +31,7 @@ sitemap:
 
 [Click here to see projects worked on while at Carfinance247](#projects)
 
-I report directly to the DoE (Director of Engineering). I work across teams to educate, assist & advise. I contribute to the active sprint. I work on side projects and PoC (proof of concept) projects. I have delivered brown bags on both AWS & Google Serverless services. I help to shape HLA, improve coding quality and engineering standards. I am a team player and help support my colleagues and CF247 operations whenever the opportunity arises. I provide direction and guidance on matters relating to cloud computing, architecting and developing for the cloud.  I am cloud first, a polyglot and an advocate of serverless technologies.
+I report directly to the DoE (Director of Engineering). I work across teams to educate, assist & advise. I also contribute to the active sprint. I work on side projects and PoC (proof of concept) projects. I have delivered brown bags on both AWS & Google Serverless services. I help to shape HLA, improve coding quality and engineering standards. I am a team player and help support my colleagues and CF247 operations whenever the opportunity arises. I provide direction and guidance on matters relating to cloud computing, architecting and developing for the cloud. I am cloud first, a polyglot and an advocate of serverless technologies.
 
 ---
 
