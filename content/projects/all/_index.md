@@ -17,7 +17,7 @@ This section lists my experience from some of the projects and initiatives I hav
 - I have created Bamboo build & deployment projects as well as Azure DevOps CI/CD pipelines
 - I have created as part of the GitHub/Jenkins CI/CD pipeline, .NET Core WebApplicationFactory based functional tests that span multiple docker services
 - I researched and deployed (docker) Snyk for checking for code/library vulnerabilities, code quality and docker image scanning
-- I have participated in mulitple inceptions, helped shape HLA and define requirements
+- I have participated in multiple inceptions, helped shape HLA and define requirements
 - I Drew on observability experience to (a) implement / deploy Prometheus time series Db for use with (b) new Grafana dashboards (*based on google's USE & RED methods*) to help monitor both infrastructure and application performance
 - I am architecting a solution that uses github GraphQL to provide better visibility on repository dependencies
 - I educate, provide guidance, insight and assist colleagues across multiple teams
