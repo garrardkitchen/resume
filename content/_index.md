@@ -29,28 +29,15 @@ sitemap:
 
 *Current position:* **Principal Engineer** @ [Carfinance247](http://www.carfinance247.co.uk)
 
-- I have delivered brown bags on AWS serverless services and Google serverless options (*Cloud Functions & Cloud Run *Knative*, deployed via GitHub Actions*)
-- I have help maintain enterprise Twilio CRM using angular 1.x and supporting HTTP API microservices hosted & load balanced in docker Swarm
-- I worked on a Pilot project that assessed both Google and Azure Cloud services. Some of this work, especially story spikes, required pair programming
-- I have created solution that subscribed to Azure Event Grid and Azure Service Bus (*topics & queues*) and used Azure SignalR Service to update a UI hosted on AKS
-- I worked on new Vehicles team, helped shape development principals and used Jenkins and Google services *including GKE*
-- I am working with the Phoenix & Integration team to help maintain and add features to several .NET Core C# and UI git repositories
-- I have created equivalent EDA in AWS (*node.js, Serverless, SQS, SignalR, ASP.NET Core*) from PoC written/architected using Google servcies in fraction of time plus architected solution to deal with edge/corner cases using architecture instead of code
-- I have created Bamboo build & deployment projects as well as Azure DevOps CI/CD pipelines
-- I have created as part of the GitHub/Jenkins CI/CD pipeline, .NET Core WebApplicationFactory based functional tests that span multiple docker services
-- I researched and deployed (docker) Snyk for checking for code/library vulnerabilities, code quality and docker image scanning
-- I have participated in mulitple inceptions, helped shape HLA and define requirements
-- I Drew on observability experience to (a) implement / deploy Prometheus time series Db for use with (b) new Grafana dashboards (*based on google's USE & RED methods*) to help monitor both infrastructure and application performance
-- I am architecting a solution that uses github GraphQL to provide better visibility on repository dependencies
-- I educate, provide guidance, insight and assist colleagues across multiple teams
-- I called on load/stress testing experience to assess HTTP API demand limitations and help identify and fix defects
-- I am an cctive participant in sprints and a strong advocate of Agile (Scrum) & XP development in general
-- I have worked on side projects and experimental work for DoE
-- I am working on PoC project using Azure services (*CosmosDB MongoDB API, Azure Functions, Event Grid, Service Bus, DevOps*), Twilio & Terraform
+[Click here to see projects worked on while at Carfinance247](#projects)
+
+I report directly to the DoE (Director of Engineering). I work across teams to educate, assist & advise. I contribute to the active sprint. I work on side projects and PoC (proof of concept) projects. I have delivered brown bags on both AWS & Google Serverless services. I help to shape HLA, improve coding quality and engineering standards. I am a team player and help support my colleagues and CF247 operations whenever the opportunity arises. I provide direction and guidance on matters relating to cloud computing, architecting and developing for the cloud.  I am cloud first, a polyglot and an advocate of serverless technologies.
 
 ---
 
 *Previous position:* **Chief Technology Officer** @ [Qualtrak](http://www.qualtrak.com)
+
+[Click here to see projects worked on while at Qualtrak Solutions](#projects)
 
 I have spent the last 10+ years building a development team and helping to shape the company's direction.  Over this time I have embedded an Agile approach to delivering features across multiple products, driven CI/CD initiatives and made the space necessary for the Technical department’s  Europe-wide development team to be productive, engaged and committed.  
 
