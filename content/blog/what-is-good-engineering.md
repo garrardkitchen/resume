@@ -20,74 +20,45 @@ This is how I categorise good Engineering. Each category links through to a summ
 
 #### [Principles]()
 
-I have a fuller explanation here - [Good Engineering - Principles](/blog/principles) - but in essence it about ensuring all teams share an aligned standard of coding. This will include foundational knowledge of how to code.
+I have a fuller explanation can be found here - [Good Engineering - Principles](/blog/principles).  In essence good engineering principles is about ensuring all teams share a common foundation. This will include a common approach to writing quality code, that is efficient and only does exactly what is required as dictated by a requirements specificiation; nothing more. What I consider as the core engineering principles are listed below.  I go into more detail in the above ^^^ post:
 
-Here's a list of concepts that make up Engineering principles:
 - DRY, YAGNI, KISS
 - SOLID principles (SRP, OCP, etc...)
-- Rafactoring (refactoring refactoring) as you go
-- Composition over inheritance (avoid class tree explotion! - Strategy pattern)
-- Separation of Concerns (think MVC, domains)
-- Avoid premature optimization
-- Clean readable code is better than clever code
-- Defensive coding
+- Rafactor (refactor refactor), as you go and not only done as the last task
+- Composition over inheritance (avoid class tree explotion! - think Strategy pattern - GoF)
+- Separation of Concerns (think MVC, CQRS, bounded context, etc...)
+- Avoid premature optimization (futile task until you've metrics to hand)
+- Clean and readable code is always better than clever code (ask any engineer whom has to extend or maintain a _clever_ piece of code!)
+- Defensive coding (guard against invalid class method parameters and class property accidental null assign instead of equality condition)
 - Do no more, do no less
-- Coding stadards (provide a template and general guidelines and let the team thrash out the rest)
-- Code reviews (git PR reviews)
+- Coding stadards (provide a template of core standards then stand back and and let the team thrash out the rest - wear protection")
+- Code reviews - Should only contain helpful and constructive comments and / or implementation questions. Not there to curess egos
 - Testing (unit/functional as well as concepts TDD & BDD)
 
-As a Prinipal Engineer I categorise the above as the foundations.  I use the above as the base line, a starting point. It's objective is not to be critical or dismissive of someones approach/education but instead to act as a reminder and steer.  This then can be built up on.  It's all about ensuring that good engineering is shared by all team members, possibily by osmosys. An important part of this practice is heuristic - enabling a person to discover or learn something by themself.  So, how do I go about dong this?
+These I see as the basics.  As a Principal Engineer, one of my responsibilities is also to educate.  This means to help engineers to understand concepts and approaches in many areas of computing, including cloud, microservices and serverless architecture.
 
-- Share blog posts
-- Group conversations
-- 1-2-1
-- Pushing learning on demand services like Pluralsight or Udemy.  Youtube is another favourite of mine. With Youtube you are able to tag recordings, therefore building up a catalouge of materials
-- Workshops
-- Brown bags
-- Capture How To Dos in wikis or similar
-- Coding advice/tips (e.g. when to use Task instead of an Async method)
-
-The coding advice/tip aboue is an interesting one. As professionals we always want to improve and in doing so we want our colleauges to improve as well.  I recently become reaquainted with katas.  As a black belt in Ju-Jitsu I am well versed in what a kata is.  Katas can also be used to remind, stretch and improve you capability.  The last time I used a kata in programming was years ago. This was when I was first introduced to TDD.  A favourite development book of mine is 'The Art of Unit testing' by Roy Osherove. It was the first edition so we're going back quite a few years now.  For many years I had it as a click thru purchase option on an old blog site (wouldn't really have classed my old site as a blog site though!). I've not really participated in many kata's since.  I have written a few though but not having been reintroduced to them and their power, as a Principal Engineer, it's a great tool for assessing and building an engineers skill when used with pair programming.
-
-Pair programming is a another invaluable tool.  Generally, one only gets to pair program in one of two situations.  (1) if the subject you're investigating is new (important to shared the knowledge) or (2) when you're dealing with a challenging problem.  You know what they say? ...a problem shared is a problem halved!  I'm sure I'm not alone here when I say, having the time available for 2 engineers to code together for skills transfer etc is a challenging one.  An agile sprint doesn't really accommodate this.  This is something that I often refer to as having the 'space to learn'.  The pressures of a sprint works against this.  This is doubly as difficult if your sprint is made up of technical debt, BAU, Ad hoc etc...  Timeboxing effort into percentages doesn't present the obvious education path for your Engineers.  Having a day (developer day) dedicated to learning never quite works out the way it's meant too plus, 'a day'?!  In my experience this and cramming 'genius' into a timebox never quite works. After all, you can't plan genius, like you can't ensure the best engineers are in your locality or that the best time for engineers to work is from 9-5.  Whenever I speak about this I inevitably continue the conversation into the topic of not providing the appropriate tools (software and hardware) that the engineers need so they can do their job to the best of their abilities.  I once gave an anology of, not giving engineers the right kit is like giving a roller brush and a pogo stick to Michelangelo to paint the Sistine Chapel ceiling.  He'll manage it ... eventually but the attention to detail and accuracy will be woefully poor needing it to be redone at a later (much sooner) date. 
+But it doesn't stop here.  We all forget, whether it be a piece of technical detail, an concept, coding options, ... the list continues. So, this journey never ends.  It's constant cycle of reminding and educating on the _new shiny things_. 
 
 #### [Practices]()
 
-I have a fuller explanation here - [Good Engineering - Principles](/blog/practices).
+I have a fuller explanation can be found here - [Good Engineering - Principles](/blog/practices).
 
-In summary, good engineering practices look like this:
-- consistent observability (unified approach to the 3 pillars of observabiity) - metrics, log & tracking
+In the above ^^^ post, I provide a extensive list on what I believe are good engineering practices.  I have included the top 10 of these practices:
+
+- All application and infrastructure as code capturing in a DVCS (eg git)
+- Capture metrics that provide realtime statistics on both application and infrastructure performance (latency, errors, service saturation, etc...) & alerting (slack, sms, email)
 - change/issue management
-- error management
-- testing (unit / functional / load)
-- in production testing (core features are constantly tested so issues / outages are discovered before the users observe them)
-- Never push directly to master branch - PR review prior to branch merge to master
-- Dashboards - builds/releases/issue management/error management/business KPIs
-- Code coverage
-- Code changes must be accommpanied by tests
-- No issue management blockers
-- PR reivewed ~24 hrs
-- Shared documentation that includes - business domain, systems and their decomposition (think microservices), repositories and dependency, documentation failures, Runbooks (what to do if a scenario presents itself)
-- Team velocity for planning
-- Definition of Done (and the review of during the sprint retrospective)
-- Regular builds and deployments
-- Reporting of failures to several channels (slack, email, sms, dashboard, etc...)
-- Happy stakeholders
-- Happy Engineers
-- Engineer development path
-- Engineer days
-- Roles & responsibilities - know your own sphere of engagement and this will help mitigate any blockers  
-- Openess to share knowledge and information
-- Continual sharing / vision reminder
-- Celebrate releases
-- Keep connected (especially important when working with distribute teams)
-- Common approach to working
-- Infrastructure as Code (IAC)
-- CI/CD pipelines (with feature branches and canary, blue-green, A/B, other)
-- Managed
-
+- Error management (adopting products similar to sentry.io to aggregate and provide succint information in the run up to an error)
+- documenting RCA (reasons for a failure)
+- Runbooks (actions required to deal effectively with a known situation)
+- Automate everything!
+- Share Technical roadmaps, progress & changes
+- Documented Roles & Responsibilities of all team members
+- TBC
 
 #### [Collaboration]()
+
+TBC
 
 #### [Agile]()
 
@@ -107,8 +78,10 @@ As part of the story creation process, after the story description (AS A, I WANT
 
 #### [The X factor]()
 
-Engineers want to help each other.  They want to write code and solve problems.  They want their work to mean something to the business.  They want what they create to be used.  Everywhere I have worked, engineers come together when stuff is broken.  Whether this be during working hours or out.  Recently
+Engineers want to help each other.  They want to write code and solve problems.  They want their work to mean something to the business.  They want what they create to be used.  Everywhere I have worked, engineers come together when sh*t breaks; during working hours or out.  Recently ????
 
-This phononima is irrespective of whether the company you work for is a good company or a bad company.
+This phonomena is irrespective of whether the company you work for is a good company or a bad company.
+
+TBC
 
 
