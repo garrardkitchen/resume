@@ -8,7 +8,7 @@ tags: [Hugo, blogging, good engineering, practices, principles]
 
 I was asked recently, "What is good Engineering?"  It's a great questions.  One that instantly conjures up a plethora of visuals and emotions as after all, your answer has to come from your experience, which by definition, will be subjective.  
 
-I'd like to share with you how I see 'good engineering'.  My current role is a Principal Engineer which will help me frame some of my answers.  Prior to this I can a CTO so it's fair to say, I've seen what both good and bad looks like and in I've had the opportunity to make bad, good.
+I'd like to share with you how I see 'good engineering'.  My current role is a Principal Engineer which will help me frame some of my answers.  Prior to this I can a CTO so it's fair to say, I've seen what both good and bad looks like and in many cases I've had the opportunity to make bad, good.
 
 This is how I categorise good Engineering. Each category links through to a summary explanation and in each summary, there is a link to a fuller explanation which is captured in another blog post. So, if you just want the _skinny_, stay on this page:
 
