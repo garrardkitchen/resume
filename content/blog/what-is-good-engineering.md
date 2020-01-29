@@ -76,6 +76,8 @@ One thing I do feel strongly about and that is this.  A Scrum Master plays pivot
 
 As part of the story creation process, after the story description (AS A, I WANT, SO THAT) we capture the Acceptance Criteria ('ACs' for short).  It is here where we detail what the story needs to satisfy into order for the story to be deemed completed by the Engineer.  A constant failing in this area is the lack of tests; or more appropriately, to omition of tests.  Let's say you're a newbee.  You have very little domain knowledge or understanding of the system you're now responsible for.  Tests added to the story would prove invaluable to this neebee.  It will also provide guidance on how to prove that your work fits the bill back creating adaquate unit tests as well as helping with furthering your domain and system orientation.  This is always an issue, wherever I have worked.   
 
+I also find the framing the action and reason for a story helps. You start at that point to truly understand the implications of what you're encapsulating in this particular story. After all, to fully understand something to explain it to another, you need to write about it. More often than not, if you can't type this description out in ~30 seconds, it's going to be decomposed in two or more stories.
+
 #### [The X factor]()
 
 Engineers want to help each other.  They want to write code and solve problems.  They want their work to mean something to the business.  They want what they create to be used.  Everywhere I have worked, engineers come together when sh*t breaks; during working hours or out.  Recently ????
