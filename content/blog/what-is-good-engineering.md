@@ -14,7 +14,7 @@ This is how I decompose good Engineering. Each area links through to a summary e
 
 - [Principles](#principles)
 - [Practices](#practices)
-- [Collaboration](#collaboration)
+- [Culture and Collaboration](#culture-and-collaboration)
 - [Agile](#agile)
 - [The X factor](#the-x-factor)
 
@@ -41,7 +41,7 @@ But it doesn't stop here.  We all forget _stuff_. This can be a piece of technic
 
 #### [Practices]()
 
-I have a fuller explanation can be found here - [Good Engineering - Principles](/blog/practices).
+I go into more depth here - [Good Engineering - Principles](/blog/practices).  Good practices covers a huge expanse. It requires dedication, patience and exceptional planning. 
 
 In the above ^^^ post, I provide a extensive list on what I believe are good engineering practices.  I have included the top 10 of these practices:
 
@@ -56,9 +56,11 @@ In the above ^^^ post, I provide a extensive list on what I believe are good eng
 - Documented Roles & Responsibilities of all team members
 - Release management (hassle free rollback & scheduled release when needed)
 
-#### [Collaboration]()
+#### [culture-and-Collaboration]()
 
 TBC
+
+I go into more depth here - [Good Engineering - Culture and Collaboration](/blog/culture-and-collaboration). 
 
 #### [Agile]()
 

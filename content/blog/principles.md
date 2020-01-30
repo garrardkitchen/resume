@@ -16,11 +16,11 @@ Here's a list of concepts that to me make up good engineering principles:
 - Separation of Concerns (think MVC, CQRS, bounded context, etc...)
 - Avoid premature optimization (futile task until you've metrics to hand)
 - Clean and readable code is always better than clever code (ask any engineer whom has to extend or maintain a _clever_ piece of code!)
-- Defensive coding (guard against invalid class method parameters and class property accidental null assign instead of equality condition)
-- Do no more, do no less
+- Defensive coding (guard against invalid class method parameters and accidental null assignment to class properties instead of an equality condition!)
+- Do no more, do no less (thank you XP!)
 - Coding stadards (provide a template of core standards then stand back and and let the team thrash out the rest - wear protection")
-- Code reviews - Should only contain helpful and constructive comments and / or implementation questions. Not there to curess egos
-- Testing (unit/functional as well as concepts TDD & BDD)
+- Code reviews - Should only contain helpful and constructive comments and / or implementation questions. Not there to curess egos (that's for your mother to do)
+- Testing (unit/functional, and proficient with concepts like TDD & BDD)
 
 As a Prinipal Engineer I consider he above as the foundations to writing quality code.  The objective of this list and the message I push with this list in my role is one of reminder and commitment.  As with all foundations, it forms the base from which more advanced concepts or approaches can be consumed.  An important part of this practice is heuristic - enabling a person to discover or learn something by themself.  So, how do I go about dong this?
 

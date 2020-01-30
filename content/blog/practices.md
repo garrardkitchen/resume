@@ -6,9 +6,22 @@ featured: false
 tags: [Hugo, blogging, good engineering, practices]
 ---
 
+Good practices covers a huge expanse. To infuse practices it requires dedication, persistence, patience, exceptional planning, leadership and belief in you and your teams abilities.  Some of which I see as virtues.  This is not a one person journey. 
 
 
 In summary, good engineering practices look like this:
+
+
+- All application and infrastructure as code capturing in a DVCS (eg git)
+- Capture metrics that provide realtime statistics on both application and infrastructure performance (latency, errors, service saturation, etc...) & alerting (slack, sms, email). One of the 3 pillars of observability
+- change/issue management
+- Error management (adopting products similar to sentry.io to aggregate and provide succint information in the run up to an error. Cross SoC tracing)
+- documenting RCA (reasons for a failure)
+- Runbooks (actions required to deal effectively with a known situation)
+- Automate everything!
+- Share Technical roadmaps, progress & changes
+- Documented Roles & Responsibilities of all team members
+- Release management (hassle free rollback & scheduled release when needed)
 
 TBC ... 
 
