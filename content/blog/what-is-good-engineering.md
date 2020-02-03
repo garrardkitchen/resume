@@ -22,22 +22,22 @@ This is how I decompose good Engineering. Each area links through to a summary e
 
 A more detailed explanation can be found here - [Good Engineering - Principles](/blog/principles).  In essence, I feel good engineering principles are about ensuring all teams share a common foundation. This baseline will include a common approach to writing quality code, code that is efficient, code that does exactly what is required and nothing more.  What I consider as the core engineering principles are listed below.  I go into more detail in the above ^^^ post:
 
-- DRY, YAGNI, KISS
+- DRY (don't repeat yourself), YAGNI (you ain't going to need it), KISS (keep it simple silly)
 - SOLID principles (SRP, OCP, etc...)
 - Rafactor (refactor refactor), as you go and not only done as the last task
 - Composition over inheritance (avoid class tree explotion! - think Strategy pattern - GoF)
 - Separation of Concerns (think MVC, CQRS, bounded context, etc...)
-- Avoid premature optimization (futile task until you've metrics to hand)
+- Avoid premature optimization (futile task until you've metrics to better inform you)
 - Clean and readable code is always better than clever code (ask any engineer whom has to extend or maintain a _clever_ piece of code!)
 - Defensive coding (guard against invalid class method parameters and accidental null assignment to class properties instead of an equality condition!)
 - Do no more, do no less (thank you XP!)
-- Coding stadards (provide a template of core standards then stand back and and let the team thrash out the rest - wear protection")
+- Coding stadards (provide a template of core standards then stand back and and let the team thrash out the rest - wear protection!)
 - Code reviews - Should only contain helpful and constructive comments and / or implementation questions. Not there to curess egos (that's for your mother to do)
 - Testing (unit/functional, and proficient with concepts like TDD & BDD)
 
-As I have said, I see these the baseline.  And if you're not quite there yet, that's ok too. People in roles like Principal Engineer will help you; that's if a colleague hadn't get to you first (see the x factor section). A core responsibilities is also to educate & share.  This means to help engineers to understand concepts and approaches in many areas of computing, including cloud, microservices and serverless architecture.
+As I have said, I see these the baseline.  And if you're not quite there yet, that's ok too. People in roles like Principal Engineer will help you; that's if a colleague hadn't got to you first (see the x factor section). A core responsibilities is also to educate & share.  This means to help Engineers to understand concepts and approaches in many areas of computing, including cloud, microservices and serverless architecture.
 
-But it doesn't stop here.  We all forget _stuff_. This can be a piece of technical detail, a concept, coding technique, ... the list continues. As such, this journey is a continuous one.  It's constant cycle of reminding, and education on the _new shiny things_. 
+But it doesn't stop here.  We all forget _stuff_. This can be a piece of technical detail, a concept, coding technique, ... the list continues. As such, this journey must a continuous one.  It's constant cycle of reminding, and education on the _new shiny things_. 
 
 #### [Practices]()
 
