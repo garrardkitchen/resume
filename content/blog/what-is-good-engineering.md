@@ -35,7 +35,7 @@ A more detailed explanation can be found here - [Good Engineering - Principles](
 - Code reviews - Should only contain helpful and constructive comments and / or implementation questions. Not there to curess egos (that's for your mother to do)
 - Testing (unit/functional, and proficient with concepts like TDD & BDD)
 
-As I have said, I see these the baseline.  And if you're not quite there yet, that's ok too. People in roles like Principal Engineer will help you; that's if a colleague hadn't got to you first (see the x factor section). A core responsibilities is also to educate & share.  This means to help Engineers to understand concepts and approaches in many areas of computing, including cloud, microservices and serverless architecture.
+At the risk of repeating myself, I see these the baseline.  And if you're not quite there yet, that's ok too. People in roles like Principal Engineer will help you; that's if a colleague hadn't got to you first (see the x factor section). A core responsibilities is also to educate & share.  This means to help Engineers to understand concepts and approaches in many areas of computing, including cloud, microservices and serverless architecture.
 
 But it doesn't stop here.  We all forget _stuff_. This can be a piece of technical detail, a concept, coding technique, ... the list continues. As such, this journey must a continuous one.  It's constant cycle of reminding, and education on the _new shiny things_. 
 
@@ -70,9 +70,11 @@ TBC
 
 #### [The X factor]()
 
-Engineers want to help each other.  They want to write code and solve problems.  They want their work to mean something to the business.  They want what they create to be used.  Everywhere I have worked, engineers come together when sh*t breaks; during working hours or out.  Recently ????
+Engineers want to help each other.  They want to write code and solve problems.  They want their work to mean something to the business.  They want what they create to be used.  Everywhere I have worked, engineers come together when sh*t breaks; during working hours or out.  I have recently become aware of the importance of this being accounted for during the sprint planning process. The allocation of the Story Points taken up by this will great accuracy on sprint velocity. It might account for as little as %1 but nevertheless, if it contributes to greater accuracy, then IMO it's worth it.  But I digress ...
 
-This phonomena is common, irrespective of whether the company you work for is a good company or a bad company. 
+Helping our colleagues is common place, irrespective of whether the company you work for is a good company or a bad company. 
+
+The real X factor comes from ...
 
 TBC
 
