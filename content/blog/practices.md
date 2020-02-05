@@ -12,27 +12,27 @@ In summary, good engineering practices look like this:
 
 _This list is not the complete list, there will be a few things I have negated to include_
 - All application and infrastructure as code capturing in a DVCS (eg git)
-- Capture metrics that provide realtime statistics on both application and infrastructure performance (latency, errors, service saturation, etc...) & alerting (slack, sms, email). _observability:metrics_
-- change/issue management
-- Error management (adopting products similar to sentry.io to aggregate and provide succint information in the run up to an error. Cross SoC tracing) _observability:logging and tracing_
-- documenting RCA (reasons for a failure)
-- Runbooks (actions required to deal effectively with a known situation)
-- Automate everything!
+- `observability` Capture metrics that provide realtime statistics on both application and infrastructure performance (latency, errors, service saturation, etc...) & alerting (slack, sms, email). _observability:metrics_
+- `agile` change/issue management
+- `observability` Error management (adopting products similar to sentry.io to aggregate and provide succint information in the run up to an error. Cross SoC tracing) _observability:logging and tracing_
+- `devops` documenting RCA (reasons for a failure)
+- `devops` Runbooks (actions required to deal effectively with a known situation)
+- `devops` Automate everything!
 - Share Technical roadmaps, progress & changes
 - Documented Roles & Responsibilities of all team members
-- Release management (hassle free rollback & scheduled release when needed)
-- Testing (unit, functional, stress)
-- In production testing (core features are constantly tested so issues or outages are discovered before the users observe them)
+- `devops` Release management (hassle free rollback & scheduled release when needed)
+- `testing` Testing (unit, functional, stress)
+- `testing` In production testing (core features are constantly tested so issues or outages are discovered before the users observe them)
 - Never push directly to master branch - PR review prior to branch merge to master
-- Dashboards - builds/releases/commits & insights/issue management/error management/business KPIs (impact to business)
-- Code coverage
+- `observability` Dashboards - builds/releases/commits & insights/issue management/error management/business KPIs (impact to business)
+- `devops` Code coverage
 - All Code additions and changes must be accommpanied by tests
-- No issue management blockers (work not being able to be released because there is a human dependency)
+- `agile` No issue management blockers (work not being able to be released because there is a human dependency)
 - All DVCS Pull Requests reivewed ~24 hrs
 - Shared documentation that includes - business domain, systems and their decomposition (think microservices), repositories and dependency, documentation failures, Runbooks (what to do if a scenario presents itself)
-- Team velocity for informed planning
-- Definition of Done (and the review of during the sprint retrospective)
-- Reporting of failures acros several channels (slack, email, sms, dashboard, etc...)
+- `agile` Team velocity for informed planning
+- `agile` Definition of Done (and the review of during the sprint retrospective)
+- `observability` Reporting of failures acros several channels (slack, email, sms, dashboard, etc...)
 - Happy stakeholders
 - Happy Engineers
 - Engineer development path (this will include, but not limited to, [Good Engineering - Principles](/blog/principles))
@@ -40,21 +40,24 @@ _This list is not the complete list, there will be a few things I have negated t
 - Roles & responsibilities - know your own sphere of engagement and this will help mitigate any blockers  
 - Openess to share knowledge and information
 - Regular updates on roadmap and changes. This includes the stakeholder's vision
-- Celebrate releases
+- `agile` Celebrate releases
 - Keep connected (especially important when working with distribute teams)
 - A common approach to working
-- All infrastructure is created by an Infrastructure as Code (IAC) strategy 
-- Practice your DR drills, executing Runbooks and Chaos
-- CI/CD pipelines with regular builds and deployments (not necessarily regular _continue delivery_) (with feature branches and canary, blue-green, A/B, other)
+- `devops` All infrastructure is created by an Infrastructure as Code (IAC) strategy 
+- `devops` Practice your DR drills, executing Runbooks and Chaos
+- `devops` CI/CD pipelines with regular builds and deployments (not necessarily regular _continue delivery_) (with feature branches and canary, blue-green, A/B, other)
 - To feel managed so regular contact with line manager is a must. At least one 1-2-1 session each week.  Line Manager must be accessible and approachable.
-- Visibile DevOps advocacy - teams must be responsible for their domain services; you build it, you ship it, and you fix it 
-- Continuous iterations of DevOps principles - Principles of Flow, Feedback, continually learning & experimentation 
+- `devops` Visibile DevOps advocacy - teams must be responsible for their domain services; you build it, you ship it, and you fix it 
+- `devops` Continuous iterations of DevOps principles - Principles of Flow, Feedback, continually learning & experimentation 
 - Assign responsilibity - most rewarding experience when totally responsible for something; give a little bit of your sole to it. Pride
 - Encourage SME
 - Teams must be aligned with core business capabilities (think Conway's Law)
 - Status page - one place to notify customers, integration partners, when there's an issue. This also needs to be reflected in responses to API calls.  Presents opportunity to whomever to raise issue too  
 
 _I drill down into more detail in the sections below of some of the bullet points above._
+
+`agile`, `devops`, `observability`
+
 
 # 3 Pillars of Observability
 
