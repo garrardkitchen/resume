@@ -54,6 +54,8 @@ _This list is not exhaustive, here are a few things I have included:_
 - `trust` Encourage SME
 - `communication` Teams must be aligned with core business capabilities (think Conway's Law)
 - `observability` Status page - one place to notify customers, integration partners, when there's an issue. This also needs to be reflected in responses to API calls.  Presents opportunity to whomever to raise issue too  
+- `trust` Assign ownership, allow team members to flourish 
+- `communication` Capture guiding principles to help frame problem space and to help keep focus in the ensuing sprints
 
 _I drill down into more detail in the sections below about some of the bullet points above._
 

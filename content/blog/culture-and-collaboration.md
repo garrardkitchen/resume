@@ -23,3 +23,7 @@ tags: [Hugo, blogging, good engineering, culture, collaboration]
 - Accept responsibility for team(s)
 - Don't be a light touch in the beginning 
 - Understand engineering capability and limits and aggregated team strengths / weaknesses 
+- Wellbeing - other attempts not quite there yet
+    - take happiness from other feeds ext from biz
+    - Confirm their interests are considered by seeing activity on side / personal projects and comparing tech stacks
+- Emotional Intelligence & Ethics

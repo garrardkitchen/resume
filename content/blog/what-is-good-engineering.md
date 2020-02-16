@@ -56,9 +56,11 @@ In the above link, I provided an extensive list on what I believe are good engin
 - Document Roles & Responsibilities of all team members
 - Release management (hassle free rollback & scheduled release when needed)
 
-#### [culture-and-Collaboration]()
+#### [Culture-and-Collaboration]()
 
 I go into more depth here - [Good Engineering - Culture and Collaboration](/blog/culture-and-collaboration). 
+
+Integrity, Emotional Intelligence & wellbeing
 
 TBC
 
@@ -67,15 +69,4 @@ TBC
 I go into more depth here - [Good Engineering - Agile](/blog/agile). 
 
 TBC
-
-#### [The X factor]()
-
-Engineers want to help each other.  They want to write code and solve problems.  They want their work to mean something to the business.  They want what they create to be used.  Everywhere, where I have worked, engineers come together when sh*t breaks; during working hours or out.  I have recently become aware of the importance of this being accounted for during the sprint planning process. The allocation of the Story Points taken up by this will provide great accuracy on sprint velocity. It might account for as little as 1 percent but nevertheless, if it contributes to greater accuracy, then IMO it's worth it.  But I digress ...
-
-Helping our colleagues is common place, irrespective of whether the company you work for is a good company or a bad company. 
-
-The real X factor comes from ...
-
-TBC
-
 
