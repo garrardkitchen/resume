@@ -372,7 +372,7 @@
         ]
     },
     {
-        "grouping": "Platform, Container & Cloud Administration",
+        "grouping": "Platform, Container, Cloud Administration & CI/CD",
         "skills": [
             {
                 "name": "ARM",
@@ -397,6 +397,10 @@
             {
                 "name": "Bamboo",
                 "link": "https://www.atlassian.com/software/bamboo/"
+            },
+            {
+                "name": "BitBucket Pipelines",
+                "link": "https://bitbucket.org/product/features/pipelines"
             },
             {
                 "name": "Chef",
@@ -425,6 +429,10 @@
             {
                 "name": "Elastic Beanstalk",
                 "link": "https://aws.amazon.com/elasticbeanstalk/"
+            },
+            {
+                "name": "GitHub Actions",
+                "link": "https://github.com/features/actions"
             },
             {
                 "name": "GKE",
