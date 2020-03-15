@@ -64,7 +64,7 @@ class User(string firstnaame, string lastname, int age)
 ...
 ```
 
-The above demonstrator to approaches to defensive coding.  The first is that, we need to test for valid values when instantiating a class.
+The above demonstrator to approaches to defensive coding.  The first is that we need to test for valid constructor parameter values when instantiating a class.
 
 The second, if to avoid mistakes that might not be picked up by your compiler.  For instance, a common mistake doing this:
 
@@ -72,7 +72,7 @@ The second, if to avoid mistakes that might not be picked up by your compiler.  
 if (firstname = null)
 ```
 
-The compiler is more than happy allowing this above, as after all, it's an assignment and not a condition check as in above in the class constructor.  By switching these around, you inherently avoid make ever again making this silly mistake.
+The compiler is more than happy allowing this above, as after all, it's an assignment and not a condition check as in above in the class constructor.  By switching these around, you inherently avoid making this silly mistake.
 
 ## [Do no more]()
 
@@ -85,7 +85,7 @@ The compiler is more than happy allowing this above, as after all, it's an assig
 
 Code analysis tools help there but you're not always going to have access to these tools.
 
-One way to help identify code that does the same thing is by refactoring.  If you keep your code method frame small (~20 lines), and you have a good naming standard for methods etc then this should be all you need to help you writing duplicate code.
+One way to help identify code that does the same thing is by refactoring.  If you keep your code method frame small (~20 lines), and you have a good naming standard for methods, etc then this should be all you need to help you writing duplicate code.
 
 
 ## [KISS]()
@@ -140,7 +140,7 @@ TDD, DRY
 
 It's all about doing the right this in the right place!  I recently ran and engineered a project that involved our own hosted solution, solution hosted on Azure and a solution hosted on the Twilio Cloud (Serverless).  Originally, the requirements did not include the Twilio Cloud and would have required a ton of additional efforts if we'd stuck this brief.  Thankfully, I chose to take full advantage of what the Twilio has to offer and used a combination of Twilio Flow and Twilio Serverless functions.  This identification of the SoCs meant:
 
-- an less stressful implementation
+- a less stressful implementation
 - minor changes to our own hosted solutions
 - a huge amount of fun working with Serverless (has been my favourite and advocated approach for several years!)
 - a huge saving of time.
@@ -149,8 +149,65 @@ It's all about doing the right this in the right place!  I recently ran and engi
 
 ## [SOLID]()
 
-SOLID principles (SRP, OCP, etc...)
+These are the SOLID principles:
 
+### SRP (single responsibility)
+
+A class should have one and only one reason to change, meaning that a class should have only one job.
+
+### OCP (open-closed)
+
+Objects or entities should be open for extension, but closed for modification.
+
+### Liskov
+
+Definnition: "_Let q(x) be a property provable about objects of x of type T. Then q(y) should be provable for objects y of type S where S is a subtype of T._" ... clear as mud right?
+
+All this is stating is that every subclass/derived class should be substitutable for their base/parent class.
+
+### Interface segregation
+
+A client should never be forced to implement an interface that it doesn't use or clients shouldn't be forced to depend on methods they do not use.
+
+Take the following interface:
+
+```csharp
+public interface IAllTheThings 
+{
+    Task<IAsyncEnumerable<Claim>> GetClaims(string username);
+    Task<IAsyncEnumerable<User>> GetUsers(string team);
+    Task<User> AddUsers(User user);
+}
+```
+
+There's a clear distinction in responsibilities that are being suggested here by the contract name.  Sufficed to say, these should be split across different interfaces:
+
+```csharp
+public interface IUser 
+{    
+    Task<IAsyncEnumerable<User>> GetUsers(string team);
+    Task<User> AddUsers(User user);
+}
+
+public interface IClaim
+{
+    Task<IAsyncEnumerable<Claim>> GetClaims(string username);    
+}
+```
+
+### Dependency Inversion
+
+Entities must depend on abstractions not on concretions. It states that the high level module must not depend on the low level module, but they should depend on abstractions.
+
+Example:
+```csharp
+```
+
+---
+
+I'm a huge fan of patterns, especially cloud architectural patterns but sometimes, they add unnecessary complicity so beware!
+
+When I first started learning about patterns - some 18 years ago - I when through some of my code to see if I'd inherently been repeatedly using a pattern ... and I was!  It was the **lazy loading** pattern...which I continue to use regularly!
 
 ## [Testing]()
 
