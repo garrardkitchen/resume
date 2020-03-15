@@ -52,7 +52,7 @@ It should only contain helpful and constructive comments and / or implementation
 
 (guard against invalid class method parameters and accidental null assignment to class properties instead of an equality condition!)
 
-Examples:
+This is one example of defensive coding:
 
 ```csharp
 class User(string firstnaame, string lastname, int age) 
@@ -64,7 +64,7 @@ class User(string firstnaame, string lastname, int age)
 ...
 ```
 
-The above demonstrator to approaches to defensive coding.  The first is that we need to test for valid constructor parameter values when instantiating a class.
+The above demonstrates an example of defensive coding.  The first is that we need to test for valid constructor parameter values when instantiating a class.
 
 The second, if to avoid mistakes that might not be picked up by your compiler.  For instance, a common mistake doing this:
 
@@ -72,12 +72,11 @@ The second, if to avoid mistakes that might not be picked up by your compiler.  
 if (firstname = null)
 ```
 
-The compiler is more than happy allowing this above, as after all, it's an assignment and not a condition check as in above in the class constructor.  By switching these around, you inherently avoid making this silly mistake.
+A .NET Compiler is more than happy allowing this above syntax, as after all, it's an **assignment operator** and not a **equality operator** as in above in the **class constructor**.  By switching these around, you're making a positive pattern changing and _should_ avoid making this silly mistake again.
 
 ## [Do no more]()
 
-..., do no less (thank you XP!  _eXtreme Programming_)
-
+(and do no less - thank you _eXtreme Programming_!)
 
 ## [DRY]()
 
@@ -116,21 +115,21 @@ Suppose there are two competing theories on why something is not working.  Norma
 
 ## [Premature optimization]()
 
-Avoid premature optimization (futile task until you've metrics to better inform you)
+Avoid premature optimization and all conversations relating to optimization until you know the facts.  This will be futile until you've metrics to better inform you.
 
-I've hit his numerous times when planning microservices and bounded contexts, in particular, on green-field projects.  What should we include and where?  Should we separate permissions away from users for instance?  Who knows?!  You don't until you have some metrics behind you.  You can always merge microservices later.    
+I've hit this numerous times when planning for microservices and bounded contexts, in particular, on green-field projects.  What should we include and where?  Should we separate claims away from users for instance?  Will the demand for Claims be greater than for users?  Who knows?!  You don't until you have some metrics behind you.  You can always merge or break them [microservices] up later.    
 
-Another area that I believe this encompasses is splitting code across multiple files and folders.  If it's a PoC or it's a sample piece of code, just keep it in one file.  When it's the right time - moving out of PoC - then you should consider optimizing it.  Up until then, it's a huge waste of time and effort.
+Another area that I believe this encompasses is splitting code up across multiple files and folders.  If it's a PoC, a sample piece of code, or some thing that has a short shelf life, just keep it in one file.  When it's the right time - moving out of PoC/other - then you can consider optimizing it.  Up until then, it's a huge waste of time and effort.
 
-Architecture is a great example of when not to prematurely optimize.  Architecture normally means cost.  The more of something, to greater the cost.  This could mean the difference between survival and total collapse startup!  Adopting a guiding principle of being frugal at the outset, means you're always looking for the most cost-effective way of accomplishing your goal.  So, if you don't know your demand, it means you opt for a single server instead of having a HA cluster of 3 master nodes and 5 worker nodes!  Down from 8 servers to 1 which on a month by month basis during development and beta/early releases could mean the saving of thousands of pounds sterling.  
+Architecture is a great example of when not to prematurely optimize.  Architecture normally equaates to cost.  The more of something, the greater the cost.  This could mean for a startup the difference between survival and demise.  Adopting a guiding principle of being frugal from the outset, is a prudent and wise dicison.  What this means is that you're always looking for the most cost-effective way of accomplishing your goal.  So, if you don't know your demand, it means you opt for a single server instead of having a HA cluster of 3 master nodes and 5 worker nodes!  Down from 8 servers to 1 which on a month by month basis during development and beta/early releases could mean the saving of thousands of pounds sterling.  
 
-I've come across many startup organisations that have failed just because they ran out of funds early on.  It's a real shame for all involved.
+Sadly, I've come across a few startup that have failed just because they ran out of cash early on.  It's a real shame for all involved.
 
 ## [Refactor]()
 
 ...refactor refactor
 
-Don't save up until the end of a piece of work ... you'll bound to miss something!
+Don't save up this until the end of a piece of work ... you're bound to miss something and possibly add to your team's tech debt.  Plus, if it's a commit to a draft PR, you'll get your _ass_ chewed by your peers!
 
 TDD, DRY
 
@@ -138,14 +137,13 @@ TDD, DRY
 
 (think MVC, CQRS, bounded context, etc...)
 
-It's all about doing the right this in the right place!  I recently ran and engineered a project that involved our own hosted solution, solution hosted on Azure and a solution hosted on the Twilio Cloud (Serverless).  Originally, the requirements did not include the Twilio Cloud and would have required a ton of additional efforts if we'd stuck this brief.  Thankfully, I chose to take full advantage of what the Twilio has to offer and used a combination of Twilio Flow and Twilio Serverless functions.  This identification of the SoCs meant:
+It's all about doing the right this in the right place!  I recently ran, architected and co-developed a project that involved our own hosted solution, a solution hosted on **Azure** and a solution hosted on the **Twilio Cloud** (**Serverless**).  Originally, the requirements did not include the **Twilio Cloud** and would have required a bucket load more efforts if we'd stuck with that brief.  Thankfully, I chose to take full advantage of what **Twilio** has to offer and used a combination of **Twilio Flow** and **Twilio Serverless Functions**.  By establishing these SoCs meant:
 
 - a less stressful implementation
-- minor changes to our own hosted solutions
-- a huge amount of fun working with Serverless (has been my favourite and advocated approach for several years!)
-- a huge saving of time.
-- gave use a range of options when dealing with specific edge and corner cases which, again, gave us a further time saving 
-
+- a light touch to our own hosted solutions
+- a huge amount of fun working with **Serverless** (has been my favourite and advocated approach for several years!)
+- a huge saving of time
+- made available a greater range of options when dealing with specific edge and corner cases which, again, gave us a further time saving 
 
 ## [SOLID]()
 
@@ -153,7 +151,74 @@ These are the SOLID principles:
 
 ### SRP (single responsibility)
 
-A class should have one and only one reason to change, meaning that a class should have only one job.
+A class (no method) should have one and only one reason to change, meaning that a class (or method) should have only one job.
+
+"When a class has more than responsibility, there are also more reasons to change that class"
+
+Here's an example of a class )_purposefully awful for illustrative purposes_):
+
+```csharp
+class User() 
+{
+    public string Username {get; set;}
+    public string Fullname {get; set;}
+    private readonly ILogger _logger;
+    private IDbContext _db;
+
+    public User()
+    {
+        _logger = new Logger() 
+        _db = new UserContext();
+    }
+
+    public Task<User> GetProfile(string username) 
+    {
+        ...
+        _logger.Info($"Found profie for {username}")
+        return this;
+    }    
+}
+```
+
+You could say that the above includes both a model responsibility and a service responsibility.  These should be split into two seperate .NET types, as in this example:
+
+```csharp
+class User() 
+{
+    public string Username {get; set;}
+    public string Fullname {get; set;}
+    public User(string username, string Fullname) 
+    {
+        ...
+    }    
+}
+
+class UserService() 
+{
+    private readonly ILogger _logger;
+
+    public UserService(ILogger _logger, IDbContext db)
+    {
+        _logger = _logger    
+        _db = db;    
+    }
+
+    public Task<User> GetProfile(string username) 
+    {
+        ...
+        _logger.Info($"Found profie for {username}")
+        return user;
+    }    
+}
+```
+
+Here are benefits of principles:
+
+- Reduces complixity in your code
+- Increases readability, extensibility and maintenance of your code
+- Reusability and bug breading
+- Easier to test
+- Reduces coupling by removing dependency between methods
 
 ### OCP (open-closed)
 
