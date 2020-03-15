@@ -176,6 +176,7 @@
     {
         "grouping": "Testing & Load Testing",
         "skills": [
+            "Jest",
             "Artillery.io",
             "Postman",
             "XUnit.net",
