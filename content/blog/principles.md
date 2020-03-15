@@ -9,20 +9,167 @@ tags: [Hugo, blogging, good engineering, principles]
 Most Engineers are fully versed in the foundations of writing quality, efficient, succinct and testable code.  As a Principal Engineer, one of my responsibilities is to ensure that this baseline is (1) understood and (2) adhered to by all engineers. 
 
 Here's a list of concepts that for me, make up good engineering principles:
-- DRY (don't repeat yourself), YAGNI (you ain't going to need it), KISS (keep it simple, silly)
-- SOLID principles (SRP, OCP, etc...)
-- Refactor (refactor refactor), as you go and not only done as the last task
-- Composition over inheritance (avoid class tree exploitation! - think Strategy pattern - GoF)
-- Separation of Concerns (think MVC, CQRS, bounded context, etc...)
-- Avoid premature optimisation (futile task until you've metrics to better inform you)
-- Clean and readable code is always better than clever code (ask any engineer who has to extend or maintain a _clever_ piece of code!)
-- Defensive coding (guard against invalid class method parameters and accidental null assignment to class properties instead of an equality condition!)
-- Do no more, do no less (thank you XP!)
-- Coding standards (provide a template of core standards then stand back and let the team thrash out the rest - wear protection!)
-- Code reviews - Should only contain helpful and constructive comments and / or implementation questions. Not there to caress egos (that's for your mother to do!!)
-- Testing (unit/functional, and proficient with concepts like TDD & BDD)
 
-As a Principal Engineer, I consider the above as the foundation to writing quality code.  The objective of this list, in conjunction with the message I propagate via this list, during discussions, evidence from my own work and by leading from the front  within my role, is one of reminder to me and my colleagues of best practice and commitment to quality and good practice. As with all foundations, it forms the base from which more advanced concepts or approaches can be learned.  An important part of this practice is heuristic - enabling a person to discover or learn something by themselves.  So, how do I go about dong this?
+_These are in alphabetical order and not in order of importance_
+
+- [Clean and readable code](#Clean-and-readable-code)
+- [Code reviews](#Code-reviews)
+- [Coding standards](#Coding-standards)
+- [Composition over inheritance](#Composition-over-inheritance)
+- [Defensive coding](#Defensive-coding)
+- [Do no more](#Do-no-more)
+- [DRY](#DRY)
+- [KISS](#KISS)
+- [Occam's razor](#Occam's-razor)
+- [Premature optimization](#Premature-optimization)
+- [Refactor](#Refactor)
+- [Separation of Concerns](#Separation-of-Concerns)
+- [SOLID](#SOLID)
+- [Testing](#Testing)
+- [YAGNI](#YAGNI)
+
+
+## [Clean and readable code]()
+
+Clean and readable code is always better than clever code (ask any engineer who has to extend or maintain a _clever_ piece of code!)
+
+
+## [Code reviews]()
+
+It should only contain helpful and constructive comments and / or implementation questions. Not there to caress egos (that's for your mother to do!!)
+
+## [Coding standards]() 
+
+(provide a template of core standards then stand back and let the team thrash out the rest - wear protection!)
+
+
+## [Composition over inheritance]()
+
+(avoid class tree exploitation! - think Strategy pattern - GoF)
+
+
+## [Defensive coding]()
+
+(guard against invalid class method parameters and accidental null assignment to class properties instead of an equality condition!)
+
+Examples:
+
+```csharp
+class User(string firstnaame, string lastname, int age) 
+{
+    if (null == firstname) 
+    {
+        throw new NullReferenceException($"Firstname cannot be null")
+    }
+...
+```
+
+The above demonstrator to approaches to defensive coding.  The first is that, we need to test for valid values when instantiating a class.
+
+The second, if to avoid mistakes that might not be picked up by your compiler.  For instance, a common mistake doing this:
+
+```csharp
+if (firstname = null)
+```
+
+The compiler is more than happy allowing this above, as after all, it's an assignment and not a condition check as in above in the class constructor.  By switching these around, you inherently avoid make ever again making this silly mistake.
+
+## [Do no more]()
+
+..., do no less (thank you XP!  _eXtreme Programming_)
+
+
+## [DRY]()
+
+(don't repeat yourself)
+
+Code analysis tools help there but you're not always going to have access to these tools.
+
+One way to help identify code that does the same thing is by refactoring.  If you keep your code method frame small (~20 lines), and you have a good naming standard for methods etc then this should be all you need to help you writing duplicate code.
+
+
+## [KISS]()
+
+(keep it simple, silly)
+
+This to a certain extent, goes hand in hand with avoiding premature optimization.  We all like the big picture but that doesn't mean we need to do deliver on this big picture right now! You just need to know the boundary of this piece which if greenfield you won't have any metrics to tell you demand.  Think Capacity planning; what this piece of work needs to do based on current expectations. For example
+
+```
+Do we need multiple servers?  
+Why do we need multiple servers? 
+Do you have metrics to support this? 
+No?! Right, next!
+```
+
+A colleague recently shared with me their architecture of a side project. They are using AWS and I have 2 certifications in AWS (Developer and Solutions Architect).  I rapidly went into HA/Scaling/DR overdrive and rapidly did a verbal dump on what tech they should be use.  This was all wrong - for their immediate requirement as they did not know demand - which would have added to their cost; unnecessarily.  I did, shortly after, re-affirm their decision (may have made 1 or 2 helpful minor suggestions).  Yeah, think big but don't deliver big without a customer base; huge waste of time, effort and money.
+
+## [Occam's Razor]()
+
+This is a problem-solving principle.
+
+The definition of this is:  "Entities should not be multiplied without necessity".  It is sometimes paraphrased by a statement like "the simplest solution is most likely the right one.
+
+Occam's razor says that when presented with competing hypotheses that make the same predictions, one should select the solution with the fewest assumptions.  Good advice
+
+Suppose there are two competing theories on why something is not working.  Normally, the case that requires the least amount of assumptions is correct. So, the more assumptions you have to make means it more likely to be more unlikely.
+
+
+## [Premature optimization]()
+
+Avoid premature optimization (futile task until you've metrics to better inform you)
+
+I've hit his numerous times when planning microservices and bounded contexts, in particular, on green-field projects.  What should we include and where?  Should we separate permissions away from users for instance?  Who knows?!  You don't until you have some metrics behind you.  You can always merge microservices later.    
+
+Another area that I believe this encompasses is splitting code across multiple files and folders.  If it's a PoC or it's a sample piece of code, just keep it in one file.  When it's the right time - moving out of PoC - then you should consider optimizing it.  Up until then, it's a huge waste of time and effort.
+
+Architecture is a great example of when not to prematurely optimize.  Architecture normally means cost.  The more of something, to greater the cost.  This could mean the difference between survival and total collapse startup!  Adopting a guiding principle of being frugal at the outset, means you're always looking for the most cost-effective way of accomplishing your goal.  So, if you don't know your demand, it means you opt for a single server instead of having a HA cluster of 3 master nodes and 5 worker nodes!  Down from 8 servers to 1 which on a month by month basis during development and beta/early releases could mean the saving of thousands of pounds sterling.  
+
+I've come across many startup organisations that have failed just because they ran out of funds early on.  It's a real shame for all involved.
+
+## [Refactor]()
+
+...refactor refactor
+
+Don't save up until the end of a piece of work ... you'll bound to miss something!
+
+TDD, DRY
+
+## [Separation of Concerns]()
+
+(think MVC, CQRS, bounded context, etc...)
+
+It's all about doing the right this in the right place!  I recently ran and engineered a project that involved our own hosted solution, solution hosted on Azure and a solution hosted on the Twilio Cloud (Serverless).  Originally, the requirements did not include the Twilio Cloud and would have required a ton of additional efforts if we'd stuck this brief.  Thankfully, I chose to take full advantage of what the Twilio has to offer and used a combination of Twilio Flow and Twilio Serverless functions.  This identification of the SoCs meant:
+
+- an less stressful implementation
+- minor changes to our own hosted solutions
+- a huge amount of fun working with Serverless (has been my favourite and advocated approach for several years!)
+- a huge saving of time.
+- gave use a range of options when dealing with specific edge and corner cases which, again, gave us a further time saving 
+
+
+## [SOLID]()
+
+SOLID principles (SRP, OCP, etc...)
+
+
+## [Testing]()
+
+(unit/functional, and proficient with concepts like TDD & BDD)
+
+Requires a detailed spec and test cases.
+
+Reduction in verbose code, rapid development, succint (do no more, no less than is required)
+
+
+## [YAGNI]()
+
+(you ain't going to need it) 
+
+Do no more, and no less than is required.  You do not 
+
+
+
+As a Principal Engineer, I consider the above as the foundation to writing quality code.  The objective of this list, in conjunction with the message I propagate via this list, during discussions, evidence from my own work and by leading from the front  within my role, is one of reminder to me and my colleagues of best practice and commitment to quality and good practice. As with all foundations, it forms the base from which more advanced concepts or approaches can be learned.  An important part of this practice is heuristic - enabling a person to discover or learn something by themselves.  So, how do I go about doing this?
 
 These are some of the activities I execute to embed good engineering principles:
 
@@ -48,3 +195,11 @@ I'm sure I'm not alone here when I say, having the time available for 2 Engineer
 _What is the answer? A mixture of all the above, at hock and as scheduled times, to ensure quality and advancement of skills._
 
 When I do speak out regarding the above, I inevitably also lead this conversation into Engineering not having the kit [hardware & software] they need.  Engineers require the software and hardware they deem as necessary to be effective in their role.  I once gave an analogy of, not giving Engineers the right kit is like giving a roller brush and a Pogo stick to Michelangelo to paint the Sistine Chapel ceiling.  He'll manage it ... eventually, but the attention to detail and accuracy will be woefully inadequate.
+
+#### References:
+
+- [The pragmatic programmer](https://pragprog.com/the-pragmatic-programmer/extracts/tips)
+
+- [YAGNI](https://martinfowler.com/bliki/Yagni.html)
+
+- [XP](https://www.agilealliance.org/glossary/xp)
