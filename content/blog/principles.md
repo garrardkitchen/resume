@@ -302,6 +302,9 @@ Definnition: "_Let q(x) be a property provable about objects of x of type T. The
 
 All this is stating is that every subclass/derived class should be substitutable for their base/parent class.
 
+```csharp
+```
+
 ### Interface segregation
 
 A client should never be forced to implement an interface that it doesn't use or clients shouldn't be forced to depend on methods they do not use.
@@ -334,11 +337,78 @@ public interface IClaim
 
 ### Dependency Inversion
 
-Entities must depend on abstractions, not on concretions. It states that the high level module must not depend on the low level module, but they should depend on abstractions.
+There are 2 rules here:
+- High-level modules should not depend on low-level modules. Both should depend on abstractions.
+- Abstractions should not depend upon details. Details should depend upon abstractions.
 
-Example:
+Let's deal with the first rule first.  High-level means policy, business logic and the bigger picture.  Lower-level means, closure to the bare metal (think I/O, networking, Db, storage, UI, etc...).  Lower-level tend to change more frequently too.
+
+
+These example shows perfectly the before and after of move too a 'depend on abstraction':
+
 ```csharp
+public class BusinessRule 
+{
+    private DbContext _context;    
+    public BusinessRule() 
+    {
+        _context = new DbContext();
+    }
+    public Rule GetRule(string ruleName) 
+    {
+        _context.GetRuleByName(ruleName);
+    }
+}
+
+public class DbContext 
+{     
+    public DbContext() 
+    {        
+    }
+    public Rule GetRuleByName(string name) 
+    {
+        return new Rule(new {Name = "Allow All The Things", Allow = false})
+    }
+}
+
 ```
+
+After changing to an abstraction:
+
+```csharp
+public interface IDbContext 
+{
+    Rule GetRuleByName(string name);
+}
+
+public class BusinessRule 
+{
+    private IDbContext _context;    
+    public BusinessRule(IDbContext context) 
+    {
+        _context = context;
+    }
+    public Rule GetRule(string ruleName) 
+    {
+        _context.GetRuleByName(ruleName);
+    }
+}
+
+public class DbContext : IDbContext
+{     
+    public DbContext() 
+    {        
+    }
+    public Rule GetRuleByName(string name) 
+    {
+        return new Rule(new {Name = "Allow All The Things", Allow = false})
+    }
+}
+
+```
+With the above change, the DbContext can be any class as long as it inherits from the IDbContext interface and has a method with signature of Rule GetRuleByName(string name).
+
+The above is demonstrative of the 2nd rule; do not depend on the detail. As you can see, in the example above, we're depending on an interface method contract and the actual implementational detail is being dealt with by the Lower-level class.
 
 ---
 
