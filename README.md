@@ -6,6 +6,18 @@ ref: https://gohugo.io/hosting-and-deployment/hosting-on-github/
 
 Edit the resume repo, commit and push regularly.
 
+#### To run locally
+
+```
+hugo server
+```
+
+Navigate to: http://localhost:1313/
+
+##### Useful links
+
+- https://gohugo.io/getting-started/quick-start/
+
 #### To deploy
 
 Run bash terminal
