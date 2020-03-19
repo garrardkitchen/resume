@@ -76,7 +76,9 @@ A .NET Compiler is more than happy allowing this above syntax, as after all, it'
 
 ## [Do no more]()
 
-(and do no less - thank you _eXtreme Programming_!)
+(and do no less - thank you _eXtreme Programming_!).
+
+If you code outside of the scope, you're in danger of creating code that isn't used.  The worse thing about this is that others will have to maintain this code.  How can this be?  Well, it's common - think HTTP chaining - for code not to be culled especially if there is a disconnect between these dependencies and there's no IDE/compiler to eluminate/shout at you.
 
 ## [DRY]()
 
@@ -222,7 +224,77 @@ Here are benefits of principles:
 
 ### OCP (open-closed)
 
-Objects or entities should be open for extension, but closed for modification.
+Objects or entities should be open for extension, but closed for modification.  So, what does this mean?  Let's break this down to two statements:
+- Open for extension
+- Closed for modification
+
+#### Open for extension:
+
+This means that we need to design our classes in such a way that it's new responsibilities or functionalities should be added easily when new requirements come.
+
+One technique for implementing new functionality is by creating new derived classes.  These are to inherit from base classes.  Another approach is to allow the 'client' to access the original class with an abstract interface.  I sometimes see this as removing if statements.  Not sure everybody would agree with this assessment though.
+
+So, in short, if there's a change in requirement or any new requirements, instead of touching the existing functionality, it is better to create new derived classes and leave the original class implementation.  Well, that's the advice!  I worry about class explosion and if you're attempting to do this on top of not so perfect code! 
+
+#### Closed modification:
+
+This is very easy to explain...only make modifications to code if there's a bug.
+
+This sample looks at delegating method logic to derived classes.
+
+```csharp
+
+public class Order 
+{
+    public double GetOrderDiscount(double price, ProductType productType) 
+    {
+        double newPrice = 0;
+        if (productType == ProductType.Food) 
+        {
+            newPrice = price - 0.1;
+        } 
+        else if (productType == ProductType.Hardware) 
+        {
+            newPrice = price - 0.5;
+        }
+        return newPrice;
+    }
+}
+
+public enum ProductType 
+{
+    Food,
+    Hardward
+}
+```
+
+Can rewrite, still using base implementation (think decorator pattern):
+
+```csharp
+public class Order 
+{
+    public virtual double GetOrderDiscount(double price) 
+    {
+        return price;
+    }
+}
+
+public class FoodOrder : Order 
+{
+    public override double GetOrderDiscount(double price) 
+    {
+        return base.GetOrderDiscount(price) - 0.1;
+    }
+}
+
+public class HardwareOrder : Order 
+{
+    public override double GetOrderDiscount(double price) 
+    {
+        return base.GetOrderDiscount(price) - 0.5;
+    }
+}
+```
 
 ### Liskov
 
@@ -262,7 +334,7 @@ public interface IClaim
 
 ### Dependency Inversion
 
-Entities must depend on abstractions not on concretions. It states that the high level module must not depend on the low level module, but they should depend on abstractions.
+Entities must depend on abstractions, not on concretions. It states that the high level module must not depend on the low level module, but they should depend on abstractions.
 
 Example:
 ```csharp

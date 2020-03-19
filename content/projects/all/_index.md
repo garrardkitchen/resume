@@ -9,7 +9,7 @@ This section lists my experience from some of the projects and initiatives I hav
 
 - I have delivered brown bags on AWS serverless services and Google serverless options (*Cloud Functions & Cloud Run Knative, deployed via GitHub Actions*)
 - I have delivered a brown bag on Microservices Architecture
-- I have delivered a Town Hall, show-casing a solution that used Twilio Serverless Functions, Twilio Flow, GitHub Actions and other cloud based services.  This presentation included a slide deck encompassing guiding principles, architecture, the technology used culminated with live demo  
+- I have delivered a Town Hall, show-casing a solution that uses Twilio Serverless Functions, Twilio Flow, GitHub Actions and other cloud-based services.  This presentation included a slide deck encompassing guiding principles, architecture, the technology used, culminated with a live demo  
 - I have helped maintain enterprise Twilio CRM using angular 1.x and supporting HTTP API microservices hosted & load balanced in docker Swarm
 - I worked on a Pilot project that assessed both Google and Azure Cloud services. Some of this work, especially story spikes, required pair programming
 - I have created a solution that subscribed to Azure Event Grid and Azure Service Bus (*topics & queues*) and used Azure SignalR Service to update a UI hosted on AKS
