@@ -309,7 +309,7 @@ Definnition: "_Let q(x) be a property provable about objects of x of type T. The
 
 All this is stating is that every subclass/derived class should be substitutable for their base/parent class.
 
-The example below demonstrates a violation of the Liskov principle, as by replacing the parent class (SumEvenNumbersOnly->Calculator), this does compromise the integrity of the derived class as the higher-order class is not replaced by the derived class.  Here, both `cal` and `eventsOnly` variables will be the same: 
+The example below demonstrates a violation of the **Liskov principle**, as by replacing the parent class (SumEvenNumbersOnly->Calculator), this does compromise the integrity of the **derived class** as the **higher-order class** is not replaced by the **derived class**.  Here, both `cal` and `eventsOnly` variables will be the same: 
 ```csharp
 ...
 var nums = new int[] {1, 2, 3, 4, 5, 6, 7};
@@ -338,7 +338,7 @@ public class SumEvenNumbersOnly : Calculator
 }
 ```
 
-Here we have changed the assumed base class to an abstract class. Now, it can't be instantiated and instead, must be inherited.  This ensures the derived classes must implemented the method detail. So, even if we replace the type declaration with the higher order class, we should still get the intended result:
+Here we have changed the assumed base class to an **abstract class**. Now, it can't be instantiated and instead, must be inherited.  This ensures the **derived classes** must implemented the method detail. So, even if we replace the type declaration with the **higher-order** class, we should still get the intended result:
 
 ```csharp
 ...
@@ -508,7 +508,7 @@ Tests aren't just for new functionality either.  If you changed extant functiona
 
 (you ain't going to need it) 
 
-Do no more, and no less than is required.  You do not want to have to maintain code that is never used or produce code that others have to maintain unwittingly. It's very difficult to future proof your code if you do not know what's going to happen, let alone without a specification!  It's a guess at best so don't waste your time or others.  Keeps things concise, succint and easy.
+Do no more, and no less than is required.  You do not want to have to maintain code that is never used or produce code that others have to maintain unwittingly. It's very difficult to future proof your code if you do not know what's going to happen, let alone without a specification!  It's a guess at best so don't waste your time or others.  Keeps things concise, succint and simple.
 
 ---
 
