@@ -310,6 +310,38 @@ Definnition: "_Let q(x) be a property provable about objects of x of type T. The
 All this is stating is that every subclass/derived class should be substitutable for their base/parent class.
 
 ```csharp
+...
+var nums = new int[] {1, 2, 3, 4, 5, 6, 7};
+Calculator cal = new SumAllNumbersOnly(nums);
+Calculator cal2 = new SumEvenNumbersOnly(nums);
+... 
+public abstract class Calculator
+{
+    protected IEnumerable<int> _num;
+
+    protected Calculator(IEnumerable<int> num)
+    {
+        _num = num;
+    }
+
+    public abstract int Sum();
+}
+
+public class SumAllNumbersOnly : Calculator
+{
+    public SumAllNumbersOnly(IEnumerable<int> num) : base(num)
+    {
+    }
+    public override int Sum() => _num.Sum();
+}
+
+public class SumEvenNumbersOnly : Calculator
+{
+    public SumEvenNumbersOnly(IEnumerable<int> num) : base(num)
+    {
+    }
+    public override int Sum() => _num.Where(x => x % 2 == 0).Sum();
+}
 ```
 
 ### Interface segregation
