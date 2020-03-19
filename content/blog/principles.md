@@ -47,13 +47,13 @@ It should only contain helpful and constructive comments and / or implementation
 
 (provide a template of core standards then stand back and let the team thrash out the rest - wear protection!)
 
-Although important, it's not the end of the world if some of the granular details differ between teams.  The important thing here in my opinion is that each team know where to find their cheese.  Most engineers in a team have a common set of standards they adhere too.  The big things like solution structure, naming convensions, testing (AAA, GWT), pluralization, documentation structure (including README) all need to be consistent.
+Although important, it's not the end of the world if some of the granular details differ between teams.  The important thing here in my opinion is that each team know where to find their cheese.  Most engineers in a team have a common set of standards they adhere too.  The big things like solution structure, naming convensions, testing (**AAA**, **GWT**), pluralization, documentation structure (including README) all need to be consistent.
 
 ## [Composition over inheritance]()
 
-(avoid class tree exploitation! - think Strategy pattern - GoF)
+(avoid class tree exploitation! - think **Strategy pattern** - GoF)
 
-The above bracketed statement say's it all!  Inheritance tends to back you into a corner especially when you consider the OCP.
+The above bracketed statement say's it all!  **Inheritance** tends to back you into a corner especially when you consider the **OCP**.
 
 ## [Defensive coding]()
 
@@ -66,7 +66,7 @@ class User(string firstnaame, string lastname, int age)
 {
     if (null == firstname) 
     {
-        throw new NullReferenceException($"Firstname cannot be null")
+        throw new NullReferenceException("Firstname cannot be null")
     }
 ...
 ```
@@ -85,22 +85,22 @@ A .NET Compiler is more than happy allowing this above syntax, as after all, it'
 
 (and do no less - thank you _eXtreme Programming_!).
 
-If you code outside of the scope, you're in danger of creating code that isn't used.  The worse thing about this is that others will have to maintain this code.  How can this be?  Well, it's common - think HTTP chaining - for code not to be culled especially if there is a disconnect between these dependencies and there's no IDE/compiler to eluminate/shout at you.
+If you code outside the scope, you're in danger of creating code that isn't used or needed.  The worse thing about this is that others will have to maintain this code.  How can this be?  Well, it's common - think **HTTP chaining** - for code not to be culled especially if there is a disconnect between these dependencies and there's no IDE/compiler to shout at you.
 
 ## [DRY]()
 
 (don't repeat yourself)
 
-Code analysis tools help there but you're not always going to have access to these tools.
+**Code analysis** tools help there but you're not always going to have access to these tools.
 
-One way to help identify code that does the same thing is by refactoring.  If you keep your code method frame small (~20 lines), and you have a good naming standard for methods, etc then this should be all you need to help you writing duplicate code.
+One way to help identify code that does the same thing is by **refactoring**.  If you keep your code method frame small (~20 lines), and you have a good naming standard for methods, etc then this should be all you need to help you writing duplicate code.
 
 
 ## [KISS]()
 
 (keep it simple, silly)
 
-This to a certain extent, goes hand in hand with avoiding premature optimization.  We all like the big picture but that doesn't mean we need to do deliver on this big picture right now! You just need to know the boundary of this piece which if greenfield you won't have any metrics to tell you demand.  Think Capacity planning; what this piece of work needs to do based on current expectations. For example
+This to a certain extent, goes hand in hand with avoiding **premature optimization**.  We all like the big picture but that doesn't mean we need to do deliver on this big picture right now! You just need to know the boundary of this piece which if greenfield you won't have any metrics to tell you demand.  Think Capacity planning; what this piece of work needs to do based on current expectations. For example
 
 ```
 Do we need multiple servers?  
@@ -109,7 +109,7 @@ Do you have metrics to support this?
 No?! Right, next!
 ```
 
-A colleague recently shared with me their architecture of a side project. They are using AWS and I have 2 certifications in AWS (Developer and Solutions Architect).  I rapidly went into HA/Scaling/DR overdrive and rapidly did a verbal dump on what tech they should be use.  This was all wrong - for their immediate requirement as they did not know demand - which would have added to their cost; unnecessarily.  I did, shortly after, re-affirm their decision (may have made 1 or 2 helpful minor suggestions).  Yeah, think big but don't deliver big without a customer base; huge waste of time, effort and money.
+A colleague recently shared with me their architecture of a side project. They are using AWS and I have 2 **certifications** in AWS (Developer and **Solutions Architect**).  I rapidly went into **HA**/**Scaling**/**DR** overdrive and rapidly did a verbal dump on what tech they should be use.  This was all wrong - for their immediate requirement as they did not know demand - which would have added to their cost; unnecessarily.  I did, shortly after, re-affirm their decision (may have made 1 or 2 helpful minor suggestions).  Yeah, think big but don't deliver big without a customer base; huge waste of time, effort and money.
 
 ## [Occam's Razor]()
 
@@ -117,16 +117,16 @@ This is a problem-solving principle.
 
 The definition of this is:  "Entities should not be multiplied without necessity".  It is sometimes paraphrased by a statement like "the simplest solution is most likely the right one.
 
-Occam's razor says that when presented with competing hypotheses that make the same predictions, one should select the solution with the fewest assumptions.  Good advice
+**Occam's razor** says that when presented with competing hypotheses that make the same predictions, one should select the solution with the fewest assumptions.  Good advice
 
 Suppose there are two competing theories on why something is not working.  Normally, the case that requires the least amount of assumptions is correct. So, the more assumptions you have to make means it more likely to be more unlikely.
 
 
 ## [Premature optimization]()
 
-Avoid premature optimization and all conversations relating to optimization until you know the facts.  This will be futile until you've metrics to better inform you.
+Avoid premature optimization and all conversations relating to optimization until you know the facts.  This will be futile until you've **metrics** to better inform you.
 
-I've hit this numerous times when planning for microservices and bounded contexts, in particular, on green-field projects.  What should we include and where?  Should we separate claims away from users for instance?  Will the demand for Claims be greater than for users?  Who knows?!  You don't until you have some metrics behind you.  You can always merge or break them [microservices] up later.    
+I've hit this numerous times when planning for **microservices** and bounded contexts, in particular, on green-field projects.  What should we include and where?  Should we separate claims away from users for instance?  Will the demand for Claims be greater than for users?  Who knows?!  You don't until you have some **metrics** behind you.  You can always merge or break them [**microservices**] up later.    
 
 Another area that I believe this encompasses is splitting code up across multiple files and folders.  If it's a PoC, a sample piece of code, or some thing that has a short shelf life, just keep it in one file.  When it's the right time - moving out of PoC/other - then you can consider optimizing it.  Up until then, it's a huge waste of time and effort.
 
