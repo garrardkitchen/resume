@@ -1,7 +1,7 @@
 ---
 title: "Good Engineering - Leadership"
 date: 2020-03-04T11:49:14+01:00
-draft: false
+draft: true
 featured: false
 tags: [Hugo, blogging, good engineering, practices, leadership, management]
 ---

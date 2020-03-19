@@ -1,7 +1,7 @@
 ---
 title: "Good Engineering - Culture and collaboration"
-date: 2020-01-27T11:49:14+01:00
-draft: false
+date: 2022-01-27T11:49:14+01:00
+draft: true
 featured: false
 tags: [Hugo, blogging, good engineering, culture, collaboration]
 ---

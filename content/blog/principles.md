@@ -2,7 +2,7 @@
 title: "Good Engineering - Principles"
 date: 2020-01-27T11:49:14+01:00
 draft: false
-featured: false
+featured: true
 tags: [Hugo, blogging, good engineering, principles]
 ---
 
@@ -12,21 +12,21 @@ Here's a list of concepts that for me, constitute good engineering principles:
 
 _These are in alphabetical order and not in order of importance_
 
-- [Clean and readable code](#Clean-and-readable-code)
-- [Code reviews](#Code-reviews)
-- [Coding standards](#Coding-standards)
-- [Composition over inheritance](#Composition-over-inheritance)
-- [Defensive coding](#Defensive-coding)
-- [Do no more](#Do-no-more)
-- [DRY](#DRY)
-- [KISS](#KISS)
-- [Occam's razor](#Occam's-razor)
-- [Premature optimization](#Premature-optimization)
-- [Refactor](#Refactor)
-- [Separation of Concerns](#Separation-of-Concerns)
-- [SOLID](#SOLID)
-- [Testing](#Testing)
-- [YAGNI](#YAGNI)
+- [Clean and readable code](#clean-and-readable-code)
+- [Code reviews](#code-reviews)
+- [Coding standards](#coding-standards)
+- [Composition over inheritance](#composition-over-inheritance)
+- [Defensive coding](#defensive-coding)
+- [Do no more](#do-no-more)
+- [DRY](#dry)
+- [KISS](#kiss)
+- [Occam's razor](#occam's-razor)
+- [Premature optimization](#premature-optimization)
+- [Refactor](#refactor)
+- [Separation of Concerns](#separation-of-concerns)
+- [SOLID](#solid)
+- [Testing](#testing)
+- [YAGNI](#yagni)
 
 
 ## [Clean and readable code]()
@@ -100,16 +100,16 @@ One way to help identify code that does the same thing is by **refactoring**.  I
 
 (keep it simple, silly)
 
-This to a certain extent, goes hand in hand with avoiding **premature optimization**.  We all like the big picture but that doesn't mean we need to do deliver on this big picture right now! You just need to know the boundary of this piece which if greenfield you won't have any metrics to tell you demand.  Think Capacity planning; what this piece of work needs to do based on current expectations. For example
+This to a certain extent, goes hand in hand with avoiding **premature optimization**.  We all like the big picture  yes? This doesn't mean we need to do deliver on this it right now! You just need to know the boundaries of this piece, which, if greenfield, then you won't have any metrics to tell you the actual demand.  Think Capacity planning; what this piece of work needs to do based on current expectations. For example
 
-```
-Do we need multiple servers?  
-Why do we need multiple servers? 
-Do you have metrics to support this? 
-No?! Right, next!
-```
 
-A colleague recently shared with me their architecture of a side project. They are using AWS and I have 2 **certifications** in AWS (Developer and **Solutions Architect**).  I rapidly went into **HA**/**Scaling**/**DR** overdrive and rapidly did a verbal dump on what tech they should use.  This was all wrong - for their immediate requirement as they did not know demand - which would have added to their cost; unnecessarily.  I did, shortly after, re-affirm their decision (may have made 1 or 2 helpful minor suggestions).  Yeah, think big but don't deliver big without a customer base; huge waste of time, effort and money.
+    Do we need multiple servers? Yes, I think 
+    Why do we need multiple servers?  Mmmmm, because I read it somewhere
+    Do you have the metrics that support your argument for multiple servers? Wait, what?
+    Next!
+
+
+A colleague recently shared with me the architecture of their side project. They are using AWS and I have 2 **certifications** in AWS (Developer and **Solutions Architect**).  I rapidly went into **HA**/**Scaling**/**DR** overdrive and rapidly did a verbal dump on what tech they should use.  This was all wrong - they did not know their service demand.  This will have added to their cost; unnecessarily.  I did, shortly after, re-affirm their decision (may have made 1 or 2 helpful minor suggestions).  Yeah, think big but don't deliver big without a customer base; huge waste of time, effort and money.
 
 ## [Occam's Razor]()
 
@@ -138,7 +138,7 @@ Sadly, I've come across a few startup that have failed just because they ran out
 
 ...refactor refactor
 
-Don't save up this until the end of a piece of work ... you're bound to miss something and possibly add to your team's tech debt.  Plus, if it's a commit to a draft **PR**, you'll get your _ass_ chewed by your peers!
+Don't save this until the end of a piece of work ... you're bound to miss something and possibly add to your team's tech debt.  Plus, if you push your commits to a **PR**, you'll get your _ass_ handed to you by your peers!
 
 Things to consider here are **DRY** and **TDD**.  Both will nudge you towards a proper refactoring effort.
 
@@ -146,19 +146,24 @@ Things to consider here are **DRY** and **TDD**.  Both will nudge you towards a 
 
 (think **MVC**, **CQRS**, **bounded context**, etc...)
 
-It's all about doing the right this in the right place!  I recently ran, architected and co-developed a project that involved our own hosted solution, a solution hosted on **Azure** and a solution hosted on the **Twilio Cloud** (**Serverless**).  Originally, the requirements did not include the **Twilio Cloud** and would have required a bucket load more effort if we'd stuck with that brief.  Thankfully, I chose to take full advantage of what **Twilio** has to offer and used a combination of **Twilio Flow** and **Twilio Serverless Functions**.  By establishing these SoCs meant:
+It's all about doing the right this in the right place!  I recently ran, architected and co-developed a project that involved our own hosted solution, a solution hosted on **Azure** and a solution hosted on the **Twilio Cloud** (**Twilio Serverless Functions**).  Originally, the requirements did not include the **Twilio Cloud** and would have required a bucket load more effort if we'd stuck with that brief.  Thankfully, I chose to take full advantage of what **Twilio** has to offer and used a combination of **Twilio Flow** and **Twilio Serverless Functions**.  By establishing these SoCs it meant:
 
 - a less stressful implementation
 - a light touch to our own hosted solutions
-- a huge amount of fun working with **Serverless** (has been my favourite and advocated approach for several years!)
-- a huge saving of time
-- made available a greater range of options when dealing with specific edge and corner cases which, again, gave us a further time saving 
+- a satisfying amount of fun working with **Serverless** (has been my favourite and advocated approach for several years!)
+- a time saving
+- it revealed a range of options when dealing with specific edge and corner cases which, again, giving us a further time savings.
 
 ## [SOLID]()
 
 These are the SOLID principles:
+- [Single Responsibility Principle](#single-responsibility-principle)
+- [Open Closed Principle](#open-closed-principle)
+- [Liskov Principle](#liskov-principle)
+- [Interface Segregation Principle](#interface-segregation-principle)
+- [Dependency Inversion Principle](#dependency-inversion-principle)
 
-### SRP (single responsibility)
+### [Single Responsibility Principle]()
 
 A class (no method) should have one and only one reason to change, meaning that a class (or method) should have only one job.
 
@@ -229,7 +234,7 @@ Here are the benefits of principles:
 - Easier to test
 - Reduces coupling by removing dependency between methods
 
-### OCP (open-closed)
+### [Open Closed Principle]()
 
 Objects or entities should be open for extension, but closed for modification.  So, what does this mean?  Let's break this down to two statements:
 - Open for extension
@@ -250,7 +255,6 @@ This is very easy to explain...only make modifications to code if there's a bug.
 This sample looks at delegating method logic to derived classes.
 
 ```csharp
-
 public class Order 
 {
     public double GetOrderDiscount(double price, ProductType productType) 
@@ -303,7 +307,7 @@ public class HardwareOrder : Order
 }
 ```
 
-### Liskov
+### [Liskov Principle]()
 
 Definition: "_Let q(x) be a property provable about objects of x of type T. Then q(y) should be provable for objects y of type S where S is a subtype of T._" ... clear as mud right?
 
@@ -375,7 +379,7 @@ public class SumEvenNumbersOnly : Calculator
 }
 ```
 
-### Interface segregation
+### [Interface Segregation Principle]()
 
 A client should never be forced to implement an interface that it doesn't use or clients shouldn't be forced to depend on methods they do not use.
 
@@ -405,7 +409,7 @@ public interface IClaim
 }
 ```
 
-### Dependency Inversion
+### [Dependency Inversion Principle]()
 
 There are 2 rules here:
 - High-level modules should not depend on lower-level modules. Both should depend on abstractions.
@@ -484,9 +488,11 @@ The above example includes **Dependency Injection**.  Although you can accomplis
 
 ---
 
+#### My pattern discovery
+
 I'm a huge fan of **patterns**, especially **cloud architectural patterns** but sometimes, they add unnecessary complicity so beware!
 
-When I first started learning about patterns - some 18 years ago - I went through a few code bases I was involved with at the time to see if I'd subconsciously been repeatedly using a pattern ... and I had been!  It was the **lazy loading** pattern...which I continue to use regularly today!
+When I first started learning about patterns - some 18 years ago - I went through a few codebases I was involved with at the time to see if I'd subconsciously been repeatedly using a pattern ... and I had!  It was the **lazy loading** pattern...which I continue to use regularly today!
 
 ## [Testing]()
 
@@ -494,15 +500,15 @@ When I first started learning about patterns - some 18 years ago - I went throug
 
 For testing to be a success, the details are key.  These details will come in the form of a specification or from a verbal conversation (always to be confirm in writing later).  If you're lucky, these test cases will be included as **ACs** (**Acceptance Criteria**) in the **Scrum Story Description**.
 
-Driving your development from a test-driven approach ofter results in:
+Taking a **test driven development** approach to writing code often results in:
 
-- Reduction in verbose code
+- a reduction in verbose code
 - less post-deploy bug fixing
-- succinct (do no more, no less than is required).
+- succinct (do no more, no less than is required) structure and logic.
 
 Testing is important.  Obviously!  I often refer to testing as 'having your back'.  It ensures you don't break existing functionality when implementing new functionality or dealing with **tech debt**.  It also protects new engineers from breaking things as well as extant engineers who may have touched this repository many times before.
 
-Tests aren't just for new functionality either.  If you changed extant functionality or responsibility you must modify extant tests or create new tests.  Ideally, your **CI** build pipeline should run tests every time time a commit(s) is pushed to a **PR** or **Draft PR**.  This last step is there to again have your back and to safeguard against erroneous code getting into production.
+Tests aren't just for new functionality either.  If you change extant functionality or class responsibilities you must modify extant tests or create new tests.  Ideally, your **CI** build pipeline should run tests every time time a commit(s) is pushed to a **PR** or **Draft PR**.  This last step is there to again have your back and to safeguard against erroneous code getting into production.
 
 ## [YAGNI]()
 
@@ -511,6 +517,8 @@ Tests aren't just for new functionality either.  If you changed extant functiona
 Do no more, and no less than is required.  You do not want to have to maintain code that is never used or produce code that others have to maintain unwittingly. It's very difficult to future proof your code if you do not know what's going to happen, let alone without a specification!  It's a guess at best so don't waste your time or others.  Keeps things concise, succinct and simple.
 
 ---
+
+### Being a Principle Engineer
 
 As a Principal Engineer, I consider the above as the foundation for writing quality code.  The objective of this list, in conjunction with the message I propagate via this list, during discussions, evidence from my own work and by leading from the front within my role, is one of a reminder to me and my colleagues of best practice and commitment to quality and good practice. As with all foundations, it forms the base from which more advanced concepts or approaches can be learned.  An important part of this practice is heuristic - enabling a person to discover or learn something by themselves.  So, how do I go about doing this?
 
@@ -527,7 +535,7 @@ These are some of the activities I execute to embed good engineering principles:
 - Share blog posts & other materials across multiple channels
 - Compile a learning profile for an individual
 
-The coding advice/tips above are interesting ones. As professionals, we always want to improve our ability to code etc and in doing so we want our colleagues to benefit from our knowledge too.  I recently became reacquainted with coding katas.  As a black belt in Ju-Jitsu I am well versed in what a kata is.  Katas can also be used to remind, stretch and improve our core coding capability.  The last time I used a kata in programming was 10+ years ago. This was when I was first introduced to TDD.  A favourite development book of mine is **'The Art of Unit Testing'** by Roy Osherove. It was the first edition.  For many years I had it as a click-thru purchase option on a previous site of mine. I've not really participated in many katas since.  I have written a few though and now having been reintroduced to them and their potential, as a Principal Engineer I can see it as an invaluable tool for both providing the framework to assess an Engineer's current capability and as an aid to building an Engineer's skills when used with **pair programming**.
+The coding advice/tips above are interesting ones. As professionals, we always want to improve our ability to code etc and in doing so we want our colleagues to benefit from our knowledge too.  I recently became reacquainted with coding katas.  As a black belt in Ju-Jitsu I am well versed in what a kata is.  Katas can also be used to remind, stretch and improve our core coding capability.  The last time I used a kata in programming was 10+ years ago. This was when I was first introduced to TDD.  A favourite development book of mine is **'The Art of Unit Testing'** by Roy Osherove. It was the first edition.  For many years I had it as a click-thru purchase option on a previous site of mine. I've not really participated in many katas since.  I have written a few though and now having been reintroduced to them and reminded of their potential, as a Principal Engineer I can see it as an invaluable tool for both providing the framework to assess an Engineer's current capability and as an aid to building an Engineer's skill when used with **pair programming**.
 
 **Pair programming** is a wonderful technique for propagating skills.  Quite often, I find I only participate in pair programming is one of two use cases.  (1) if the subject I'm investigating is new (important to have shared knowledge) and (2) when I'm helping an Engineer to overcome an esoteric issue.  You know what they say? ...a problem shared is a problem halved!  However, now, I'll be including **Pair Programming** as part of my techniques to stretch the Engineer's muscle memory (including mine!).  
 
@@ -535,9 +543,11 @@ _Discussion point ..._
 
 I'm sure I'm not alone here when I say, having the time available for 2 Engineers to code together for skills transfer etc is a challenging one.  An agile sprint doesn't really facilitate this.  This is something that I often refer to as having the 'space to learn'.  The pressures of a sprint often, sadly, works against this.  This is doubly as difficult, if your sprint is made up of technical debt, BAU, Ad hoc etc...  Timeboxing 'effort' into percentages doesn't always present an obvious education path for your Engineers either.  Having a day (developer day or similar) dedicated to learning also never really quite works out the way it's meant too, plus, 'a day'?!  In my experience this, and trying to cram _genius_ into a time box also never quite works either.  After all, you can't schedule _genius_, in the same way you can't guarantee that the best Engineers are in your locality, or that the best time for Engineers to work is between 9-5. 
 
-_What is the answer? A mixture of all the above, at hock and as scheduled times, to ensure quality and advancement of skills._
+_What is the answer? A mixture of all the above, at hock and at scheduled times, to ensure quality and advancement of skills._
 
 When I do speak out regarding the above, I inevitably also lead this conversation into Engineering not having the kit [hardware & software] they need.  Engineers require the software and hardware they deem as necessary to be effective in their role.  I once gave an analogy of, not giving Engineers the right kit is like giving a roller brush and a Pogo stick to Michelangelo to paint the Sistine Chapel ceiling.  He'll manage it ... eventually, but the attention to detail and accuracy will be woefully inadequate.
+
+Written mainly for me, I do hope you've found something to take away with you to help you along with your engineering journey.
 
 #### References:
 

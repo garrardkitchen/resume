@@ -2,7 +2,7 @@
 title: "Tech Debt"
 date: 2020-01-02T11:49:14+01:00
 draft: true
-featured: true
+featured: false
 tags: [tech-debt, setting up for failure, blog]
 ---
 

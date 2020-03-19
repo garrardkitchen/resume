@@ -1,8 +1,8 @@
 ---
 title: "What is good Engineering?"
 date: 2020-01-27T11:49:14+01:00
-draft: false
-featured: true
+draft: true
+featured: false
 tags: [Hugo, blogging, good engineering, practices, principles]
 ---
 

@@ -2,7 +2,7 @@
 title: "Observability"
 date: 2020-01-02T12:49:14+01:00
 draft: true
-featured: true
+featured: false
 tags: [3 pillars of observabiity, logging, metrics, tracing, error management, blog]
 ---
 
