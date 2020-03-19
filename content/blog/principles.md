@@ -130,7 +130,7 @@ I've hit this numerous times when planning for **microservices** and bounded con
 
 Another area that I believe this encompasses is splitting code up across multiple files and folders.  If it's a PoC, a sample piece of code, or some thing that has a short shelf life, just keep it in one file.  When it's the right time - moving out of PoC/other - then you can consider optimizing it.  Up until then, it's a huge waste of time and effort.
 
-Architecture is a great example of when not to prematurely optimize.  Architecture normally equaates to cost.  The more of something, the greater the cost.  This could mean for a startup the difference between survival and demise.  Adopting a guiding principle of being frugal from the outset, is a prudent and wise dicison.  What this means is that you're always looking for the most cost-effective way of accomplishing your goal.  So, if you don't know your demand, it means you opt for a single server instead of having a HA cluster of 3 master nodes and 5 worker nodes!  Down from 8 servers to 1 which on a month by month basis during development and beta/early releases could mean the saving of thousands of pounds sterling.  
+Architecture is a great example of when not to prematurely optimize.  Architecture normally infers cost.  Generally, the more of something, the greater the cost.  This could mean for a startup the difference between survival and their demise.  Adopting a **guiding principle** of being **frugal** from the outset, is a prudent and wise decison.  What this means is that you're always looking for the most cost-effective way of accomplishing your goal.  So, if you don't know your demand, it means you opt for a single server instead of having a **HA** cluster of 3 master nodes and 5 worker nodes!  Down from 8 servers to 1 which on a month by month basis during development and beta/early releases could mean the saving of thousands of pounds sterling.  
 
 Sadly, I've come across a few startup that have failed just because they ran out of cash early on.  It's a real shame for all involved.
 
@@ -138,13 +138,13 @@ Sadly, I've come across a few startup that have failed just because they ran out
 
 ...refactor refactor
 
-Don't save up this until the end of a piece of work ... you're bound to miss something and possibly add to your team's tech debt.  Plus, if it's a commit to a draft PR, you'll get your _ass_ chewed by your peers!
+Don't save up this until the end of a piece of work ... you're bound to miss something and possibly add to your team's tech debt.  Plus, if it's a commit to a draft **PR**, you'll get your _ass_ chewed by your peers!
 
 Things to consider here are **DRY** and **TDD**.  Both will nudge you towards a proper refactoring effort.
 
 ## [Separation of Concerns]()
 
-(think MVC, CQRS, bounded context, etc...)
+(think **MVC**, **CQRS**, **bounded context**, etc...)
 
 It's all about doing the right this in the right place!  I recently ran, architected and co-developed a project that involved our own hosted solution, a solution hosted on **Azure** and a solution hosted on the **Twilio Cloud** (**Serverless**).  Originally, the requirements did not include the **Twilio Cloud** and would have required a bucket load more efforts if we'd stuck with that brief.  Thankfully, I chose to take full advantage of what **Twilio** has to offer and used a combination of **Twilio Flow** and **Twilio Serverless Functions**.  By establishing these SoCs meant:
 
@@ -275,7 +275,7 @@ public enum ProductType
 }
 ```
 
-Can rewrite, still using base implementation (think decorator pattern):
+Can rewrite, still using base implementation (think **decorator pattern**):
 
 ```csharp
 public class Order 
@@ -345,10 +345,10 @@ public interface IClaim
 ### Dependency Inversion
 
 There are 2 rules here:
-- High-level modules should not depend on low-level modules. Both should depend on abstractions.
+- High-level modules should not depend on lower-level modules. Both should depend on abstractions.
 - Abstractions should not depend upon details. Details should depend upon abstractions.
 
-Let's deal with the first rule first.  High-level means policy, business logic and the bigger picture.  Lower-level means, closure to the bare metal (think I/O, networking, Db, storage, UI, etc...).  Lower-level tend to change more frequently too.
+Let's deal with the first rule first.  High-level means policy, business logic and the bigger picture.  Lower-level means, closure to the bare metal (think **I/O**, **networking**, **Db**, **storage**, **UI**, etc...).  Lower-level tend to change more frequently too.
 
 
 These example shows perfectly the before and after of move too a 'depend on abstraction':
@@ -417,19 +417,19 @@ With the above change, the DbContext can be any class as long as it inherits fro
 
 The above is demonstrative of the 2nd rule; do not depend on the detail. As you can see, in the example above, we're depending on an interface method contract and the actual implementational detail is being dealt with by the Lower-level class.
 
-The above example includes Dependency Injection.  Although you can accomplish IoC with DI, they are not the same thing.  IoC does not mention anything about the direction of the dependency.
+The above example includes **Dependency Injection**.  Although you can accomplish **IoC** with **DI**, they are not the same thing.  **IoC** does not mention anything about the direction of the dependency.
 
 ---
 
-I'm a huge fan of patterns, especially cloud architectural patterns but sometimes, they add unnecessary complicity so beware!
+I'm a huge fan of **patterns**, especially **cloud architectural patterns** but sometimes, they add unnecessary complicity so beware!
 
 When I first started learning about patterns - some 18 years ago - I went through a few code bases I was involved with at the time to see if I'd subconsciously been repeatedly using a pattern ... and I had been!  It was the **lazy loading** pattern...which I continue to use regularly today!
 
 ## [Testing]()
 
-(unit/functional, including concepts like TDD & BDD)
+(**unit**/**functional**, including concepts like **TDD** & **BDD**)
 
-For testing to be a success, the details are key.  These details will come in the form of a specification or from a verbal conversation (always to be confirm in writing).  If you're luckly, these test cases will be included as ACs (Acceptance Criteria) in the Scrum Story Description.
+For testing to be a success, the details are key.  These details will come in the form of a specification or from a verbal conversation (always to be confirm in writing later).  If you're luckly, these test cases will be included as **ACs** (**Acceptance Criteria**) in the **Scrum Story Description**.
 
 Driving your development from a test driven approach ofter results in:
 
@@ -437,9 +437,9 @@ Driving your development from a test driven approach ofter results in:
 - less post deploy bug fixing
 - succint (do no more, no less than is required).
 
-Testing is important. Obviously!  I often refer to testing as 'having your back'.  It ensures you don't break existing functionality when implement new functionality or dealing with tech debt.  It also protects new engineers from breaking things as well as extant engineers who may have touched this repository many times before.
+Testing is important.  Obviously!  I often refer to testing as 'having your back'.  It ensures you don't break existing functionality when implement new functionality or dealing with **tech debt**.  It also protects new engineers from breaking things as well as extant engineers who may have touched this repository many times before.
 
-Tests aren't just for new functionality either.  If you changed extant functionality or responsibility you must modify extant tests or create new tests.  Ideally, your CI build pipeline should run tests everytime time a commit(s) is pushed to a PR or PR draft.  This last step is there to again have your back and to safeguard against erroneous code getting into production.
+Tests aren't just for new functionality either.  If you changed extant functionality or responsibility you must modify extant tests or create new tests.  Ideally, your **CI** build pipeline should run tests everytime time a commit(s) is pushed to a **PR** or **Draft PR**.  This last step is there to again have your back and to safeguard against erroneous code getting into production.
 
 ## [YAGNI]()
 
