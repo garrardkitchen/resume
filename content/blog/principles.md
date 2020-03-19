@@ -35,25 +35,25 @@ Clean and readable code is always better than clever code (ask any engineer who 
 
 I've seen a lot of code recently that should never have got to the shape it has.  Complicated code requires time to understand, then time to add functionality.  Complicated code also happens to more difficult to recall so each time you need to go near it, you have to relearn it and added to this, any changes made to improve it, most likely have not been applied in full so they'll be a right old mixture of good, bad and the ugly thrown into the mix.  
 
-A good measure of how bad a code bases is, and I'm going to plagurise somebody else's analogy here, is by stepping through an interactive debug session. If you get momentarily distracted by a fly, then immediately return to the debugging and you do not know where the feck you are in the execution of the code flow, then it's a bad code base! 
+A good measure of how bad a codebases is, and I'm going to plagiarise somebody else's analogy here, is by stepping through an interactive debug session. If you get momentarily distracted by a fly, then immediately return to the debugging and you do not know where the feck you are in the execution of the code flow, then it's a bad codebase! 
 
 It's the responsibility of a Tech Lead or architecture to stop code bases ending up this way.
 
 ## [Code reviews]()
 
-It should only contain helpful and constructive comments and / or implementation questions. This process is not there to caress egos (that's for your mother to do!!).  One useful by-product of **code reviews** is conveying of your team's exacting coding standard and attention to deal, to new starters.  So, the quicker the new starter pushes a commit, the better! 
+It should only contain helpful and constructive comments and/or implementation questions. This process is not there to caress egos (that's for your mother to do!!).  One useful by-product of **code reviews** is conveying of your team's exacting coding standard and attention to deal, to new starters.  So, the quicker the new starter pushes a commit, the better! 
 
 ## [Coding standards]() 
 
 (provide a template of core standards then stand back and let the team thrash out the rest - wear protection!)
 
-Although important, it's not the end of the world if some of the granular details differ between teams.  The important thing here in my opinion is that each team know where to find their cheese.  Most engineers in a team have a common set of standards they adhere too.  The big things like solution structure, naming convensions, testing (**AAA**, **GWT**), pluralization, documentation structure (including README) all need to be consistent.
+Although important, it's not the end of the world if some of the granular details differ between teams.  The important thing here, in my opinion, is that each team know where to find their cheese.  Most engineers in a team have a common set of standards they adhere too.  The big things like solution structure, naming conventions, testing (**AAA**, **GWT**), pluralization, documentation structure (including README) all need to be consistent.
 
 ## [Composition over inheritance]()
 
 (avoid class tree exploitation! - think **Strategy pattern** - GoF)
 
-The above bracketed statement say's it all!  **Inheritance** tends to back you into a corner especially when you consider the **OCP**.
+The above-bracketed statement says it all!  **Inheritance** tends to back you into a corner especially when you consider the **OCP**.
 
 ## [Defensive coding]()
 
@@ -79,7 +79,7 @@ The second, if to avoid mistakes that might not be picked up by your compiler.  
 if (firstname = null)
 ```
 
-A .NET Compiler is more than happy allowing this above syntax, as after all, it's an **assignment operator** and not a **equality operator** as in above in the **class constructor**.  By switching these around, you're making a positive pattern changing and _should_ avoid making this silly mistake again.
+A .NET Compiler is more than happy allowing this above syntax, as, after all, it's an **assignment operator** and not a **equality operator** as in above in the **class constructor**.  By switching these around, you're making a positive pattern changing and _should_ avoid making this silly mistake again.
 
 ## [Do no more]()
 
@@ -109,7 +109,7 @@ Do you have metrics to support this?
 No?! Right, next!
 ```
 
-A colleague recently shared with me their architecture of a side project. They are using AWS and I have 2 **certifications** in AWS (Developer and **Solutions Architect**).  I rapidly went into **HA**/**Scaling**/**DR** overdrive and rapidly did a verbal dump on what tech they should be use.  This was all wrong - for their immediate requirement as they did not know demand - which would have added to their cost; unnecessarily.  I did, shortly after, re-affirm their decision (may have made 1 or 2 helpful minor suggestions).  Yeah, think big but don't deliver big without a customer base; huge waste of time, effort and money.
+A colleague recently shared with me their architecture of a side project. They are using AWS and I have 2 **certifications** in AWS (Developer and **Solutions Architect**).  I rapidly went into **HA**/**Scaling**/**DR** overdrive and rapidly did a verbal dump on what tech they should use.  This was all wrong - for their immediate requirement as they did not know demand - which would have added to their cost; unnecessarily.  I did, shortly after, re-affirm their decision (may have made 1 or 2 helpful minor suggestions).  Yeah, think big but don't deliver big without a customer base; huge waste of time, effort and money.
 
 ## [Occam's Razor]()
 
@@ -128,9 +128,9 @@ Avoid premature optimization and all conversations relating to optimization unti
 
 I've hit this numerous times when planning for **microservices** and bounded contexts, in particular, on green-field projects.  What should we include and where?  Should we separate claims away from users for instance?  Will the demand for Claims be greater than for users?  Who knows?!  You don't until you have some **metrics** behind you.  You can always merge or break them [**microservices**] up later.    
 
-Another area that I believe this encompasses is splitting code up across multiple files and folders.  If it's a PoC, a sample piece of code, or some thing that has a short shelf life, just keep it in one file.  When it's the right time - moving out of PoC/other - then you can consider optimizing it.  Up until then, it's a huge waste of time and effort.
+Another area that I believe this encompasses is splitting code up across multiple files and folders.  If it's a PoC, a sample piece of code, or something that has a short shelf life, just keep it in one file.  When it's the right time - moving out of PoC/other - then you can consider optimizing it.  Up until then, it's a huge waste of time and effort.
 
-Architecture is a great example of when not to prematurely optimize.  Architecture normally infers cost.  Generally, the more of something, the greater the cost.  This could mean for a startup the difference between survival and their demise.  Adopting a **guiding principle** of being **frugal** from the outset, is a prudent and wise decison.  What this means is that you're always looking for the most cost-effective way of accomplishing your goal.  So, if you don't know your demand, it means you opt for a single server instead of having a **HA** cluster of 3 master nodes and 5 worker nodes!  Down from 8 servers to 1 which on a month by month basis during development and beta/early releases could mean the saving of thousands of pounds sterling.  
+Architecture is a great example of when not to prematurely optimize.  Architecture normally infers cost.  Generally, the more of something, the greater the cost.  This could mean for a startup the difference between survival and their demise.  Adopting a **guiding principle** of being **frugal** from the outset, is a prudent and wise decision.  What this means is that you're always looking for the most cost-effective way of accomplishing your goal.  So, if you don't know your demand, it means you opt for a single server instead of having a **HA** cluster of 3 master nodes and 5 worker nodes!  Down from 8 servers to 1 which on a month by month basis during development and beta/early releases could mean the saving of thousands of pounds sterling.  
 
 Sadly, I've come across a few startup that have failed just because they ran out of cash early on.  It's a real shame for all involved.
 
@@ -146,7 +146,7 @@ Things to consider here are **DRY** and **TDD**.  Both will nudge you towards a 
 
 (think **MVC**, **CQRS**, **bounded context**, etc...)
 
-It's all about doing the right this in the right place!  I recently ran, architected and co-developed a project that involved our own hosted solution, a solution hosted on **Azure** and a solution hosted on the **Twilio Cloud** (**Serverless**).  Originally, the requirements did not include the **Twilio Cloud** and would have required a bucket load more efforts if we'd stuck with that brief.  Thankfully, I chose to take full advantage of what **Twilio** has to offer and used a combination of **Twilio Flow** and **Twilio Serverless Functions**.  By establishing these SoCs meant:
+It's all about doing the right this in the right place!  I recently ran, architected and co-developed a project that involved our own hosted solution, a solution hosted on **Azure** and a solution hosted on the **Twilio Cloud** (**Serverless**).  Originally, the requirements did not include the **Twilio Cloud** and would have required a bucket load more effort if we'd stuck with that brief.  Thankfully, I chose to take full advantage of what **Twilio** has to offer and used a combination of **Twilio Flow** and **Twilio Serverless Functions**.  By establishing these SoCs meant:
 
 - a less stressful implementation
 - a light touch to our own hosted solutions
@@ -189,7 +189,7 @@ class User()
 }
 ```
 
-You could say that the above includes both a model responsibility and a service responsibility.  These should be split into two seperate .NET types, as in this example:
+You could say that the above includes both a model responsibility and a service responsibility.  These should be split into two separate .NET types, as in this example:
 
 ```csharp
 class User() 
@@ -221,10 +221,10 @@ class UserService()
 }
 ```
 
-Here are benefits of principles:
+Here are the benefits of principles:
 
-- Reduces complixity in your code
-- Increases readability, extensibility and maintenance of your code
+- Reduces complexity in your code
+- Increases readability, extensibility, and maintenance of your code
 - Reusability and bug breading
 - Easier to test
 - Reduces coupling by removing dependency between methods
@@ -241,7 +241,7 @@ This means that we need to design our classes in such a way that it's new respon
 
 One technique for implementing new functionality is by creating new derived classes.  These are to inherit from base classes.  Another approach is to allow the 'client' to access the original class with an abstract interface.  I sometimes see this as removing if statements.  Not sure everybody would agree with this assessment though.
 
-So, in short, if there's a change in requirement or any new requirements, instead of touching the existing functionality, it is better to create new derived classes and leave the original class implementation.  Well, that's the advice!  I worry about class explosion and if you're attempting to do this on top of not so perfect code! 
+So, in short, if there's a change in requirement or any new requirements, instead of touching the existing functionality, it is better to create new derived classes and leave the original class implementation.  Well, that's the advice!  I worry about the **class explosion** and if you're attempting to do this on top of not so perfect code! 
 
 #### Closed modification:
 
@@ -305,7 +305,7 @@ public class HardwareOrder : Order
 
 ### Liskov
 
-Definnition: "_Let q(x) be a property provable about objects of x of type T. Then q(y) should be provable for objects y of type S where S is a subtype of T._" ... clear as mud right?
+Definition: "_Let q(x) be a property provable about objects of x of type T. Then q(y) should be provable for objects y of type S where S is a subtype of T._" ... clear as mud right?
 
 All this is stating is that every subclass/derived class should be substitutable for their base/parent class.
 
@@ -338,7 +338,7 @@ public class SumEvenNumbersOnly : Calculator
 }
 ```
 
-Here we have changed the assumed base class to an **abstract class**. Now, it can't be instantiated and instead, must be inherited.  This ensures the **derived classes** must implemented the method detail. So, even if we replace the type declaration with the **higher-order** class, we should still get the intended result:
+Here we have changed the assumed base class to an **abstract class**. Now, it can't be instantiated and instead, must be inherited.  This ensures the **derived classes** must implement the method detail. So, even if we replace the type declaration with the **higher-order** class, we should still get the intended result:
 
 ```csharp
 ...
@@ -414,7 +414,7 @@ There are 2 rules here:
 Let's deal with the first rule first.  High-level means policy, business logic and the bigger picture.  Lower-level means, closure to the bare metal (think **I/O**, **networking**, **Db**, **storage**, **UI**, etc...).  Lower-level tend to change more frequently too.
 
 
-These example shows perfectly the before and after of move too a 'depend on abstraction':
+These two examples show perfectly the before and after of the move to a 'depend on abstraction':
 
 ```csharp
 public class BusinessRule 
@@ -476,7 +476,7 @@ public class DbContext : IDbContext
 }
 
 ```
-With the above change, the DbContext can be any class as long as it inherits from the IDbContext interface and has a method with signature of Rule GetRuleByName(string name).
+With the above change, the DbContext can be any class as long as it inherits from the IDbContext interface and has a method with a signature of Rule GetRuleByName(string name).
 
 The above is demonstrative of the 2nd rule; do not depend on the detail. As you can see, in the example above, we're depending on an interface method contract and the actual implementational detail is being dealt with by the Lower-level class.
 
@@ -492,33 +492,33 @@ When I first started learning about patterns - some 18 years ago - I went throug
 
 (**unit**/**functional**, including concepts like **TDD** & **BDD**)
 
-For testing to be a success, the details are key.  These details will come in the form of a specification or from a verbal conversation (always to be confirm in writing later).  If you're luckly, these test cases will be included as **ACs** (**Acceptance Criteria**) in the **Scrum Story Description**.
+For testing to be a success, the details are key.  These details will come in the form of a specification or from a verbal conversation (always to be confirm in writing later).  If you're lucky, these test cases will be included as **ACs** (**Acceptance Criteria**) in the **Scrum Story Description**.
 
-Driving your development from a test driven approach ofter results in:
+Driving your development from a test-driven approach ofter results in:
 
 - Reduction in verbose code
-- less post deploy bug fixing
-- succint (do no more, no less than is required).
+- less post-deploy bug fixing
+- succinct (do no more, no less than is required).
 
-Testing is important.  Obviously!  I often refer to testing as 'having your back'.  It ensures you don't break existing functionality when implement new functionality or dealing with **tech debt**.  It also protects new engineers from breaking things as well as extant engineers who may have touched this repository many times before.
+Testing is important.  Obviously!  I often refer to testing as 'having your back'.  It ensures you don't break existing functionality when implementing new functionality or dealing with **tech debt**.  It also protects new engineers from breaking things as well as extant engineers who may have touched this repository many times before.
 
-Tests aren't just for new functionality either.  If you changed extant functionality or responsibility you must modify extant tests or create new tests.  Ideally, your **CI** build pipeline should run tests everytime time a commit(s) is pushed to a **PR** or **Draft PR**.  This last step is there to again have your back and to safeguard against erroneous code getting into production.
+Tests aren't just for new functionality either.  If you changed extant functionality or responsibility you must modify extant tests or create new tests.  Ideally, your **CI** build pipeline should run tests every time time a commit(s) is pushed to a **PR** or **Draft PR**.  This last step is there to again have your back and to safeguard against erroneous code getting into production.
 
 ## [YAGNI]()
 
 (you ain't going to need it) 
 
-Do no more, and no less than is required.  You do not want to have to maintain code that is never used or produce code that others have to maintain unwittingly. It's very difficult to future proof your code if you do not know what's going to happen, let alone without a specification!  It's a guess at best so don't waste your time or others.  Keeps things concise, succint and simple.
+Do no more, and no less than is required.  You do not want to have to maintain code that is never used or produce code that others have to maintain unwittingly. It's very difficult to future proof your code if you do not know what's going to happen, let alone without a specification!  It's a guess at best so don't waste your time or others.  Keeps things concise, succinct and simple.
 
 ---
 
-As a Principal Engineer, I consider the above as the foundation to writing quality code.  The objective of this list, in conjunction with the message I propagate via this list, during discussions, evidence from my own work and by leading from the front  within my role, is one of reminder to me and my colleagues of best practice and commitment to quality and good practice. As with all foundations, it forms the base from which more advanced concepts or approaches can be learned.  An important part of this practice is heuristic - enabling a person to discover or learn something by themselves.  So, how do I go about doing this?
+As a Principal Engineer, I consider the above as the foundation for writing quality code.  The objective of this list, in conjunction with the message I propagate via this list, during discussions, evidence from my own work and by leading from the front within my role, is one of a reminder to me and my colleagues of best practice and commitment to quality and good practice. As with all foundations, it forms the base from which more advanced concepts or approaches can be learned.  An important part of this practice is heuristic - enabling a person to discover or learn something by themselves.  So, how do I go about doing this?
 
 These are some of the activities I execute to embed good engineering principles:
 
 - 1-2-1
 - Group conversations
-- Advocate online learning platforms such as Pluralsight or Udemy.  For the more keen Engineer, I also recommend certification. YouTube is another favourite of mine. With YouTube, you are able to tag recordings, therefore building up a catalogue of materials that you can make public
+- Advocate online learning platforms such as Pluralsight or Udemy.  For the more keen Engineer, I also recommend certification. YouTube is another favourite of mine. With YouTube, you can tag recordings, therefore building up a catalogue of materials that you can make public
 - Workshops
 - Brown bags
 - Capture _How To Do's_ in wikis or similar
@@ -527,13 +527,13 @@ These are some of the activities I execute to embed good engineering principles:
 - Share blog posts & other materials across multiple channels
 - Compile a learning profile for an individual
 
-The coding advice/tips above are interesting ones. As professionals we always want to improve our ability to code etc and in doing so we want our colleagues to benefit from our knowledge too.  I recently became reacquainted with coding katas.  As a black belt in Ju-Jitsu I am well versed in what a kata is.  Katas can also be used to remind, stretch and improve our core coding capability.  The last time I used a kata in programming was 10+ years ago. This was when I was first introduced to TDD.  A favourite development book of mine is **'The Art of Unit Testing'** by Roy Osherove. It was the first edition.  For many years I had it as a click thru purchase option on a previous site of mine. I've not really participated in many kata's since.  I have written a few though and now having been reintroduced to them and their potential, as a Principal Engineer I can see it as an invaluable tool for both providing the framework to assess an Engineer's current capability and as an aid to building an Engineer's skills when used with **pair programming**.
+The coding advice/tips above are interesting ones. As professionals, we always want to improve our ability to code etc and in doing so we want our colleagues to benefit from our knowledge too.  I recently became reacquainted with coding katas.  As a black belt in Ju-Jitsu I am well versed in what a kata is.  Katas can also be used to remind, stretch and improve our core coding capability.  The last time I used a kata in programming was 10+ years ago. This was when I was first introduced to TDD.  A favourite development book of mine is **'The Art of Unit Testing'** by Roy Osherove. It was the first edition.  For many years I had it as a click-thru purchase option on a previous site of mine. I've not really participated in many katas since.  I have written a few though and now having been reintroduced to them and their potential, as a Principal Engineer I can see it as an invaluable tool for both providing the framework to assess an Engineer's current capability and as an aid to building an Engineer's skills when used with **pair programming**.
 
-**Pair programming** is a wonderful technique for propagating skills.  Quite often, I find I only participate in pair programming in one of two use cases.  (1) if the subject I'm investigating is new (important to have shared knowledge) and (2) when I'm helping an Engineer to overcome a esoteric issue.  You know what they say? ...a problem shared is a problem halved!  However, now, I'll be including **Pair Programming** as part of my techniques to stretch the Engineer's muscle memory (including mine!).  
+**Pair programming** is a wonderful technique for propagating skills.  Quite often, I find I only participate in pair programming is one of two use cases.  (1) if the subject I'm investigating is new (important to have shared knowledge) and (2) when I'm helping an Engineer to overcome an esoteric issue.  You know what they say? ...a problem shared is a problem halved!  However, now, I'll be including **Pair Programming** as part of my techniques to stretch the Engineer's muscle memory (including mine!).  
 
 _Discussion point ..._
 
-I'm sure I'm not alone here when I say, having the time available for 2 Engineers to code together for skills transfer etc is a challenging one.  An agile sprint doesn't really facilitate this.  This is something that I often refer to as having the 'space to learn'.  The pressures of a sprint often, sadly, works against this.  This is doubly as difficult, if your sprint is made up of technical debt, BAU, Ad hoc etc...  Time boxing 'effort' into percentages doesn't always present an obvious education path for your Engineers either.  Having a day (developer day or similar) dedicated to learning also never  really quite works out the way it's meant too, plus, 'a day'?!  In my experience this, and trying to cram _genius_ into a time box also never quite works either.  After all, you can't schedule _genius_, in the same way you can't guarantee that the best Engineers are in your locality, or that the best time for Engineers to work is between 9-5. 
+I'm sure I'm not alone here when I say, having the time available for 2 Engineers to code together for skills transfer etc is a challenging one.  An agile sprint doesn't really facilitate this.  This is something that I often refer to as having the 'space to learn'.  The pressures of a sprint often, sadly, works against this.  This is doubly as difficult, if your sprint is made up of technical debt, BAU, Ad hoc etc...  Timeboxing 'effort' into percentages doesn't always present an obvious education path for your Engineers either.  Having a day (developer day or similar) dedicated to learning also never really quite works out the way it's meant too, plus, 'a day'?!  In my experience this, and trying to cram _genius_ into a time box also never quite works either.  After all, you can't schedule _genius_, in the same way you can't guarantee that the best Engineers are in your locality, or that the best time for Engineers to work is between 9-5. 
 
 _What is the answer? A mixture of all the above, at hock and as scheduled times, to ensure quality and advancement of skills._
 
