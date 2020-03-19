@@ -8,7 +8,7 @@ tags: [Hugo, blogging, good engineering, principles]
 
 Most Engineers are fully versed in the foundations of writing quality, efficient, succinct and testable code.  As a Principal Engineer, one of my responsibilities is to ensure that this baseline is (1) understood and (2) adhered to by all engineers. 
 
-Here's a list of concepts that for me, make up good engineering principles:
+Here's a list of concepts that for me, constitute good engineering principles:
 
 _These are in alphabetical order and not in order of importance_
 
@@ -33,20 +33,27 @@ _These are in alphabetical order and not in order of importance_
 
 Clean and readable code is always better than clever code (ask any engineer who has to extend or maintain a _clever_ piece of code!)
 
+I've seen a lot of code recently that should never have got to the shape it has.  Complicated code requires time to understand, then time to add functionality.  Complicated code also happens to more difficult to recall so each time you need to go near it, you have to relearn it and added to this, any changes made to improve it, most likely have not been applied in full so they'll be a right old mixture of good, bad and the ugly thrown into the mix.  
+
+A good measure of how bad a code bases is, and I'm going to plagurise somebody else's analogy here, is by stepping through an interactive debug session. If you get momentarily distracted by a fly, then immediately return to the debugging and you do not know where the feck you are in the execution of the code flow, then it's a bad code base! 
+
+It's the responsibility of a Tech Lead or architecture to stop code bases ending up this way.
 
 ## [Code reviews]()
 
-It should only contain helpful and constructive comments and / or implementation questions. Not there to caress egos (that's for your mother to do!!)
+It should only contain helpful and constructive comments and / or implementation questions. This process is not there to caress egos (that's for your mother to do!!).  One useful by-product of **code reviews** is conveying of your team's exacting coding standard and attention to deal, to new starters.  So, the quicker the new starter pushes a commit, the better! 
 
 ## [Coding standards]() 
 
 (provide a template of core standards then stand back and let the team thrash out the rest - wear protection!)
 
+Although important, it's not the end of the world if some of the granular details differ between teams.  The important thing here in my opinion is that each team know where to find their cheese.  Most engineers in a team have a common set of standards they adhere too.  The big things like solution structure, naming convensions, testing (AAA, GWT), pluralization, documentation structure (including README) all need to be consistent.
 
 ## [Composition over inheritance]()
 
 (avoid class tree exploitation! - think Strategy pattern - GoF)
 
+The above bracketed statement say's it all!  Inheritance tends to back you into a corner especially when you consider the OCP.
 
 ## [Defensive coding]()
 
@@ -133,7 +140,7 @@ Sadly, I've come across a few startup that have failed just because they ran out
 
 Don't save up this until the end of a piece of work ... you're bound to miss something and possibly add to your team's tech debt.  Plus, if it's a commit to a draft PR, you'll get your _ass_ chewed by your peers!
 
-TDD, DRY
+Things to consider here are **DRY** and **TDD**.  Both will nudge you towards a proper refactoring effort.
 
 ## [Separation of Concerns]()
 
@@ -410,28 +417,37 @@ With the above change, the DbContext can be any class as long as it inherits fro
 
 The above is demonstrative of the 2nd rule; do not depend on the detail. As you can see, in the example above, we're depending on an interface method contract and the actual implementational detail is being dealt with by the Lower-level class.
 
+The above example includes Dependency Injection.  Although you can accomplish IoC with DI, they are not the same thing.  IoC does not mention anything about the direction of the dependency.
+
 ---
 
 I'm a huge fan of patterns, especially cloud architectural patterns but sometimes, they add unnecessary complicity so beware!
 
-When I first started learning about patterns - some 18 years ago - I when through some of my code to see if I'd inherently been repeatedly using a pattern ... and I was!  It was the **lazy loading** pattern...which I continue to use regularly!
+When I first started learning about patterns - some 18 years ago - I went through a few code bases I was involved with at the time to see if I'd subconsciously been repeatedly using a pattern ... and I had been!  It was the **lazy loading** pattern...which I continue to use regularly today!
 
 ## [Testing]()
 
-(unit/functional, and proficient with concepts like TDD & BDD)
+(unit/functional, including concepts like TDD & BDD)
 
-Requires a detailed spec and test cases.
+For testing to be a success, the details are key.  These details will come in the form of a specification or from a verbal conversation (always to be confirm in writing).  If you're luckly, these test cases will be included as ACs (Acceptance Criteria) in the Scrum Story Description.
 
-Reduction in verbose code, rapid development, succint (do no more, no less than is required)
+Driving your development from a test driven approach ofter results in:
 
+- Reduction in verbose code
+- less post deploy bug fixing
+- succint (do no more, no less than is required).
+
+Testing is important. Obviously!  I often refer to testing as 'having your back'.  It ensures you don't break existing functionality when implement new functionality or dealing with tech debt.  It also protects new engineers from breaking things as well as extant engineers who may have touched this repository many times before.
+
+Tests aren't just for new functionality either.  If you changed extant functionality or responsibility you must modify extant tests or create new tests.  Ideally, your CI build pipeline should run tests everytime time a commit(s) is pushed to a PR or PR draft.  This last step is there to again have your back and to safeguard against erroneous code getting into production.
 
 ## [YAGNI]()
 
 (you ain't going to need it) 
 
-Do no more, and no less than is required.  You do not 
+Do no more, and no less than is required.  You do not want to have to maintain code that is never used or produce code that others have to maintain unwittingly. It's very difficult to future proof your code if you do not know what's going to happen, let alone without a specification!  It's a guess at best so don't waste your time or others.  Keeps things concise, succint and easy.
 
-
+---
 
 As a Principal Engineer, I consider the above as the foundation to writing quality code.  The objective of this list, in conjunction with the message I propagate via this list, during discussions, evidence from my own work and by leading from the front  within my role, is one of reminder to me and my colleagues of best practice and commitment to quality and good practice. As with all foundations, it forms the base from which more advanced concepts or approaches can be learned.  An important part of this practice is heuristic - enabling a person to discover or learn something by themselves.  So, how do I go about doing this?
 
