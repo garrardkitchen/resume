@@ -1,6 +1,6 @@
 ---
 title: "Good Engineering - Principles"
-date: 2020-01-27T11:49:14+01:00
+date: 2020-03-01T20:09:14+01:00
 draft: false
 featured: true
 tags: [Hugo, blogging, good engineering, principles]
