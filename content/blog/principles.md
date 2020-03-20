@@ -411,8 +411,6 @@ public interface IClaim
 
 ### [Dependency Inversion Principle]()
 
-(think **adapter pattern**)
-
 There are 2 rules here:
 - High-level modules should not depend on lower-level modules. Both should depend on abstractions.
 - Abstractions should not depend upon details. Details should depend upon abstractions.
@@ -570,3 +568,7 @@ Written mainly for me, I do hope you've found something to take away with you to
 - [XP](https://www.agilealliance.org/glossary/xp)
 
 - [Dependency inversion principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
+
+- [OOP design patterns](http://web.science.mq.edu.au/~mattr/courses/object_oriented_development_practices/5/notes.html)
+
+- [Inversion of Control Containers and the Dependency Injection pattern](https://www.martinfowler.com/articles/injection.html)
