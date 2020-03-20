@@ -91,9 +91,9 @@ If you code outside the scope, you're in danger of creating code that isn't used
 
 (don't repeat yourself)
 
-**Code analysis** tools help there but you're not always going to have access to these tools.
+**Code analysis** tools help here, but you're not always going to have access to these tools.
 
-One way to help identify code that does the same thing is by **refactoring**.  If you keep your code method frame small (~20 lines), and you have a good naming standard for methods, etc then this should be all you need to help you writing duplicate code.
+One way to help identify code that does the same thing is by **refactoring**.  If you keep your code method frame small (~20 lines), and you have a good naming standard for methods (e.g. noun+verb with accurate alighment to business capability - think DDD), have unit tests with a high **code coverage** percentage, then this should be all you need to help you avoid writing duplicate code.
 
 
 ## [KISS]()
@@ -411,11 +411,13 @@ public interface IClaim
 
 ### [Dependency Inversion Principle]()
 
+(think **adapter pattern**)
+
 There are 2 rules here:
 - High-level modules should not depend on lower-level modules. Both should depend on abstractions.
 - Abstractions should not depend upon details. Details should depend upon abstractions.
 
-Let's deal with the first rule first.  High-level means policy, business logic and the bigger picture.  Lower-level means, closure to the bare metal (think **I/O**, **networking**, **Db**, **storage**, **UI**, etc...).  Lower-level tend to change more frequently too.
+Let's deal with the first rule first.  High-level means policy, business logic and the bigger picture.  Lower-level means, closer to the bare metal (think **I/O**, **networking**, **Db**, **storage**, **UI**, etc...).  Lower-level tend to change more frequently too.
 
 
 These two examples show perfectly the before and after of the move to a 'depend on abstraction':
@@ -485,6 +487,16 @@ With the above change, the DbContext can be any class as long as it inherits fro
 The above is demonstrative of the 2nd rule; do not depend on the detail. As you can see, in the example above, we're depending on an interface method contract and the actual implementational detail is being dealt with by the Lower-level class.
 
 The above example includes **Dependency Injection**.  Although you can accomplish **IoC** with **DI**, they are not the same thing.  **IoC** does not mention anything about the direction of the dependency.
+
+##### Generalization restrictions
+
+The presence of interfaces to accomplish the Dependency Inversion Pattern (DIP) has other design implications in an object-oriented program:
+
+- All member variables in a class must be interfaces or abstracts
+- All concrete class packages must connect only through interface or abstract class packages
+- No class should derive from a concrete class
+- No method should override an implemented method
+- All variable instantiation requires the implementation of a creational pattern such as the factory method or the factory pattern, or the use of a dependency-injection framework.
 
 ---
 
@@ -556,3 +568,5 @@ Written mainly for me, I do hope you've found something to take away with you to
 - [YAGNI](https://martinfowler.com/bliki/Yagni.html)
 
 - [XP](https://www.agilealliance.org/glossary/xp)
+
+- [Dependency inversion principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
