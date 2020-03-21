@@ -530,7 +530,7 @@ This code sample shows how both a testing and mocking frameworks compliment each
 using Moq;
 using Xunit;
 
-namespace test1
+namespace BasicAAATestExample
 {
     public interface IUser
     {
@@ -569,20 +569,34 @@ namespace test1
             string lastname, string expected)
         {
             // arrange
-            var user = new Mock<IUser>();
-            user.Setup(x => x.GetFullname()).Returns($"{firstname} {lastname}");
-            var sut = new Notify(user.Object);
+            var mockUser = new Mock<IUser>();
+            mockUser.Setup(x => x.GetFullname()).Returns($"{firstname} {lastname}");
+            var sut = new Notify(mockUser.Object);
 
             // act
             string message = sut.GetMessage();
 
             // assert
             Assert.Equal(expected, message);
-            user.Verify(x => x.GetFullname(), Times.Once);
+            mockUser.Verify(x => x.GetFullname(), Times.Once);
         }
     }
 }
 ```
+
+The single unit test above follows the **AAA** (**Arrange, Act, Assert**) pattern and is a common way of writing **unit tests* for a method under test:
+
+- the `Arrange` section of a unit test method initializes objects and sets the value of the data that is passed to the method under test
+- the `Act` section invokes the method under test with the arranged parameters
+- the `Assert` section verifies that the action of the method under test behaves as expected.
+
+There are a few standards I personally adhere to when it comes to writing tests.  In the sample unit test above these standards include:
+
+- the method name (`GWT`)
+- the comment blocks of `arrange`, `act` and `assert`
+- the name of the mock instantiated object (`mock<Class>`)
+- the class name of the SUT - system under test - (`sut`).
+
 
 ## [YAGNI]()
 
@@ -636,3 +650,5 @@ Written mainly for me, I do hope you've found something to take away with you to
 - [OOP design patterns](http://web.science.mq.edu.au/~mattr/courses/object_oriented_development_practices/5/notes.html)
 
 - [Inversion of Control Containers and the Dependency Injection pattern](https://www.martinfowler.com/articles/injection.html)
+
+- [Write your tests](https://docs.microsoft.com/en-us/visualstudio/test/unit-test-basics?view=vs-2019#write-your-tests)
