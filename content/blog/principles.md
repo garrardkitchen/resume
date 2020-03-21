@@ -565,7 +565,7 @@ namespace test1
         [Theory]
         [InlineData("Garrard", "Kitchen", "Garrard Kitchen has been notified")]
         [InlineData("Charles", "Kitchen", "Charles Kitchen has been notified")]
-        public void GivenGetFullnameCalled_WhenFirstAndLastNameExits_ThenReturnsAValidFullname(string firstname,
+        public void GivenGetMessageIsCalled_WhenFirstAndLastNameExist_ThenReturnsANotificationMessage(string firstname,
             string lastname, string expected)
         {
             // arrange
