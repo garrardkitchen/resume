@@ -506,19 +506,83 @@ When I first started learning about patterns - some 18 years ago - I went throug
 
 ## [Testing]()
 
-(**unit**/**functional**, including concepts like **TDD** & **BDD**)
+(**unit**/**functional**, including concepts like **TDD** & **BDD** and frameworks)
 
 For testing to be a success, the details are key.  These details will come in the form of a specification or from a verbal conversation (always to be confirm in writing later).  If you're lucky, these test cases will be included as **ACs** (**Acceptance Criteria**) in the **Scrum Story Description**.
 
 Taking a **test driven development** approach to writing code often results in:
 
 - a reduction in verbose code
-- less post-deploy bug fixing
-- succinct (do no more, no less than is required) structure and logic.
+- less post-deployment bug fixing
+- succinct (do no more, no less than is required), structure and logic.
 
 Testing is important.  Obviously!  I often refer to testing as 'having your back'.  It ensures you don't break existing functionality when implementing new functionality or dealing with **tech debt**.  It also protects new engineers from breaking things as well as extant engineers who may have touched this repository many times before.
 
-Tests aren't just for new functionality either.  If you change extant functionality or class responsibilities you must modify extant tests or create new tests.  Ideally, your **CI** build pipeline should run tests every time time a commit(s) is pushed to a **PR** or **Draft PR**.  This last step is there to again have your back and to safeguard against erroneous code getting into production.
+Tests aren't just for new functionality either.  If you change extant functionality or class responsibilities you must modify extant tests or create new tests.  Ideally, your **CI** build pipeline should run tests every time time a commit(s) is pushed to a **PR** or **Draft PR**.  This last step is here, to again, have your back and to safeguard against erroneous code poluting your codebases and getting into production.
+
+In the **.NET** world, there are many **testing frameworks** available; **xUnit**, **NUnit**, **MSTest** to name a few.  There are also many mocking frameworks available; **Moq**, **NSubstitute**, **JustMock**, again, to name a few.  Frameworks like these help make the testing process and overall experience less painful and cumbersome and some might even say it makes this part of development, pleasurable!
+
+My **.NET Core** testing and mocking preferences are [xUnit](https://xunit.net/) & [Moq](https://github.com/moq/moq4) and my javascript (including **node.js**) testing framework preference is [Jest](https://jestjs.io/).
+
+This code sample shows how both a testing and mocking frameworks compliment each other:
+
+```csharp
+using Moq;
+using Xunit;
+
+namespace test1
+{
+    public interface IUser
+    {
+        string GetFullname();
+        string Firstname { get; set; }
+        string Lastname { get; set; }
+    }
+
+    public class User : IUser
+    {
+        public string Firstname { get; set; }
+
+        public string Lastname { get; set; }
+
+        public string GetFullname()
+        {
+            return $"{Firstname} {Lastname}";
+        }
+    }
+
+    public class Notify
+    {
+        private IUser _user;
+
+        public Notify(IUser user) => _user = user;
+
+        public string GetMessage() => $"{_user.GetFullname()} has been notified";
+    }
+
+    public class NotifyTests
+    {
+        [Theory]
+        [InlineData("Garrard", "Kitchen", "Garrard Kitchen has been notified")]
+        [InlineData("Charles", "Kitchen", "Charles Kitchen has been notified")]
+        public void GivenGetFullnameCalled_WhenFirstAndLastNameExits_ThenReturnsAValidFullname(string firstname,
+            string lastname, string expected)
+        {
+            // arrange
+            var user = new Mock<IUser>();
+            user.Setup(x => x.GetFullname()).Returns($"{firstname} {lastname}");
+            var sut = new Notify(user.Object);
+
+            // act
+            string message = sut.GetMessage();
+
+            // assert
+            Assert.Equal(expected, message);
+            user.Verify(x => x.GetFullname(), Times.Once);
+        }
+    }
+}
+```
 
 ## [YAGNI]()
 
