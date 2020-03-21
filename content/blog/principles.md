@@ -109,7 +109,7 @@ This to a certain extent, goes hand in hand with avoiding **premature optimizati
     Next!
 
 
-A colleague recently shared with me the architecture of their side project. They are using AWS and I have 2 **certifications** in AWS (Developer and **Solutions Architect**).  I rapidly went into **HA**/**Scaling**/**DR** overdrive and rapidly did a verbal dump on what tech they should use.  This was all wrong - they did not know their service demand.  This will have added to their cost; unnecessarily.  I did, shortly after, re-affirm their decision (may have made 1 or 2 helpful minor suggestions).  Yeah, think big but don't deliver big without a customer base; huge waste of time, effort and money.
+A colleague recently shared with me the architecture of their side project. They are using **AWS** and I have 2 **certifications** in **AWS** (**Developer** and **Solutions Architect**).  I quickly went into **HA**/**scaling**/**resilience**/**durability**/**DR** overdrive and folowed by a verbal dump on what tech they should use.  This was all wrong as they did not know their service demand.  Following my initial advice will have increased their cost; unnecessarily.  I did, you'll be glad to hear, re-affirm their decision (may have made 1 or 2 helpful minor suggestions too) shortly after [~2 hours].  Yeah, think big but don't deliver big without a customer base; as this, in my experience, will result in a huge waste of time, effort and money.  
 
 ## [Occam's Razor]()
 
