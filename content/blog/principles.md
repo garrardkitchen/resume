@@ -584,7 +584,7 @@ namespace BasicAAATestExample
 }
 ```
 
-The single unit test above follows the **AAA** (**Arrange, Act, Assert**) pattern and is a common way of writing **unit tests* for a method under test:
+The single unit test above follows the **AAA** (**Arrange, Act, Assert**) pattern and is a common way of writing **unit tests** for a method under test:
 
 - the `Arrange` section of a unit test method initializes objects and sets the value of the data that is passed to the method under test
 - the `Act` section invokes the method under test with the arranged parameters
