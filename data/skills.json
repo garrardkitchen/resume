@@ -127,7 +127,7 @@
             "IIS",
             "MSSQL",
             ".NET Core 2.1, 2.2 & 3.1",
-            ".NET Frameworks 4.6",
+            ".NET Frameworks 4.7",
             "ASP.NET",
             "ASP.NET Core",
             "Razor Pages",
@@ -246,16 +246,17 @@
     {
         "grouping": "Observability & telemetry",
         "skills": [
-            "Amazon CloudWatch",
-            "Stackify",
-            "Datadog",
-            "Prometheus",
-            "Grafana",
-            "Kibana",
-            "Epsagon",
-            "Sentry.io",
             "Azure Application Insights",
-            "NewRelic"
+            "Amazon CloudWatch",            
+            "Datadog",            
+            "Epsagon",
+            "Grafana",
+            "InfluxDB (Telegraf, Kapacitor, Chronograf)",
+            "Kibana",                         
+            "NewRelic", 
+            "Prometheus",
+            "Sentry.io",
+            "Stackify"
         ]
     },
     {

@@ -589,7 +589,7 @@ The single unit test above follows the **AAA** (**Arrange, Act, Assert**) patter
 - the `Act` section invokes the method under test with the arranged parameters
 - the `Assert` section verifies that the action of the method under test behaves as expected.
 
-There are a few standards I personally adhere to when it comes to writing tests.  In the sample unit test above these standards include:
+There are a few standards I adhere to when it comes to writing tests.  In the sample unit test above these standards include:
 
 - the method name (`GWT`)
 - the comment blocks of `arrange`, `act` and `assert`
