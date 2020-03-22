@@ -251,9 +251,9 @@ Objects or entities should be open for extension, but closed for modification.  
 
 This means that we need to design our classes in such a way that it's new responsibilities or functionalities should be added easily when new requirements come.
 
-One technique for implementing new functionality is by creating new derived classes.  These are to inherit from base classes.  Another approach is to allow the 'client' to access the original class with an abstract interface.  I sometimes see this as removing if statements.  Not sure everybody would agree with this assessment though.
+One technique for implementing new functionality is by creating new derived classes.  A derived class will inherit from base class.  Another approach is to allow the 'client' to access the original class with an abstract interface.  I sometimes think of this simply as removing `if statements` by extension but I'm not convinced everybody would agree with this assessment though.
 
-So, in short, if there's a change in requirement or any new requirements, instead of touching the existing functionality, it is better to create new derived classes and leave the original class implementation.  Well, that's the advice!  I worry about the **class explosion** and if you're attempting to do this on top of not so perfect code! 
+So, in short, if there's an amendment or any new features required, instead of touching the existing functionality, it is better to create new derived class and leave the original class implementation.  Well, that's the advice!  I worry about the **class explosion** and if you're attempting to do this on top of not so perfect code! 
 
 ##### Closed modification:
 
