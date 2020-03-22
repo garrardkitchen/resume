@@ -28,8 +28,14 @@ _These are in alphabetical order and not in order of importance_
 - [Testing](#testing)
 - [YAGNI](#yagni)
 
+Other sections:
 
-## [Clean and readable code]()
+- [My pattern discovery](#my-pattern-discovery)
+- [Being a Principal Engineer](#being-a-principal-engineer)
+- [Discussion point](#discussion-point)
+- [References](#references)
+
+### [Clean and readable code]()
 
 Clean and readable code is always better than clever code (ask any engineer who has to extend or maintain a _clever_ piece of code!)
 
@@ -39,23 +45,23 @@ A good measure of how bad a codebases is, and I'm going to plagiarise somebody e
 
 It's the responsibility of a Tech Lead or architecture to stop code bases ending up this way.
 
-## [Code reviews]()
+### [Code reviews]()
 
 It should only contain helpful and constructive comments and/or implementation questions. This process is not there to caress egos (that's for your mother to do!!).  One useful by-product of **code reviews** is conveying of your team's exacting coding standard and attention to deal, to new starters.  So, the quicker the new starter pushes a commit, the better! 
 
-## [Coding standards]() 
+### [Coding standards]() 
 
 (provide a template of core standards then stand back and let the team thrash out the rest - wear protection!)
 
 Although important, it's not the end of the world if some of the granular details differ between teams.  The important thing here, in my opinion, is that each team know where to find their cheese.  Most engineers in a team have a common set of standards they adhere too.  The big things like solution structure, naming conventions, testing (**AAA**, **GWT**), pluralization, documentation structure (including README) all need to be consistent.
 
-## [Composition over inheritance]()
+### [Composition over inheritance]()
 
 (avoid class tree exploitation! - think **Strategy pattern** - GoF)
 
 The above-bracketed statement says it all!  **Inheritance** tends to back you into a corner especially when you consider the **OCP**.
 
-## [Defensive coding]()
+### [Defensive coding]()
 
 (guard against invalid class method parameters and accidental null assignment to class properties instead of an equality condition!)
 
@@ -81,13 +87,13 @@ if (firstname = null)
 
 A .NET Compiler is more than happy allowing this above syntax, as, after all, it's an **assignment operator** and not a **equality operator** as in above in the **class constructor**.  By switching these around, you're making a positive pattern changing and _should_ avoid making this silly mistake again.
 
-## [Do no more]()
+### [Do no more]()
 
 (and do no less - thank you _eXtreme Programming_!).
 
 If you code outside the scope, you're in danger of creating code that isn't used or needed.  The worse thing about this is that others will have to maintain this code.  How can this be?  Well, it's common - think **HTTP chaining** - for code not to be culled especially if there is a disconnect between these dependencies and there's no IDE/compiler to shout at you.
 
-## [DRY]()
+### [DRY]()
 
 (don't repeat yourself)
 
@@ -95,8 +101,7 @@ If you code outside the scope, you're in danger of creating code that isn't used
 
 One way to help identify code that does the same thing is by **refactoring**.  If you keep your code method frame small (~20 lines), and you have a good naming standard for methods (e.g. noun+verb with accurate alighment to business capability - think DDD), have unit tests with a high **code coverage** percentage, then this should be all you need to help you avoid writing duplicate code.
 
-
-## [KISS]()
+### [KISS]()
 
 (keep it simple, silly)
 
@@ -113,7 +118,7 @@ A colleague recently shared with me the architecture of their side project. They
 
 Yeah, think big but don't deliver big without a customer base; as this, in my experience, will result in a huge waste of time, effort and money. Plus, sometimes, you don't really know where something is going to take you, and my advice here is to roll with it.  This last piece of advice is particularly pertinent if you're starting up. 
 
-## [Occam's Razor]()
+### [Occam's Razor]()
 
 This is a problem-solving principle.
 
@@ -124,7 +129,7 @@ The definition of this is:  "Entities should not be multiplied without necessity
 Suppose there are two competing theories on why something is not working.  Normally, the case that requires the least amount of assumptions is correct. So, the more assumptions you have to make means it more likely to be more unlikely.
 
 
-## [Premature optimization]()
+### [Premature optimization]()
 
 Avoid premature optimization and all conversations relating to optimization until you know the facts.  This will be futile until you've **metrics** to better inform you.
 
@@ -136,7 +141,7 @@ Architecture is a great example of when not to prematurely optimize.  Architectu
 
 Sadly, I've come across a few startup that have failed just because they ran out of cash early on.  It's a real shame for all involved.
 
-## [Refactor]()
+### [Refactor]()
 
 ...refactor refactor
 
@@ -144,7 +149,7 @@ Don't save this until the end of a piece of work ... you're bound to miss someth
 
 Things to consider here are **DRY** and **TDD**.  Both will nudge you towards a proper refactoring effort.
 
-## [Separation of Concerns]()
+### [Separation of Concerns]()
 
 (think **MVC**, **CQRS**, **bounded context**, etc...)
 
@@ -156,7 +161,7 @@ It's all about doing the right this in the right place!  I recently ran, archite
 - a time saving
 - it revealed a range of options when dealing with specific edge and corner cases which, again, giving us a further time savings.
 
-## [SOLID]()
+### [SOLID]()
 
 These are the SOLID principles:
 - [Single Responsibility Principle](#single-responsibility-principle)
@@ -165,7 +170,7 @@ These are the SOLID principles:
 - [Interface Segregation Principle](#interface-segregation-principle)
 - [Dependency Inversion Principle](#dependency-inversion-principle)
 
-### [Single Responsibility Principle]()
+#### [Single Responsibility Principle]()
 
 A class (no method) should have one and only one reason to change, meaning that a class (or method) should have only one job.
 
@@ -236,13 +241,13 @@ Here are the benefits of principles:
 - Easier to test
 - Reduces coupling by removing dependency between methods
 
-### [Open Closed Principle]()
+#### [Open Closed Principle]()
 
 Objects or entities should be open for extension, but closed for modification.  So, what does this mean?  Let's break this down to two statements:
 - Open for extension
 - Closed for modification
 
-#### Open for extension:
+##### Open for extension:
 
 This means that we need to design our classes in such a way that it's new responsibilities or functionalities should be added easily when new requirements come.
 
@@ -250,7 +255,7 @@ One technique for implementing new functionality is by creating new derived clas
 
 So, in short, if there's a change in requirement or any new requirements, instead of touching the existing functionality, it is better to create new derived classes and leave the original class implementation.  Well, that's the advice!  I worry about the **class explosion** and if you're attempting to do this on top of not so perfect code! 
 
-#### Closed modification:
+##### Closed modification:
 
 This is very easy to explain...only make modifications to code if there's a bug.
 
@@ -309,7 +314,7 @@ public class HardwareOrder : Order
 }
 ```
 
-### [Liskov Principle]()
+#### [Liskov Principle]()
 
 Definition: "_Let q(x) be a property provable about objects of x of type T. Then q(y) should be provable for objects y of type S where S is a subtype of T._" ... clear as mud right?
 
@@ -381,7 +386,7 @@ public class SumEvenNumbersOnly : Calculator
 }
 ```
 
-### [Interface Segregation Principle]()
+#### [Interface Segregation Principle]()
 
 A client should never be forced to implement an interface that it doesn't use or clients shouldn't be forced to depend on methods they do not use.
 
@@ -411,7 +416,7 @@ public interface IClaim
 }
 ```
 
-### [Dependency Inversion Principle]()
+#### [Dependency Inversion Principle]()
 
 There are 2 rules here:
 - High-level modules should not depend on lower-level modules. Both should depend on abstractions.
@@ -498,15 +503,7 @@ The presence of interfaces to accomplish the Dependency Inversion Pattern (DIP) 
 - No method should override an implemented method
 - All variable instantiation requires the implementation of a creational pattern such as the factory method or the factory pattern, or the use of a dependency-injection framework.
 
----
-
-#### My pattern discovery
-
-I'm a huge fan of **patterns**, especially **cloud architectural patterns** but sometimes, they add unnecessary complicity so beware!
-
-When I first started learning about patterns - some 18 years ago - I went through a few codebases I was involved with at the time to see if I'd subconsciously been repeatedly using a pattern ... and I had!  It was the **lazy loading** pattern...which I continue to use regularly today!
-
-## [Testing]()
+### [Testing]()
 
 (**unit**/**functional**, including concepts like **TDD** & **BDD** and frameworks)
 
@@ -600,7 +597,7 @@ There are a few standards I personally adhere to when it comes to writing tests.
 - the class name of the SUT - system under test - (`sut`).
 
 
-## [YAGNI]()
+### [YAGNI]()
 
 (you ain't going to need it) 
 
@@ -608,7 +605,14 @@ Do no more, and no less than is required.  You do not want to have to maintain c
 
 ---
 
-### Being a Principle Engineer
+### [My pattern discovery]()
+
+I'm a huge fan of **patterns**, especially **cloud architectural patterns** but sometimes, they add unnecessary complicity so beware!
+
+When I first started learning about patterns - some 18 years ago - I went through a few codebases I was involved with at the time to see if I'd subconsciously been repeatedly using a pattern ... and I had!  It was the **lazy loading** pattern...which I continue to use regularly today!
+
+
+### [Being a Principal Engineer]()
 
 As a Principal Engineer, I consider the above as the foundation for writing quality code.  The objective of this list, in conjunction with the message I propagate via this list, during discussions, evidence from my own work and by leading from the front within my role, is one of a reminder to me and my colleagues of best practice and commitment to quality and good practice. As with all foundations, it forms the base from which more advanced concepts or approaches can be learned.  An important part of this practice is heuristic - enabling a person to discover or learn something by themselves.  So, how do I go about doing this?
 
@@ -629,7 +633,7 @@ The coding advice/tips above are interesting ones. As professionals, we always w
 
 **Pair programming** is a wonderful technique for propagating developer skills (think how to use cloud services), approaches to coding (think TDD and problem solving), embed team coding standards and code review in realtime.  **Pair Programming** is an **Extreme Programming** technique.  It is **not a mentoring or coaching** technique but some do use it for this.  Quite often, I find I only participate in pair programming is one of two use cases.  (1) if the subject I'm investigating is new (important to have shared knowledge) and (2) when I'm helping an Engineer to overcome an esoteric issue.  You know what they say? ...a problem shared is a problem halved!  However, now, I'll be including **Pair Programming** in conjunction with **katas** as part of my techniques to stretch the Engineer's muscle memory (including mine!).  
 
-_Discussion point ..._
+### [Discussion point]()
 
 I'm sure I'm not alone here when I say, having the time available for 2 Engineers to code together for skills transfer etc is a challenging one.  An agile sprint doesn't facilitate this.  This is something that I often refer to as having the 'space to learn'.  The pressures of a sprint often, sadly, works against this.  This is doubly as difficult, if your sprint is made up of technical debt, BAU, Ad-hoc etc...  Timeboxing 'effort' into percentages doesn't always present an obvious education path for your Engineers either.  Having a day (developer day or similar) dedicated to learning also never really quite works out the way it's meant too, plus, 'a day'?!  In my experience, this, and trying to cram _genius_ into a time box also never quite works either.  After all, you can't schedule _genius_, in the same way, you can't guarantee that the best Engineers are in your locality, or that the best time for Engineers to work is between 9-5. 
 
@@ -637,9 +641,13 @@ _What is the answer? A mixture of all the above, at hock and at scheduled times,
 
 When I do speak out regarding the above, I inevitably also lead this conversation into Engineering not having the kit [hardware & software] they need.  Engineers require the software and hardware they deem as necessary to be effective in their role.  I once gave an analogy of, not giving Engineers the right kit is like giving a roller brush and a Pogo stick to Michelangelo to paint the Sistine Chapel ceiling.  He'll manage it ... eventually, but the attention to detail and accuracy will be woefully inadequate.
 
-Written mainly for me, I do hope you've found something to take away with you to help you along with your engineering journey.
+---
 
-#### References:
+Written mainly for me, I do hope you've found something here useful that will help you with your engineering journey.
+
+---
+
+#### [References]()
 
 - [The pragmatic programmer](https://pragprog.com/the-pragmatic-programmer/extracts/tips)
 
