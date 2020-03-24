@@ -635,8 +635,8 @@ The coding advice/tips above are interesting ones. As professionals, we always w
 
 I love hacking away at code as much as the next Engineer.  Hacking code is a great way to experiment and to get out of the starting gate.  However, when it comes to pair programming I do like to give it the necessary due diligence.  By this I am referring to allowing for a few moments up front to deliberate and agree on what's required. This checklist guides me and ensures up front I set off in the right frame of mind:
 
-- the objective of the **pair programming** exercise (think the desired outcome - you might even want to frame this with Story Description; AS A, I WANT, SO THAT)
-- what libraries (3rd party) will we need (think cloud provider sdks and vendor client APIs)
+- the objective of the **pair programming** exercise (think the desired outcome - you might even want to frame this with a Story Description; AS A, I WANT, SO THAT)
+- what libraries (3rd party) will we need (think cloud provider SDKs and vendor client APIs)
 - how are we going to test the code we write (think **unit tests**, **integration**, **functional** [**e2e**] as well as your approach e.g. **TDD**).
 
 After the session has finished I like to perform one final task.  This is to document findings/learnings and areas that require further investigation.  This is normally helped by capturing notes as we go along.
