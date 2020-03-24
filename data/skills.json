@@ -252,6 +252,7 @@
             "Epsagon",
             "Grafana",
             "InfluxDB (Telegraf, Kapacitor, Chronograf)",
+            "Jaeger",
             "Kibana",                         
             "NewRelic", 
             "Prometheus",
