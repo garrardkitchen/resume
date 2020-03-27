@@ -46,12 +46,14 @@ Although not all of my mentoring is official, I do conduct myself in such a way 
 
 I am a Principal Engineers and as such, I have a responsibility to my co-workers and the business to conduct myself in a way befitting a Principal Engineer.  Quite simply put, one of the objectives is to help my co-workers in whatever way possible.  This can be helping them out on a project.  It can be providing feedback on a piece of work or technique. Ultimately, my goals are to be supportive, helpful, insightful, encouraging, guiding, a sounding board, respectful and inspirational. Yes, this is a bit of a long list of goals and I hope it doesn't sound arrogant.  My co-workers are important to me and a sign of these goals being achieved, I see some of the list being reflected at me which is extremely satisfying!  
 
-Always mentoring:
+One of the most humbling times of my life was when I mentored a colleague who, through no fault of his own, was temporarily let go from the company I was a CTO for.  We as a company were struggling financially and had to slim down the workforce. It was a sh*t time. It was important to me though from a persona perspective that I didn't just sever contact with him.  The plan was always to bring him back onboard once things improved.  And they did.  But during the time that it wasn't so great, I would meet-up regularly with him - he was based in another country. We would discuss many topics; life, technology & side projects.  Where I could, I'd provide guidance and be a sounding board for him.  From time to time I would plan things for him to do.  The next time we met up, I'd review what he had done and provide feedback when necessary.  I would like to think that this created a bond between us.  Like I say, it was a very humbling as after all, I was still in gameful employment.  At some level, it must have been a bitter pill for him to swallow and he never held it against me which is demonstrative of his character.  We no longer work together but he remains a friend and we do still often catch up online.
+
+
+
+
+
+Other notes:
+ - outcome:
+    - Changes/improvements can be subtle
  - git PR review, look at eth entire file
  - release with tests, even when not a new feature and just a code change
- 
-One of the most humbling times in my life was when I mentored a colleague who no fault of his own was temporarily let from the employment of the company I was a CTO for.  We were struggling with revenue-wise and had to slim down the workforce. It was a sh*t time. It was important from a personal point of view that I didn't just leave him.  After all, the plan was always to bring him back onboard once things improved.  And they did.  But during the time that it wasn't so great, I would meetup regularly online with him. We would discuss many topics, life, technology, side projects.  Where I could I'd provide guidance and be a sounding board.  From time to time I would layout things for him to do and the next time we meet up I'd review and provide feedback.  Like I say, it was a very humbling experience as after all, I was still in gameful employment and so at some level, it must have been a bitter pill.  We no longer work together but he remains a friend and we do still often catch up.
-
-
-outcome:
- - Changes/improvements can be subtle
