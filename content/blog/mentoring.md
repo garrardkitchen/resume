@@ -8,35 +8,34 @@ tags: [Hugo, blogging, mentoring]
 
 What is mentoring?
 
-Camille Fournier talks about Mentoring in her book: **The Manager's Path**.  She writes:
+In her book  **The Manager's Path**, Camille Fournier talks about Mentoring. She writes:
 
     "The first act of people management for many engineers is often unofficial."
 
-This has always been true for me.  My current positions is as a Principal Engineer.  Before this, A CTO.  I've never conducted an official mentoring programme/scheme.  It's just been something that I do, without fuss but with purpose.  
+This has always been the case for me too.  I am currently employed as Principal Engineer, before this, A CTO.  In this time, I have never organised or carried out an official [backed by an recognised authority] mentoring scheme.  It's just been something that I do, without fuss but with purpose.  
 
-These are the scenarios in which I've mentored others:
+This is a list of scenarios where I have mentored others:
  - onboarding a new company starters, 
  - onboarding a new company at a similar level as myself 
  - onbording a graduate (their first job since graduating from university)
  - when working on a project together
 
-I have developed as well as coordinated the  onboarding programme that I developed.  All this was carried out remotely.  This is more relevant today as of the current climate of working from home
+Oddly, I have never been a mentee. If I had then there is a possibility that this in itself may have defined this process more for me.
 
-Some of the above has been done remotely, including mentoring somebody whom wasn't working for the company at this time.  More on this later.
+I have created and coordinated an onboarding programme.  This was when I was a CTO.  All this was choregraphed remotely.  Ironically, this is more relevant today than ever.  As I write this CV-19 has started to take a grip of the UK and yesterday I heard of the sad news that 2 people had died from it in Southport where I have now resided since 2008.
 
-What follows is a bullet list of key areas that as a mentor you need to be very mindful of:
-- clearly communicate what the process is to the mentee
-- always listen
-- take the time to explain reasons for decisions 
-- explain why something is not applicable in that instance 
-- don't dismiss anything without a reason as to why you're dismissing it
-- allow for mistakes but always follow up with a post mortem. Making a mistake as well as allowing for mistakes to be made is critical for the engineer's development
-- make aa safe environment for your mentee to operate in
-- make time but be clear about the amount of time you can give (you will have other responsibilities and by doing this, you will inadvertantly force them into make decisions and standing on their own two feet, which again, is a critical for their development)
-- work an a real project, something that matters. By limiting the hypotheticals, they get hands-on non-fabricated, warts and all, engineerings experience
+This is bullet list of key 'things' that I have discovered that have helped me through the mentoring process:
+- clearly communicate what the process of mentoring is to the mentee
+- listen first, then respond. Every exhange, learning outcome, question is different
+- take the time to explain the rational for your decision 
+- take the time to explain why something is not applicable in that particular instance 
+- allow for mistakes and always follow them up with a post mortem. We all make mistakes, in some cases, it helps define you. Making a mistake is critical for our development and this is why the next point is important...
+- ensure you make a safe environment for your mentee to operate in
+- make time but be clear about the amount of time you can give. You will have other responsibilities. Inadvertantly, you are forcing the mentee make decisions. This often encourages the mentee and gives them confidence to standing on their own two feet.  This too is critical for their development
+- work an a real project, albeit, scaled back for safety and to limit blast radius.  It has to be something that matters to the business.  This will help the mentee be recognised by their good work. By limiting the hypotheticals, the mentee will then get their hands on a non-fabricated, warts and all, real life engineering problem.
 
 
-I find though that, although there's a prescribed time for mentoring others, think 1-to-1 time, as a person who's lead development and architecture and been key to enabling a direction through technology, I'm always in mentoring mode.  I am always thinking and acting on ways to improve and to do things correctly (think good engineering principles).  You do have to be considerate in the approach to take to deliver this guidance.  My current role of Principal Engineer luckily, affords me this duty. 
+I find though that, although there's a prescribed time for mentoring others, not  1-2-1s - this is something completely different - as a person who has lead both architecture and engineering effort, this has been key to enabling the strategic direction of business, I have always been in mentoring mode.  I am always thinking and acting on ways to improve and to do things correctly (think good engineering principles).  You do have to be considerate in the approach to take to deliver this guidance.  My current role of Principal Engineer luckily, affords me this duty. 
  
 
 Encourage people by:
