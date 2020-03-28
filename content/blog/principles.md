@@ -6,7 +6,9 @@ featured: true
 tags: [Hugo, blogging, good engineering, principles]
 ---
 
-Most Engineers are fully versed in the foundations of writing quality, efficient, succinct and testable code.  As a Principal Engineer, one of my responsibilities is to ensure that this baseline is (1) understood and (2) adhered to by all engineers. 
+I have written this post as a method document what I see as the basics, foundations if you will, for good engineering.  Undouteditly, if you are a seasoned engineer, you will recognised all of these principles, less so, if you're just starting out.
+
+Most Engineers are fully versed in the foundations of writing quality, efficient, succinct and testable code.  As a Principal Engineer, one of my responsibilities is to ensure that these (1)  foundations are recognised by the engineers and (2) are adhered to by all engineers. 
 
 Here's a list of concepts that for me, constitute good engineering principles:
 
@@ -653,7 +655,7 @@ When I do speak out regarding the above, I inevitably also lead this conversatio
 
 ---
 
-Written mainly for me, I do hope you've found something here useful that will help you with your engineering journey.
+Written mainly for me, I do hope you've found something useful here, and who knows, it may even help you with your engineering journey too.
 
 ---
 

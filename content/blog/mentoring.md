@@ -59,6 +59,6 @@ Outcomes from the mentoring process _can also_ be subtle. Just to be clear, it's
 
 ---
 
-Written mainly for me, I do hope you've found something here useful that will help you with your mentoring journey.
+Written mainly for me, I do hope you've found something useful here snd who knows, it may will help you with your mentoring journey too.
 
 ---
