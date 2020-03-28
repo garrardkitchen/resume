@@ -35,6 +35,8 @@ This is a bullet list of key 'things' that I have discovered that have helped me
 - ensure you make a safe environment for your mentee to operate in
 - make time but be clear about the amount of time you can give. You will have other responsibilities. Inadvertently, you are forcing the mentee to make decisions. This often encourages the mentee and gives them the confidence to standing on their own two feet.  This too is critical for their development
 - work on a real project, albeit, scaled back for safety and to limit the blast radius.  It has to be something that matters to the business.  This will help the mentee be recognized by their good work. By limiting the hypotheticals, the mentee will then get their hands on a non-fabricated, warts and all, real-life engineering problem.
+- to help in the preparation of an important [to them] event - this has meant helping in the materials for an event as well as assessing and providing feedback
+- develop a personal development plan - used to help keep focus as well as a comparitor. This cn take up a chunk of time but well worth it plus you're holding yourself accountable to the process too!
 
 As CTO I led both the architectural and the planned engineering effort that has been key to strategic direction of that business.  Mentoring was an important part of this process and as such, I was always in mentoring mode.  To this day, no longer a CTO but still in a senior engineering position, I constantly think about, and act on, ways to help those around me to improve their engineering capabilities (think good engineering principles).  
  
