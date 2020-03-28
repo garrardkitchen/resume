@@ -3,10 +3,14 @@ title: "Mentoring"
 date: 2020-03-26T06:09:14+01:00
 draft: true
 featured: true
-tags: [Hugo, blogging, mentoring]
+tags: [Hugo, blogging, mentoring, The Manager's Path, Heisenberg Effect]
 ---
 
 What is mentoring?
+
+I have written this post to document my experiences of mentoring.  I have mentored  front-end, back-end engineers and UX designers.  I have had the pleasure of helping others as well as learning one of two things about myself along this journey.  If ever you get the opportunity to be a mentor, I recommend you jump at the opportunity.  It is a rewards experience.
+
+So, what is mentoring?...
 
 _The definition of Mentoring is the act of advising or training (someone, especially a younger colleague)._
 
@@ -28,10 +32,10 @@ With reference to the above mentioned scenarios, I have both created and coordin
 
 This is a bullet list of key 'things' that I have discovered that have helped me through the mentoring process:
 - communicate what the process of mentoring is to the mentee
-- listen first, then respond. Every exchange, learning outcome, the question is different
-- take the time to explain the rationale for your decision 
+- first listen, then respond. Don't attempt to expediate the process, don't forget, it's for them, not you!
+- take the time to explain the rationale for a decision 
 - take the time to explain why something is not applicable in that particular instance 
-- allow for mistakes and always follow them up with a post mortem. We all make mistakes, in some cases, it helps define you. Making a mistake is critical for our development and this is why the next point is important...
+- allow for mistakes to be made and always follow them up with a post mortem. We all make mistakes, in some cases, it helps define you. Making a mistake is critical to our development so this is why the next point is important...
 - ensure you make a safe environment for your mentee to operate in
 - make time but be clear about the amount of time you can give. You will have other responsibilities. Inadvertently, you are forcing the mentee to make decisions. This often encourages the mentee and gives them the confidence to standing on their own two feet.  This too is critical for their development
 - work on a real project, albeit, scaled back for safety and to limit the blast radius.  It has to be something that matters to the business.  This will help the mentee be recognized by their good work. By limiting the hypotheticals, the mentee will then get their hands on a non-fabricated, warts and all, real-life engineering problem.
