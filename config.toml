@@ -9,6 +9,7 @@ enableGitInfo = true
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 googleAnalytics = "UA-10838611-1"
+env = "production"
 
 [taxonomies]
     tag = "tags"

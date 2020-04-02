@@ -3,5 +3,5 @@ title: "Blog"
 sitemap:
   priority : 0.9
 ---
-This section contains articles form my old blogging site. Not all have been ported so will look sparse
+My blogging site has moved. [Click here to go to my new blogging site](http://blog.garrardkitchen.com)
 
