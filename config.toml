@@ -8,11 +8,12 @@ pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 googleAnalytics = "UA-10838611-1"
 env = "production"
-features = ["projects"]
+
 [taxonomies]
     tag = "tags"
 
 [params]
+    sidebar = true
     firstName = "Garrard"
     lastName = "Kitchen"
     address = "Southport, UK"
