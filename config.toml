@@ -3,6 +3,7 @@ baseURL = "http://www.garrardkitchen.com/"
 languageCode = "en-us"
 title = "GPK"
 theme = "hugo-resume"
+publishDir = "docs"
 #theme = "ananke"
 enableGitInfo = true
 
