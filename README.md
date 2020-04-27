@@ -44,3 +44,12 @@ git -r --cached submodules/public
 git submodule add -b master -f git@github.com:garrardkitchen/garrardkitchen.github.io.git public
 ```
 
+If you can't pull submodules, run:
+```bash
+git submodule init && git submodule update && git submodule status
+```
+
+git submodule deinit -f -- public
+Remove-Item -Recurse -Force .git/modules/public
+OR
+rm -r -fo .git/modules/public
