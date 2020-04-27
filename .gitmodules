@@ -1,10 +1,3 @@
 [submodule "themes/hugo-resume"]
 	path = themes/hugo-resume
 	url = https://github.com/eddiewebb/hugo-resume.git
-[submodule "themes/ananke"]
-	path = themes/ananke
-	url = https://github.com/budparr/gohugo-theme-ananke.git
-# [submodule "public"]
-# 	path = public
-# 	url = git@github.com:garrardkitchen/garrardkitchen.github.io.git
-# 	branch = master

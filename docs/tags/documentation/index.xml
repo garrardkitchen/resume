@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>documentation on GPK</title>
+    <link>http://www.garrardkitchen.com/tags/documentation/</link>
+    <description>Recent content in documentation on GPK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Apr 2019 16:30:38 +0100</lastBuildDate>
+    
+	<atom:link href="http://www.garrardkitchen.com/tags/documentation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SDK</title>
+      <link>http://www.garrardkitchen.com/projects/creations/sdk/</link>
+      <pubDate>Sun, 28 Apr 2019 16:30:38 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/sdk/</guid>
+      <description>I created a process for others, external to the company, to perform integrations. The concept is simple and still used today.
+In summary, a conduit known as a Data Connector was developed to (a) be used by Coach via a RESTful API and (b) integrate with Vendor or other system(s) APIs or data sources. Metadata for users &amp;amp; recordings could then be exchanged via the Data Connector. Additional [configurable] data was also passed along this pipeline.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bootstrap on GPK</title>
+    <link>http://www.garrardkitchen.com/tags/bootstrap/</link>
+    <description>Recent content in bootstrap on GPK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Apr 2019 16:38:24 +0100</lastBuildDate>
+    
+	<atom:link href="http://www.garrardkitchen.com/tags/bootstrap/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Retheme Product</title>
+      <link>http://www.garrardkitchen.com/projects/creations/retheme-product/</link>
+      <pubDate>Sun, 28 Apr 2019 16:38:24 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/retheme-product/</guid>
+      <description>Formally a front-end developer, I feel confortable and confident carrying out work in this space
+  The CXcoach cloud based product needed a ‘face lift’.
+I investigated the most frugal way to provide the product with a new look and feel, one that is aligned with industry expectations. I settled on an open source theme and provided my UX lead developer a branch of code that used this new theme for him to complete and fix any style and placement issues.</description>
+    </item>
+    
+    <item>
+      <title>Coach</title>
+      <link>http://www.garrardkitchen.com/projects/creations/coach/</link>
+      <pubDate>Sun, 28 Apr 2019 16:13:20 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/coach/</guid>
+      <description> Created a web based product of our successful client/server product. Chose appropriate tech to fit the timeline. Worked with a Pakistani development outsourcing company and Recorder vendor that the product was integrating with at the time. Later developing the application to integrate with the Redbox Recorder, leading Redbox to purchase the code after an agreed sign off.  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>c# on GPK</title>
+    <link>http://www.garrardkitchen.com/tags/c#/</link>
+    <description>Recent content in c# on GPK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Apr 2019 17:12:59 +0100</lastBuildDate>
+    
+	<atom:link href="http://www.garrardkitchen.com/tags/c#/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dashboard</title>
+      <link>http://www.garrardkitchen.com/projects/creations/dashboard/</link>
+      <pubDate>Sun, 28 Apr 2019 17:12:59 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/dashboard/</guid>
+      <description>I have researched several big data solutions but found them either too costly, lead time too lengthy or too complicated.
+Coach needed something to present actionable data. Not knowing whether the idea matched reality, I proposed a phase 1 release that would lead to feature enhancements that would naturally lead to something that would help more. I architected an ETL and data analytics process that would generate separate JSON formatted data, persisted to S3 for a specific user after being processed by a Pandas dataframe.</description>
+    </item>
+    
+    <item>
+      <title>Retheme Product</title>
+      <link>http://www.garrardkitchen.com/projects/creations/retheme-product/</link>
+      <pubDate>Sun, 28 Apr 2019 16:38:24 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/retheme-product/</guid>
+      <description>Formally a front-end developer, I feel confortable and confident carrying out work in this space
+  The CXcoach cloud based product needed a ‘face lift’.
+I investigated the most frugal way to provide the product with a new look and feel, one that is aligned with industry expectations. I settled on an open source theme and provided my UX lead developer a branch of code that used this new theme for him to complete and fix any style and placement issues.</description>
+    </item>
+    
+    <item>
+      <title>Coach</title>
+      <link>http://www.garrardkitchen.com/projects/creations/coach/</link>
+      <pubDate>Sun, 28 Apr 2019 16:13:20 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/coach/</guid>
+      <description> Created a web based product of our successful client/server product. Chose appropriate tech to fit the timeline. Worked with a Pakistani development outsourcing company and Recorder vendor that the product was integrating with at the time. Later developing the application to integrate with the Redbox Recorder, leading Redbox to purchase the code after an agreed sign off.  </description>
+    </item>
+    
+  </channel>
+</rss>

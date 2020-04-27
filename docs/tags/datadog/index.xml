@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>datadog on GPK</title>
+    <link>http://www.garrardkitchen.com/tags/datadog/</link>
+    <description>Recent content in datadog on GPK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Apr 2019 16:24:21 +0100</lastBuildDate>
+    
+	<atom:link href="http://www.garrardkitchen.com/tags/datadog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Observability</title>
+      <link>http://www.garrardkitchen.com/projects/creations/observability/</link>
+      <pubDate>Sun, 28 Apr 2019 16:24:21 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/observability/</guid>
+      <description>The 3 pillars of observability (logging, metrics and tracing) presents new challenges for serverless solutions.
+Having experienced this first hand, I set about looking for a solution that will enable rapid root cause analysis to ultimately greatly reduce or even better, mitigate [think runbooks] known undesirable scenarios.
+  I believe in positive Customer Experience (CX) and apply this philosophy across everything I do.
+I spent time with Datadog [a few months of meetings] discussing ways to help this serverless space to improve observability.</description>
+    </item>
+    
+  </channel>
+</rss>

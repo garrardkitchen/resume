@@ -48,8 +48,14 @@ If you can't pull submodules, run:
 ```bash
 git submodule init && git submodule update && git submodule status
 ```
+Then to remove a submodule, run:
 
-git submodule deinit -f -- public
-Remove-Item -Recurse -Force .git/modules/public
+_e.g. <submodule> could be "themes/ananke"_
+
+```
+git submodule deinit -f -- <submodule>
+rm -r -fo .git/modules/<submodule>
 OR
-rm -r -fo .git/modules/public
+Remove-Item -Recurse -Force .git/modules/<submodule>
+git rm -f <submodule>
+```

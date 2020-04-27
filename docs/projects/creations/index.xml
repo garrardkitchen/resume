@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on GPK</title>
+    <link>http://www.garrardkitchen.com/projects/creations/</link>
+    <description>Recent content in Projects on GPK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://www.garrardkitchen.com/projects/creations/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Security</title>
+      <link>http://www.garrardkitchen.com/projects/creations/security/</link>
+      <pubDate>Tue, 30 Apr 2019 11:47:28 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/security/</guid>
+      <description>These are some of the areas where I have dedicated my efforts when it comes to security:
+ All vital and IPR associated systems are protected via MFA Grandular IAM permissions configured for AWS services, users and roles I always adhere to the Least Privilege Principle Web Application Firewall (OWASP) Web application XSS, SQL Injection, encoding, securing cookies, role &amp;amp; claims based authz I always encrypt data at rest and also when in transit I always encrypt systems credentials (including 3rd party&amp;rsquo;s) and always include extra layer of encryption All passwords are hashed To isolated blast radius of environments by separating dev/test &amp;amp; prod into different accounts.</description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>http://www.garrardkitchen.com/projects/creations/resume/</link>
+      <pubDate>Tue, 30 Apr 2019 08:46:29 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/resume/</guid>
+      <description> Assessed whether or not to update existing non-maintained Jekyll site to promote myself Researched other options (e.g. Hugo) Experimented with Hugo and different templaes (focus on resume style) Expedited my learning curve Completed resume rewrite in 3 days Configured GitHub pages and custom domain Configured Google Analytics  </description>
+    </item>
+    
+    <item>
+      <title>Corporate Website</title>
+      <link>http://www.garrardkitchen.com/projects/creations/corporate-website/</link>
+      <pubDate>Sun, 28 Apr 2019 17:31:27 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/corporate-website/</guid>
+      <description> Used mainly static content and ported new copy/layout to SAM Serverless Application C# .NET Core Razor Pages solution. Originally WP was in place, so removing MySQL reduced the cost. I created a CI/CD Pipeline using BitBucket. It is now hosted via API Gateway &amp;amp; Lambda and not via an Azure Website.  </description>
+    </item>
+    
+    <item>
+      <title>ETL</title>
+      <link>http://www.garrardkitchen.com/projects/creations/etl/</link>
+      <pubDate>Sun, 28 Apr 2019 17:29:12 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/etl/</guid>
+      <description> I have implemented several solutions around this space using serverless technology and purpose built services [Glue, Athena, Data Pipeline and DMS]. Tools that I have used to help me develop a solution are Jupyter Labs and Pandas &amp;amp; NumPy.  </description>
+    </item>
+    
+    <item>
+      <title>Recruitment</title>
+      <link>http://www.garrardkitchen.com/projects/creations/recruitment/</link>
+      <pubDate>Sun, 28 Apr 2019 17:25:55 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/recruitment/</guid>
+      <description>I have had the honour and experience of hiring several talented individuals.
+I have tried different approaches to assessing a team member. My secret is that I look for crucial character traits. Having tried different approaches to evaluating a prospects suitability, I have come to the conclusion that in most cases lengthy tests or situations that induce stress, are both unnecessary and unfair. I am of the opinion that if you are faced with that kind of situation then something/someone up stream has messed up and it’s more important to me to know how a person (a) handles that situation and (2) how they identify learning points.</description>
+    </item>
+    
+    <item>
+      <title>IntelliSearch</title>
+      <link>http://www.garrardkitchen.com/projects/creations/intellisearch/</link>
+      <pubDate>Sun, 28 Apr 2019 17:22:33 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/intellisearch/</guid>
+      <description>Coach has a long standing feature called IntelliSearch.
+It is a feature that, at a specific time, for several set periods [daily, weekly, monthly, custom], it will submit queries to a Data Connector (conduit between our system and an external system) to match up randomly selected recordings for later evaluation. The random algorithm implemented is there to ensure fairness of recording selection so apples and apples are compared and not apples to oranges.</description>
+    </item>
+    
+    <item>
+      <title>Automation</title>
+      <link>http://www.garrardkitchen.com/projects/creations/automation/</link>
+      <pubDate>Sun, 28 Apr 2019 17:20:51 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/automation/</guid>
+      <description> Serverless is ideal for so many use cases. Automation is a prime example of where serverless technology can fit so well. I have used Lambdas and supporting services to help automating both mundane and configuration tasks.
+Some examples of these are; setting log retention durations on log group creations, log subscription and adding API Gateway API keys to SSM Parameter Store.  </description>
+    </item>
+    
+    <item>
+      <title>Migrations</title>
+      <link>http://www.garrardkitchen.com/projects/creations/migrations/</link>
+      <pubDate>Sun, 28 Apr 2019 17:16:53 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/migrations/</guid>
+      <description>Migrate Coach product away from a monolyth to being 100% serverless. Main web platform hosted via ECS Fargate and all features, RESTul APIs be Lambda backed API Gateways and Step Functions. Data repositories used are dynamoDB, ElasticSearch, Amazon Aurora (mySQL), Redis and S3.
+  Coach migrated from MSSQL to MySQL as costs were too high for Always-On capabilities. I was accepted onto Aurora MySQL Preview programme and contributed to this phase.</description>
+    </item>
+    
+    <item>
+      <title>Dashboard</title>
+      <link>http://www.garrardkitchen.com/projects/creations/dashboard/</link>
+      <pubDate>Sun, 28 Apr 2019 17:12:59 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/dashboard/</guid>
+      <description>I have researched several big data solutions but found them either too costly, lead time too lengthy or too complicated.
+Coach needed something to present actionable data. Not knowing whether the idea matched reality, I proposed a phase 1 release that would lead to feature enhancements that would naturally lead to something that would help more. I architected an ETL and data analytics process that would generate separate JSON formatted data, persisted to S3 for a specific user after being processed by a Pandas dataframe.</description>
+    </item>
+    
+    <item>
+      <title>Health of the SaaS product</title>
+      <link>http://www.garrardkitchen.com/projects/creations/health/</link>
+      <pubDate>Sun, 28 Apr 2019 17:09:54 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/health/</guid>
+      <description>For me, CX (Customer Experience) is paramount. Even if there is an outage, the CX doesn’t have to suffer. In my current project, there are key AWS services, as well as the CXcoach product, that are required to be running for the application to function. I have architected both full systems and application features in such a way for them not to fail because of transient outages or worse and furthermore to provide instant feedback to users.</description>
+    </item>
+    
+    <item>
+      <title>Billing</title>
+      <link>http://www.garrardkitchen.com/projects/creations/billing/</link>
+      <pubDate>Sun, 28 Apr 2019 17:02:46 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/billing/</guid>
+      <description> I have designed and implemented several billing mechanisms. Including designs/models orientated around licensing, another using AWS MMS (metering service) for the AWS QuickStart and more recently, one to capture product usage based on a specific frequency. The later architectured and delivered once again via serverless technology. Created web apps [some serverless] to provide visibility into usage Create application features to help mitigate restrictions on internet access Subscription models designed and developed for: per agent, per user, per period, per feature usage, per role  </description>
+    </item>
+    
+    <item>
+      <title>Onboarding</title>
+      <link>http://www.garrardkitchen.com/projects/creations/onboarding/</link>
+      <pubDate>Sun, 28 Apr 2019 16:55:49 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/onboarding/</guid>
+      <description>An important part of a SaaS application, especially one that requires integrations to provide any measure of benefit, is onboarding.
+For me, the advantages are simple.
+  Generally, CX needs to be smooth [quick and useful]. It is also important to know at what stage a trialer is at. This can then be aided by a digital campaign with support.
+  With most onboarding models requiring a starting point outside of our product, e.</description>
+    </item>
+    
+    <item>
+      <title>Retheme Product</title>
+      <link>http://www.garrardkitchen.com/projects/creations/retheme-product/</link>
+      <pubDate>Sun, 28 Apr 2019 16:38:24 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/retheme-product/</guid>
+      <description>Formally a front-end developer, I feel confortable and confident carrying out work in this space
+  The CXcoach cloud based product needed a ‘face lift’.
+I investigated the most frugal way to provide the product with a new look and feel, one that is aligned with industry expectations. I settled on an open source theme and provided my UX lead developer a branch of code that used this new theme for him to complete and fix any style and placement issues.</description>
+    </item>
+    
+    <item>
+      <title>SDK</title>
+      <link>http://www.garrardkitchen.com/projects/creations/sdk/</link>
+      <pubDate>Sun, 28 Apr 2019 16:30:38 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/sdk/</guid>
+      <description>I created a process for others, external to the company, to perform integrations. The concept is simple and still used today.
+In summary, a conduit known as a Data Connector was developed to (a) be used by Coach via a RESTful API and (b) integrate with Vendor or other system(s) APIs or data sources. Metadata for users &amp;amp; recordings could then be exchanged via the Data Connector. Additional [configurable] data was also passed along this pipeline.</description>
+    </item>
+    
+    <item>
+      <title>Best Practice</title>
+      <link>http://www.garrardkitchen.com/projects/creations/best-practice/</link>
+      <pubDate>Sun, 28 Apr 2019 16:29:00 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/best-practice/</guid>
+      <description> It is important to me to ensure throughout all my teams we all document, share and have joint responsibility in maintaining guidelines and best practices. It begins when research starts and continues through the projects lifecycle. Documents are maintained in order to provide guidance to both junior and senior team members. Always stress the importance of consistency and standards.  </description>
+    </item>
+    
+    <item>
+      <title>Observability</title>
+      <link>http://www.garrardkitchen.com/projects/creations/observability/</link>
+      <pubDate>Sun, 28 Apr 2019 16:24:21 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/observability/</guid>
+      <description>The 3 pillars of observability (logging, metrics and tracing) presents new challenges for serverless solutions.
+Having experienced this first hand, I set about looking for a solution that will enable rapid root cause analysis to ultimately greatly reduce or even better, mitigate [think runbooks] known undesirable scenarios.
+  I believe in positive Customer Experience (CX) and apply this philosophy across everything I do.
+I spent time with Datadog [a few months of meetings] discussing ways to help this serverless space to improve observability.</description>
+    </item>
+    
+    <item>
+      <title>CXcoach</title>
+      <link>http://www.garrardkitchen.com/projects/creations/cxcoach/</link>
+      <pubDate>Sun, 28 Apr 2019 16:16:41 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/cxcoach/</guid>
+      <description>Created an SaaS version of our product on the AWS platform using serverless tech as an enabler to lowering the running costs and as such, make it cheaper for the vendor/partner to offer our product to their end-clients
+  I have been responsible for driving the integrations with major vendors
+  Made presentations to prospective partners [CEO and below] nd helped shape requirements of the integration</description>
+    </item>
+    
+    <item>
+      <title>Coach</title>
+      <link>http://www.garrardkitchen.com/projects/creations/coach/</link>
+      <pubDate>Sun, 28 Apr 2019 16:13:20 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/coach/</guid>
+      <description> Created a web based product of our successful client/server product. Chose appropriate tech to fit the timeline. Worked with a Pakistani development outsourcing company and Recorder vendor that the product was integrating with at the time. Later developing the application to integrate with the Redbox Recorder, leading Redbox to purchase the code after an agreed sign off.  </description>
+    </item>
+    
+    <item>
+      <title>QTag</title>
+      <link>http://www.garrardkitchen.com/projects/creations/qtag/</link>
+      <pubDate>Sun, 28 Apr 2019 16:09:25 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/qtag/</guid>
+      <description> For a particular integration, the necessary data for the integration was not discoverable. I architected a bespoke cloud based solution that used several Azure services. The web app was written with node.js, Azure mobile services, table storage, service bus and Azure Web App (plus staging).  </description>
+    </item>
+    
+    <item>
+      <title>AWS Quick Start for Amazon Connect</title>
+      <link>http://www.garrardkitchen.com/projects/creations/aws-quickstart/</link>
+      <pubDate>Sun, 28 Apr 2019 16:04:05 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/aws-quickstart/</guid>
+      <description>The product, Coach, was in the first wave of SMEs to integrate with the Amazon Connect product. As part of a team, I met with and coordinated with both the AC team and the Marketplace Team. I developed the QuickStart that is hosted via AWS and produced an AMI that is being marketed in the AWS Marketplace. The Coach product was developed to work with Active Directory and I assisted in creating materials to help with all facets of the QuickStart.</description>
+    </item>
+    
+    <item>
+      <title>Serverless</title>
+      <link>http://www.garrardkitchen.com/projects/creations/serverless/</link>
+      <pubDate>Sun, 28 Apr 2019 16:01:53 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/serverless/</guid>
+      <description>Investigated ways to reduce time to market, end-client license costs, hosting costs and development costs.
+This research and later development efforts contributed to formulating and maintaining a best practice set of guidelines/principals covering all frameworks and languages employed to deliver a solution [product, automation and integrations].
+  Used both Serverless Framework and SAM. I use several IDEs, dependant on task/requirement, mainly VSCode, Rider, PyCharm and VS.
+  These are samples of use cases where I have employed Serverless technologies: Websites (ASP.</description>
+    </item>
+    
+    <item>
+      <title>Streamline deployment of HA app</title>
+      <link>http://www.garrardkitchen.com/projects/creations/ha/</link>
+      <pubDate>Sun, 28 Apr 2019 15:56:30 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/ha/</guid>
+      <description>The Coach product started as an on-prem application, installed behind the firewall on a single server.
+A partner made a request for the product [Coach] to be made highly available. Initially the product was hosted via an active/passive configuration. This was superseded by a load balanced active/active configuration through the application of Akka.NET throughout all components. This enabled an application cluster that could load balance the demands across all components.</description>
+    </item>
+    
+    <item>
+      <title>DevOps</title>
+      <link>http://www.garrardkitchen.com/projects/creations/devops/</link>
+      <pubDate>Sun, 28 Apr 2019 15:35:53 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/devops/</guid>
+      <description> I created a culture that removes the responsibility of one person/team/department to manage infrastructure, and to deliver that freedom to the developer/team in order to minimize latency between feature conception and release and to react rapidly to any production issues  </description>
+    </item>
+    
+    <item>
+      <title>Continuous Integration, Continuous Deployment &amp; Continuous Delivery</title>
+      <link>http://www.garrardkitchen.com/projects/creations/cicd/</link>
+      <pubDate>Sun, 28 Apr 2019 15:35:31 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/cicd/</guid>
+      <description>CI has been a long term development responsibility.
+Formally, for our client/server product, I would install and host TeamCity on office servers. Currently for a specific version of Coach, it is now hosted on an Azure instance. The deployment package is delivered to S3 and at the appropriate time (major/minor/patch release) is added to a Confluence site for our customers to download.
+All projects are now driven by CI/CD principals.</description>
+    </item>
+    
+    <item>
+      <title>Integrations</title>
+      <link>http://www.garrardkitchen.com/projects/creations/integrations/</link>
+      <pubDate>Sun, 28 Apr 2019 15:22:47 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/integrations/</guid>
+      <description>Liaised with a vendor to create conduit [data connector] between our products and theirs. Worked with many vendors including Twilio (including Flex), Zendesk, Telax, DataVoice, Novo, Comways, Altitude, Dubber, Frequentis, Spitch, Amazon Connect, Redbox.
+  Worked with teams to scope requirements, define every stage up to sign off and team responsibilities. Each integration would start with a technical presentation delivered by me. This would encompass architecture, stages and responsibilities, establishing test environments and training requirements.</description>
+    </item>
+    
+  </channel>
+</rss>

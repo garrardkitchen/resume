@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aws ecs fargate on GPK</title>
+    <link>http://www.garrardkitchen.com/tags/aws-ecs-fargate/</link>
+    <description>Recent content in aws ecs fargate on GPK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Apr 2019 17:20:51 +0100</lastBuildDate>
+    
+	<atom:link href="http://www.garrardkitchen.com/tags/aws-ecs-fargate/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Automation</title>
+      <link>http://www.garrardkitchen.com/projects/creations/automation/</link>
+      <pubDate>Sun, 28 Apr 2019 17:20:51 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/automation/</guid>
+      <description> Serverless is ideal for so many use cases. Automation is a prime example of where serverless technology can fit so well. I have used Lambdas and supporting services to help automating both mundane and configuration tasks.
+Some examples of these are; setting log retention durations on log group creations, log subscription and adding API Gateway API keys to SSM Parameter Store.  </description>
+    </item>
+    
+  </channel>
+</rss>

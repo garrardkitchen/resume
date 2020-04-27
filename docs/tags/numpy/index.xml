@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>numpy on GPK</title>
+    <link>http://www.garrardkitchen.com/tags/numpy/</link>
+    <description>Recent content in numpy on GPK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Apr 2019 17:29:12 +0100</lastBuildDate>
+    
+	<atom:link href="http://www.garrardkitchen.com/tags/numpy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ETL</title>
+      <link>http://www.garrardkitchen.com/projects/creations/etl/</link>
+      <pubDate>Sun, 28 Apr 2019 17:29:12 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/etl/</guid>
+      <description> I have implemented several solutions around this space using serverless technology and purpose built services [Glue, Athena, Data Pipeline and DMS]. Tools that I have used to help me develop a solution are Jupyter Labs and Pandas &amp;amp; NumPy.  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>codedeploy on GPK</title>
+    <link>http://www.garrardkitchen.com/tags/codedeploy/</link>
+    <description>Recent content in codedeploy on GPK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Apr 2019 15:35:31 +0100</lastBuildDate>
+    
+	<atom:link href="http://www.garrardkitchen.com/tags/codedeploy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Continuous Integration, Continuous Deployment &amp; Continuous Delivery</title>
+      <link>http://www.garrardkitchen.com/projects/creations/cicd/</link>
+      <pubDate>Sun, 28 Apr 2019 15:35:31 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/cicd/</guid>
+      <description>CI has been a long term development responsibility.
+Formally, for our client/server product, I would install and host TeamCity on office servers. Currently for a specific version of Coach, it is now hosted on an Azure instance. The deployment package is delivered to S3 and at the appropriate time (major/minor/patch release) is added to a Confluence site for our customers to download.
+All projects are now driven by CI/CD principals.</description>
+    </item>
+    
+  </channel>
+</rss>

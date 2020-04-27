@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>campaign on GPK</title>
+    <link>http://www.garrardkitchen.com/tags/campaign/</link>
+    <description>Recent content in campaign on GPK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Apr 2019 16:55:49 +0100</lastBuildDate>
+    
+	<atom:link href="http://www.garrardkitchen.com/tags/campaign/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Onboarding</title>
+      <link>http://www.garrardkitchen.com/projects/creations/onboarding/</link>
+      <pubDate>Sun, 28 Apr 2019 16:55:49 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/onboarding/</guid>
+      <description>An important part of a SaaS application, especially one that requires integrations to provide any measure of benefit, is onboarding.
+For me, the advantages are simple.
+  Generally, CX needs to be smooth [quick and useful]. It is also important to know at what stage a trialer is at. This can then be aided by a digital campaign with support.
+  With most onboarding models requiring a starting point outside of our product, e.</description>
+    </item>
+    
+  </channel>
+</rss>

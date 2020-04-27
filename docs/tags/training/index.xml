@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>training on GPK</title>
+    <link>http://www.garrardkitchen.com/tags/training/</link>
+    <description>Recent content in training on GPK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Apr 2019 15:22:47 +0100</lastBuildDate>
+    
+	<atom:link href="http://www.garrardkitchen.com/tags/training/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Integrations</title>
+      <link>http://www.garrardkitchen.com/projects/creations/integrations/</link>
+      <pubDate>Sun, 28 Apr 2019 15:22:47 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/integrations/</guid>
+      <description>Liaised with a vendor to create conduit [data connector] between our products and theirs. Worked with many vendors including Twilio (including Flex), Zendesk, Telax, DataVoice, Novo, Comways, Altitude, Dubber, Frequentis, Spitch, Amazon Connect, Redbox.
+  Worked with teams to scope requirements, define every stage up to sign off and team responsibilities. Each integration would start with a technical presentation delivered by me. This would encompass architecture, stages and responsibilities, establishing test environments and training requirements.</description>
+    </item>
+    
+  </channel>
+</rss>

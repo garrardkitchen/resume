@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>in transit on GPK</title>
+    <link>http://www.garrardkitchen.com/tags/in-transit/</link>
+    <description>Recent content in in transit on GPK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Apr 2019 11:47:28 +0100</lastBuildDate>
+    
+	<atom:link href="http://www.garrardkitchen.com/tags/in-transit/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Security</title>
+      <link>http://www.garrardkitchen.com/projects/creations/security/</link>
+      <pubDate>Tue, 30 Apr 2019 11:47:28 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/security/</guid>
+      <description>These are some of the areas where I have dedicated my efforts when it comes to security:
+ All vital and IPR associated systems are protected via MFA Grandular IAM permissions configured for AWS services, users and roles I always adhere to the Least Privilege Principle Web Application Firewall (OWASP) Web application XSS, SQL Injection, encoding, securing cookies, role &amp;amp; claims based authz I always encrypt data at rest and also when in transit I always encrypt systems credentials (including 3rd party&amp;rsquo;s) and always include extra layer of encryption All passwords are hashed To isolated blast radius of environments by separating dev/test &amp;amp; prod into different accounts.</description>
+    </item>
+    
+  </channel>
+</rss>

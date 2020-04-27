@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aws metering service on GPK</title>
+    <link>http://www.garrardkitchen.com/tags/aws-metering-service/</link>
+    <description>Recent content in aws metering service on GPK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Apr 2019 17:02:46 +0100</lastBuildDate>
+    
+	<atom:link href="http://www.garrardkitchen.com/tags/aws-metering-service/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Billing</title>
+      <link>http://www.garrardkitchen.com/projects/creations/billing/</link>
+      <pubDate>Sun, 28 Apr 2019 17:02:46 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/billing/</guid>
+      <description> I have designed and implemented several billing mechanisms. Including designs/models orientated around licensing, another using AWS MMS (metering service) for the AWS QuickStart and more recently, one to capture product usage based on a specific frequency. The later architectured and delivered once again via serverless technology. Created web apps [some serverless] to provide visibility into usage Create application features to help mitigate restrictions on internet access Subscription models designed and developed for: per agent, per user, per period, per feature usage, per role  </description>
+    </item>
+    
+  </channel>
+</rss>

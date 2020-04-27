@@ -1,17 +1,14 @@
-#baseURL = "https://github.com/garrardkitchen/garrardkitchen.github.io/"
 baseURL = "http://www.garrardkitchen.com/"
 languageCode = "en-us"
 title = "GPK"
 theme = "hugo-resume"
 publishDir = "docs"
-#theme = "ananke"
 enableGitInfo = true
-
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 googleAnalytics = "UA-10838611-1"
 env = "production"
-
+features = ["projects"]
 [taxonomies]
     tag = "tags"
 

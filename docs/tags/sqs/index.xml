@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sqs on GPK</title>
+    <link>http://www.garrardkitchen.com/tags/sqs/</link>
+    <description>Recent content in sqs on GPK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Apr 2019 17:12:59 +0100</lastBuildDate>
+    
+	<atom:link href="http://www.garrardkitchen.com/tags/sqs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dashboard</title>
+      <link>http://www.garrardkitchen.com/projects/creations/dashboard/</link>
+      <pubDate>Sun, 28 Apr 2019 17:12:59 +0100</pubDate>
+      
+      <guid>http://www.garrardkitchen.com/projects/creations/dashboard/</guid>
+      <description>I have researched several big data solutions but found them either too costly, lead time too lengthy or too complicated.
+Coach needed something to present actionable data. Not knowing whether the idea matched reality, I proposed a phase 1 release that would lead to feature enhancements that would naturally lead to something that would help more. I architected an ETL and data analytics process that would generate separate JSON formatted data, persisted to S3 for a specific user after being processed by a Pandas dataframe.</description>
+    </item>
+    
+  </channel>
+</rss>
