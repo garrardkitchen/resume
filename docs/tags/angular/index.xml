@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>angular on GPK</title>
-    <link>http://www.garrardkitchen.com/tags/angular/</link>
+    <link>https://www.garrardkitchen.com/tags/angular/</link>
     <description>Recent content in angular on GPK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Apr 2019 16:13:20 +0100</lastBuildDate>
     
-	<atom:link href="http://www.garrardkitchen.com/tags/angular/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.garrardkitchen.com/tags/angular/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Coach</title>
-      <link>http://www.garrardkitchen.com/projects/creations/coach/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/coach/</link>
       <pubDate>Sun, 28 Apr 2019 16:13:20 +0100</pubDate>
       
-      <guid>http://www.garrardkitchen.com/projects/creations/coach/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/coach/</guid>
       <description> Created a web based product of our successful client/server product. Chose appropriate tech to fit the timeline. Worked with a Pakistani development outsourcing company and Recorder vendor that the product was integrating with at the time. Later developing the application to integrate with the Redbox Recorder, leading Redbox to purchase the code after an agreed sign off.  </description>
     </item>
     

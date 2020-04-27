@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>mssql on GPK</title>
-    <link>http://www.garrardkitchen.com/tags/mssql/</link>
+    <link>https://www.garrardkitchen.com/tags/mssql/</link>
     <description>Recent content in mssql on GPK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Apr 2019 17:16:53 +0100</lastBuildDate>
     
-	<atom:link href="http://www.garrardkitchen.com/tags/mssql/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.garrardkitchen.com/tags/mssql/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Migrations</title>
-      <link>http://www.garrardkitchen.com/projects/creations/migrations/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/migrations/</link>
       <pubDate>Sun, 28 Apr 2019 17:16:53 +0100</pubDate>
       
-      <guid>http://www.garrardkitchen.com/projects/creations/migrations/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/migrations/</guid>
       <description>Migrate Coach product away from a monolyth to being 100% serverless. Main web platform hosted via ECS Fargate and all features, RESTul APIs be Lambda backed API Gateways and Step Functions. Data repositories used are dynamoDB, ElasticSearch, Amazon Aurora (mySQL), Redis and S3.
   Coach migrated from MSSQL to MySQL as costs were too high for Always-On capabilities. I was accepted onto Aurora MySQL Preview programme and contributed to this phase.</description>
     </item>

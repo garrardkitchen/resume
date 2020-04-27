@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>windows services on GPK</title>
-    <link>http://www.garrardkitchen.com/tags/windows-services/</link>
+    <link>https://www.garrardkitchen.com/tags/windows-services/</link>
     <description>Recent content in windows services on GPK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Apr 2019 17:22:33 +0100</lastBuildDate>
     
-	<atom:link href="http://www.garrardkitchen.com/tags/windows-services/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.garrardkitchen.com/tags/windows-services/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>IntelliSearch</title>
-      <link>http://www.garrardkitchen.com/projects/creations/intellisearch/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/intellisearch/</link>
       <pubDate>Sun, 28 Apr 2019 17:22:33 +0100</pubDate>
       
-      <guid>http://www.garrardkitchen.com/projects/creations/intellisearch/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/intellisearch/</guid>
       <description>Coach has a long standing feature called IntelliSearch.
 It is a feature that, at a specific time, for several set periods [daily, weekly, monthly, custom], it will submit queries to a Data Connector (conduit between our system and an external system) to match up randomly selected recordings for later evaluation. The random algorithm implemented is there to ensure fairness of recording selection so apples and apples are compared and not apples to oranges.</description>
     </item>
     
     <item>
       <title>Billing</title>
-      <link>http://www.garrardkitchen.com/projects/creations/billing/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/billing/</link>
       <pubDate>Sun, 28 Apr 2019 17:02:46 +0100</pubDate>
       
-      <guid>http://www.garrardkitchen.com/projects/creations/billing/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/billing/</guid>
       <description> I have designed and implemented several billing mechanisms. Including designs/models orientated around licensing, another using AWS MMS (metering service) for the AWS QuickStart and more recently, one to capture product usage based on a specific frequency. The later architectured and delivered once again via serverless technology. Created web apps [some serverless] to provide visibility into usage Create application features to help mitigate restrictions on internet access Subscription models designed and developed for: per agent, per user, per period, per feature usage, per role  </description>
     </item>
     

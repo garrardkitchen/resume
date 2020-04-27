@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>short deadline on GPK</title>
-    <link>http://www.garrardkitchen.com/tags/short-deadline/</link>
+    <link>https://www.garrardkitchen.com/tags/short-deadline/</link>
     <description>Recent content in short deadline on GPK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 30 Apr 2019 08:46:29 +0100</lastBuildDate>
     
-	<atom:link href="http://www.garrardkitchen.com/tags/short-deadline/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.garrardkitchen.com/tags/short-deadline/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Resume</title>
-      <link>http://www.garrardkitchen.com/projects/creations/resume/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/resume/</link>
       <pubDate>Tue, 30 Apr 2019 08:46:29 +0100</pubDate>
       
-      <guid>http://www.garrardkitchen.com/projects/creations/resume/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/resume/</guid>
       <description> Assessed whether or not to update existing non-maintained Jekyll site to promote myself Researched other options (e.g. Hugo) Experimented with Hugo and different templaes (focus on resume style) Expedited my learning curve Completed resume rewrite in 3 days Configured GitHub pages and custom domain Configured Google Analytics  </description>
     </item>
     

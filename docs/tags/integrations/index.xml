@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>integrations on GPK</title>
-    <link>http://www.garrardkitchen.com/tags/integrations/</link>
+    <link>https://www.garrardkitchen.com/tags/integrations/</link>
     <description>Recent content in integrations on GPK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Apr 2019 16:16:41 +0100</lastBuildDate>
     
-	<atom:link href="http://www.garrardkitchen.com/tags/integrations/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.garrardkitchen.com/tags/integrations/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CXcoach</title>
-      <link>http://www.garrardkitchen.com/projects/creations/cxcoach/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/cxcoach/</link>
       <pubDate>Sun, 28 Apr 2019 16:16:41 +0100</pubDate>
       
-      <guid>http://www.garrardkitchen.com/projects/creations/cxcoach/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/cxcoach/</guid>
       <description>Created an SaaS version of our product on the AWS platform using serverless tech as an enabler to lowering the running costs and as such, make it cheaper for the vendor/partner to offer our product to their end-clients
   I have been responsible for driving the integrations with major vendors
   Made presentations to prospective partners [CEO and below] nd helped shape requirements of the integration</description>

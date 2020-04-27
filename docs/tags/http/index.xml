@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>http on GPK</title>
-    <link>http://www.garrardkitchen.com/tags/http/</link>
+    <link>https://www.garrardkitchen.com/tags/http/</link>
     <description>Recent content in http on GPK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Apr 2019 17:09:54 +0100</lastBuildDate>
     
-	<atom:link href="http://www.garrardkitchen.com/tags/http/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.garrardkitchen.com/tags/http/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Health of the SaaS product</title>
-      <link>http://www.garrardkitchen.com/projects/creations/health/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/health/</link>
       <pubDate>Sun, 28 Apr 2019 17:09:54 +0100</pubDate>
       
-      <guid>http://www.garrardkitchen.com/projects/creations/health/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/health/</guid>
       <description>For me, CX (Customer Experience) is paramount. Even if there is an outage, the CX doesn’t have to suffer. In my current project, there are key AWS services, as well as the CXcoach product, that are required to be running for the application to function. I have architected both full systems and application features in such a way for them not to fail because of transient outages or worse and furthermore to provide instant feedback to users.</description>
     </item>
     
