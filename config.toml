@@ -61,3 +61,6 @@ features = ["projects"]
 
 [outputs] #only required for search
     home = ["HTML", "JSON"]
+
+[params.google.analytics]
+    trackerID = "UA-10838611-1"    
