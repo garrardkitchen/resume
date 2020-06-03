@@ -3,6 +3,9 @@ title: "Home"
 sitemap:
   priority : 0.9
 ---
+{{< justified >}}
+BLACK LIVES MATTER
+{{< /justified >}}
 
 ---
 
