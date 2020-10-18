@@ -10,6 +10,24 @@
         ]
     },
     {
+        "grouping": "Microservices",
+        "skills": [
+            ".NET Core 3.1",
+            "ASP.NET Core",
+            "nodejs 14.*",
+            "TypeScript",
+            "Javascript",            
+            "AKS",
+            "EKS",
+            "NestJS Framework",
+            "dapr",
+            "Swarm",
+            "EDA",
+            "CQRS",
+            "API Gateway"
+        ]
+    },
+    {
         "grouping": "Architecture & Concepts",
         "skills": [
             "API Management Platforms",
@@ -91,6 +109,7 @@
             "Amazon ElastiCache - Redis",
             "Amazon DynamoDB",
             "Amazon ElasticSearch",
+            "Azure Redis",
             "MSSQL",
             "Azure SQL",
             "CockroachDB",
@@ -99,16 +118,21 @@
             "Firebird",
             "InfluxDB",
             "MongoDB",
-            "PostgreSql"
+            "PostgreSql"            
         ]
     },
     {
         "grouping": "Languages, Operating Systems, Frameworks",
         "skills": [
             "C#",
-            "F#",
-            "Python",
             "Node.js",
+            "TypeScript",
+            "Javascript",
+            "Cluster API (nodejs)",
+            "NestJS Framework",
+            "dapr",
+            "F#",
+            "Python",            
             "go",
             "git",
             "Windows",
@@ -126,10 +150,11 @@
         "skills": [
             "IIS",
             "MSSQL",
-            ".NET Core 2.1, 2.2 & 3.1",
-            ".NET Frameworks 4.7",
-            "ASP.NET",
+            ".NET Core 2.1, 2.2 & 3.1",            
+            ".NET Frameworks 4.7",                      
             "ASP.NET Core",
+            "ASP.NET",
+            "TypeScript",  
             "Razor Pages",
             "Blazer Pages"
         ]
@@ -319,13 +344,15 @@
     {
         "grouping": "Azure",
         "skills": [
+            "Azure Kubernetes Service",
             "Application Gateway",
             "Azure Functions",
-            "DevOps",
+            "Azure DevOps",
             "Application Insights",
             "Kusto query language",
             "Load Balancer",
             "Event Grid",
+            "GitHub Actions",
             "LogicApps",
             "App Services",
             "Virtual Machines",
@@ -352,7 +379,7 @@
             "Azure CosmosB (including MongoDB, Core SQL APIs)",
             "Azure Database Migration Services",
             "Azure Active Directory",
-            "Azure Backup"
+            "Azure Backup"            
         ]
     },
     {
@@ -444,6 +471,10 @@
             {
                 "name": "NGINX",
                 "link": "https://www.nginx.com/"
+            },
+            {
+                "name": "npm",
+                "link": "https://www.npmjs.com/"
             },
             {
                 "name": "Octopus Deploy",

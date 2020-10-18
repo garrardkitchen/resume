@@ -308,11 +308,6 @@
   </url>
   
   <url>
-    <loc>https://www.garrardkitchen.com/tags/lambda/</loc>
-    <lastmod>2020-04-27T11:14:39+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.garrardkitchen.com/tags/lambdas/</loc>
     <lastmod>2020-04-27T11:14:39+01:00</lastmod>
   </url>
@@ -338,17 +333,17 @@
   </url>
   
   <url>
-    <loc>https://www.garrardkitchen.com/tags/aws/</loc>
-    <lastmod>2020-04-27T11:14:39+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.garrardkitchen.com/tags/aws-ecs-fargate/</loc>
     <lastmod>2020-04-27T11:14:39+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.garrardkitchen.com/tags/cloudwatch/</loc>
+    <lastmod>2020-04-27T11:14:39+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.garrardkitchen.com/tags/lambda/</loc>
     <lastmod>2020-04-27T11:14:39+01:00</lastmod>
   </url>
   
@@ -538,11 +533,6 @@
   </url>
   
   <url>
-    <loc>https://www.garrardkitchen.com/tags/integration/</loc>
-    <lastmod>2020-04-27T11:14:39+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.garrardkitchen.com/tags/integration-tool/</loc>
     <lastmod>2020-04-27T11:14:39+01:00</lastmod>
   </url>
@@ -703,6 +693,11 @@
   </url>
   
   <url>
+    <loc>https://www.garrardkitchen.com/tags/aws/</loc>
+    <lastmod>2020-04-27T11:14:39+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.garrardkitchen.com/tags/high-availability/</loc>
     <lastmod>2020-04-27T11:14:39+01:00</lastmod>
   </url>
@@ -823,6 +818,11 @@
   </url>
   
   <url>
+    <loc>https://www.garrardkitchen.com/tags/integration/</loc>
+    <lastmod>2020-04-27T11:14:39+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.garrardkitchen.com/tags/novo/</loc>
     <lastmod>2020-04-27T11:14:39+01:00</lastmod>
   </url>
@@ -879,7 +879,7 @@
   
   <url>
     <loc>https://www.garrardkitchen.com/</loc>
-    <lastmod>2020-01-05T15:33:29+00:00</lastmod>
+    <lastmod>2020-06-03T10:11:59+01:00</lastmod>
     <priority>0.9</priority>
   </url>
   

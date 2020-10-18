@@ -59,3 +59,13 @@ OR
 Remove-Item -Recurse -Force .git/modules/<submodule>
 git rm -f <submodule>
 ```
+
+
+## Install notes:
+
+_Install on windows_
+
+```
+choco install hugo -confirm
+choco install hugo-extended -confirm
+```

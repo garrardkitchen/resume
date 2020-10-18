@@ -6,11 +6,7 @@
     <description>Recent content in Tags on GPK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Apr 2019 11:47:28 +0100</lastBuildDate>
-    
-	<atom:link href="https://www.garrardkitchen.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 30 Apr 2019 11:47:28 +0100</lastBuildDate><atom:link href="https://www.garrardkitchen.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>at rest</title>
       <link>https://www.garrardkitchen.com/tags/at-rest/</link>
@@ -273,15 +269,6 @@
     </item>
     
     <item>
-      <title>lambda</title>
-      <link>https://www.garrardkitchen.com/tags/lambda/</link>
-      <pubDate>Sun, 28 Apr 2019 17:22:33 +0100</pubDate>
-      
-      <guid>https://www.garrardkitchen.com/tags/lambda/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>lambdas</title>
       <link>https://www.garrardkitchen.com/tags/lambdas/</link>
       <pubDate>Sun, 28 Apr 2019 17:22:33 +0100</pubDate>
@@ -327,15 +314,6 @@
     </item>
     
     <item>
-      <title>aws</title>
-      <link>https://www.garrardkitchen.com/tags/aws/</link>
-      <pubDate>Sun, 28 Apr 2019 17:20:51 +0100</pubDate>
-      
-      <guid>https://www.garrardkitchen.com/tags/aws/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>aws ecs fargate</title>
       <link>https://www.garrardkitchen.com/tags/aws-ecs-fargate/</link>
       <pubDate>Sun, 28 Apr 2019 17:20:51 +0100</pubDate>
@@ -350,6 +328,15 @@
       <pubDate>Sun, 28 Apr 2019 17:20:51 +0100</pubDate>
       
       <guid>https://www.garrardkitchen.com/tags/cloudwatch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lambda</title>
+      <link>https://www.garrardkitchen.com/tags/lambda/</link>
+      <pubDate>Sun, 28 Apr 2019 17:20:51 +0100</pubDate>
+      
+      <guid>https://www.garrardkitchen.com/tags/lambda/</guid>
       <description></description>
     </item>
     
@@ -687,15 +674,6 @@
     </item>
     
     <item>
-      <title>integration</title>
-      <link>https://www.garrardkitchen.com/tags/integration/</link>
-      <pubDate>Sun, 28 Apr 2019 16:30:38 +0100</pubDate>
-      
-      <guid>https://www.garrardkitchen.com/tags/integration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>integration tool</title>
       <link>https://www.garrardkitchen.com/tags/integration-tool/</link>
       <pubDate>Sun, 28 Apr 2019 16:30:38 +0100</pubDate>
@@ -984,6 +962,15 @@
     </item>
     
     <item>
+      <title>aws</title>
+      <link>https://www.garrardkitchen.com/tags/aws/</link>
+      <pubDate>Sun, 28 Apr 2019 15:56:30 +0100</pubDate>
+      
+      <guid>https://www.garrardkitchen.com/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>high availability</title>
       <link>https://www.garrardkitchen.com/tags/high-availability/</link>
       <pubDate>Sun, 28 Apr 2019 15:56:30 +0100</pubDate>
@@ -1196,6 +1183,15 @@
       <pubDate>Sun, 28 Apr 2019 15:22:47 +0100</pubDate>
       
       <guid>https://www.garrardkitchen.com/tags/frequentis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>integration</title>
+      <link>https://www.garrardkitchen.com/tags/integration/</link>
+      <pubDate>Sun, 28 Apr 2019 15:22:47 +0100</pubDate>
+      
+      <guid>https://www.garrardkitchen.com/tags/integration/</guid>
       <description></description>
     </item>
     

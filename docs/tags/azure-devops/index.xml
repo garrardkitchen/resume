@@ -6,11 +6,7 @@
     <description>Recent content in azure devops on GPK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Apr 2019 15:35:31 +0100</lastBuildDate>
-    
-	<atom:link href="https://www.garrardkitchen.com/tags/azure-devops/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 28 Apr 2019 15:35:31 +0100</lastBuildDate><atom:link href="https://www.garrardkitchen.com/tags/azure-devops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Continuous Integration, Continuous Deployment &amp; Continuous Delivery</title>
       <link>https://www.garrardkitchen.com/projects/creations/cicd/</link>
