@@ -22,15 +22,22 @@ BLACK LIVES MATTER
 **Certifications**
 
 {{% table %}}
-|          |                    |
-|----------|--------------------|
-| [![developer](/img/aws-developer-badge.png)](https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2017-12-13&ci=AWS00351917) | [![solutions architect](/img/aws-solutions-architect-badge.png)](https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-09-27&ci=AWS00351917) |
+|          |                    | |
+|----------|--------------------|-|
+| ![Developer Associate](/img/azure-developer-associate-600x600.png) | [![developer](/img/aws-developer-badge.png)](https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2017-12-13&ci=AWS00351917) | [![solutions architect](/img/aws-solutions-architect-badge.png)](https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-09-27&ci=AWS00351917) |
 {{% /table %}}
-
 
 ---
 
-*Current position:* **Principal Engineer** @ [Carfinance247](http://www.carfinance247.co.uk)
+*Current position:* **Head of Cloud Platform** @ [Carfinance247](http://www.carfinance247.co.uk)
+
+I am responsible for the creation of, and the ongoing monitoring & governance of our new Cloud Platform. This is a list of some of that this role entails: IaaS, PaaS, networking, security, cloud and application standards, cloud patterns, architecture, Developer eXperience (DX), CICD, failover, rollback, monitoring, dashboarding, security, governance, policy, automation, resource configuration and application performance (_writing performant and resilient applications_).
+
+I have been **Cloud First**, and a **Serverless advocate** for many years.  I am passionate about Cloud computing, cloud patterns and standards, and what it has to offer both the enterprise and small business.
+
+---
+
+*Previous position:* **Principal Engineer** @ [Carfinance247](http://www.carfinance247.co.uk)
 
 [Click here to see projects worked on while at Carfinance247](#projects)
 

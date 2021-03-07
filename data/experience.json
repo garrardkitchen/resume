@@ -1,9 +1,15 @@
-[   
+[  
+    {
+        "role":"Head of Cloud Platform",
+        "company":"Carfinance247",
+        "summary":"I report directly to the CTO. I am responsible for our new Cloud Platform.",
+        "range":"Feb 2021 - Present"
+    }, 
     {
         "role":"Principal Engineer",
         "company":"Carfinance247",
-        "summary":"I report directly to the DoE (Director of Engineering). I work across teams to educate, assist & advise. I contribute to the active sprint. I work on side projects and PoC (proof of concept) projects. I have delivered brown bags on both AWS & Google Serverless services. I help to shape HLA, improve coding quality and engineering standards. I am a team player and help support my colleagues and CF247 operations whenever the opportunity arises. I provide direction and guidance on matters relating to cloud computing, architecting and developing for the cloud.  I am cloud first, a polyglot and an advocate of serverless technologies.",
-        "range":"May 2019 - Present"
+        "summary":"I report directly to the CTO. I work across teams to educate, assist & advise. I contribute to the active sprint. I work on side projects and PoC (proof of concept) projects. I have delivered brown bags on both AWS & Google Serverless services. I help to shape HLA, improve coding quality and engineering standards. I am a team player and help support my colleagues and CF247 operations whenever the opportunity arises. I provide direction and guidance on matters relating to cloud computing, architecting and developing for the cloud.  I am cloud first, a polyglot and an advocate of serverless technologies.",
+        "range":"May 2019 - Jan 2021"
     },
     {
         "role":"Chief Technology Officer",

@@ -153,3 +153,10 @@ a:hover, a:focus, a:active {
 img {
   max-width:80%;
 }
+
+.table, img {
+    max-height:200px;
+    max-width:120px
+  }
+
+  
