@@ -31,9 +31,7 @@ BLACK LIVES MATTER
 
 *Current position:* **Head of Cloud Platform** @ [Carfinance247](http://www.carfinance247.co.uk)
 
-I am responsible for the creation of, and the ongoing monitoring & governance of our new Cloud Platform. This is a list of some of that this role entails: IaaS, PaaS, networking, security, cloud and application standards, cloud patterns, architecture, Developer eXperience (DX), CICD, failover, rollback, monitoring, dashboarding, security, governance, policy, automation, resource configuration and application performance (_writing performant and resilient applications_).
-
-I have been **Cloud First**, and a **Serverless advocate** for many years.  I am passionate about Cloud computing, cloud patterns and standards, and what it has to offer both the enterprise and small business.
+At Carfinance 247, our current infrastructure and hosting platform is a constant cause of concern. To stabilize our amassed collection of web applications, APIs (some microservices, mostly coarse-grained RESTful services), and workers, we are undergoing a digital transformation, moving our entire catalogue of services over to the Azure Cloud.  To my delight, I am spearheading this project.  I am no stranger to the Cloud.  I have been **Cloud First**, and a **Serverless advocate** for many years using both Azure and AWS.  I am passionate about Cloud computing, cloud patterns and standards, and what the cloud has to offer both the enterprise and small business.  This [cloud] is where I feel most comfortable.
 
 ---
 
