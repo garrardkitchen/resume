@@ -20,11 +20,13 @@
             "AKS",
             "EKS",
             "NestJS Framework",
-            "dapr",
+            "Dapr",
             "Swarm",
             "EDA",
             "CQRS",
-            "API Gateway"
+            "API Gateway",
+            "Micronaut",
+            "Spring Boot"
         ]
     },
     {
@@ -70,7 +72,8 @@
             "AWS Step Functions",
             "Amazon ECS Fargate",
             "Amazon Aurora Serverless",
-            "Azure Functions",
+            "Azure Functions (including depoy to K8s)",
+            "Azure LogicApps",
             "Google Cloud Run (Knative)",
             "Google Functions",
             "Serverless Framework",
@@ -109,15 +112,16 @@
             "Amazon ElastiCache - Redis",
             "Amazon DynamoDB",
             "Amazon ElasticSearch",
-            "Azure Redis",
-            "MSSQL",
-            "Azure SQL",
+            "Azure Redis",            
+            "Azure CosmosDB",
+            "Azure SQL Databases",
+            "Azure SQL Managed Instaces",
             "CockroachDB",
-            "CosmosDB",
             "CoachBase",
             "Firebird",
             "InfluxDB",
             "MongoDB",
+            "MSSQL",
             "PostgreSql"            
         ]
     },
@@ -126,11 +130,15 @@
         "skills": [
             "C#",
             "Node.js",
+            "Java",
             "TypeScript",
             "Javascript",
             "Cluster API (nodejs)",
             "NestJS Framework",
-            "dapr",
+            "Micronaut",
+            "Spring Boot",
+            "KEDA",
+            "Dapr",
             "F#",
             "Python",            
             "go",
@@ -180,6 +188,7 @@
             "VS 2019",
             "VSCode",
             "Rider",
+            "IntelliJ",
             "PyCharm",
             "WebStorm",
             "DataGrip",
@@ -273,6 +282,7 @@
         "grouping": "Observability & telemetry",
         "skills": [
             "Azure Application Insights",
+            "Azure Monitor",
             "Amazon CloudWatch",            
             "Datadog",            
             "Epsagon",
@@ -426,6 +436,14 @@
                 "name": "Azure",
                 "link": "https://azure.microsoft.com/en-gb"
             },
+            {
+                "name": "Azure DevOps",
+                "link": "https://azure.microsoft.com/en-gb/services/devops/"
+            },
+            {
+                "name": "Azure Bicep",
+                "link": "https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview"
+            },            
             {
                 "name": "Bamboo",
                 "link": "https://www.atlassian.com/software/bamboo/"
