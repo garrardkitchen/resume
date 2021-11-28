@@ -22,9 +22,9 @@ BLACK LIVES MATTER
 **Certifications**
 
 {{% table %}}
-|          |                    | | | | |
-|----------|--------------------|-|-|-|-|
-| ![Developer Associate](/img/azure-developer-associate-600x600.png) | ![Expert DevOps Engineer](/img/CERT-Expert-DevOps-Engineer-600x600.png) |![Expert AZ-303 Exam](/img/EXAM-Expert-AZ-303-600x600.png) | ![AZ-400 Exam](/img/exam-az400-600x600.png) | [![developer](/img/aws-developer-badge.png)](https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2017-12-13&ci=AWS00351917) | [![solutions architect](/img/aws-solutions-architect-badge.png)](https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-09-27&ci=AWS00351917) |
+|          |                    | | | | | | |
+|----------|--------------------|-|-|-|-|-|-|
+| ![Developer Associate](/img/azure-developer-associate-600x600.png) | ![Expert DevOps Engineer](/img/CERT-Expert-DevOps-Engineer-600x600.png) | ![Expert Solutions Architect](/img/azure-solutions-architect-expert-600x600.png) |![Expert AZ-304 Exam](/img/EXAM-Expert-AZ-304-600x600.png) |![Expert AZ-303 Exam](/img/EXAM-Expert-AZ-303-600x600.png) | ![AZ-400 Exam](/img/exam-az400-600x600.png) | [![developer](/img/aws-developer-badge.png)](https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2017-12-13&ci=AWS00351917) | [![solutions architect](/img/aws-solutions-architect-badge.png)](https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-09-27&ci=AWS00351917) |
 {{% /table %}}
 
 ---
