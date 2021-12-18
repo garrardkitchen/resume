@@ -50,9 +50,9 @@ This is a list of technology and backing services I am pioneering here at CF247,
 - Microsoft Defender for Cloud, Advisor
 - Azure Blueprints
 - Azure Policy
-- Azure Application Insights & Monitor, Kusto QL
+- Azure Application Insights & Monitor, Alerting, Kusto QL
 - Logz.io (grafana, kibana) - researched and integrated, replacing our legacy unstable ELK stack
-- Azure Managed Identity (SDK, System & User)
+- Azure Managed Identity (.NET & NodeJS SDKs, System & User)
 - RBAC
 - C#, .net 3.1 & 6, .net framework 4.8
 - Steering MS FastTrak programmes including SQL Server AG migration
