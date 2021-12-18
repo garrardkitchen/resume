@@ -66,7 +66,7 @@ This is a list of technology and backing services I am pioneering here at CF247,
 
 I report directly to the DoE (Director of Engineering). I work across teams to educate, assist & advise. I also contribute to the active sprint. I work on side projects and PoC (proof of concept) projects. I have delivered brown bags on both AWS & Google Serverless services. I help to shape HLA, improve coding quality and engineering standards. I am a team player and help support my colleagues and CF247 operations whenever the opportunity arises. I provide direction and guidance on matters relating to cloud computing, architecting and developing for the cloud. I am cloud-first, a polyglot, and an advocate of serverless technologies.
 
-Having researched and implement several projects using the NestJS NodeJS framework, I gave a technical talk in Manchester - meetup - on NestJS framework, Dapr and KEDA in November 2020.
+Having researched and implemented several projects using the NestJS NodeJS framework, I gave a technical talk in Manchester - meetup - on the NestJS framework, Dapr and KEDA in November 2020.
 
 ---
 
