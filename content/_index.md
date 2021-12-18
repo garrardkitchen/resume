@@ -37,25 +37,26 @@ This effort has lead me to creating, using AKS clusters, our new platform.  I ha
 
 This is a list of technology and backing services I am pioneering here at CF247, as well as using on a day to day bases as well as being responsible for:
 
+- Cloud Architecture
+- Azure Administration (Excl AAD)
 - AKS
 - Helm
 - Azure Bicep
 - GHA Workflows
 - AzDevOps
-- Azure Private Endpoints, Private DNS Zones
-- Azure Functions, Event Hub, Event Grid (System & Custom), Service Bus, Storage (inc. Queue, Table, Files), LogicApps, App Services, 
-- Security Centre, Defender
+- Azure Compute, VMSS
+- Azure Private Endpoints, Private DNS Zones, Networking and Azure FW
+- Azure Functions, Event Hub, Event Grid (System & Custom), Service Bus, Storage (inc. Queue, Table, Files), LogicApps, App Services, KeyVault, App Configuration, CosmosDB, SaaS (Logz & Kafka), App Services & Plans, Azure Container Registry
+- Microsoft Defender for Cloud, Advisor
 - Azure Blueprints
 - Azure Policy
-- Logz (grafana, kibana) - researched and introduced, replacing our legacy unstable ELK stack
 - Azure Application Insights & Monitor, Kusto QL
-- Managed Identity
-- AAD
-- Responsible for Azure
+- Logz.io (grafana, kibana) - researched and integrated, replacing our legacy unstable ELK stack
+- Azure Managed Identity (SDK, System & User)
+- RBAC
 - C#, .net 3.1 & 6, .net framework 4.8
 - Steering MS FastTrak programmes including SQL Server AG migration
-- Cloud Architecture
-- Cloudflare & API v4
+- Cloudflare & API v4 (DNS, Monitors, Pools and LBs)
 - Managing a small but senior team
 
 ---
