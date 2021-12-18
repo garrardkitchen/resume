@@ -2,7 +2,7 @@
     {
         "role":"Head of Cloud Platform",
         "company":"Carfinance247",
-        "summary":"I report directly to the CTO. I am responsible for our new Cloud Platform. I am responsible for the creation of, monitoring & governance of our new Azure Cloud Platform. This is a list of some of what this role entails: IaaS, PaaS, networking, security, cloud and application standards, cloud patterns, architecture, Developer eXperience (DX), CICD, failover, rollback, monitoring, dashboarding, security, governance, policy, automation, resource configuration and application performance (ensuring performant, high availability and resiliency).",
+        "summary":"I report directly to the CTO. I am responsible for our new Cloud Platform. I am responsible for the creation of, monitoring & governance of our new Azure Cloud Platform. This is a list of some of what this role entails: IaaS, PaaS, networking, security, cloud and application standards, cloud patterns, architecture, Developer eXperience (DX), CICD, resilency, rollback, monitoring, dashboarding, security, governance, policy, automation, resource configuration and application performance (ensuring performant, high availability and resiliency).",
         "range":"Feb 2021 - Present"
     }, 
     {
