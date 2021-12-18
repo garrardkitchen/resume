@@ -46,7 +46,7 @@ This is a list of technology and backing services I am pioneering here at CF247,
 - AzDevOps
 - Azure Compute, VMSS
 - Azure Private Endpoints, Private DNS Zones, Networking and Azure FW
-- Azure Functions, Event Hub, Event Grid (System & Custom), Service Bus, Storage (inc. Queue, Table, Files), LogicApps, App Services, KeyVault, App Configuration, CosmosDB, SaaS (Logz & Kafka), App Services & Plans, Azure Container Registry
+- Azure Functions, Event Hub, Event Grid (System & Custom), Service Bus, Storage (inc. Queue, Table, Files), LogicApps, App Services & Plans, KeyVault, App Configuration, CosmosDB, SaaS (Logz & Kafka), Azure Container Registry
 - Microsoft Defender for Cloud, Advisor
 - Azure Blueprints
 - Azure Policy
