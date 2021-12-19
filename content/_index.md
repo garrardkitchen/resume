@@ -85,20 +85,26 @@ Previously working as a contractor in the Business Intelligence space, I have wo
 
 Following University I worked my way to a position of personal interest, known at the time as EIS (Executive information systems).  This propelled me into the BI space where I took the plunge into the contracting world.  Since this time, I have pursued another passion; web application development.  I took a number of small appointments and opportunities to help fine-tune my skills.  With this route, I built up a greater repertoire of skills and abilities to benefit employers.  I have had a number of interesting roles which lead me into my previous role of a lifetime; CTO.  
 
----
-
 During the last 12 years+ I have become a SME (subject matter expert) in the contact centre space, a seasoned systems integrator, a cloud solutions architect, an experienced serverless developer, a DevOps Evangelist and a technical voice and advisor for Qualtrak, working with teams around the world from all sizes of companies.
 
-### Where I see my passions and the skills to offer a company and my willingness to keep on learning and evolving
+---
 
-- **I can help you migrate enterprise solutions and web applications to the serverless stack (reduce maintenance and running costs) as well as help you rapidly test Hypotheses by developed & deploying new features to assess traction and revenue opportunities** 
+### Where I see my passions, and skill set, benefiting your organisation
+
+- My thirst for learing is the catalyst that drives and keeps me current
+- I can help you migrate enterprise solutions and web based applications to the serverless stack (reduce maintenance and running costs) as well as help you rapidly test hypotheses by developing & deploying new features to assess traction and revenue opportunities 
 - A passion (one of many!) is serverless technologies.  It has been for many years.  It started with Azure functions a few years back, progressing this experience with AWS, returning over the last few years to Azure.  IMO, the benefits of Serverless outweighs any other approach experienced by me in my time in the industry. These are some of my favourite benefits from adopting serverless techologies: (1) rapidness from concept to implementation, (2) cost [to you and your customers], (3) SRP [reuse; patterns], (4) isolated scaling and resilience and (5) apportioning the right amount of effort on the business logic and not the infrastructure.  
-- I have been responsible for designing and implementing cloud archectures of different sizes to provide business continuity and scalabilty.  
-- I have designed solutions that take advantage of ML services (AWS Transcribe, AWS Comprehend) and have developed PoCs using serverless technology (lambda, step functions, API Gateway).
-- I have rarely had the opportunity to contribute to OSS.  This, hopefully, will change. With my experience of developing products and solutions, OSS has been pivotal to their success. As soon as the opportunity arises, I will start paying that back
-- I regularly update and complete personal research on the developing world of security and serverless technologies.
+- My experience as well as being responsible for designing, and implementing (very hands on), cloud archectures of different sizes that deliver on business continuity and scalabilty.  
+- I have designed solutions that take advantage of ML backend services (AWS Transcribe, AWS Comprehend) and have developed PoCs using serverless technology (Azure Functions, LogicApps, Event Grid, Event Hub, AWS Lambda, AWS Step //Functions, AWS API Gateway).
+- Designed and am implementing a new Platform that has Kubernetes firmly at it's heart
+- I keep current and research the developing world of serverless technologies.
 
-**My ideal role is leading the design and implementation of cloud native architecture, including CICD and the development of products and services that innovate from the use of cloud technology and their backing services.**
+
+### My preferred role
+
+To lead the design and implementation of cloud native architecture, including CICD and the development of products and services that innovate through the application of cloud technology and their backing services.
+
+---
 
 I have captured most of my career timeline here in the [Projects](#projects), [Skills](#skills) and [Experience](#experience) sections.
 
