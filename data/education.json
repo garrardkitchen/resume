@@ -1,5 +1,26 @@
 [
     {
+        "school":"Azure Certification",
+        "degree":"Solutions Architect",
+        "major":"Expert Level",
+        "notes":"",
+        "range":"2021"
+    },
+    {
+        "school":"Azure Certification",
+        "degree":"DevOps Engineer",
+        "major":"Expert Level",
+        "notes":"",
+        "range":"2021"
+    },
+    {
+        "school":"Azure Certification",
+        "degree":"Developer Associate",
+        "major":"Associate Level",
+        "notes":"",
+        "range":"2021"
+    },
+    {
         "school":"AWS Certification",
         "degree":"Solutions Architect",
         "major":"Associate Level",
