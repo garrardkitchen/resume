@@ -92,11 +92,11 @@ During the last 12 years+ I have become a SME (subject matter expert) in the con
 
 ### Where I see my passions, and skill set, benefiting your organisation
 
-- My thirst for learing is the catalyst that drives and keeps me current
-- I can help you migrate enterprise solutions and web based applications to the serverless stack (reduce maintenance and running costs) as well as help you rapidly test hypotheses by developing & deploying new features to assess traction and revenue opportunities 
-- A passion (one of many!) is serverless technologies.  It has been for many years.  It started with Azure functions a few years back, progressing this experience with AWS, returning over the last few years to Azure.  IMO, the benefits of Serverless outweighs any other approach experienced by me in my time in the industry. These are some of my favourite benefits from adopting serverless techologies: (1) rapidness from concept to implementation, (2) cost [to you and your customers], (3) SRP [reuse; patterns], (4) isolated scaling and resilience and (5) apportioning the right amount of effort on the business logic and not the infrastructure.  
-- My experience as well as being responsible for designing, and implementing (very hands on), cloud archectures of different sizes that deliver on business continuity and scalabilty.  
-- I have designed solutions that take advantage of ML backend services (AWS Transcribe, AWS Comprehend) and have developed PoCs using serverless technology (Azure Functions, LogicApps, Event Grid, Event Hub, AWS Lambda, AWS Step //Functions, AWS API Gateway).
+- My thirst for learning is the catalyst that drives and keeps me current
+- I can help you migrate enterprise solutions and web-based applications to the serverless stack (reduce maintenance and running costs) as well as help you rapidly test hypotheses by developing & deploying new features to assess traction and revenue opportunities 
+- A passion (one of many!) is serverless technologies.  It has been for many years.  It started with Azure functions a few years back, progressing this experience with AWS, returning over the last few years to Azure.  IMO, the benefits of Serverless outweigh any other approach experienced by me in my time in the industry. These are some of my favourite benefits from adopting serverless technologies: (1) rapidness from concept to implementation, (2) cost [to you and your customers], (3) SRP [reuse; patterns], (4) isolated scaling and resilience and (5) apportioning the right amount of effort on the business logic and not the infrastructure.  
+- My experience as well as being responsible for the design of and implementation of (very hands-on), cloud architectures of different sizes that deliver on business continuity and scalability.  
+- I have designed solutions that take advantage of ML backend services (AWS Transcribe, AWS Comprehend) and have developed PoCs and production services using serverless technology (Azure Functions, LogicApps, Event Grid, Event Hub, AWS Lambda, AWS Step Functions, AWS API Gateway).
 - Designed and am implementing a new Platform that has Kubernetes firmly at it's heart
 - I keep current and research the developing world of serverless technologies.
 
