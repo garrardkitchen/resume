@@ -74,7 +74,9 @@ Having researched and implemented several projects using the NestJS NodeJS frame
 
 [Click here to see projects worked on while at Qualtrak Solutions](#projects)
 
-I have spent the last 10+ years building a development team and helping to shape the company's direction.  Over this time I have embedded an Agile approach to delivering features across multiple products, driven CI/CD initiatives and made the space necessary for the Technical department’s europe-wide development team to be productive, engaged and committed.  
+I have spent the last 10+ years building a development team and helping to shape the company's direction.  Over this time I have embedded an Agile approach to delivering features across multiple products, driven CI/CD initiatives and made the space necessary for the Technical department’s europe-wide development team to be productive, engaged and committed. 
+
+During my time here, I developed and had publshed an AWS Quickstart [AWS Quickstart](https://github.com/qualtrak/connect-integration-qualtrak-evaluate) and had a product available in the AWS Marketplace [AWS Evalute for Amazon Connect](https://aws.amazon.com/marketplace/pp/prodview-7dhd7dpeuvolc) that integrated with [AWS Connect](https://aws.amazon.com/connect/). 
 
 ---
 
