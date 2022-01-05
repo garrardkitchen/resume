@@ -35,7 +35,7 @@ At Carfinance 247, our infrastructure and hosting platforms are legacy. To stabi
 
 This effort has lead me to creating, using AKS clusters, our new platform.  I have designed our CICD strategy to modernize our legacy .NET Framework, .NET Core and NodeJS workloads and to deploy them to the Azure cloud.  All this, while keeping complexity to a minimum and avoiding cognitive overload.  To compliment our new plaform, I have architected and implemented a Hub & Spoke network topology so we can securely access resources that are behind private endpoints from our corporate network, and resolve DNS names between Azure and our own on-prem DCs. I manage a small but senior team. 
 
-This is a list of technologies and backing services I am pioneering here at CF247, as well as using on a day to day bases and responsible for:
+This is a list of technologies and backing services I am pioneering here at CF247, as well as using on a day to day basis and responsible for:
 
 - Cloud Architecture
 - Azure Administration (Excl AAD)
@@ -74,7 +74,7 @@ Having researched and implemented several projects using the NestJS NodeJS frame
 
 [Click here to see projects worked on while at Qualtrak Solutions](#projects)
 
-I have spent the last 10+ years building a development team and helping to shape the company's direction.  Over this time I have embedded an Agile approach to delivering features across multiple products, driven CI/CD initiatives and made the space necessary for the Technical department’s europe-wide development team to be productive, engaged and committed. 
+I have spent the last 10+ years building a development team and helping to shape the company's direction.  Over this time I have embedded an Agile approach to delivering features across multiple products, driven CI/CD initiatives and made the space necessary for the Technical department’s Europe-wide development team to be productive, engaged and committed. 
 
 During my time here, I developed and had publshed an AWS Quickstart [AWS Quickstart](https://github.com/qualtrak/connect-integration-qualtrak-evaluate) and had a product available in the AWS Marketplace [AWS Evalute for Amazon Connect](https://aws.amazon.com/marketplace/pp/prodview-7dhd7dpeuvolc) that integrated with [AWS Connect](https://aws.amazon.com/connect/). 
 
@@ -97,13 +97,13 @@ During the last 12 years+ I have become a SME (subject matter expert) in the con
 - A passion (one of many!) is serverless technologies.  It has been for many years.  It started with Azure functions a few years back, progressing this experience with AWS, returning over the last few years to Azure.  IMO, the benefits of Serverless outweigh any other approach experienced by me in my time in the industry. These are some of my favourite benefits from adopting serverless technologies: (1) rapidness from concept to implementation, (2) cost [to you and your customers], (3) SRP [reuse; patterns], (4) isolated scaling and resilience and (5) apportioning the right amount of effort on the business logic and not the infrastructure.  
 - My experience as well as being responsible for the design of and implementation of (very hands-on), cloud architectures of different sizes that deliver on business continuity and scalability.  
 - I have designed solutions that take advantage of ML backend services (AWS Transcribe, AWS Comprehend) and have developed PoCs and production services using serverless technology (Azure Functions, LogicApps, Event Grid, Event Hub, AWS Lambda, AWS Step Functions, AWS API Gateway).
-- Designed and am implementing a new Platform that has Kubernetes firmly at it's heart
+- Architected, and am currently implementing a new Platform that has Kubernetes firmly at it's heart
+- Although I have a track record with AWS, as well as certifications, my focus now is firmly on the Azure cloud platform. 
 - I keep current and research the developing world of serverless technologies.
-
 
 ### My preferred role
 
-To lead the design and implementation of cloud native architecture, including CICD and the development of products and services that innovate through the application of cloud technology and their backing services.
+To lead the design and implementation of cloud-native architecture (Azure), development of either cloud-centric (or hybrid) products or services, guided by DevOps culture, to help shape the patterns and practices used and to innovation through the application of cloud technology.
 
 ---
 
