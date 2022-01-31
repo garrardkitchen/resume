@@ -12,7 +12,8 @@ BLACK LIVES MATTER
 {{% table %}}
 |          |                    |
 |----------|--------------------|
-| [Click here to download my pre-2021 resumé](/resume.pdf) ||
+| [Click here to download my resumé](/resume.pdf) ||
+| [Click here to download my pre-2021 resumé](/resume-pre2021.pdf) ||
 | [Click here to download my reference](/reference.pdf) ||
 {{% /table %}}
 
