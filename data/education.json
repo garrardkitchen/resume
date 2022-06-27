@@ -1,38 +1,45 @@
 [
     {
         "school":"Azure Certification",
+        "degree":"IoT Developer",
+        "major":"Specialty",
+        "notes":"",
+        "range":"2022 - 2023"
+    },
+    {
+        "school":"Azure Certification",
         "degree":"Solutions Architect",
         "major":"Expert Level",
         "notes":"",
-        "range":"2021"
+        "range":"2021 - 2023"
     },
     {
         "school":"Azure Certification",
         "degree":"DevOps Engineer",
         "major":"Expert Level",
         "notes":"",
-        "range":"2021"
+        "range":"2021 - 2023"
     },
     {
         "school":"Azure Certification",
         "degree":"Developer Associate",
         "major":"Associate Level",
         "notes":"",
-        "range":"2021"
+        "range":"2021 - 2023"
     },
     {
         "school":"AWS Certification",
         "degree":"Solutions Architect",
         "major":"Associate Level",
         "notes":"",
-        "range":"2018"
+        "range":"2018 - 2021"
     },
     {
         "school":"AWS Certification",
         "degree":"Developer",
         "major":"Associate Level",
         "notes":"",
-        "range":"2017"
+        "range":"2017 - 2020"
     },
     {
         "school":"Shogun World - Southport",

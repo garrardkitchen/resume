@@ -13,7 +13,7 @@
       <pubDate>Sun, 28 Apr 2019 17:29:12 +0100</pubDate>
       
       <guid>https://www.garrardkitchen.com/projects/creations/etl/</guid>
-      <description> I have implemented several solutions around this space using serverless technology and purpose built services [Glue, Athena, Data Pipeline and DMS]. Tools that I have used to help me develop a solution are Jupyter Labs and Pandas &amp;amp; NumPy.  </description>
+      <description> I have implemented several solutions around this space using serverless technology and purpose built services [Glue, Athena, Data Pipeline and DMS]. Tools that I have used to help me develop a solution are Jupyter Labs and Pandas &amp;amp; NumPy. </description>
     </item>
     
     <item>
@@ -51,7 +51,7 @@ Coach needed something to present actionable data. Not knowing whether the idea 
       <pubDate>Sun, 28 Apr 2019 17:02:46 +0100</pubDate>
       
       <guid>https://www.garrardkitchen.com/projects/creations/billing/</guid>
-      <description> I have designed and implemented several billing mechanisms. Including designs/models orientated around licensing, another using AWS MMS (metering service) for the AWS QuickStart and more recently, one to capture product usage based on a specific frequency. The later architectured and delivered once again via serverless technology. Created web apps [some serverless] to provide visibility into usage Create application features to help mitigate restrictions on internet access Subscription models designed and developed for: per agent, per user, per period, per feature usage, per role  </description>
+      <description> I have designed and implemented several billing mechanisms. Including designs/models orientated around licensing, another using AWS MMS (metering service) for the AWS QuickStart and more recently, one to capture product usage based on a specific frequency. The later architectured and delivered once again via serverless technology. Created web apps [some serverless] to provide visibility into usage Create application features to help mitigate restrictions on internet access Subscription models designed and developed for: per agent, per user, per period, per feature usage, per role </description>
     </item>
     
   </channel>

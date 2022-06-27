@@ -15,7 +15,7 @@
       <guid>https://www.garrardkitchen.com/projects/creations/observability/</guid>
       <description>The 3 pillars of observability (logging, metrics and tracing) presents new challenges for serverless solutions.
 Having experienced this first hand, I set about looking for a solution that will enable rapid root cause analysis to ultimately greatly reduce or even better, mitigate [think runbooks] known undesirable scenarios.
-  I believe in positive Customer Experience (CX) and apply this philosophy across everything I do.
+I believe in positive Customer Experience (CX) and apply this philosophy across everything I do.
 I spent time with Datadog [a few months of meetings] discussing ways to help this serverless space to improve observability.</description>
     </item>
     

@@ -13,7 +13,7 @@
       <pubDate>Sun, 28 Apr 2019 17:31:27 +0100</pubDate>
       
       <guid>https://www.garrardkitchen.com/projects/creations/corporate-website/</guid>
-      <description> Used mainly static content and ported new copy/layout to SAM Serverless Application C# .NET Core Razor Pages solution. Originally WP was in place, so removing MySQL reduced the cost. I created a CI/CD Pipeline using BitBucket. It is now hosted via API Gateway &amp;amp; Lambda and not via an Azure Website.  </description>
+      <description> Used mainly static content and ported new copy/layout to SAM Serverless Application C# .NET Core Razor Pages solution. Originally WP was in place, so removing MySQL reduced the cost. I created a CI/CD Pipeline using BitBucket. It is now hosted via API Gateway &amp;amp; Lambda and not via an Azure Website. </description>
     </item>
     
     <item>
@@ -24,8 +24,8 @@
       <guid>https://www.garrardkitchen.com/projects/creations/serverless/</guid>
       <description>Investigated ways to reduce time to market, end-client license costs, hosting costs and development costs.
 This research and later development efforts contributed to formulating and maintaining a best practice set of guidelines/principals covering all frameworks and languages employed to deliver a solution [product, automation and integrations].
-  Used both Serverless Framework and SAM. I use several IDEs, dependant on task/requirement, mainly VSCode, Rider, PyCharm and VS.
-  These are samples of use cases where I have employed Serverless technologies: Websites (ASP.</description>
+Used both Serverless Framework and SAM. I use several IDEs, dependant on task/requirement, mainly VSCode, Rider, PyCharm and VS.
+These are samples of use cases where I have employed Serverless technologies: Websites (ASP.</description>
     </item>
     
   </channel>

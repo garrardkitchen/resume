@@ -13,7 +13,7 @@
       <pubDate>Sun, 28 Apr 2019 16:09:25 +0100</pubDate>
       
       <guid>https://www.garrardkitchen.com/projects/creations/qtag/</guid>
-      <description> For a particular integration, the necessary data for the integration was not discoverable. I architected a bespoke cloud based solution that used several Azure services. The web app was written with node.js, Azure mobile services, table storage, service bus and Azure Web App (plus staging).  </description>
+      <description> For a particular integration, the necessary data for the integration was not discoverable. I architected a bespoke cloud based solution that used several Azure services. The web app was written with node.js, Azure mobile services, table storage, service bus and Azure Web App (plus staging). </description>
     </item>
     
   </channel>

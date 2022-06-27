@@ -14,7 +14,7 @@
       
       <guid>https://www.garrardkitchen.com/projects/creations/automation/</guid>
       <description> Serverless is ideal for so many use cases. Automation is a prime example of where serverless technology can fit so well. I have used Lambdas and supporting services to help automating both mundane and configuration tasks.
-Some examples of these are; setting log retention durations on log group creations, log subscription and adding API Gateway API keys to SSM Parameter Store.  </description>
+Some examples of these are; setting log retention durations on log group creations, log subscription and adding API Gateway API keys to SSM Parameter Store. </description>
     </item>
     
     <item>
@@ -25,7 +25,7 @@ Some examples of these are; setting log retention durations on log group creatio
       <guid>https://www.garrardkitchen.com/projects/creations/observability/</guid>
       <description>The 3 pillars of observability (logging, metrics and tracing) presents new challenges for serverless solutions.
 Having experienced this first hand, I set about looking for a solution that will enable rapid root cause analysis to ultimately greatly reduce or even better, mitigate [think runbooks] known undesirable scenarios.
-  I believe in positive Customer Experience (CX) and apply this philosophy across everything I do.
+I believe in positive Customer Experience (CX) and apply this philosophy across everything I do.
 I spent time with Datadog [a few months of meetings] discussing ways to help this serverless space to improve observability.</description>
     </item>
     
