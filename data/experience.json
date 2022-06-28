@@ -1,9 +1,15 @@
 [  
     {
+        "role":"Cloud Native Lead",
+        "company":"Fujitsu UK",
+        "summary":"I work as part of Fujitsu UK’s Cloud Native Services where my role is to help customers with a variety of services.",
+        "range":"May 2022 - Present"
+    }, 
+    {
         "role":"Head of Cloud Platform",
         "company":"Carfinance247",
         "summary":"I report directly to the CTO. I am responsible for our new Cloud Platform. I am responsible for the creation of, monitoring & governance of our new Azure Cloud Platform. This is a list of some of what this role entails: IaaS, PaaS, networking, security, cloud and application standards, cloud patterns, architecture, Developer eXperience (DX), CICD, resilency, rollback, monitoring, dashboarding, security, governance, policy, automation, resource configuration and application performance (ensuring performant, high availability and resiliency).",
-        "range":"Feb 2021 - Present"
+        "range":"Feb 2021 - May 2022"
     }, 
     {
         "role":"Principal Engineer",
