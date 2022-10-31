@@ -1,6 +1,13 @@
 [
     {
         "school":"Azure Certification",
+        "degree":"Security Engineer",
+        "major":"Associate",
+        "notes":"",
+        "range":"2022 - 2023"
+    },
+    {
+        "school":"Azure Certification",
         "degree":"IoT Developer",
         "major":"Specialty",
         "notes":"",
