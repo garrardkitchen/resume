@@ -6,15 +6,16 @@
             "Backlog Refinement",
             "Inception",
             "Retrospective",
-            "Sprint Planning"
+            "Sprint Planning",
+            "Blameless Post mortem"
         ]
     },
     {
         "grouping": "Microservices",
         "skills": [
-            ".NET Core 3.1",
+            ".NET Core 8.0",
             "ASP.NET Core",
-            "nodejs 14.*",
+            "NodeJS",
             "TypeScript",
             "Javascript",            
             "AKS",
@@ -38,7 +39,7 @@
             "Configuration as Code",
             "Design patterns - Structural, Creational & Behavioural",
             "DDD",
-            "DevOps",
+            "DevSecOps",
             "Disaster Recovery & HA",
             "DNS",
             "Firewalls",
@@ -129,7 +130,7 @@
         "grouping": "Languages, Operating Systems, Frameworks",
         "skills": [
             "C#",
-            "Node.js",
+            "NodeJS",
             "Java",
             "TypeScript",
             "Javascript",
@@ -146,9 +147,9 @@
             "Windows",
             "linux",
             "bash",
-            "PowerShell",
-            "Windows 10",
-            "Windows Server 2008-2016",
+            "PowerShell Core",
+            "Windows",
+            "Windows Server",
             "Flask",
             "Express.js"
         ]
@@ -158,7 +159,7 @@
         "skills": [
             "IIS",
             "MSSQL",
-            ".NET Core 2.1, 2.2, 3.1, 5.0, 6.0",            
+            ".NET Core 2.1, 2.2, 3.1, 5.0, 6.0, 8.0",            
             ".NET Frameworks 4.8",                      
             "ASP.NET Core",
             "ASP.NET",
@@ -171,6 +172,7 @@
         "grouping": "Front-end",
         "skills": [
             "Javascript",
+            "MS Playwright",
             "JQuery",
             "Angular",
             "Vue",
@@ -185,7 +187,7 @@
     {
         "grouping": "IDEs, Dev Tools & Productivities Tools",
         "skills": [
-            "VS 2022",
+            "Visual Studio 17.*",
             "VSCode",
             "Rider",
             "IntelliJ",
@@ -210,11 +212,13 @@
     {
         "grouping": "Testing & Load Testing",
         "skills": [
+            "SpecFlow (BBD)",
+            "MS Playwright",
             "Jest",
             "Artillery.io",
             "Postman",
-            "nUnit",
-            "XUnit.net",
+            "NUnit",
+            "XUnit",
             "SpecFlow",
             "Mocha",
             "Cucumber",
@@ -263,6 +267,8 @@
         "skills": [
             "OAuth 2.0",
             "OIDC",
+            "Azure B2C",
+            "Azure Entra Id",
             "Active Directory",
             "LDAP",
             "MFA",
@@ -273,8 +279,7 @@
             "Forms Authentication",
             "Windows Authentication",
             "JWT",
-            "IWA",
-            "Azure AD",
+            "IWA",            
             "SAML"
         ]
     },
@@ -369,7 +374,7 @@
             "App Services",
             "Virtual Machines",
             "Key Vault",
-            "ARM & bicep 0.3",
+            "ARM & bicep",
             "Virtual Network",
             "VPN Gateway",
             "CDN",
