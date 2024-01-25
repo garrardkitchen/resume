@@ -1,0 +1,79 @@
+[
+    {
+        "school":"Azure Certification",
+        "degree":"Security Engineer",
+        "major":"Associate",
+        "notes":"",
+        "range":"2022 - 2023"
+    },
+    {
+        "school":"Azure Certification",
+        "degree":"IoT Developer",
+        "major":"Specialty",
+        "notes":"",
+        "range":"2022 - 2023"
+    },
+    {
+        "school":"Azure Certification",
+        "degree":"Solutions Architect",
+        "major":"Expert Level",
+        "notes":"",
+        "range":"2021 - 2023"
+    },
+    {
+        "school":"Azure Certification",
+        "degree":"DevOps Engineer",
+        "major":"Expert Level",
+        "notes":"",
+        "range":"2021 - 2023"
+    },
+    {
+        "school":"Azure Certification",
+        "degree":"Developer Associate",
+        "major":"Associate Level",
+        "notes":"",
+        "range":"2021 - 2023"
+    },
+    {
+        "school":"AWS Certification",
+        "degree":"Solutions Architect",
+        "major":"Associate Level",
+        "notes":"",
+        "range":"2018 - 2021"
+    },
+    {
+        "school":"AWS Certification",
+        "degree":"Developer",
+        "major":"Associate Level",
+        "notes":"",
+        "range":"2017 - 2020"
+    },
+    {
+        "school":"Shogun World - Southport",
+        "degree":"1st Dan",
+        "major":"Black Belt",
+        "notes":"",
+        "range":"2010"
+    },
+    {
+        "school":"Liverpool Business School",
+        "degree":"Bachelor of Science (Hons)",
+        "major":"Business Information Systems",
+        "notes":"Honors",
+        "range":"1990 - 1994"
+    },
+    {
+        "school":"North East Wales Institute",
+        "degree":"National Diploma in Computer Science",
+        "major":"Computer Information Systems",
+        "notes":"National Diploma",
+        "range":"1988 - 1990"
+    },
+    {
+        "school":"Connah's Quay High School",
+        "degree":"GCSE",
+        "major":"Including Computer Science, Mathematics, Visual Design, Physics, Design Engineering",
+        "notes":"",
+        "range":"1988"
+    }
+]

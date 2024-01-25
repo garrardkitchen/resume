@@ -84,6 +84,14 @@
         ]
     },
     {
+        "grouping": "Low Code",
+        "skills": [
+            "Power Apps",
+            "Power Automate",
+            "Power BI"
+        ]
+    },
+    {
         "grouping": "EDA/MDA",
         "skills": [
             "ActiveMQ",
@@ -367,6 +375,7 @@
             "Azure DevOps",
             "Application Insights",
             "Kusto query language",
+            "Azure Container Apps",
             "Load Balancer",
             "Event Grid",
             "GitHub Actions",

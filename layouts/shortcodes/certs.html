@@ -1,0 +1,29 @@
+{{ "<table>" | safeHTML }}
+    <!-- <thead>
+      <tr>
+        <th>Title</th>        
+      </tr>
+    </thead> -->
+    <tbody>
+        <tr>
+        
+      {{ range $.Site.Data.certs }}
+          
+        <td style="text-align: center;">
+            <img src="{{ .path }}" alt="{{ .title }}" title="{{ .title }}" />
+        </td>
+      {{ end }}
+        </tr>
+        <tr>
+     
+        {{ range $.Site.Data.certs }}
+        <td style="text-align: center;"><b>exp:</b> {{ .expiry }}</td>
+        
+     
+    {{ end }}
+
+</tr>
+    </tbody>
+  {{ "</table>" | safeHTML }}
+
+  {{ .Inner }}
