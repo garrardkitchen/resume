@@ -48,8 +48,9 @@ _These are my Azure, HCL, Linux Foundation and AWS certificates_:
   - Models as Code
   - Sustainability Transformation (NDC, London '23)
 - Blogging
-- Work across several accounts using both Azure and HCL technologies
-- Provide DevSecOps input to assist with our contract bids
+- Mentoring
+- Working across several accounts using both Azure and HCL technologies
+- Providing DevSecOps input to assist with our contract bids
 - Examples of client work: 
   - Architected and now implementing [entire stack] a Power App that calls out via Custom Connector to establish token using OAuth 2.0 and Entra ID to a backend .NET 8.0 C# minimum API Azure Container Application that is private ingressed, behind by an APIM API that uses a JWT vallidation policy to pre-authorized requests.  Using both Azure DevOps and AZD to provision and deploy both the Power App and the Backend APIs and the infrastructure that supports the entire front-end and backend stack.
   - Created a remote state solution for Terraform that supports  Azure Blob Storage that has no public network access, no Shared Access Keys and with no public blob access, and using MSI and Private Endpoints.
