@@ -9,10 +9,12 @@ BLACK LIVES MATTER
 
 ---
 
+## Old resumes and reference
+
 {{% table %}}
 |          |                    |
 |----------|--------------------|
-| [Click here to download my resumé](/resume.pdf) ||
+| [Click here to download my 2022 resumé](/resume.pdf) ||
 | [Click here to download my pre-2021 resumé](/resume-pre2021.pdf) ||
 | [Click here to download my reference](/reference.pdf) ||
 {{% /table %}}
@@ -20,7 +22,7 @@ BLACK LIVES MATTER
 
 ---
 
-**Certifications**
+## Certifications
 
 _These are my Azure, HCL, Linux Foundation and AWS certificates_:
 
@@ -36,12 +38,29 @@ _These are my Azure, HCL, Linux Foundation and AWS certificates_:
 
 ---
 
-*Current position:* **Cloud Native Lead** @ [Fujitsu](http://www.fujitsu.com)
+## Current position
+
+- **Cloud Native Lead** @ [Fujitsu](http://www.fujitsu.com)
+- [Fujitsu](http://www.fujitsu.com) Professions Team member
+- Delivered talks on:
+  - What is CI/CD
+  - Test automation with MS Playwright and Azure Functions (C#, TS)
+  - Models as Code
+  - Sustainability Transformation (NDC, London '23)
+- Blogging
+- Work across several accounts using both Azure and HCL technologies
+- Provide DevSecOps input to assist with our contract bids
+- Examples of client work: 
+  - Architected and now implementing [entire stack] a Power App that calls out via Custom Connector to establish token using OAuth 2.0 and Entra ID to a backend API .NET 8.0 C# minimum API Azure Container Application that is private ingressed, behind by an APIM API that uses a JWT vallidation policy to pre-authorized requests.  Using Azrue DevOps and AZD.
+  - Created a remote state solution for Terraform that supports  Azure Blob Storage that has no public network access, no Shared Access Keys and with no public blob access, and using MSI and Private Endpoints.
+  - Architected and deliverying a Release Flow branching strategy that aligns with customer's release cadence and change request process, minimising energy consumption and carbon emissions.
+  - Implemented Scrum processes, incuding Retrospectives and Blameless Post-Mortems
 
 ---
 
+## Previous position
 
-*Previous position:* **Head of Cloud Platform** @ [Carfinance247](http://www.carfinance247.co.uk)
+- **Head of Cloud Platform** @ [Carfinance247](http://www.carfinance247.co.uk)
 
 At Carfinance 247, our infrastructure and hosting platforms are legacy. To stabilize the real-estate of amassed web applications, APIs (some microservices, mostly coarse-grained RESTful services), and workers, I am spearheading this digital transformation effort - guided in part by the Azure Cloud Adaption Framework.  I am no stranger when it comes to the cloud.  I have been **Cloud First**, and a **Serverless advocate** for many years on both the Azure and AWS cloud platforms.  I have a passion for cloud-native, twelve-factor apps, patterns, standards, and their huge impact on the enterprise and small business.  I feel the most comfortable when working with cloud providers.
 
@@ -102,26 +121,36 @@ During the last 12 years+ I have become a SME (subject matter expert) in the con
 
 ---
 
-### Where I see my passions, and skill set, benefiting your organisation
+## Where I see my passions, and skill set, benefiting your organisation
 
-- My thirst for learning is the catalyst that drives and keeps me current
-- I can help you migrate enterprise solutions and web-based applications to the serverless stack (reduce maintenance and running costs) as well as help you rapidly test hypotheses by developing & deploying new features to assess traction and revenue opportunities 
-- A passion (one of many!) is serverless technologies.  It has been for many years.  It started with Azure functions a few years back, progressing this experience with AWS, returning over the last few years to Azure.  IMO, the benefits of Serverless outweigh any other approach experienced by me in my time in the industry. These are some of my favourite benefits from adopting serverless technologies: (1) rapidness from concept to implementation, (2) cost [to you and your customers], (3) SRP [reuse; patterns], (4) isolated scaling and resilience and (5) apportioning the right amount of effort on the business logic and not the infrastructure.  
+- My thirst for learning is the catalyst that drives me and keeps me current
+- I can help you migrate enterprise solutions and web-based applications to the serverless stack (reduce maintenance and tech debt, running costs and carbon usage) as well as help you rapidly test hypotheses by developing & deploying new features to assess traction and revenue opportunities 
+- A passion (one of many!) is serverless technologies.  It has been for many years.  It started with Azure functions a few years back, progressing this experience with AWS, returning over the last few years to Azure.  IMO, the benefits of Serverless outweigh any other approach experienced by me in my time in the industry. These are some of my favourite benefits from adopting serverless technologies: 
+
+  - Rapidness from concept to implementation
+  - Cost [to you and your customers]
+  - SRP and EDA [reuse; patterns]
+  - Isolated scaling and resilience
+  - Reduced energy consumption & carbon emissions
+  - Apportioning the right amount of effort on the business logic and not the infrastructure.  
+
 - My experience as well as being responsible for the design of and implementation of (very hands-on), cloud architectures of different sizes that deliver on business continuity and scalability.  
 - I have designed solutions that take advantage of ML backend services (AWS Transcribe, AWS Comprehend) and have developed PoCs and production services using serverless technology (Azure Functions, LogicApps, Event Grid, Event Hub, AWS Lambda, AWS Step Functions, AWS API Gateway).
-- Architected, and am currently implementing a new Platform that has Kubernetes firmly at it's heart
+- Architected, and implemented a new Platform that has Kubernetes (AKS) firmly at it's heart
 - Although I have a track record with AWS, as well as certifications, my focus now is firmly on the Azure cloud platform. 
-- I keep current and research the developing world of serverless technologies.
+- I keep current and research the developing world of serverless technologies.  My current focus is WASM (OOB) and this has led me into learning Rust.
 
-### My preferred role
+## My preferred role
 
-To lead the design and implementation of cloud-native architecture (Azure), development of either cloud-centric (or hybrid) products or services, guided by DevOps culture, to help shape the patterns and practices used and to innovation through the application of cloud technology.
+To lead the design and implementation of cloud-native architecture (Azure), development of either cloud-centric (or hybrid) products or services, guided by DevSecOps culture, practices and tooling, to help shape the patterns and practices used and to innovation through the application of cloud technology.
 
 ---
 
 I have captured most of my career timeline here in the [Projects](#projects), [Skills](#skills) and [Experience](#experience) sections.
 
 ---
+
+## Old resume and reference
 
 {{% table %}}
 |          |                    |
