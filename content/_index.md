@@ -151,14 +151,3 @@ To lead the design and implementation of cloud-native architecture (Azure), deve
 I have captured most of my career timeline here in the [Projects](#projects), [Skills](#skills) and [Experience](#experience) sections.
 
 ---
-
-## Old resume and reference
-
-{{% table %}}
-|          |                    |
-|----------|--------------------|
-| [Click here to download my pre-2021 resumé](/resume.pdf) ||
-| [Click here to download my reference](/reference.pdf) ||
-{{% /table %}}
-
----
