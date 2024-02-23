@@ -58,7 +58,7 @@ _These are my Azure, HCL, Linux Foundation and AWS certificates_:
 
 ---
 
-## Previous position
+## Previous positions
 
 - **Head of Cloud Platform** @ [Carfinance247](http://www.carfinance247.co.uk)
 
@@ -139,6 +139,8 @@ During the last 12 years+ I have become a SME (subject matter expert) in the con
 - Architected, and implemented a new Platform that has Kubernetes (AKS) firmly at it's heart
 - Although I have a track record with AWS, as well as certifications, my focus now is firmly on the Azure cloud platform. 
 - I keep current and research the developing world of serverless technologies.  My current focus is WASM (OOB) and this has led me into learning Rust.
+
+---
 
 ## My preferred role
 
