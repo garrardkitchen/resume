@@ -9,16 +9,7 @@ BLACK LIVES MATTER
 
 ---
 
-## Old resumes and reference
-
-{{% table %}}
-|          |                    |
-|----------|--------------------|
-| [Click here to download my 2022 resumé](/resume.pdf) ||
-| [Click here to download my pre-2021 resumé](/resume-pre2021.pdf) ||
-| [Click here to download my reference](/reference.pdf) ||
-{{% /table %}}
-
+Please **[click here](#resumes-and-reference)** to view my resumes and reference.
 
 ---
 
@@ -49,13 +40,14 @@ _These are my Azure, HCL, Linux Foundation and AWS certificates_:
   - Sustainability Transformation (NDC, London '23)
 - Blogging
 - Mentoring
-- Working across several accounts using both Azure and HCL technologies
-- Providing DevSecOps input to assist with our contract bids
-- Examples of client work: 
-  - Architected and now implementing [entire stack] a Power App that calls out via Custom Connector to establish token using OAuth 2.0 and Entra ID to a backend .NET 8.0 C# minimum API Azure Container Application that is private ingressed, behind by an APIM API that uses a JWT vallidation policy to pre-authorized requests.  Using both Azure DevOps and AZD to provision and deploy both the Power App and the Backend APIs and the infrastructure that supports the entire front-end and backend stack.
-  - Created a remote state solution for Terraform that supports  Azure Blob Storage that has no public network access, no Shared Access Keys and with no public blob access, and using MSI and Private Endpoints.
-  - Architected and deliverying a Release Flow branching strategy that aligns with customer's release cadence and change request process, minimising energy consumption and carbon emissions.
-  - Implemented Scrum processes, incuding Retrospectives and Blameless Post-Mortems
+- Collaborating with multiple clients on Azure and HCL solutions
+- Contributing DevSecOps expertise to support our proposal development
+- Some of the projects I have worked on for clients are:
+
+  - Designed and built a Power App that connects to a backend .NET 8.0 C# API Azure Container Application using a Custom Connector, OAuth 2.0 and Entra ID. The backend API is secured by an APIM API that validates JWT tokens, including pre-authorize requests. I used Azure DevOps and AZD to deploy and manage the Power App, the backend API and the supporting infrastructure.
+  - Developed a remote state solution for Terraform that uses Azure Blob Storage with no public access, no Shared Access Keys and no public blob access. I used MSI and Private Endpoints to enable secure communication.
+  - Designed and delivered a Release Flow branching strategy that matches the customer’s release cycle and change request process, while reducing environmental impact and carbon emissions.
+  - Adopted Scrum processes, including Retrospectives and Blameless Post-Mortems, to improve team collaboration and performance.
 
 ---
 
@@ -63,11 +55,11 @@ _These are my Azure, HCL, Linux Foundation and AWS certificates_:
 
 - **Head of Cloud Platform** @ [Carfinance247](http://www.carfinance247.co.uk)
 
-At Carfinance 247, our infrastructure and hosting platforms are legacy. To stabilize the real-estate of amassed web applications, APIs (some microservices, mostly coarse-grained RESTful services), and workers, I am spearheading this digital transformation effort - guided in part by the Azure Cloud Adaption Framework.  I am no stranger when it comes to the cloud.  I have been **Cloud First**, and a **Serverless advocate** for many years on both the Azure and AWS cloud platforms.  I have a passion for cloud-native, twelve-factor apps, patterns, standards, and their huge impact on the enterprise and small business.  I feel the most comfortable when working with cloud providers.
+I am leading the digital transformation of Carfinance 247, where our infrastructure and hosting platforms are outdated. I am using the Azure Cloud Adaption Framework to help modernize our web applications, APIs (some microservices, mostly coarse-grained RESTful services), and workers. I have a lot of experience and enthusiasm for the cloud. I have always followed a **Cloud First** and **Serverless** approach on both the Azure and AWS cloud platforms. I am passionate about cloud-native, twelve-factor apps, patterns, standards, and their benefits for the enterprise and small business. I enjoy working with cloud providers the most.
 
-This effort has lead me to creating, using AKS clusters, our new platform.  I have designed our CICD strategy to modernize our legacy .NET Framework, .NET Core and NodeJS workloads and to deploy them to the Azure cloud.  All this, while keeping complexity to a minimum and avoiding cognitive overload.  To compliment our new plaform, I have architected and implemented a Hub & Spoke network topology so we can securely access resources that are behind private endpoints from our corporate network, and resolve DNS names between Azure and our own on-prem DCs. I manage a small but senior team. 
+I have created our new platform using AKS clusters as part of the digital transformation effort. I have devised our CICD strategy to update our legacy .NET Framework, .NET Core and NodeJS workloads and to migrate them to the Azure cloud. I have done this while simplifying the process and reducing mental load. To support our new platform, I have designed and built a Hub & Spoke network topology that allows us to securely access resources behind private endpoints from our corporate network, and to resolve DNS names between Azure and our on-prem DCs. I lead a small but experienced team.
 
-This is a list of technologies and backing services I am pioneering here at CF247, as well as using on a day to day basis and responsible for:
+These are the technologies and backing services that I am introducing and leading at CF247, as well as working with and managing daily:
 
 - Cloud Architecture
 - Azure Administration (Excl AAD)
@@ -92,63 +84,84 @@ This is a list of technologies and backing services I am pioneering here at CF24
 
 ---
 
-*Previous position:* **Principal Engineer** @ [Carfinance247](http://www.carfinance247.co.uk)
+### Previous position
+
+**Principal Engineer** @ [Carfinance247](http://www.carfinance247.co.uk)
 
 [Click here to see projects worked on while at Carfinance247](#projects)
 
-I report directly to the DoE (Director of Engineering). I work across teams to educate, assist & advise. I also contribute to the active sprint. I work on side projects and PoC (proof of concept) projects. I have delivered brown bags on both AWS & Google Serverless services. I help to shape HLA, improve coding quality and engineering standards. I am a team player and help support my colleagues and CF247 operations whenever the opportunity arises. I provide direction and guidance on matters relating to cloud computing, architecting and developing for the cloud. I am cloud-first, a polyglot, and an advocate of serverless technologies.
+Reporting directly to the DoE (Director of Engineering), I collaborate with different teams to teach, support and advise them. I also participate in the current sprint. I work on side projects and PoC (proof of concept) projects. I have given presentations on AWS & Google Serverless services. I help to define HLA, enhance coding quality and engineering standards. I am a team player and assist my colleagues and CF247 operations whenever needed. I offer direction and guidance on cloud computing, cloud architecture and development. I am cloud-first, a polyglot, and a supporter of serverless technologies.
 
-Having researched and implemented several projects using the NestJS NodeJS framework, I gave a technical talk in Manchester - meetup - on the NestJS framework, Dapr and KEDA in November 2020.
+After doing research and implementation on several projects using the NestJS NodeJS framework, I delivered a technical talk in Manchester - meetup - on the NestJS framework, Dapr and KEDA in November 2020.
 
 ---
 
-*Previous position:* **Chief Technology Officer** @ [Qualtrak](http://www.qualtrak.com)
+### Previous position
+
+**Chief Technology Officer** @ [Qualtrak](http://www.qualtrak.com)
 
 [Click here to see projects worked on while at Qualtrak Solutions](#projects)
 
-I have spent the last 10+ years building a development team and helping to shape the company's direction.  Over this time I have embedded an Agile approach to delivering features across multiple products, driven CI/CD initiatives and made the space necessary for the Technical department’s Europe-wide development team to be productive, engaged and committed. 
+For over a decade, I have led a development team and contributed to the company’s vision. During this period, I have implemented an Agile methodology to deliver features for various products, spearheaded CI/CD projects and created an environment that enables the Technical department’s European development team to work efficiently, passionately and collaboratively.
 
 During my time here, I developed and had publshed an AWS Quickstart [AWS Quickstart](https://github.com/qualtrak/connect-integration-qualtrak-evaluate) and had a product available in the AWS Marketplace [AWS Evalute for Amazon Connect](https://aws.amazon.com/marketplace/pp/prodview-7dhd7dpeuvolc) that integrated with [AWS Connect](https://aws.amazon.com/connect/). 
 
 ---
 
-*Other positions:* **BI contractor** & **.NET contractor**
+### Other positions
 
-Previously working as a contractor in the Business Intelligence space, I have worked for GE Capital, Morgan Stanley Dean Witter, Equitas & GUS.  
+**BI contractor** & **.NET contractor**
 
-Following University I worked my way to a position of personal interest, known at the time as EIS (Executive information systems).  This propelled me into the BI space where I took the plunge into the contracting world.  Since this time, I have pursued another passion; web application development.  I took a number of small appointments and opportunities to help fine-tune my skills.  With this route, I built up a greater repertoire of skills and abilities to benefit employers.  I have had a number of interesting roles which lead me into my previous role of a lifetime; CTO.  
+As a contractor in the Business Intelligence space, I have gained valuable experience working with GE Capital, Morgan Stanley Dean Witter, Equitas & GUS.
 
-During the last 12 years+ I have become a SME (subject matter expert) in the contact centre space, a seasoned systems integrator, a cloud solutions architect, an experienced serverless developer, a DevOps Evangelist and a technical voice and advisor for Qualtrak, working with teams around the world from all sizes of companies.
+After graduating from University, I pursued my interest in EIS (Executive information systems), which led me to the BI field and the world of contracting. Along the way, I developed another passion: web application development. I took on various projects and challenges to hone my skills. This enabled me to acquire a wide range of competencies and expertise to offer to employers. I have enjoyed many interesting roles, culminating in my dream job as CTO.
+
+For more than 12 years, I have been a SME (subject matter expert) in the contact centre space, a skilled systems integrator, a cloud solutions architect, a proficient serverless developer, a DevOps Advocate and a trusted technical consultant for Qualtrak, working with teams of all sizes across the globe.
 
 ---
 
 ## Where I see my passions, and skill set, benefiting your organisation
 
-- My thirst for learning is the catalyst that drives me and keeps me current
-- I can help you migrate enterprise solutions and web-based applications to the serverless stack (reduce maintenance and tech debt, running costs and carbon usage) as well as help you rapidly test hypotheses by developing & deploying new features to assess traction and revenue opportunities 
-- A passion (one of many!) is serverless technologies.  It has been for many years.  It started with Azure functions a few years back, progressing this experience with AWS, returning over the last few years to Azure.  IMO, the benefits of Serverless outweigh any other approach experienced by me in my time in the industry. These are some of my favourite benefits from adopting serverless technologies: 
+- I love learning new things and staying up to date with the latest technologies
+- I can guide you and your team through the migration of enterprise solutions and web-based applications to the serverless stack (saving you time, money, and resources) or containerization [App Servces, ACA and AKS], as well as help you quickly experiment with new ideas by developing and deploying features to measure customer feedback and revenue potential
+- I am passionate about serverless technologies and have been using them for years. I started with Azure functions and then explored AWS, before coming back to Azure. I believe that serverless is the best way to build modern applications for many reasons, such as:
 
-  - Rapidness from concept to implementation
-  - Cost [to you and your customers]
-  - SRP and EDA [reuse; patterns]
-  - Isolated scaling and resilience
-  - Reduced energy consumption & carbon emissions
-  - Apportioning the right amount of effort on the business logic and not the infrastructure.  
+  - Speed from idea to execution
+  - Cost-effectiveness for you and your customers
+  - Reusability and scalability of components and events
+  - Resilience and isolation of functions
+  - Reduced environmental impact and carbon footprint
+  - Focus on the business logic and not the infrastructure
 
-- My experience as well as being responsible for the design of and implementation of (very hands-on), cloud architectures of different sizes that deliver on business continuity and scalability.  
-- I have designed solutions that take advantage of ML backend services (AWS Transcribe, AWS Comprehend) and have developed PoCs and production services using serverless technology (Azure Functions, LogicApps, Event Grid, Event Hub, AWS Lambda, AWS Step Functions, AWS API Gateway).
-- Architected, and implemented a new Platform that has Kubernetes (AKS) firmly at it's heart
-- Although I have a track record with AWS, as well as certifications, my focus now is firmly on the Azure cloud platform. 
-- I keep current and research the developing world of serverless technologies.  My current focus is WASM (OOB) and this has led me into learning Rust.
+- I have hands-on experience in designing and implementing cloud architectures of various scales that ensure business continuity and scalability
+- I have leveraged ML backend services (AWS Transcribe, AWS Comprehend) to design solutions and have built PoCs and production services using serverless technology (Azure Functions, LogicApps, Event Grid, Event Hub, AWS Lambda, AWS Step Functions, AWS API Gateway)
+- I have architected and implemented a new platform that uses Kubernetes (AKS) as its core
+- I have a strong background in AWS and certifications, but now I am fully committed to the Azure cloud platform
+- I keep researching and learning about the evolving world of serverless technologies. My current interest is WASM (OOB) and this has led me to learn Rust.
 
 ---
 
 ## My preferred role
 
-To lead the design and implementation of cloud-native architecture (Azure), development of either cloud-centric (or hybrid) products or services, guided by DevSecOps culture, practices and tooling, to help shape the patterns and practices used and to innovation through the application of cloud technology.
+To tackle complex cloud-native (CN) architecture (Azure) chalenges and spearhead the CN design and implementation, develop cloud-centric or hybrid solutions, foster a DevSecOps culture, practices and tooling, mentor and shape communities and train teams on cloud skills, and drive innovation through the use of cloud technology.
 
 ---
 
 I have captured most of my career timeline here in the [Projects](#projects), [Skills](#skills) and [Experience](#experience) sections.
+
+---
+
+## Resumes and Reference
+
+_These resumes go up to 2022_
+
+{{% table %}}
+|          |                    |
+|----------|--------------------|
+| [Click here to download my 2022 resumé](/resume.pdf) ||
+| [Click here to download my pre-2021 resumé](/resume-pre2021.pdf) ||
+| [Click here to download my reference](/reference.pdf) ||
+{{% /table %}}
+
 
 ---
