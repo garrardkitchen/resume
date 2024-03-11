@@ -16,12 +16,12 @@ env = "production"
     sidebar = true
     firstName = "Garrard"
     lastName = "Kitchen"
-    address = "Southport, UK"
+    address = "Fujitsu Distinguished Engineer"
     phone = "+44 (0)1704 220226"
     contactNote = "Solutions Architect & CTO" #used in QR code only
     profileImage = "https://en.gravatar.com/userimage/7070223/a5408955d5ac2cc7b975f64bf1e9dcb1.jpg"
     email = "garrardkitchen@gmail.com"
-    description = "Software Platform Engineer with experience leveraging agile, DevOps, and CI/CD to manage large scale distributed platforms both on prem and in public cloud."
+    description = "Software Platform Engineer with experience leveraging DevDevOps to manage large scale distributed platforms both on prem and in public cloud."
     favicon = "images/favicon.ico"
 
     # what sections to display.  Setting to false disables navigation and section.

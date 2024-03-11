@@ -1,9 +1,16 @@
+
 [  
+    {
+        "role":"Fujitsu Distinguished Engineer",
+        "company":"Fujitsu UK",
+        "summary":"I work as part of Fujitsu UK’s DDaC Team as a Fujitsu Distinguished Engineer",
+        "range":"Mar 2024 - Present"
+    }, 
     {
         "role":"Cloud Native Lead",
         "company":"Fujitsu UK",
-        "summary":"I work as part of Fujitsu UK’s Cloud Native Services where my role is to help customers with a variety of services.",
-        "range":"May 2022 - Present"
+        "summary":"I work as part of Fujitsu UK’s DDaC Team where my role is to help customers with a variety of services.",
+        "range":"May 2022 - Mar 2024"
     }, 
     {
         "role":"Head of Cloud Platform",
