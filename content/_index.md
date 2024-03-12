@@ -29,15 +29,15 @@ _These are my Azure, HCL, Linux Foundation and AWS certificates_:
 
 ---
 
+
 ## Current position
 
-- **Fujitsu Distinguished Engineer** @ [Fujitsu](http://www.fujitsu.com)
-
----
-
-## Previous position
-
 - **Cloud Native Lead** @ [Fujitsu](http://www.fujitsu.com)
+
+- Awarded the title of **Fujitsu Distinguished Engineer**
+
+  ![](img/FJ_RFDE.png)
+
 - [Fujitsu](http://www.fujitsu.com) Professions Team member
 - Delivered talks on:
   - What is CI/CD
