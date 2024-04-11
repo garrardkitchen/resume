@@ -138,6 +138,9 @@
         "grouping": "Languages, Operating Systems, Frameworks",
         "skills": [
             "C#",
+            "Blazor",
+            ".NET Aspire - preview",
+            "AZD (Azure Developer CLI)",
             "NodeJS",
             "Java",
             "TypeScript",
@@ -173,7 +176,7 @@
             "ASP.NET",
             "TypeScript",  
             "Razor Pages",
-            "Blazer Pages"
+            "Blazor"
         ]
     },
     {

@@ -53,7 +53,6 @@ _These are my Azure, HCL, Linux Foundation and AWS certificates_:
   - Designed and built a Power App that connects to a backend .NET 8.0 C# API Azure Container Application using a Custom Connector, OAuth 2.0 and Entra ID. The backend API is secured by an APIM API that validates JWT tokens, including pre-authorize requests. I used Azure DevOps and AZD to deploy and manage the Power App, the backend API and the supporting infrastructure.
   - Developed a remote state solution for Terraform that uses Azure Blob Storage with no public access, no Shared Access Keys and no public blob access. I used MSI and Private Endpoints to enable secure communication.
   - Designed and delivered a Release Flow branching strategy that matches the customer’s release cycle and change request process, while reducing environmental impact and carbon emissions.
-  - Sure, I can help you rewrite that. Here is one possible way to rephrase your text:
   - Led the implementation of Scrum practices, such as Retrospectives and Blameless Post-Mortems, to enhance team collaboration and efficiency.
   
 ---
