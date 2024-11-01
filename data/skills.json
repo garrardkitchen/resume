@@ -12,17 +12,17 @@
         ]
     },
     {
-        "grouping": "DevSevOps",
+        "grouping": "DevSecOps",
         "skills": [
             "Azure DevOps Pipelines",
             "GitHub Workflow Actions",
             "GitLab CI/CD",
             "Terraform",
-            "Terraform Enterprise/Cloud",
-            "CloudFormation",
+            "Terraform Enterprise/Cloud",         
             "Azure Bicep & ARM",
             "Terraform",
             "IDP - Backstage",
+            "CloudFormation",
             "SonarQube/SonarCloud"
         ]
     },
