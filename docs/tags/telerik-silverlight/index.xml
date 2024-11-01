@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>telerik silverlight on GPK</title>
+    <title>Telerik Silverlight on GPK</title>
     <link>https://www.garrardkitchen.com/tags/telerik-silverlight/</link>
-    <description>Recent content in telerik silverlight on GPK</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Telerik Silverlight on GPK</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Apr 2019 16:13:20 +0100</lastBuildDate><atom:link href="https://www.garrardkitchen.com/tags/telerik-silverlight/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
+    <atom:link href="https://www.garrardkitchen.com/tags/telerik-silverlight/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Coach</title>
       <link>https://www.garrardkitchen.com/projects/creations/coach/</link>
       <pubDate>Sun, 28 Apr 2019 16:13:20 +0100</pubDate>
-      
       <guid>https://www.garrardkitchen.com/projects/creations/coach/</guid>
-      <description> Created a web based product of our successful client/server product. Chose appropriate tech to fit the timeline. Worked with a Pakistani development outsourcing company and Recorder vendor that the product was integrating with at the time. Later developing the application to integrate with the Redbox Recorder, leading Redbox to purchase the code after an agreed sign off. </description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;Created a web based product of our successful client/server product.&lt;/li&gt;&#xA;&lt;li&gt;Chose appropriate tech to fit the timeline.&lt;/li&gt;&#xA;&lt;li&gt;Worked with a Pakistani development outsourcing company and Recorder vendor that the product was integrating with at the time.  Later developing the application to integrate with the Redbox Recorder, leading Redbox to purchase the code after an agreed sign off.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

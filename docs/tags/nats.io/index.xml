@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>nats.io on GPK</title>
+    <title>Nats.io on GPK</title>
     <link>https://www.garrardkitchen.com/tags/nats.io/</link>
-    <description>Recent content in nats.io on GPK</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Nats.io on GPK</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Apr 2019 15:56:30 +0100</lastBuildDate><atom:link href="https://www.garrardkitchen.com/tags/nats.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
+    <atom:link href="https://www.garrardkitchen.com/tags/nats.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Streamline deployment of HA app</title>
       <link>https://www.garrardkitchen.com/projects/creations/ha/</link>
       <pubDate>Sun, 28 Apr 2019 15:56:30 +0100</pubDate>
-      
       <guid>https://www.garrardkitchen.com/projects/creations/ha/</guid>
-      <description>The Coach product started as an on-prem application, installed behind the firewall on a single server.
-A partner made a request for the product [Coach] to be made highly available. Initially the product was hosted via an active/passive configuration. This was superseded by a load balanced active/active configuration through the application of Akka.NET throughout all components. This enabled an application cluster that could load balance the demands across all components.</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The Coach product started as an on-prem application, installed behind the firewall on a single server.&lt;/p&gt;&#xA;&lt;p&gt;A partner made a request for the product [Coach] to be made highly available.  Initially the product was hosted via an active/passive configuration.  This was superseded by a load balanced active/active configuration through the application of Akka.NET throughout all components. This enabled an application cluster that could load balance the demands across all components.  Based on specific feedback, I later re-architected the messaging driven solution and replaced Akka.NET with NATS.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

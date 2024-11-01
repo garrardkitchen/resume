@@ -7,13 +7,30 @@
             "Inception",
             "Retrospective",
             "Sprint Planning",
-            "Blameless Post mortem"
+            "Blameless Post mortem",
+            "Target Process"
+        ]
+    },
+    {
+        "grouping": "DevSevOps",
+        "skills": [
+            "Azure DevOps Pipelines",
+            "GitHub Workflow Actions",
+            "GitLab CI/CD",
+            "Terraform",
+            "Terraform Enterprise/Cloud",
+            "CloudFormation",
+            "Azure Bicep & ARM",
+            "Terraform",
+            "IDP - Backstage",
+            "SonarQube/SonarCloud"
         ]
     },
     {
         "grouping": "Microservices",
         "skills": [
             ".NET Core 8.0",
+            ".NET Aspire",
             "ASP.NET Core",
             "NodeJS",
             "TypeScript",
@@ -33,6 +50,9 @@
     {
         "grouping": "Architecture & Concepts",
         "skills": [
+            "CAF ('Cloud Adoption Framework')",
+            "ALZ ('Azure Landing Zones')",
+            "LZ Subscription Vending",
             "API Management Platforms",
             "BDD",
             "Cloud patterns",
@@ -139,7 +159,7 @@
         "skills": [
             "C#",
             "Blazor",
-            ".NET Aspire - preview",
+            ".NET Aspire",
             "AZD (Azure Developer CLI)",
             "NodeJS",
             "Java",
@@ -198,7 +218,7 @@
     {
         "grouping": "IDEs, Dev Tools & Productivities Tools",
         "skills": [
-            "Visual Studio 17.*",
+            "Visual Studio",
             "VSCode",
             "Rider",
             "IntelliJ",
@@ -371,7 +391,7 @@
     },
     {
         "grouping": "Azure",
-        "skills": [
+        "skills": [            
             "Azure Kubernetes Service",
             "Application Gateway",
             "Azure Functions",
@@ -386,7 +406,7 @@
             "App Services",
             "Virtual Machines",
             "Key Vault",
-            "ARM & bicep",
+            "ARM & bicep & Terraform",
             "Virtual Network",
             "VPN Gateway",
             "CDN",

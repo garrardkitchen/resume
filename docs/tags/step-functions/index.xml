@@ -1,55 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>step functions on GPK</title>
+    <title>Step Functions on GPK</title>
     <link>https://www.garrardkitchen.com/tags/step-functions/</link>
-    <description>Recent content in step functions on GPK</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Step Functions on GPK</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Apr 2019 17:22:33 +0100</lastBuildDate><atom:link href="https://www.garrardkitchen.com/tags/step-functions/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
+    <atom:link href="https://www.garrardkitchen.com/tags/step-functions/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IntelliSearch</title>
       <link>https://www.garrardkitchen.com/projects/creations/intellisearch/</link>
       <pubDate>Sun, 28 Apr 2019 17:22:33 +0100</pubDate>
-      
       <guid>https://www.garrardkitchen.com/projects/creations/intellisearch/</guid>
-      <description>Coach has a long standing feature called IntelliSearch.
-It is a feature that, at a specific time, for several set periods [daily, weekly, monthly, custom], it will submit queries to a Data Connector (conduit between our system and an external system) to match up randomly selected recordings for later evaluation. The random algorithm implemented is there to ensure fairness of recording selection so apples and apples are compared and not apples to oranges.</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Coach has a long standing feature called IntelliSearch.&lt;/p&gt;&#xA;&lt;p&gt;It is a feature that, at a specific time, for several set periods [daily, weekly, monthly, custom], it will submit queries to a Data Connector (conduit between our system and an external system) to match up randomly selected recordings for later evaluation.  The random algorithm implemented is there to ensure fairness of recording selection so apples and apples are compared and not apples to oranges.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Migrations</title>
       <link>https://www.garrardkitchen.com/projects/creations/migrations/</link>
       <pubDate>Sun, 28 Apr 2019 17:16:53 +0100</pubDate>
-      
       <guid>https://www.garrardkitchen.com/projects/creations/migrations/</guid>
-      <description>Migrate Coach product away from a monolyth to being 100% serverless. Main web platform hosted via ECS Fargate and all features, RESTul APIs be Lambda backed API Gateways and Step Functions. Data repositories used are dynamoDB, ElasticSearch, Amazon Aurora (mySQL), Redis and S3.
-Coach migrated from MSSQL to MySQL as costs were too high for Always-On capabilities. I was accepted onto Aurora MySQL Preview programme and contributed to this phase.</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Migrate Coach product away from a monolyth to being 100% serverless.  Main web platform hosted via ECS Fargate and all features, RESTul APIs be Lambda backed API Gateways and Step Functions.  Data repositories used are dynamoDB, ElasticSearch, Amazon Aurora (mySQL), Redis and S3.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Coach migrated from MSSQL to MySQL as costs were too high for Always-On capabilities. I was accepted onto Aurora MySQL Preview programme and contributed to this phase.  The product had a key dependency that required a specific version of MySQL. As a result we are now using Amazon Aurora and plan to migrate over to  Aurora Serverless when version 5.7 is supported.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>CXcoach</title>
       <link>https://www.garrardkitchen.com/projects/creations/cxcoach/</link>
       <pubDate>Sun, 28 Apr 2019 16:16:41 +0100</pubDate>
-      
       <guid>https://www.garrardkitchen.com/projects/creations/cxcoach/</guid>
-      <description>Created an SaaS version of our product on the AWS platform using serverless tech as an enabler to lowering the running costs and as such, make it cheaper for the vendor/partner to offer our product to their end-clients
-I have been responsible for driving the integrations with major vendors
-Made presentations to prospective partners [CEO and below] nd helped shape requirements of the integration
-Platform required a new set of UX principles</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Created an SaaS version of our product on the AWS platform using serverless tech as an enabler to lowering the running costs and as such, make it cheaper for the vendor/partner to offer our product to their end-clients&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;I have been responsible for driving the integrations with major vendors&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Made presentations to prospective partners [CEO and below] nd helped shape requirements of the integration&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Platform required a new set of UX principles&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Serverless</title>
       <link>https://www.garrardkitchen.com/projects/creations/serverless/</link>
       <pubDate>Sun, 28 Apr 2019 16:01:53 +0100</pubDate>
-      
       <guid>https://www.garrardkitchen.com/projects/creations/serverless/</guid>
-      <description>Investigated ways to reduce time to market, end-client license costs, hosting costs and development costs.
-This research and later development efforts contributed to formulating and maintaining a best practice set of guidelines/principals covering all frameworks and languages employed to deliver a solution [product, automation and integrations].
-Used both Serverless Framework and SAM. I use several IDEs, dependant on task/requirement, mainly VSCode, Rider, PyCharm and VS.
-These are samples of use cases where I have employed Serverless technologies: Websites (ASP.</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Investigated ways to reduce time to market, end-client license costs, hosting costs and development costs.&lt;/p&gt;&#xA;&lt;p&gt;This research and later development efforts contributed to formulating and maintaining a best practice set of guidelines/principals covering all frameworks and languages employed to deliver a solution [product, automation and integrations].&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Used both Serverless Framework and SAM.  I use several IDEs, dependant on task/requirement, mainly VSCode, Rider, PyCharm and VS.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;These are samples of use cases where I have employed Serverless technologies: Websites (ASP.NET Core Razor), major features (utilising full AWS stack), automation (set log retention via CLoudWatch Events, set Log subscription, Set API Gateway Key and store in SSM).&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
