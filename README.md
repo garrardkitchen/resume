@@ -49,3 +49,9 @@ huge server -D
 - https://gohugo.io/getting-started/quick-start/
 
 #### To deploy
+
+```script
+hugo
+git commit -m "docs:<comment>"
+git push origin master
+```
