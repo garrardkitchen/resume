@@ -3,10 +3,6 @@ title: "Home"
 sitemap:
   priority : 0.9
 ---
-{{< justified >}}
-BLACK LIVES MATTER
-{{< /justified >}}
-
 ---
 
 Please **[click here](#resumes-and-reference)** to view my resumes and reference.
@@ -44,6 +40,8 @@ _These are my Azure, HCL, Linux Foundation and AWS certificates_:
   - Test automation with MS Playwright and Azure Functions (C#, TS)
   - Models as Code
   - Sustainability Transformation (NDC, London '23)
+  - .NET Aspire, the inner loop and the Azure Developer CLI ('AZD')
+
 - Blogging
 - Mentoring
 - Collaborating with multiple clients on Azure and HCL solutions

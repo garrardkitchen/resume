@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Saas on GPK</title>
-    <link>https://www.garrardkitchen.com/tags/saas/</link>
+    <link>http://localhost:1313/tags/saas/</link>
     <description>Recent content in Saas on GPK</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
-    <atom:link href="https://www.garrardkitchen.com/tags/saas/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/saas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CXcoach</title>
-      <link>https://www.garrardkitchen.com/projects/creations/cxcoach/</link>
+      <link>http://localhost:1313/projects/creations/cxcoach/</link>
       <pubDate>Sun, 28 Apr 2019 16:16:41 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/projects/creations/cxcoach/</guid>
+      <guid>http://localhost:1313/projects/creations/cxcoach/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Created an SaaS version of our product on the AWS platform using serverless tech as an enabler to lowering the running costs and as such, make it cheaper for the vendor/partner to offer our product to their end-clients&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;I have been responsible for driving the integrations with major vendors&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Made presentations to prospective partners [CEO and below] nd helped shape requirements of the integration&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Platform required a new set of UX principles&lt;/p&gt;</description>
     </item>
   </channel>

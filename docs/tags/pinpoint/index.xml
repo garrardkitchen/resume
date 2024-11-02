@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pinpoint on GPK</title>
-    <link>https://www.garrardkitchen.com/tags/pinpoint/</link>
+    <link>http://localhost:1313/tags/pinpoint/</link>
     <description>Recent content in Pinpoint on GPK</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
-    <atom:link href="https://www.garrardkitchen.com/tags/pinpoint/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/pinpoint/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Onboarding</title>
-      <link>https://www.garrardkitchen.com/projects/creations/onboarding/</link>
+      <link>http://localhost:1313/projects/creations/onboarding/</link>
       <pubDate>Sun, 28 Apr 2019 16:55:49 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/projects/creations/onboarding/</guid>
+      <guid>http://localhost:1313/projects/creations/onboarding/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;An important part of a SaaS application, especially one that requires integrations to provide any measure of benefit, is onboarding.&lt;/p&gt;&#xA;&lt;p&gt;For me, the advantages are simple.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Generally, CX needs to be smooth [quick and useful].  It is also important to know at what stage a trialer is at. This can then be aided by a digital campaign with support.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;With most onboarding models requiring a starting point outside of our product, e.g. vendor, it is even more important that the trialer does not experience any pain during this process; even if they do experience a problem [e.g. outage].&lt;/p&gt;</description>
     </item>
   </channel>

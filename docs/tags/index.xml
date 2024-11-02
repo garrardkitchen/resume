@@ -2,1004 +2,1004 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on GPK</title>
-    <link>https://www.garrardkitchen.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on GPK</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
-    <atom:link href="https://www.garrardkitchen.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>At Rest</title>
-      <link>https://www.garrardkitchen.com/tags/at-rest/</link>
+      <link>http://localhost:1313/tags/at-rest/</link>
       <pubDate>Tue, 30 Apr 2019 11:47:28 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/at-rest/</guid>
+      <guid>http://localhost:1313/tags/at-rest/</guid>
       <description></description>
     </item>
     <item>
       <title>Hashed</title>
-      <link>https://www.garrardkitchen.com/tags/hashed/</link>
+      <link>http://localhost:1313/tags/hashed/</link>
       <pubDate>Tue, 30 Apr 2019 11:47:28 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/hashed/</guid>
+      <guid>http://localhost:1313/tags/hashed/</guid>
       <description></description>
     </item>
     <item>
       <title>Iam</title>
-      <link>https://www.garrardkitchen.com/tags/iam/</link>
+      <link>http://localhost:1313/tags/iam/</link>
       <pubDate>Tue, 30 Apr 2019 11:47:28 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/iam/</guid>
+      <guid>http://localhost:1313/tags/iam/</guid>
       <description></description>
     </item>
     <item>
       <title>In Transit</title>
-      <link>https://www.garrardkitchen.com/tags/in-transit/</link>
+      <link>http://localhost:1313/tags/in-transit/</link>
       <pubDate>Tue, 30 Apr 2019 11:47:28 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/in-transit/</guid>
+      <guid>http://localhost:1313/tags/in-transit/</guid>
       <description></description>
     </item>
     <item>
       <title>Mfa</title>
-      <link>https://www.garrardkitchen.com/tags/mfa/</link>
+      <link>http://localhost:1313/tags/mfa/</link>
       <pubDate>Tue, 30 Apr 2019 11:47:28 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/mfa/</guid>
+      <guid>http://localhost:1313/tags/mfa/</guid>
       <description></description>
     </item>
     <item>
       <title>Owasp</title>
-      <link>https://www.garrardkitchen.com/tags/owasp/</link>
+      <link>http://localhost:1313/tags/owasp/</link>
       <pubDate>Tue, 30 Apr 2019 11:47:28 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/owasp/</guid>
+      <guid>http://localhost:1313/tags/owasp/</guid>
       <description></description>
     </item>
     <item>
       <title>Password Manager</title>
-      <link>https://www.garrardkitchen.com/tags/password-manager/</link>
+      <link>http://localhost:1313/tags/password-manager/</link>
       <pubDate>Tue, 30 Apr 2019 11:47:28 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/password-manager/</guid>
+      <guid>http://localhost:1313/tags/password-manager/</guid>
       <description></description>
     </item>
     <item>
       <title>Security</title>
-      <link>https://www.garrardkitchen.com/tags/security/</link>
+      <link>http://localhost:1313/tags/security/</link>
       <pubDate>Tue, 30 Apr 2019 11:47:28 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/security/</guid>
+      <guid>http://localhost:1313/tags/security/</guid>
       <description></description>
     </item>
     <item>
       <title>Tls</title>
-      <link>https://www.garrardkitchen.com/tags/tls/</link>
+      <link>http://localhost:1313/tags/tls/</link>
       <pubDate>Tue, 30 Apr 2019 11:47:28 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/tls/</guid>
+      <guid>http://localhost:1313/tags/tls/</guid>
       <description></description>
     </item>
     <item>
       <title>Waf</title>
-      <link>https://www.garrardkitchen.com/tags/waf/</link>
+      <link>http://localhost:1313/tags/waf/</link>
       <pubDate>Tue, 30 Apr 2019 11:47:28 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/waf/</guid>
+      <guid>http://localhost:1313/tags/waf/</guid>
       <description></description>
     </item>
     <item>
       <title>Wifi</title>
-      <link>https://www.garrardkitchen.com/tags/wifi/</link>
+      <link>http://localhost:1313/tags/wifi/</link>
       <pubDate>Tue, 30 Apr 2019 11:47:28 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/wifi/</guid>
+      <guid>http://localhost:1313/tags/wifi/</guid>
       <description></description>
     </item>
     <item>
       <title>Google Analytics</title>
-      <link>https://www.garrardkitchen.com/tags/google-analytics/</link>
+      <link>http://localhost:1313/tags/google-analytics/</link>
       <pubDate>Tue, 30 Apr 2019 08:46:29 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/google-analytics/</guid>
+      <guid>http://localhost:1313/tags/google-analytics/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>https://www.garrardkitchen.com/tags/hugo/</link>
+      <link>http://localhost:1313/tags/hugo/</link>
       <pubDate>Tue, 30 Apr 2019 08:46:29 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/hugo/</guid>
+      <guid>http://localhost:1313/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Short Deadline</title>
-      <link>https://www.garrardkitchen.com/tags/short-deadline/</link>
+      <link>http://localhost:1313/tags/short-deadline/</link>
       <pubDate>Tue, 30 Apr 2019 08:46:29 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/short-deadline/</guid>
+      <guid>http://localhost:1313/tags/short-deadline/</guid>
       <description></description>
     </item>
     <item>
       <title>Template Configuration</title>
-      <link>https://www.garrardkitchen.com/tags/template-configuration/</link>
+      <link>http://localhost:1313/tags/template-configuration/</link>
       <pubDate>Tue, 30 Apr 2019 08:46:29 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/template-configuration/</guid>
+      <guid>http://localhost:1313/tags/template-configuration/</guid>
       <description></description>
     </item>
     <item>
       <title>Api Gateway</title>
-      <link>https://www.garrardkitchen.com/tags/api-gateway/</link>
+      <link>http://localhost:1313/tags/api-gateway/</link>
       <pubDate>Sun, 28 Apr 2019 17:31:27 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/api-gateway/</guid>
+      <guid>http://localhost:1313/tags/api-gateway/</guid>
       <description></description>
     </item>
     <item>
       <title>CI/CD</title>
-      <link>https://www.garrardkitchen.com/tags/ci/cd/</link>
+      <link>http://localhost:1313/tags/ci/cd/</link>
       <pubDate>Sun, 28 Apr 2019 17:31:27 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/ci/cd/</guid>
+      <guid>http://localhost:1313/tags/ci/cd/</guid>
       <description></description>
     </item>
     <item>
       <title>Serverless</title>
-      <link>https://www.garrardkitchen.com/tags/serverless/</link>
+      <link>http://localhost:1313/tags/serverless/</link>
       <pubDate>Sun, 28 Apr 2019 17:31:27 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/serverless/</guid>
+      <guid>http://localhost:1313/tags/serverless/</guid>
       <description></description>
     </item>
     <item>
       <title>Serverless Application Model</title>
-      <link>https://www.garrardkitchen.com/tags/serverless-application-model/</link>
+      <link>http://localhost:1313/tags/serverless-application-model/</link>
       <pubDate>Sun, 28 Apr 2019 17:31:27 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/serverless-application-model/</guid>
+      <guid>http://localhost:1313/tags/serverless-application-model/</guid>
       <description></description>
     </item>
     <item>
       <title>Athena</title>
-      <link>https://www.garrardkitchen.com/tags/athena/</link>
+      <link>http://localhost:1313/tags/athena/</link>
       <pubDate>Sun, 28 Apr 2019 17:29:12 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/athena/</guid>
+      <guid>http://localhost:1313/tags/athena/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Pipelines</title>
-      <link>https://www.garrardkitchen.com/tags/data-pipelines/</link>
+      <link>http://localhost:1313/tags/data-pipelines/</link>
       <pubDate>Sun, 28 Apr 2019 17:29:12 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/data-pipelines/</guid>
+      <guid>http://localhost:1313/tags/data-pipelines/</guid>
       <description></description>
     </item>
     <item>
       <title>Etl</title>
-      <link>https://www.garrardkitchen.com/tags/etl/</link>
+      <link>http://localhost:1313/tags/etl/</link>
       <pubDate>Sun, 28 Apr 2019 17:29:12 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/etl/</guid>
+      <guid>http://localhost:1313/tags/etl/</guid>
       <description></description>
     </item>
     <item>
       <title>Glue</title>
-      <link>https://www.garrardkitchen.com/tags/glue/</link>
+      <link>http://localhost:1313/tags/glue/</link>
       <pubDate>Sun, 28 Apr 2019 17:29:12 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/glue/</guid>
+      <guid>http://localhost:1313/tags/glue/</guid>
       <description></description>
     </item>
     <item>
       <title>Numpy</title>
-      <link>https://www.garrardkitchen.com/tags/numpy/</link>
+      <link>http://localhost:1313/tags/numpy/</link>
       <pubDate>Sun, 28 Apr 2019 17:29:12 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/numpy/</guid>
+      <guid>http://localhost:1313/tags/numpy/</guid>
       <description></description>
     </item>
     <item>
       <title>Pandas</title>
-      <link>https://www.garrardkitchen.com/tags/pandas/</link>
+      <link>http://localhost:1313/tags/pandas/</link>
       <pubDate>Sun, 28 Apr 2019 17:29:12 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/pandas/</guid>
+      <guid>http://localhost:1313/tags/pandas/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>https://www.garrardkitchen.com/tags/python/</link>
+      <link>http://localhost:1313/tags/python/</link>
       <pubDate>Sun, 28 Apr 2019 17:29:12 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/python/</guid>
+      <guid>http://localhost:1313/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>S3</title>
-      <link>https://www.garrardkitchen.com/tags/s3/</link>
+      <link>http://localhost:1313/tags/s3/</link>
       <pubDate>Sun, 28 Apr 2019 17:29:12 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/s3/</guid>
+      <guid>http://localhost:1313/tags/s3/</guid>
       <description></description>
     </item>
     <item>
       <title>Recruitment</title>
-      <link>https://www.garrardkitchen.com/tags/recruitment/</link>
+      <link>http://localhost:1313/tags/recruitment/</link>
       <pubDate>Sun, 28 Apr 2019 17:25:55 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/recruitment/</guid>
+      <guid>http://localhost:1313/tags/recruitment/</guid>
       <description></description>
     </item>
     <item>
       <title>Akka.net</title>
-      <link>https://www.garrardkitchen.com/tags/akka.net/</link>
+      <link>http://localhost:1313/tags/akka.net/</link>
       <pubDate>Sun, 28 Apr 2019 17:22:33 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/akka.net/</guid>
+      <guid>http://localhost:1313/tags/akka.net/</guid>
       <description></description>
     </item>
     <item>
       <title>Elasticsearch</title>
-      <link>https://www.garrardkitchen.com/tags/elasticsearch/</link>
+      <link>http://localhost:1313/tags/elasticsearch/</link>
       <pubDate>Sun, 28 Apr 2019 17:22:33 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/elasticsearch/</guid>
+      <guid>http://localhost:1313/tags/elasticsearch/</guid>
       <description></description>
     </item>
     <item>
       <title>Lambdas</title>
-      <link>https://www.garrardkitchen.com/tags/lambdas/</link>
+      <link>http://localhost:1313/tags/lambdas/</link>
       <pubDate>Sun, 28 Apr 2019 17:22:33 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/lambdas/</guid>
+      <guid>http://localhost:1313/tags/lambdas/</guid>
       <description></description>
     </item>
     <item>
       <title>Nats</title>
-      <link>https://www.garrardkitchen.com/tags/nats/</link>
+      <link>http://localhost:1313/tags/nats/</link>
       <pubDate>Sun, 28 Apr 2019 17:22:33 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/nats/</guid>
+      <guid>http://localhost:1313/tags/nats/</guid>
       <description></description>
     </item>
     <item>
       <title>Performance Improvements</title>
-      <link>https://www.garrardkitchen.com/tags/performance-improvements/</link>
+      <link>http://localhost:1313/tags/performance-improvements/</link>
       <pubDate>Sun, 28 Apr 2019 17:22:33 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/performance-improvements/</guid>
+      <guid>http://localhost:1313/tags/performance-improvements/</guid>
       <description></description>
     </item>
     <item>
       <title>Step Functions</title>
-      <link>https://www.garrardkitchen.com/tags/step-functions/</link>
+      <link>http://localhost:1313/tags/step-functions/</link>
       <pubDate>Sun, 28 Apr 2019 17:22:33 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/step-functions/</guid>
+      <guid>http://localhost:1313/tags/step-functions/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows Services</title>
-      <link>https://www.garrardkitchen.com/tags/windows-services/</link>
+      <link>http://localhost:1313/tags/windows-services/</link>
       <pubDate>Sun, 28 Apr 2019 17:22:33 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/windows-services/</guid>
+      <guid>http://localhost:1313/tags/windows-services/</guid>
       <description></description>
     </item>
     <item>
       <title>Aws Ecs Fargate</title>
-      <link>https://www.garrardkitchen.com/tags/aws-ecs-fargate/</link>
+      <link>http://localhost:1313/tags/aws-ecs-fargate/</link>
       <pubDate>Sun, 28 Apr 2019 17:20:51 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/aws-ecs-fargate/</guid>
+      <guid>http://localhost:1313/tags/aws-ecs-fargate/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloudwatch</title>
-      <link>https://www.garrardkitchen.com/tags/cloudwatch/</link>
+      <link>http://localhost:1313/tags/cloudwatch/</link>
       <pubDate>Sun, 28 Apr 2019 17:20:51 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/cloudwatch/</guid>
+      <guid>http://localhost:1313/tags/cloudwatch/</guid>
       <description></description>
     </item>
     <item>
       <title>Lambda</title>
-      <link>https://www.garrardkitchen.com/tags/lambda/</link>
+      <link>http://localhost:1313/tags/lambda/</link>
       <pubDate>Sun, 28 Apr 2019 17:20:51 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/lambda/</guid>
+      <guid>http://localhost:1313/tags/lambda/</guid>
       <description></description>
     </item>
     <item>
       <title>Asp.net Core</title>
-      <link>https://www.garrardkitchen.com/tags/asp.net-core/</link>
+      <link>http://localhost:1313/tags/asp.net-core/</link>
       <pubDate>Sun, 28 Apr 2019 17:16:53 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/asp.net-core/</guid>
+      <guid>http://localhost:1313/tags/asp.net-core/</guid>
       <description></description>
     </item>
     <item>
       <title>Asp.net Mvc</title>
-      <link>https://www.garrardkitchen.com/tags/asp.net-mvc/</link>
+      <link>http://localhost:1313/tags/asp.net-mvc/</link>
       <pubDate>Sun, 28 Apr 2019 17:16:53 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/asp.net-mvc/</guid>
+      <guid>http://localhost:1313/tags/asp.net-mvc/</guid>
       <description></description>
     </item>
     <item>
       <title>Aws Aurora</title>
-      <link>https://www.garrardkitchen.com/tags/aws-aurora/</link>
+      <link>http://localhost:1313/tags/aws-aurora/</link>
       <pubDate>Sun, 28 Apr 2019 17:16:53 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/aws-aurora/</guid>
+      <guid>http://localhost:1313/tags/aws-aurora/</guid>
       <description></description>
     </item>
     <item>
       <title>Aws Dms</title>
-      <link>https://www.garrardkitchen.com/tags/aws-dms/</link>
+      <link>http://localhost:1313/tags/aws-dms/</link>
       <pubDate>Sun, 28 Apr 2019 17:16:53 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/aws-dms/</guid>
+      <guid>http://localhost:1313/tags/aws-dms/</guid>
       <description></description>
     </item>
     <item>
       <title>Ecs Fargate</title>
-      <link>https://www.garrardkitchen.com/tags/ecs-fargate/</link>
+      <link>http://localhost:1313/tags/ecs-fargate/</link>
       <pubDate>Sun, 28 Apr 2019 17:16:53 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/ecs-fargate/</guid>
+      <guid>http://localhost:1313/tags/ecs-fargate/</guid>
       <description></description>
     </item>
     <item>
       <title>Microsoft</title>
-      <link>https://www.garrardkitchen.com/tags/microsoft/</link>
+      <link>http://localhost:1313/tags/microsoft/</link>
       <pubDate>Sun, 28 Apr 2019 17:16:53 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/microsoft/</guid>
+      <guid>http://localhost:1313/tags/microsoft/</guid>
       <description></description>
     </item>
     <item>
       <title>Mssql</title>
-      <link>https://www.garrardkitchen.com/tags/mssql/</link>
+      <link>http://localhost:1313/tags/mssql/</link>
       <pubDate>Sun, 28 Apr 2019 17:16:53 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/mssql/</guid>
+      <guid>http://localhost:1313/tags/mssql/</guid>
       <description></description>
     </item>
     <item>
       <title>Restful Api</title>
-      <link>https://www.garrardkitchen.com/tags/restful-api/</link>
+      <link>http://localhost:1313/tags/restful-api/</link>
       <pubDate>Sun, 28 Apr 2019 17:16:53 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/restful-api/</guid>
+      <guid>http://localhost:1313/tags/restful-api/</guid>
       <description></description>
     </item>
     <item>
       <title>Silverlight</title>
-      <link>https://www.garrardkitchen.com/tags/silverlight/</link>
+      <link>http://localhost:1313/tags/silverlight/</link>
       <pubDate>Sun, 28 Apr 2019 17:16:53 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/silverlight/</guid>
+      <guid>http://localhost:1313/tags/silverlight/</guid>
       <description></description>
     </item>
     <item>
       <title>Too Expensive</title>
-      <link>https://www.garrardkitchen.com/tags/too-expensive/</link>
+      <link>http://localhost:1313/tags/too-expensive/</link>
       <pubDate>Sun, 28 Apr 2019 17:16:53 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/too-expensive/</guid>
+      <guid>http://localhost:1313/tags/too-expensive/</guid>
       <description></description>
     </item>
     <item>
       <title>Ux</title>
-      <link>https://www.garrardkitchen.com/tags/ux/</link>
+      <link>http://localhost:1313/tags/ux/</link>
       <pubDate>Sun, 28 Apr 2019 17:16:53 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/ux/</guid>
+      <guid>http://localhost:1313/tags/ux/</guid>
       <description></description>
     </item>
     <item>
       <title>Amazon Aurora</title>
-      <link>https://www.garrardkitchen.com/tags/amazon-aurora/</link>
+      <link>http://localhost:1313/tags/amazon-aurora/</link>
       <pubDate>Sun, 28 Apr 2019 17:12:59 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/amazon-aurora/</guid>
+      <guid>http://localhost:1313/tags/amazon-aurora/</guid>
       <description></description>
     </item>
     <item>
       <title>C#</title>
-      <link>https://www.garrardkitchen.com/tags/c%23/</link>
+      <link>http://localhost:1313/tags/c%23/</link>
       <pubDate>Sun, 28 Apr 2019 17:12:59 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/c%23/</guid>
+      <guid>http://localhost:1313/tags/c%23/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloudwatch Trigger</title>
-      <link>https://www.garrardkitchen.com/tags/cloudwatch-trigger/</link>
+      <link>http://localhost:1313/tags/cloudwatch-trigger/</link>
       <pubDate>Sun, 28 Apr 2019 17:12:59 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/cloudwatch-trigger/</guid>
+      <guid>http://localhost:1313/tags/cloudwatch-trigger/</guid>
       <description></description>
     </item>
     <item>
       <title>Jupyter Labs</title>
-      <link>https://www.garrardkitchen.com/tags/jupyter-labs/</link>
+      <link>http://localhost:1313/tags/jupyter-labs/</link>
       <pubDate>Sun, 28 Apr 2019 17:12:59 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/jupyter-labs/</guid>
+      <guid>http://localhost:1313/tags/jupyter-labs/</guid>
       <description></description>
     </item>
     <item>
       <title>Redis</title>
-      <link>https://www.garrardkitchen.com/tags/redis/</link>
+      <link>http://localhost:1313/tags/redis/</link>
       <pubDate>Sun, 28 Apr 2019 17:12:59 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/redis/</guid>
+      <guid>http://localhost:1313/tags/redis/</guid>
       <description></description>
     </item>
     <item>
       <title>Sqs</title>
-      <link>https://www.garrardkitchen.com/tags/sqs/</link>
+      <link>http://localhost:1313/tags/sqs/</link>
       <pubDate>Sun, 28 Apr 2019 17:12:59 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/sqs/</guid>
+      <guid>http://localhost:1313/tags/sqs/</guid>
       <description></description>
     </item>
     <item>
       <title>Alb</title>
-      <link>https://www.garrardkitchen.com/tags/alb/</link>
+      <link>http://localhost:1313/tags/alb/</link>
       <pubDate>Sun, 28 Apr 2019 17:09:54 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/alb/</guid>
+      <guid>http://localhost:1313/tags/alb/</guid>
       <description></description>
     </item>
     <item>
       <title>CX</title>
-      <link>https://www.garrardkitchen.com/tags/cx/</link>
+      <link>http://localhost:1313/tags/cx/</link>
       <pubDate>Sun, 28 Apr 2019 17:09:54 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/cx/</guid>
+      <guid>http://localhost:1313/tags/cx/</guid>
       <description></description>
     </item>
     <item>
       <title>Http</title>
-      <link>https://www.garrardkitchen.com/tags/http/</link>
+      <link>http://localhost:1313/tags/http/</link>
       <pubDate>Sun, 28 Apr 2019 17:09:54 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/http/</guid>
+      <guid>http://localhost:1313/tags/http/</guid>
       <description></description>
     </item>
     <item>
       <title>Lambda Load Balancer Target</title>
-      <link>https://www.garrardkitchen.com/tags/lambda-load-balancer-target/</link>
+      <link>http://localhost:1313/tags/lambda-load-balancer-target/</link>
       <pubDate>Sun, 28 Apr 2019 17:09:54 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/lambda-load-balancer-target/</guid>
+      <guid>http://localhost:1313/tags/lambda-load-balancer-target/</guid>
       <description></description>
     </item>
     <item>
       <title>.Net Core</title>
-      <link>https://www.garrardkitchen.com/tags/.net-core/</link>
+      <link>http://localhost:1313/tags/.net-core/</link>
       <pubDate>Sun, 28 Apr 2019 17:02:46 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/.net-core/</guid>
+      <guid>http://localhost:1313/tags/.net-core/</guid>
       <description></description>
     </item>
     <item>
       <title>Asp.net Framework 4.6</title>
-      <link>https://www.garrardkitchen.com/tags/asp.net-framework-4.6/</link>
+      <link>http://localhost:1313/tags/asp.net-framework-4.6/</link>
       <pubDate>Sun, 28 Apr 2019 17:02:46 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/asp.net-framework-4.6/</guid>
+      <guid>http://localhost:1313/tags/asp.net-framework-4.6/</guid>
       <description></description>
     </item>
     <item>
       <title>Aws Metering Service</title>
-      <link>https://www.garrardkitchen.com/tags/aws-metering-service/</link>
+      <link>http://localhost:1313/tags/aws-metering-service/</link>
       <pubDate>Sun, 28 Apr 2019 17:02:46 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/aws-metering-service/</guid>
+      <guid>http://localhost:1313/tags/aws-metering-service/</guid>
       <description></description>
     </item>
     <item>
       <title>Dynamodb</title>
-      <link>https://www.garrardkitchen.com/tags/dynamodb/</link>
+      <link>http://localhost:1313/tags/dynamodb/</link>
       <pubDate>Sun, 28 Apr 2019 17:02:46 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/dynamodb/</guid>
+      <guid>http://localhost:1313/tags/dynamodb/</guid>
       <description></description>
     </item>
     <item>
       <title>Finance Portal</title>
-      <link>https://www.garrardkitchen.com/tags/finance-portal/</link>
+      <link>http://localhost:1313/tags/finance-portal/</link>
       <pubDate>Sun, 28 Apr 2019 17:02:46 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/finance-portal/</guid>
+      <guid>http://localhost:1313/tags/finance-portal/</guid>
       <description></description>
     </item>
     <item>
       <title>Campaign</title>
-      <link>https://www.garrardkitchen.com/tags/campaign/</link>
+      <link>http://localhost:1313/tags/campaign/</link>
       <pubDate>Sun, 28 Apr 2019 16:55:49 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/campaign/</guid>
+      <guid>http://localhost:1313/tags/campaign/</guid>
       <description></description>
     </item>
     <item>
       <title>Pinpoint</title>
-      <link>https://www.garrardkitchen.com/tags/pinpoint/</link>
+      <link>http://localhost:1313/tags/pinpoint/</link>
       <pubDate>Sun, 28 Apr 2019 16:55:49 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/pinpoint/</guid>
+      <guid>http://localhost:1313/tags/pinpoint/</guid>
       <description></description>
     </item>
     <item>
       <title>Ses</title>
-      <link>https://www.garrardkitchen.com/tags/ses/</link>
+      <link>http://localhost:1313/tags/ses/</link>
       <pubDate>Sun, 28 Apr 2019 16:55:49 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/ses/</guid>
+      <guid>http://localhost:1313/tags/ses/</guid>
       <description></description>
     </item>
     <item>
       <title>Bootstrap</title>
-      <link>https://www.garrardkitchen.com/tags/bootstrap/</link>
+      <link>http://localhost:1313/tags/bootstrap/</link>
       <pubDate>Sun, 28 Apr 2019 16:38:24 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/bootstrap/</guid>
+      <guid>http://localhost:1313/tags/bootstrap/</guid>
       <description></description>
     </item>
     <item>
       <title>Javascript</title>
-      <link>https://www.garrardkitchen.com/tags/javascript/</link>
+      <link>http://localhost:1313/tags/javascript/</link>
       <pubDate>Sun, 28 Apr 2019 16:38:24 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/javascript/</guid>
+      <guid>http://localhost:1313/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>Mock Up</title>
-      <link>https://www.garrardkitchen.com/tags/mock-up/</link>
+      <link>http://localhost:1313/tags/mock-up/</link>
       <pubDate>Sun, 28 Apr 2019 16:38:24 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/mock-up/</guid>
+      <guid>http://localhost:1313/tags/mock-up/</guid>
       <description></description>
     </item>
     <item>
       <title>Ui</title>
-      <link>https://www.garrardkitchen.com/tags/ui/</link>
+      <link>http://localhost:1313/tags/ui/</link>
       <pubDate>Sun, 28 Apr 2019 16:38:24 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/ui/</guid>
+      <guid>http://localhost:1313/tags/ui/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Connector</title>
-      <link>https://www.garrardkitchen.com/tags/data-connector/</link>
+      <link>http://localhost:1313/tags/data-connector/</link>
       <pubDate>Sun, 28 Apr 2019 16:30:38 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/data-connector/</guid>
+      <guid>http://localhost:1313/tags/data-connector/</guid>
       <description></description>
     </item>
     <item>
       <title>Dependency Injection</title>
-      <link>https://www.garrardkitchen.com/tags/dependency-injection/</link>
+      <link>http://localhost:1313/tags/dependency-injection/</link>
       <pubDate>Sun, 28 Apr 2019 16:30:38 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/dependency-injection/</guid>
+      <guid>http://localhost:1313/tags/dependency-injection/</guid>
       <description></description>
     </item>
     <item>
       <title>Developer Site</title>
-      <link>https://www.garrardkitchen.com/tags/developer-site/</link>
+      <link>http://localhost:1313/tags/developer-site/</link>
       <pubDate>Sun, 28 Apr 2019 16:30:38 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/developer-site/</guid>
+      <guid>http://localhost:1313/tags/developer-site/</guid>
       <description></description>
     </item>
     <item>
       <title>Documentation</title>
-      <link>https://www.garrardkitchen.com/tags/documentation/</link>
+      <link>http://localhost:1313/tags/documentation/</link>
       <pubDate>Sun, 28 Apr 2019 16:30:38 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/documentation/</guid>
+      <guid>http://localhost:1313/tags/documentation/</guid>
       <description></description>
     </item>
     <item>
       <title>Integration Tool</title>
-      <link>https://www.garrardkitchen.com/tags/integration-tool/</link>
+      <link>http://localhost:1313/tags/integration-tool/</link>
       <pubDate>Sun, 28 Apr 2019 16:30:38 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/integration-tool/</guid>
+      <guid>http://localhost:1313/tags/integration-tool/</guid>
       <description></description>
     </item>
     <item>
       <title>Sdk</title>
-      <link>https://www.garrardkitchen.com/tags/sdk/</link>
+      <link>http://localhost:1313/tags/sdk/</link>
       <pubDate>Sun, 28 Apr 2019 16:30:38 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/sdk/</guid>
+      <guid>http://localhost:1313/tags/sdk/</guid>
       <description></description>
     </item>
     <item>
       <title>Best Practice</title>
-      <link>https://www.garrardkitchen.com/tags/best-practice/</link>
+      <link>http://localhost:1313/tags/best-practice/</link>
       <pubDate>Sun, 28 Apr 2019 16:29:00 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/best-practice/</guid>
+      <guid>http://localhost:1313/tags/best-practice/</guid>
       <description></description>
     </item>
     <item>
       <title>Joint Responsibility</title>
-      <link>https://www.garrardkitchen.com/tags/joint-responsibility/</link>
+      <link>http://localhost:1313/tags/joint-responsibility/</link>
       <pubDate>Sun, 28 Apr 2019 16:29:00 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/joint-responsibility/</guid>
+      <guid>http://localhost:1313/tags/joint-responsibility/</guid>
       <description></description>
     </item>
     <item>
       <title>Datadog</title>
-      <link>https://www.garrardkitchen.com/tags/datadog/</link>
+      <link>http://localhost:1313/tags/datadog/</link>
       <pubDate>Sun, 28 Apr 2019 16:24:21 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/datadog/</guid>
+      <guid>http://localhost:1313/tags/datadog/</guid>
       <description></description>
     </item>
     <item>
       <title>Epsagon</title>
-      <link>https://www.garrardkitchen.com/tags/epsagon/</link>
+      <link>http://localhost:1313/tags/epsagon/</link>
       <pubDate>Sun, 28 Apr 2019 16:24:21 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/epsagon/</guid>
+      <guid>http://localhost:1313/tags/epsagon/</guid>
       <description></description>
     </item>
     <item>
       <title>Opsgenie</title>
-      <link>https://www.garrardkitchen.com/tags/opsgenie/</link>
+      <link>http://localhost:1313/tags/opsgenie/</link>
       <pubDate>Sun, 28 Apr 2019 16:24:21 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/opsgenie/</guid>
+      <guid>http://localhost:1313/tags/opsgenie/</guid>
       <description></description>
     </item>
     <item>
       <title>Sentry.io</title>
-      <link>https://www.garrardkitchen.com/tags/sentry.io/</link>
+      <link>http://localhost:1313/tags/sentry.io/</link>
       <pubDate>Sun, 28 Apr 2019 16:24:21 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/sentry.io/</guid>
+      <guid>http://localhost:1313/tags/sentry.io/</guid>
       <description></description>
     </item>
     <item>
       <title>Integrations</title>
-      <link>https://www.garrardkitchen.com/tags/integrations/</link>
+      <link>http://localhost:1313/tags/integrations/</link>
       <pubDate>Sun, 28 Apr 2019 16:16:41 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/integrations/</guid>
+      <guid>http://localhost:1313/tags/integrations/</guid>
       <description></description>
     </item>
     <item>
       <title>Saas</title>
-      <link>https://www.garrardkitchen.com/tags/saas/</link>
+      <link>http://localhost:1313/tags/saas/</link>
       <pubDate>Sun, 28 Apr 2019 16:16:41 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/saas/</guid>
+      <guid>http://localhost:1313/tags/saas/</guid>
       <description></description>
     </item>
     <item>
       <title>Ajax</title>
-      <link>https://www.garrardkitchen.com/tags/ajax/</link>
+      <link>http://localhost:1313/tags/ajax/</link>
       <pubDate>Sun, 28 Apr 2019 16:13:20 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/ajax/</guid>
+      <guid>http://localhost:1313/tags/ajax/</guid>
       <description></description>
     </item>
     <item>
       <title>Angular</title>
-      <link>https://www.garrardkitchen.com/tags/angular/</link>
+      <link>http://localhost:1313/tags/angular/</link>
       <pubDate>Sun, 28 Apr 2019 16:13:20 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/angular/</guid>
+      <guid>http://localhost:1313/tags/angular/</guid>
       <description></description>
     </item>
     <item>
       <title>Css</title>
-      <link>https://www.garrardkitchen.com/tags/css/</link>
+      <link>http://localhost:1313/tags/css/</link>
       <pubDate>Sun, 28 Apr 2019 16:13:20 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/css/</guid>
+      <guid>http://localhost:1313/tags/css/</guid>
       <description></description>
     </item>
     <item>
       <title>Html</title>
-      <link>https://www.garrardkitchen.com/tags/html/</link>
+      <link>http://localhost:1313/tags/html/</link>
       <pubDate>Sun, 28 Apr 2019 16:13:20 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/html/</guid>
+      <guid>http://localhost:1313/tags/html/</guid>
       <description></description>
     </item>
     <item>
       <title>Jquery</title>
-      <link>https://www.garrardkitchen.com/tags/jquery/</link>
+      <link>http://localhost:1313/tags/jquery/</link>
       <pubDate>Sun, 28 Apr 2019 16:13:20 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/jquery/</guid>
+      <guid>http://localhost:1313/tags/jquery/</guid>
       <description></description>
     </item>
     <item>
       <title>Kendoui</title>
-      <link>https://www.garrardkitchen.com/tags/kendoui/</link>
+      <link>http://localhost:1313/tags/kendoui/</link>
       <pubDate>Sun, 28 Apr 2019 16:13:20 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/kendoui/</guid>
+      <guid>http://localhost:1313/tags/kendoui/</guid>
       <description></description>
     </item>
     <item>
       <title>Ria Services</title>
-      <link>https://www.garrardkitchen.com/tags/ria-services/</link>
+      <link>http://localhost:1313/tags/ria-services/</link>
       <pubDate>Sun, 28 Apr 2019 16:13:20 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/ria-services/</guid>
+      <guid>http://localhost:1313/tags/ria-services/</guid>
       <description></description>
     </item>
     <item>
       <title>Telerik Silverlight</title>
-      <link>https://www.garrardkitchen.com/tags/telerik-silverlight/</link>
+      <link>http://localhost:1313/tags/telerik-silverlight/</link>
       <pubDate>Sun, 28 Apr 2019 16:13:20 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/telerik-silverlight/</guid>
+      <guid>http://localhost:1313/tags/telerik-silverlight/</guid>
       <description></description>
     </item>
     <item>
       <title>Azure Mobile Services</title>
-      <link>https://www.garrardkitchen.com/tags/azure-mobile-services/</link>
+      <link>http://localhost:1313/tags/azure-mobile-services/</link>
       <pubDate>Sun, 28 Apr 2019 16:09:25 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/azure-mobile-services/</guid>
+      <guid>http://localhost:1313/tags/azure-mobile-services/</guid>
       <description></description>
     </item>
     <item>
       <title>Azure Web Services</title>
-      <link>https://www.garrardkitchen.com/tags/azure-web-services/</link>
+      <link>http://localhost:1313/tags/azure-web-services/</link>
       <pubDate>Sun, 28 Apr 2019 16:09:25 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/azure-web-services/</guid>
+      <guid>http://localhost:1313/tags/azure-web-services/</guid>
       <description></description>
     </item>
     <item>
       <title>Node.js</title>
-      <link>https://www.garrardkitchen.com/tags/node.js/</link>
+      <link>http://localhost:1313/tags/node.js/</link>
       <pubDate>Sun, 28 Apr 2019 16:09:25 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/node.js/</guid>
+      <guid>http://localhost:1313/tags/node.js/</guid>
       <description></description>
     </item>
     <item>
       <title>Service Bus</title>
-      <link>https://www.garrardkitchen.com/tags/service-bus/</link>
+      <link>http://localhost:1313/tags/service-bus/</link>
       <pubDate>Sun, 28 Apr 2019 16:09:25 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/service-bus/</guid>
+      <guid>http://localhost:1313/tags/service-bus/</guid>
       <description></description>
     </item>
     <item>
       <title>Table Storage</title>
-      <link>https://www.garrardkitchen.com/tags/table-storage/</link>
+      <link>http://localhost:1313/tags/table-storage/</link>
       <pubDate>Sun, 28 Apr 2019 16:09:25 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/table-storage/</guid>
+      <guid>http://localhost:1313/tags/table-storage/</guid>
       <description></description>
     </item>
     <item>
       <title>Amazon Connect</title>
-      <link>https://www.garrardkitchen.com/tags/amazon-connect/</link>
+      <link>http://localhost:1313/tags/amazon-connect/</link>
       <pubDate>Sun, 28 Apr 2019 16:04:05 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/amazon-connect/</guid>
+      <guid>http://localhost:1313/tags/amazon-connect/</guid>
       <description></description>
     </item>
     <item>
       <title>Aws Ami</title>
-      <link>https://www.garrardkitchen.com/tags/aws-ami/</link>
+      <link>http://localhost:1313/tags/aws-ami/</link>
       <pubDate>Sun, 28 Apr 2019 16:04:05 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/aws-ami/</guid>
+      <guid>http://localhost:1313/tags/aws-ami/</guid>
       <description></description>
     </item>
     <item>
       <title>Aws Marketplace</title>
-      <link>https://www.garrardkitchen.com/tags/aws-marketplace/</link>
+      <link>http://localhost:1313/tags/aws-marketplace/</link>
       <pubDate>Sun, 28 Apr 2019 16:04:05 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/aws-marketplace/</guid>
+      <guid>http://localhost:1313/tags/aws-marketplace/</guid>
       <description></description>
     </item>
     <item>
       <title>Aws Quick Start</title>
-      <link>https://www.garrardkitchen.com/tags/aws-quick-start/</link>
+      <link>http://localhost:1313/tags/aws-quick-start/</link>
       <pubDate>Sun, 28 Apr 2019 16:04:05 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/aws-quick-start/</guid>
+      <guid>http://localhost:1313/tags/aws-quick-start/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloudformation</title>
-      <link>https://www.garrardkitchen.com/tags/cloudformation/</link>
+      <link>http://localhost:1313/tags/cloudformation/</link>
       <pubDate>Sun, 28 Apr 2019 16:04:05 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/cloudformation/</guid>
+      <guid>http://localhost:1313/tags/cloudformation/</guid>
       <description></description>
     </item>
     <item>
       <title>Configuration as Code</title>
-      <link>https://www.garrardkitchen.com/tags/configuration-as-code/</link>
+      <link>http://localhost:1313/tags/configuration-as-code/</link>
       <pubDate>Sun, 28 Apr 2019 16:04:05 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/configuration-as-code/</guid>
+      <guid>http://localhost:1313/tags/configuration-as-code/</guid>
       <description></description>
     </item>
     <item>
       <title>Reduce Cost</title>
-      <link>https://www.garrardkitchen.com/tags/reduce-cost/</link>
+      <link>http://localhost:1313/tags/reduce-cost/</link>
       <pubDate>Sun, 28 Apr 2019 16:01:53 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/reduce-cost/</guid>
+      <guid>http://localhost:1313/tags/reduce-cost/</guid>
       <description></description>
     </item>
     <item>
       <title>Reduce Time to Market</title>
-      <link>https://www.garrardkitchen.com/tags/reduce-time-to-market/</link>
+      <link>http://localhost:1313/tags/reduce-time-to-market/</link>
       <pubDate>Sun, 28 Apr 2019 16:01:53 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/reduce-time-to-market/</guid>
+      <guid>http://localhost:1313/tags/reduce-time-to-market/</guid>
       <description></description>
     </item>
     <item>
       <title>Serverless Framework</title>
-      <link>https://www.garrardkitchen.com/tags/serverless-framework/</link>
+      <link>http://localhost:1313/tags/serverless-framework/</link>
       <pubDate>Sun, 28 Apr 2019 16:01:53 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/serverless-framework/</guid>
+      <guid>http://localhost:1313/tags/serverless-framework/</guid>
       <description></description>
     </item>
     <item>
       <title>Aws</title>
-      <link>https://www.garrardkitchen.com/tags/aws/</link>
+      <link>http://localhost:1313/tags/aws/</link>
       <pubDate>Sun, 28 Apr 2019 15:56:30 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/aws/</guid>
+      <guid>http://localhost:1313/tags/aws/</guid>
       <description></description>
     </item>
     <item>
       <title>High Availability</title>
-      <link>https://www.garrardkitchen.com/tags/high-availability/</link>
+      <link>http://localhost:1313/tags/high-availability/</link>
       <pubDate>Sun, 28 Apr 2019 15:56:30 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/high-availability/</guid>
+      <guid>http://localhost:1313/tags/high-availability/</guid>
       <description></description>
     </item>
     <item>
       <title>Multi-Server</title>
-      <link>https://www.garrardkitchen.com/tags/multi-server/</link>
+      <link>http://localhost:1313/tags/multi-server/</link>
       <pubDate>Sun, 28 Apr 2019 15:56:30 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/multi-server/</guid>
+      <guid>http://localhost:1313/tags/multi-server/</guid>
       <description></description>
     </item>
     <item>
       <title>Nats.io</title>
-      <link>https://www.garrardkitchen.com/tags/nats.io/</link>
+      <link>http://localhost:1313/tags/nats.io/</link>
       <pubDate>Sun, 28 Apr 2019 15:56:30 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/nats.io/</guid>
+      <guid>http://localhost:1313/tags/nats.io/</guid>
       <description></description>
     </item>
     <item>
       <title>Single-Server</title>
-      <link>https://www.garrardkitchen.com/tags/single-server/</link>
+      <link>http://localhost:1313/tags/single-server/</link>
       <pubDate>Sun, 28 Apr 2019 15:56:30 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/single-server/</guid>
+      <guid>http://localhost:1313/tags/single-server/</guid>
       <description></description>
     </item>
     <item>
       <title>Devops</title>
-      <link>https://www.garrardkitchen.com/tags/devops/</link>
+      <link>http://localhost:1313/tags/devops/</link>
       <pubDate>Sun, 28 Apr 2019 15:35:53 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/devops/</guid>
+      <guid>http://localhost:1313/tags/devops/</guid>
       <description></description>
     </item>
     <item>
       <title>Empowerment</title>
-      <link>https://www.garrardkitchen.com/tags/empowerment/</link>
+      <link>http://localhost:1313/tags/empowerment/</link>
       <pubDate>Sun, 28 Apr 2019 15:35:53 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/empowerment/</guid>
+      <guid>http://localhost:1313/tags/empowerment/</guid>
       <description></description>
     </item>
     <item>
       <title>Freedom</title>
-      <link>https://www.garrardkitchen.com/tags/freedom/</link>
+      <link>http://localhost:1313/tags/freedom/</link>
       <pubDate>Sun, 28 Apr 2019 15:35:53 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/freedom/</guid>
+      <guid>http://localhost:1313/tags/freedom/</guid>
       <description></description>
     </item>
     <item>
       <title>Azure Devops</title>
-      <link>https://www.garrardkitchen.com/tags/azure-devops/</link>
+      <link>http://localhost:1313/tags/azure-devops/</link>
       <pubDate>Sun, 28 Apr 2019 15:35:31 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/azure-devops/</guid>
+      <guid>http://localhost:1313/tags/azure-devops/</guid>
       <description></description>
     </item>
     <item>
       <title>Bitbucket Pipelines</title>
-      <link>https://www.garrardkitchen.com/tags/bitbucket-pipelines/</link>
+      <link>http://localhost:1313/tags/bitbucket-pipelines/</link>
       <pubDate>Sun, 28 Apr 2019 15:35:31 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/bitbucket-pipelines/</guid>
+      <guid>http://localhost:1313/tags/bitbucket-pipelines/</guid>
       <description></description>
     </item>
     <item>
       <title>Codebuild</title>
-      <link>https://www.garrardkitchen.com/tags/codebuild/</link>
+      <link>http://localhost:1313/tags/codebuild/</link>
       <pubDate>Sun, 28 Apr 2019 15:35:31 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/codebuild/</guid>
+      <guid>http://localhost:1313/tags/codebuild/</guid>
       <description></description>
     </item>
     <item>
       <title>Codecommit</title>
-      <link>https://www.garrardkitchen.com/tags/codecommit/</link>
+      <link>http://localhost:1313/tags/codecommit/</link>
       <pubDate>Sun, 28 Apr 2019 15:35:31 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/codecommit/</guid>
+      <guid>http://localhost:1313/tags/codecommit/</guid>
       <description></description>
     </item>
     <item>
       <title>Codedeploy</title>
-      <link>https://www.garrardkitchen.com/tags/codedeploy/</link>
+      <link>http://localhost:1313/tags/codedeploy/</link>
       <pubDate>Sun, 28 Apr 2019 15:35:31 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/codedeploy/</guid>
+      <guid>http://localhost:1313/tags/codedeploy/</guid>
       <description></description>
     </item>
     <item>
       <title>CodepipeLine</title>
-      <link>https://www.garrardkitchen.com/tags/codepipeline/</link>
+      <link>http://localhost:1313/tags/codepipeline/</link>
       <pubDate>Sun, 28 Apr 2019 15:35:31 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/codepipeline/</guid>
+      <guid>http://localhost:1313/tags/codepipeline/</guid>
       <description></description>
     </item>
     <item>
       <title>Continuous Delivery</title>
-      <link>https://www.garrardkitchen.com/tags/continuous-delivery/</link>
+      <link>http://localhost:1313/tags/continuous-delivery/</link>
       <pubDate>Sun, 28 Apr 2019 15:35:31 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/continuous-delivery/</guid>
+      <guid>http://localhost:1313/tags/continuous-delivery/</guid>
       <description></description>
     </item>
     <item>
       <title>Continuous Deployment</title>
-      <link>https://www.garrardkitchen.com/tags/continuous-deployment/</link>
+      <link>http://localhost:1313/tags/continuous-deployment/</link>
       <pubDate>Sun, 28 Apr 2019 15:35:31 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/continuous-deployment/</guid>
+      <guid>http://localhost:1313/tags/continuous-deployment/</guid>
       <description></description>
     </item>
     <item>
       <title>Continuous Integration</title>
-      <link>https://www.garrardkitchen.com/tags/continuous-integration/</link>
+      <link>http://localhost:1313/tags/continuous-integration/</link>
       <pubDate>Sun, 28 Apr 2019 15:35:31 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/continuous-integration/</guid>
+      <guid>http://localhost:1313/tags/continuous-integration/</guid>
       <description></description>
     </item>
     <item>
       <title>Github</title>
-      <link>https://www.garrardkitchen.com/tags/github/</link>
+      <link>http://localhost:1313/tags/github/</link>
       <pubDate>Sun, 28 Apr 2019 15:35:31 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/github/</guid>
+      <guid>http://localhost:1313/tags/github/</guid>
       <description></description>
     </item>
     <item>
       <title>Altitude</title>
-      <link>https://www.garrardkitchen.com/tags/altitude/</link>
+      <link>http://localhost:1313/tags/altitude/</link>
       <pubDate>Sun, 28 Apr 2019 15:22:47 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/altitude/</guid>
+      <guid>http://localhost:1313/tags/altitude/</guid>
       <description></description>
     </item>
     <item>
       <title>Comways</title>
-      <link>https://www.garrardkitchen.com/tags/comways/</link>
+      <link>http://localhost:1313/tags/comways/</link>
       <pubDate>Sun, 28 Apr 2019 15:22:47 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/comways/</guid>
+      <guid>http://localhost:1313/tags/comways/</guid>
       <description></description>
     </item>
     <item>
       <title>Datavoice</title>
-      <link>https://www.garrardkitchen.com/tags/datavoice/</link>
+      <link>http://localhost:1313/tags/datavoice/</link>
       <pubDate>Sun, 28 Apr 2019 15:22:47 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/datavoice/</guid>
+      <guid>http://localhost:1313/tags/datavoice/</guid>
       <description></description>
     </item>
     <item>
       <title>Different Cultures</title>
-      <link>https://www.garrardkitchen.com/tags/different-cultures/</link>
+      <link>http://localhost:1313/tags/different-cultures/</link>
       <pubDate>Sun, 28 Apr 2019 15:22:47 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/different-cultures/</guid>
+      <guid>http://localhost:1313/tags/different-cultures/</guid>
       <description></description>
     </item>
     <item>
       <title>Different Roles</title>
-      <link>https://www.garrardkitchen.com/tags/different-roles/</link>
+      <link>http://localhost:1313/tags/different-roles/</link>
       <pubDate>Sun, 28 Apr 2019 15:22:47 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/different-roles/</guid>
+      <guid>http://localhost:1313/tags/different-roles/</guid>
       <description></description>
     </item>
     <item>
       <title>Dubber</title>
-      <link>https://www.garrardkitchen.com/tags/dubber/</link>
+      <link>http://localhost:1313/tags/dubber/</link>
       <pubDate>Sun, 28 Apr 2019 15:22:47 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/dubber/</guid>
+      <guid>http://localhost:1313/tags/dubber/</guid>
       <description></description>
     </item>
     <item>
       <title>Frequentis</title>
-      <link>https://www.garrardkitchen.com/tags/frequentis/</link>
+      <link>http://localhost:1313/tags/frequentis/</link>
       <pubDate>Sun, 28 Apr 2019 15:22:47 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/frequentis/</guid>
+      <guid>http://localhost:1313/tags/frequentis/</guid>
       <description></description>
     </item>
     <item>
       <title>Integration</title>
-      <link>https://www.garrardkitchen.com/tags/integration/</link>
+      <link>http://localhost:1313/tags/integration/</link>
       <pubDate>Sun, 28 Apr 2019 15:22:47 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/integration/</guid>
+      <guid>http://localhost:1313/tags/integration/</guid>
       <description></description>
     </item>
     <item>
       <title>Novo</title>
-      <link>https://www.garrardkitchen.com/tags/novo/</link>
+      <link>http://localhost:1313/tags/novo/</link>
       <pubDate>Sun, 28 Apr 2019 15:22:47 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/novo/</guid>
+      <guid>http://localhost:1313/tags/novo/</guid>
       <description></description>
     </item>
     <item>
       <title>Project Scope</title>
-      <link>https://www.garrardkitchen.com/tags/project-scope/</link>
+      <link>http://localhost:1313/tags/project-scope/</link>
       <pubDate>Sun, 28 Apr 2019 15:22:47 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/project-scope/</guid>
+      <guid>http://localhost:1313/tags/project-scope/</guid>
       <description></description>
     </item>
     <item>
       <title>Redbox</title>
-      <link>https://www.garrardkitchen.com/tags/redbox/</link>
+      <link>http://localhost:1313/tags/redbox/</link>
       <pubDate>Sun, 28 Apr 2019 15:22:47 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/redbox/</guid>
+      <guid>http://localhost:1313/tags/redbox/</guid>
       <description></description>
     </item>
     <item>
       <title>Spitch</title>
-      <link>https://www.garrardkitchen.com/tags/spitch/</link>
+      <link>http://localhost:1313/tags/spitch/</link>
       <pubDate>Sun, 28 Apr 2019 15:22:47 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/spitch/</guid>
+      <guid>http://localhost:1313/tags/spitch/</guid>
       <description></description>
     </item>
     <item>
       <title>Telax</title>
-      <link>https://www.garrardkitchen.com/tags/telax/</link>
+      <link>http://localhost:1313/tags/telax/</link>
       <pubDate>Sun, 28 Apr 2019 15:22:47 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/telax/</guid>
+      <guid>http://localhost:1313/tags/telax/</guid>
       <description></description>
     </item>
     <item>
       <title>Training</title>
-      <link>https://www.garrardkitchen.com/tags/training/</link>
+      <link>http://localhost:1313/tags/training/</link>
       <pubDate>Sun, 28 Apr 2019 15:22:47 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/training/</guid>
+      <guid>http://localhost:1313/tags/training/</guid>
       <description></description>
     </item>
     <item>
       <title>Twilio</title>
-      <link>https://www.garrardkitchen.com/tags/twilio/</link>
+      <link>http://localhost:1313/tags/twilio/</link>
       <pubDate>Sun, 28 Apr 2019 15:22:47 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/twilio/</guid>
+      <guid>http://localhost:1313/tags/twilio/</guid>
       <description></description>
     </item>
     <item>
       <title>World-Wide</title>
-      <link>https://www.garrardkitchen.com/tags/world-wide/</link>
+      <link>http://localhost:1313/tags/world-wide/</link>
       <pubDate>Sun, 28 Apr 2019 15:22:47 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/world-wide/</guid>
+      <guid>http://localhost:1313/tags/world-wide/</guid>
       <description></description>
     </item>
     <item>
       <title>Zendesk</title>
-      <link>https://www.garrardkitchen.com/tags/zendesk/</link>
+      <link>http://localhost:1313/tags/zendesk/</link>
       <pubDate>Sun, 28 Apr 2019 15:22:47 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/zendesk/</guid>
+      <guid>http://localhost:1313/tags/zendesk/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Codebuild on GPK</title>
-    <link>https://www.garrardkitchen.com/tags/codebuild/</link>
+    <link>http://localhost:1313/tags/codebuild/</link>
     <description>Recent content in Codebuild on GPK</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
-    <atom:link href="https://www.garrardkitchen.com/tags/codebuild/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/codebuild/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Continuous Integration, Continuous Deployment &amp; Continuous Delivery</title>
-      <link>https://www.garrardkitchen.com/projects/creations/cicd/</link>
+      <link>http://localhost:1313/projects/creations/cicd/</link>
       <pubDate>Sun, 28 Apr 2019 15:35:31 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/projects/creations/cicd/</guid>
+      <guid>http://localhost:1313/projects/creations/cicd/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;CI has been a long term development responsibility.&lt;/p&gt;&#xA;&lt;p&gt;Formally, for our client/server product, I would install and host TeamCity on office servers. Currently for a specific version of Coach, it is now hosted on an Azure instance.  The deployment package is delivered to S3 and at the appropriate time (major/minor/patch release) is added to a Confluence site for our customers to download.&lt;/p&gt;&#xA;&lt;p&gt;All projects are now driven by CI/CD principals.  This is for both on-premise and cloud solutions.  Depending on the project and requirements, different tools have been used.  R&amp;amp;D into use and application of these tools was my responsibility including introducing the original idea to the business and implementing across all projects.  Tools used include Azure DevOps, BitBucket Pipelines, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, Octopus Deploy, Jenkins and TeamCity.  All code is held in git repositories.  These repositories include BitBucket (default), GitHub and CodeCommit.  Each new feature, enhancement or defect is linked to a Jira issue.&lt;/p&gt;</description>
     </item>
   </channel>

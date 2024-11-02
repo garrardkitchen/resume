@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Serverless Framework on GPK</title>
-    <link>https://www.garrardkitchen.com/tags/serverless-framework/</link>
+    <link>http://localhost:1313/tags/serverless-framework/</link>
     <description>Recent content in Serverless Framework on GPK</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
-    <atom:link href="https://www.garrardkitchen.com/tags/serverless-framework/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/serverless-framework/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Serverless</title>
-      <link>https://www.garrardkitchen.com/projects/creations/serverless/</link>
+      <link>http://localhost:1313/projects/creations/serverless/</link>
       <pubDate>Sun, 28 Apr 2019 16:01:53 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/projects/creations/serverless/</guid>
+      <guid>http://localhost:1313/projects/creations/serverless/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Investigated ways to reduce time to market, end-client license costs, hosting costs and development costs.&lt;/p&gt;&#xA;&lt;p&gt;This research and later development efforts contributed to formulating and maintaining a best practice set of guidelines/principals covering all frameworks and languages employed to deliver a solution [product, automation and integrations].&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Used both Serverless Framework and SAM.  I use several IDEs, dependant on task/requirement, mainly VSCode, Rider, PyCharm and VS.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;These are samples of use cases where I have employed Serverless technologies: Websites (ASP.NET Core Razor), major features (utilising full AWS stack), automation (set log retention via CLoudWatch Events, set Log subscription, Set API Gateway Key and store in SSM).&lt;/p&gt;</description>
     </item>
   </channel>
