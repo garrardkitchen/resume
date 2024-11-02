@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aws Ecs Fargate on GPK</title>
-    <link>http://localhost:1313/tags/aws-ecs-fargate/</link>
+    <link>https://www.garrardkitchen.com/tags/aws-ecs-fargate/</link>
     <description>Recent content in Aws Ecs Fargate on GPK</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/aws-ecs-fargate/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.garrardkitchen.com/tags/aws-ecs-fargate/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automation</title>
-      <link>http://localhost:1313/projects/creations/automation/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/automation/</link>
       <pubDate>Sun, 28 Apr 2019 17:20:51 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/automation/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/automation/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;Serverless is ideal for so many use cases.  Automation is a prime example of where serverless technology can fit so well.&lt;/li&gt;&#xA;&lt;li&gt;I have used Lambdas and supporting services to help automating both mundane and configuration tasks.&lt;br&gt;&#xA;Some examples of these are; setting log retention durations on log group creations, log subscription and adding API Gateway API keys to SSM Parameter Store.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

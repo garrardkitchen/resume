@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lambda on GPK</title>
-    <link>http://localhost:1313/tags/lambda/</link>
+    <link>https://www.garrardkitchen.com/tags/lambda/</link>
     <description>Recent content in Lambda on GPK</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/lambda/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.garrardkitchen.com/tags/lambda/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automation</title>
-      <link>http://localhost:1313/projects/creations/automation/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/automation/</link>
       <pubDate>Sun, 28 Apr 2019 17:20:51 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/automation/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/automation/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;Serverless is ideal for so many use cases.  Automation is a prime example of where serverless technology can fit so well.&lt;/li&gt;&#xA;&lt;li&gt;I have used Lambdas and supporting services to help automating both mundane and configuration tasks.&lt;br&gt;&#xA;Some examples of these are; setting log retention durations on log group creations, log subscription and adding API Gateway API keys to SSM Parameter Store.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Migrations</title>
-      <link>http://localhost:1313/projects/creations/migrations/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/migrations/</link>
       <pubDate>Sun, 28 Apr 2019 17:16:53 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/migrations/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/migrations/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Migrate Coach product away from a monolyth to being 100% serverless.  Main web platform hosted via ECS Fargate and all features, RESTul APIs be Lambda backed API Gateways and Step Functions.  Data repositories used are dynamoDB, ElasticSearch, Amazon Aurora (mySQL), Redis and S3.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Coach migrated from MSSQL to MySQL as costs were too high for Always-On capabilities. I was accepted onto Aurora MySQL Preview programme and contributed to this phase.  The product had a key dependency that required a specific version of MySQL. As a result we are now using Amazon Aurora and plan to migrate over to  Aurora Serverless when version 5.7 is supported.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dashboard</title>
-      <link>http://localhost:1313/projects/creations/dashboard/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/dashboard/</link>
       <pubDate>Sun, 28 Apr 2019 17:12:59 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/dashboard/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/dashboard/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;I have researched several big data solutions but found them either too costly, lead time too lengthy or too complicated.&lt;/p&gt;&#xA;&lt;p&gt;Coach needed something to present actionable data.  Not knowing whether the idea matched reality, I proposed a phase 1 release that would lead to feature enhancements that would naturally lead to something that would help more.  I architected an ETL and data analytics process that would generate separate JSON formatted data, persisted to S3 for a specific user after being processed by a Pandas dataframe.  Implemented using CloudWatch trigger, S3, Redis &amp;amp; lambdas and Amazon Aurora (MySQL).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Health of the SaaS product</title>
-      <link>http://localhost:1313/projects/creations/health/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/health/</link>
       <pubDate>Sun, 28 Apr 2019 17:09:54 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/health/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/health/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;For me, CX (Customer Experience) is paramount.&lt;/li&gt;&#xA;&lt;li&gt;Even if there is an outage, the CX doesn’t have to suffer.  In my current project, there are key AWS services, as well as the CXcoach product, that are required to be running for the application to function.  I have architected both full systems and application features in such a way for them not to fail because of transient outages or worse and furthermore to provide instant feedback to users.  This also includes not losing anything that has yet to be persisted.&lt;/li&gt;&#xA;&lt;li&gt;I architected and implemented a serverless solution to check at regular intervals the state of key application services and other endpoints (e.g. app health check).  If an outage is experienced the ALB is switched to a Lambda backed LB where the user is provided with information up until the time the service(s) is back online.  This is all hooked into Slack and OpsGenie.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Billing</title>
-      <link>http://localhost:1313/projects/creations/billing/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/billing/</link>
       <pubDate>Sun, 28 Apr 2019 17:02:46 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/billing/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/billing/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;I have designed and implemented several billing mechanisms.&lt;/li&gt;&#xA;&lt;li&gt;Including designs/models orientated around licensing, another using AWS MMS (metering service) for the AWS QuickStart and more recently, one to capture product usage based on a specific frequency.  The later architectured and delivered once again via serverless technology.&lt;/li&gt;&#xA;&lt;li&gt;Created web apps [some serverless] to provide visibility into usage&lt;/li&gt;&#xA;&lt;li&gt;Create application features to help mitigate restrictions on internet access&lt;/li&gt;&#xA;&lt;li&gt;Subscription models designed and developed for: per agent, per user, per period, per feature usage, per role&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>CXcoach</title>
-      <link>http://localhost:1313/projects/creations/cxcoach/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/cxcoach/</link>
       <pubDate>Sun, 28 Apr 2019 16:16:41 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/cxcoach/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/cxcoach/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Created an SaaS version of our product on the AWS platform using serverless tech as an enabler to lowering the running costs and as such, make it cheaper for the vendor/partner to offer our product to their end-clients&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;I have been responsible for driving the integrations with major vendors&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Made presentations to prospective partners [CEO and below] nd helped shape requirements of the integration&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Platform required a new set of UX principles&lt;/p&gt;</description>
     </item>
     <item>
       <title>Serverless</title>
-      <link>http://localhost:1313/projects/creations/serverless/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/serverless/</link>
       <pubDate>Sun, 28 Apr 2019 16:01:53 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/serverless/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/serverless/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Investigated ways to reduce time to market, end-client license costs, hosting costs and development costs.&lt;/p&gt;&#xA;&lt;p&gt;This research and later development efforts contributed to formulating and maintaining a best practice set of guidelines/principals covering all frameworks and languages employed to deliver a solution [product, automation and integrations].&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Used both Serverless Framework and SAM.  I use several IDEs, dependant on task/requirement, mainly VSCode, Rider, PyCharm and VS.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;These are samples of use cases where I have employed Serverless technologies: Websites (ASP.NET Core Razor), major features (utilising full AWS stack), automation (set log retention via CLoudWatch Events, set Log subscription, Set API Gateway Key and store in SSM).&lt;/p&gt;</description>
     </item>
   </channel>

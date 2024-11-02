@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aws Ami on GPK</title>
-    <link>http://localhost:1313/tags/aws-ami/</link>
+    <link>https://www.garrardkitchen.com/tags/aws-ami/</link>
     <description>Recent content in Aws Ami on GPK</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/aws-ami/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.garrardkitchen.com/tags/aws-ami/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AWS Quick Start for Amazon Connect</title>
-      <link>http://localhost:1313/projects/creations/aws-quickstart/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/aws-quickstart/</link>
       <pubDate>Sun, 28 Apr 2019 16:04:05 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/aws-quickstart/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/aws-quickstart/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;The product, Coach, was in the first wave of SMEs to integrate with the Amazon Connect product.  As part of a team, I met with and coordinated with both the AC team and the Marketplace Team.&lt;/li&gt;&#xA;&lt;li&gt;I developed the QuickStart that is hosted via AWS and produced an AMI that is being marketed in the AWS Marketplace.&lt;/li&gt;&#xA;&lt;li&gt;The Coach product was developed to work with Active Directory and I assisted in creating materials to help with all facets of the QuickStart.  It was during this process that I was awarded my first &lt;strong&gt;AWS Certification - Developer Associate&lt;/strong&gt;.  I worked closely with several members of the AC and Marketplace teams. The QuickStart is a nested stack of CloudFormation [Configuration as Code] templates, incorporating both the AWS VPC and the Data Streaming QuickStarts.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;&#xA;&lt;p&gt;QuickStart: &lt;a href=&#34;https://aws.amazon.com/quickstart/connect/qualtrak-evaluate/&#34;&gt;https://aws.amazon.com/quickstart/connect/qualtrak-evaluate/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Google Analytics on GPK</title>
-    <link>http://localhost:1313/tags/google-analytics/</link>
+    <link>https://www.garrardkitchen.com/tags/google-analytics/</link>
     <description>Recent content in Google Analytics on GPK</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/google-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.garrardkitchen.com/tags/google-analytics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Resume</title>
-      <link>http://localhost:1313/projects/creations/resume/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/resume/</link>
       <pubDate>Tue, 30 Apr 2019 08:46:29 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/resume/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/resume/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;Assessed whether or not to update existing non-maintained Jekyll site to promote myself&lt;/li&gt;&#xA;&lt;li&gt;Researched other options (e.g. Hugo)&lt;/li&gt;&#xA;&lt;li&gt;Experimented with Hugo and different templaes (focus on resume style)&lt;/li&gt;&#xA;&lt;li&gt;Expedited my learning curve&lt;/li&gt;&#xA;&lt;li&gt;Completed resume rewrite in 3 days&lt;/li&gt;&#xA;&lt;li&gt;Configured GitHub pages and custom domain&lt;/li&gt;&#xA;&lt;li&gt;Configured Google Analytics&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

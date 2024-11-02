@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CX on GPK</title>
-    <link>http://localhost:1313/tags/cx/</link>
+    <link>https://www.garrardkitchen.com/tags/cx/</link>
     <description>Recent content in CX on GPK</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/cx/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.garrardkitchen.com/tags/cx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Health of the SaaS product</title>
-      <link>http://localhost:1313/projects/creations/health/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/health/</link>
       <pubDate>Sun, 28 Apr 2019 17:09:54 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/health/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/health/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;For me, CX (Customer Experience) is paramount.&lt;/li&gt;&#xA;&lt;li&gt;Even if there is an outage, the CX doesn’t have to suffer.  In my current project, there are key AWS services, as well as the CXcoach product, that are required to be running for the application to function.  I have architected both full systems and application features in such a way for them not to fail because of transient outages or worse and furthermore to provide instant feedback to users.  This also includes not losing anything that has yet to be persisted.&lt;/li&gt;&#xA;&lt;li&gt;I architected and implemented a serverless solution to check at regular intervals the state of key application services and other endpoints (e.g. app health check).  If an outage is experienced the ALB is switched to a Lambda backed LB where the user is provided with information up until the time the service(s) is back online.  This is all hooked into Slack and OpsGenie.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Observability</title>
-      <link>http://localhost:1313/projects/creations/observability/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/observability/</link>
       <pubDate>Sun, 28 Apr 2019 16:24:21 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/observability/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/observability/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The 3 pillars of observability (logging, metrics and tracing) presents new challenges for serverless solutions.&lt;/p&gt;&#xA;&lt;p&gt;Having experienced this first hand, I set about looking for a solution that will enable rapid root cause analysis to ultimately greatly reduce or even better, mitigate [think runbooks] known undesirable scenarios.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;I believe in positive Customer Experience (CX) and apply this philosophy across everything I do.&lt;/p&gt;&#xA;&lt;p&gt;I spent time with Datadog [a few months of meetings] discussing ways to help this serverless space to improve observability.  I was accepted onto a few of their beta programmes.  Coach’s cloud solution is 100% serverless which presents a unique challenge for tracing and logging.  I liked what Datadog additionally had to offer.  The company now uses their new APM for .NET Core and their Cloud Functions feature. Since then, I have, with the rest of the team, adopted a streamlined approach which is more workflow orientated. Using Epsagon for the lambda based solutions, Sentry.io for client-side and server-side error management.  All observability solutions were researched and implemented by me.  The company’s morning DSU, when necessary, use both Epsagon and Sentry.io to review priorities and where necessary, assign somebody to deal with an issue.&lt;/p&gt;</description>
     </item>
   </channel>

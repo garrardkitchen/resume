@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>.Net Core on GPK</title>
-    <link>http://localhost:1313/tags/.net-core/</link>
+    <link>https://www.garrardkitchen.com/tags/.net-core/</link>
     <description>Recent content in .Net Core on GPK</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/.net-core/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.garrardkitchen.com/tags/.net-core/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Billing</title>
-      <link>http://localhost:1313/projects/creations/billing/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/billing/</link>
       <pubDate>Sun, 28 Apr 2019 17:02:46 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/billing/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/billing/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;I have designed and implemented several billing mechanisms.&lt;/li&gt;&#xA;&lt;li&gt;Including designs/models orientated around licensing, another using AWS MMS (metering service) for the AWS QuickStart and more recently, one to capture product usage based on a specific frequency.  The later architectured and delivered once again via serverless technology.&lt;/li&gt;&#xA;&lt;li&gt;Created web apps [some serverless] to provide visibility into usage&lt;/li&gt;&#xA;&lt;li&gt;Create application features to help mitigate restrictions on internet access&lt;/li&gt;&#xA;&lt;li&gt;Subscription models designed and developed for: per agent, per user, per period, per feature usage, per role&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>S3 on GPK</title>
-    <link>http://localhost:1313/tags/s3/</link>
+    <link>https://www.garrardkitchen.com/tags/s3/</link>
     <description>Recent content in S3 on GPK</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/s3/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.garrardkitchen.com/tags/s3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ETL</title>
-      <link>http://localhost:1313/projects/creations/etl/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/etl/</link>
       <pubDate>Sun, 28 Apr 2019 17:29:12 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/etl/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/etl/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;I have implemented several solutions around this space using serverless technology and purpose built services [Glue, Athena, Data Pipeline and DMS].&lt;/li&gt;&#xA;&lt;li&gt;Tools that I have used to help me develop a solution are Jupyter Labs and Pandas &amp;amp; NumPy.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>IntelliSearch</title>
-      <link>http://localhost:1313/projects/creations/intellisearch/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/intellisearch/</link>
       <pubDate>Sun, 28 Apr 2019 17:22:33 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/intellisearch/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/intellisearch/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Coach has a long standing feature called IntelliSearch.&lt;/p&gt;&#xA;&lt;p&gt;It is a feature that, at a specific time, for several set periods [daily, weekly, monthly, custom], it will submit queries to a Data Connector (conduit between our system and an external system) to match up randomly selected recordings for later evaluation.  The random algorithm implemented is there to ensure fairness of recording selection so apples and apples are compared and not apples to oranges.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dashboard</title>
-      <link>http://localhost:1313/projects/creations/dashboard/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/dashboard/</link>
       <pubDate>Sun, 28 Apr 2019 17:12:59 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/dashboard/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/dashboard/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;I have researched several big data solutions but found them either too costly, lead time too lengthy or too complicated.&lt;/p&gt;&#xA;&lt;p&gt;Coach needed something to present actionable data.  Not knowing whether the idea matched reality, I proposed a phase 1 release that would lead to feature enhancements that would naturally lead to something that would help more.  I architected an ETL and data analytics process that would generate separate JSON formatted data, persisted to S3 for a specific user after being processed by a Pandas dataframe.  Implemented using CloudWatch trigger, S3, Redis &amp;amp; lambdas and Amazon Aurora (MySQL).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Health of the SaaS product</title>
-      <link>http://localhost:1313/projects/creations/health/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/health/</link>
       <pubDate>Sun, 28 Apr 2019 17:09:54 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/health/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/health/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;For me, CX (Customer Experience) is paramount.&lt;/li&gt;&#xA;&lt;li&gt;Even if there is an outage, the CX doesn’t have to suffer.  In my current project, there are key AWS services, as well as the CXcoach product, that are required to be running for the application to function.  I have architected both full systems and application features in such a way for them not to fail because of transient outages or worse and furthermore to provide instant feedback to users.  This also includes not losing anything that has yet to be persisted.&lt;/li&gt;&#xA;&lt;li&gt;I architected and implemented a serverless solution to check at regular intervals the state of key application services and other endpoints (e.g. app health check).  If an outage is experienced the ALB is switched to a Lambda backed LB where the user is provided with information up until the time the service(s) is back online.  This is all hooked into Slack and OpsGenie.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Billing</title>
-      <link>http://localhost:1313/projects/creations/billing/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/billing/</link>
       <pubDate>Sun, 28 Apr 2019 17:02:46 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/billing/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/billing/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;I have designed and implemented several billing mechanisms.&lt;/li&gt;&#xA;&lt;li&gt;Including designs/models orientated around licensing, another using AWS MMS (metering service) for the AWS QuickStart and more recently, one to capture product usage based on a specific frequency.  The later architectured and delivered once again via serverless technology.&lt;/li&gt;&#xA;&lt;li&gt;Created web apps [some serverless] to provide visibility into usage&lt;/li&gt;&#xA;&lt;li&gt;Create application features to help mitigate restrictions on internet access&lt;/li&gt;&#xA;&lt;li&gt;Subscription models designed and developed for: per agent, per user, per period, per feature usage, per role&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
