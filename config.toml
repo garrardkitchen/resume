@@ -19,7 +19,9 @@ env = "production"
     address = "Fujitsu Distinguished Engineer"
     phone = "+44 (0)1704 220226"
     contactNote = "Solutions Architect & CTO" #used in QR code only
-    profileImage = "https://en.gravatar.com/userimage/7070223/a5408955d5ac2cc7b975f64bf1e9dcb1.jpg"
+    #profileImage = "https://en.gravatar.com/userimage/7070223/a5408955d5ac2cc7b975f64bf1e9dcb1.jpg"
+    # Goto https://gravatar.com/garrardkitchen then click on JSON link at the bottom
+    profileImage = "https://1.gravatar.com/avatar/0712c9aafba9dc1e84056dcba1b3183dd07d18c995e01b0f754d42ef348218fe"
     email = "garrardkitchen@gmail.com"
     description = "Software Platform Engineer with experience leveraging DevDevOps to manage large scale distributed platforms both on prem and in public cloud."
     favicon = "images/favicon.ico"

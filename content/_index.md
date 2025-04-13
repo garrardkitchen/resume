@@ -44,12 +44,15 @@ _These are my Azure, HCL, Linux Foundation and AWS certificates_:
   - Test automation with MS Playwright and Azure Functions (C#, TS)
   - Models as Code
   - Sustainability Transformation (NDC, London '23)
+  - Modern CI/CD
+  - .NET Aspire & AZD
 - Blogging
 - Mentoring
 - Collaborating with multiple clients on Azure and HCL solutions
 - Contributing DevSecOps expertise to support our proposal development
 - Some of the projects I have worked on for clients are:
 
+  - Demystified Azure Landing Zones and created a Framework (ALZIF) that delivers a scalable, secure, and modular foundation for deploying and managing cloud environments in Azure, aligning with best practices and organizational requirements. 
   - Designed and built a Power App that connects to a backend .NET 8.0 C# API Azure Container Application using a Custom Connector, OAuth 2.0 and Entra ID. The backend API is secured by an APIM API that validates JWT tokens, including pre-authorize requests. I used Azure DevOps and AZD to deploy and manage the Power App, the backend API and the supporting infrastructure.
   - Developed a remote state solution for Terraform that uses Azure Blob Storage with no public access, no Shared Access Keys and no public blob access. I used MSI and Private Endpoints to enable secure communication.
   - Designed and delivered a Release Flow branching strategy that matches the customer’s release cycle and change request process, while reducing environmental impact and carbon emissions.

@@ -11,6 +11,23 @@
         ]
     },
     {
+        "grouping": "Continuous Delivery",
+        "skills": [
+            "Azure DevOps",
+            "GitHub",
+            "GitLab"
+        ]
+    },
+    {
+        "grouping": "HashiCorp",
+        "skills": [
+            "Terraform",
+            "Vault",
+            "Nomad",
+            "Terraform Cloud & Enterprise"
+        ]
+    },
+    {
         "grouping": "Microservices",
         "skills": [
             ".NET Core 8.0",
@@ -33,6 +50,7 @@
     {
         "grouping": "Architecture & Concepts",
         "skills": [
+            "Azure Landing Zones (fmr Enterprise-Scale Architecture)",
             "API Management Platforms",
             "BDD",
             "Cloud patterns",
@@ -139,7 +157,7 @@
         "skills": [
             "C#",
             "Blazor",
-            ".NET Aspire - preview",
+            ".NET Aspire 9.0",
             "AZD (Azure Developer CLI)",
             "NodeJS",
             "Java",
@@ -170,10 +188,11 @@
         "skills": [
             "IIS",
             "MSSQL",
-            ".NET Core 2.1, 2.2, 3.1, 5.0, 6.0, 8.0",            
+            ".NET Core 2.1 - 9.0",            
             ".NET Frameworks 4.8",                      
             "ASP.NET Core",
             "ASP.NET",
+            ".NET Aspire",
             "TypeScript",  
             "Razor Pages",
             "Blazor"
