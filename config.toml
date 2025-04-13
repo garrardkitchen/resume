@@ -23,7 +23,7 @@ env = "production"
     # Goto https://gravatar.com/garrardkitchen then click on JSON link at the bottom
     profileImage = "https://1.gravatar.com/avatar/0712c9aafba9dc1e84056dcba1b3183dd07d18c995e01b0f754d42ef348218fe"
     email = "garrardkitchen@gmail.com"
-    description = "Software Platform Engineer with experience leveraging DevDevOps to manage large scale distributed platforms both on prem and in public cloud."
+    description = "Cloud Platform Engineer specialises in architecting and delivering large scale cloud platforms"
     favicon = "images/favicon.ico"
 
     # what sections to display.  Setting to false disables navigation and section.
@@ -33,7 +33,7 @@ env = "production"
     showPublications = false
     showExperience = true
     showEducation = true
-    showQr = true
+    showQr = false
     showBlog = true
 
     # do you want to show git hash on page footer and link to repo? Add commit URl for repo here.
