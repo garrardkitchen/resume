@@ -36,13 +36,13 @@
     },
     {
         "title": "AWS Developer Associate",
-        "expiry": "Yes 2020",
+        "expiry": "'20",
         "expiryOld": "13-12-2020",
         "path": "/img/aws-developer-badge.png"
     },
     {
         "title": "AWS Solutions Architect",
-        "expiry": "Yes 2021",
+        "expiry": "'21",
         "expiryOld": "27-09-2021",
         "path": "/img/aws-solutions-architect-badge.png"
     }

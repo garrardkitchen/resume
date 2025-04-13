@@ -3,9 +3,6 @@ title: "Home"
 sitemap:
   priority : 0.9
 ---
-{{< justified >}}
-BLACK LIVES MATTER
-{{< /justified >}}
 
 ---
 
@@ -16,12 +13,6 @@ Please **[click here](#resumes-and-reference)** to view my resumes and reference
 ## Certifications
 
 _These are my Azure, HCL, Linux Foundation and AWS certificates_:
-
-<!-- {{% table %}}
-|          |                    | | | | | | | |
-|----------|--------------------|-|-|-|-|-|-|-|
-| ![Developer Associate](/img/azure-developer-associate-600x600.png) | ![Expert DevOps Engineer](/img/CERT-Expert-DevOps-Engineer-600x600.png) | ![Expert Solutions Architect](/img/azure-solutions-architect-expert-600x600.png) | ![IoT Developer Specialty](/img/specialty-azure-iot-developer-600x600.png) | ![Security Engineer Associate](/img/azure-security-engineer-associate600x600.png)  | ![HashiCorp Certified: Terraform Associate (003)](/img/hashicorp-certified-terraform-associate-003-600x600.png)  | ![LFC131: Green Software for Practitioners](/img/lfc131-green-software-for-practitioners-600x600.png)  | [![developer](/img/aws-developer-badge.png)](https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2017-12-13&ci=AWS00351917) | [![solutions architect](/img/aws-solutions-architect-badge.png)](https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-09-27&ci=AWS00351917) |
-{{% /table %}} -->
 
 {{< certs >}}
 
@@ -45,7 +36,8 @@ _These are my Azure, HCL, Linux Foundation and AWS certificates_:
   - Models as Code
   - Sustainability Transformation (NDC, London '23)
   - Modern CI/CD
-  - .NET Aspire & AZD
+  - .NET Aspire, the inner loop and the Azure Developer CLI ('AZD')
+
 - Blogging
 - Mentoring
 - Collaborating with multiple clients on Azure and HCL solutions

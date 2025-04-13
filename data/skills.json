@@ -7,15 +7,23 @@
             "Inception",
             "Retrospective",
             "Sprint Planning",
-            "Blameless Post mortem"
+            "Blameless Post mortem",
+            "Target Process"
         ]
     },
     {
-        "grouping": "Continuous Delivery",
+        "grouping": "DevSecOps",
         "skills": [
-            "Azure DevOps",
-            "GitHub",
-            "GitLab"
+            "Azure DevOps Pipelines",
+            "GitHub Workflow Actions",
+            "GitLab CI/CD",
+            "Terraform",
+            "Terraform Enterprise/Cloud",         
+            "Azure Bicep & ARM",
+            "Terraform",
+            "IDP - Backstage",
+            "CloudFormation",
+            "SonarQube/SonarCloud"
         ]
     },
     {
@@ -31,6 +39,7 @@
         "grouping": "Microservices",
         "skills": [
             ".NET Core 8.0",
+            ".NET Aspire",
             "ASP.NET Core",
             "NodeJS",
             "TypeScript",
@@ -50,7 +59,9 @@
     {
         "grouping": "Architecture & Concepts",
         "skills": [
-            "Azure Landing Zones (fmr Enterprise-Scale Architecture)",
+            "ALZ ('Azure Landing Zones') (fmr Enterprise-Scale Architecture)",
+            "CAF ('Cloud Adoption Framework')",
+            "LZ Subscription Vending",
             "API Management Platforms",
             "BDD",
             "Cloud patterns",
@@ -157,7 +168,7 @@
         "skills": [
             "C#",
             "Blazor",
-            ".NET Aspire 9.0",
+            ".NET Aspire 9.2",
             "AZD (Azure Developer CLI)",
             "NodeJS",
             "Java",
@@ -217,7 +228,7 @@
     {
         "grouping": "IDEs, Dev Tools & Productivities Tools",
         "skills": [
-            "Visual Studio 17.*",
+            "Visual Studio",
             "VSCode",
             "Rider",
             "IntelliJ",
@@ -390,7 +401,7 @@
     },
     {
         "grouping": "Azure",
-        "skills": [
+        "skills": [            
             "Azure Kubernetes Service",
             "Application Gateway",
             "Azure Functions",
@@ -405,7 +416,7 @@
             "App Services",
             "Virtual Machines",
             "Key Vault",
-            "ARM & bicep",
+            "ARM & bicep & Terraform",
             "Virtual Network",
             "VPN Gateway",
             "CDN",

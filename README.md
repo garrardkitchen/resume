@@ -4,9 +4,16 @@
 
 _Install on windows_
 
+windows:
 ```
 choco install hugo -confirm
 choco install hugo-extended -confirm
+```
+
+mac:
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install hugo
 ```
 
 ### Step 2:
@@ -17,7 +24,7 @@ git submodule init && git submodule update && git submodule status
 
 Change 
 ```
- {{ .Hugo.Generator }}
+ {{ .hugo.Generator }}
 ```
 to
 ```
@@ -42,3 +49,9 @@ huge server -D
 - https://gohugo.io/getting-started/quick-start/
 
 #### To deploy
+
+```script
+hugo
+git commit -m "docs:<comment>"
+git push origin master
+```
