@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ux on GPK</title>
-    <link>http://localhost:1313/tags/ux/</link>
+    <link>https://www.garrardkitchen.com/tags/ux/</link>
     <description>Recent content in Ux on GPK</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.garrardkitchen.com/tags/ux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Migrations</title>
-      <link>http://localhost:1313/projects/creations/migrations/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/migrations/</link>
       <pubDate>Sun, 28 Apr 2019 17:16:53 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/migrations/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/migrations/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Migrate Coach product away from a monolyth to being 100% serverless.  Main web platform hosted via ECS Fargate and all features, RESTul APIs be Lambda backed API Gateways and Step Functions.  Data repositories used are dynamoDB, ElasticSearch, Amazon Aurora (mySQL), Redis and S3.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Coach migrated from MSSQL to MySQL as costs were too high for Always-On capabilities. I was accepted onto Aurora MySQL Preview programme and contributed to this phase.  The product had a key dependency that required a specific version of MySQL. As a result we are now using Amazon Aurora and plan to migrate over to  Aurora Serverless when version 5.7 is supported.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Onboarding</title>
-      <link>http://localhost:1313/projects/creations/onboarding/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/onboarding/</link>
       <pubDate>Sun, 28 Apr 2019 16:55:49 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/onboarding/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/onboarding/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;An important part of a SaaS application, especially one that requires integrations to provide any measure of benefit, is onboarding.&lt;/p&gt;&#xA;&lt;p&gt;For me, the advantages are simple.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Generally, CX needs to be smooth [quick and useful].  It is also important to know at what stage a trialer is at. This can then be aided by a digital campaign with support.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;With most onboarding models requiring a starting point outside of our product, e.g. vendor, it is even more important that the trialer does not experience any pain during this process; even if they do experience a problem [e.g. outage].&lt;/p&gt;</description>
     </item>
     <item>
       <title>Retheme Product</title>
-      <link>http://localhost:1313/projects/creations/retheme-product/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/retheme-product/</link>
       <pubDate>Sun, 28 Apr 2019 16:38:24 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/retheme-product/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/retheme-product/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Formally a front-end developer, I feel confortable and confident carrying out work in this space&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The CXcoach cloud based product needed a ‘face lift’.&lt;/p&gt;&#xA;&lt;p&gt;I investigated the most frugal way to provide the product with a new look and feel, one that is aligned with industry expectations.  I settled on an open source theme and provided my UX lead developer a branch of code that used this new theme for him to complete and fix any style and placement issues.  For specific areas of the product (features), I provided the same person with a mock up (HTML and style) for him to incorporate into the React front-end.&lt;/p&gt;</description>
     </item>
     <item>
       <title>CXcoach</title>
-      <link>http://localhost:1313/projects/creations/cxcoach/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/cxcoach/</link>
       <pubDate>Sun, 28 Apr 2019 16:16:41 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/cxcoach/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/cxcoach/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Created an SaaS version of our product on the AWS platform using serverless tech as an enabler to lowering the running costs and as such, make it cheaper for the vendor/partner to offer our product to their end-clients&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;I have been responsible for driving the integrations with major vendors&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Made presentations to prospective partners [CEO and below] nd helped shape requirements of the integration&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Platform required a new set of UX principles&lt;/p&gt;</description>
     </item>
   </channel>

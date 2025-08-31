@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C# on GPK</title>
-    <link>http://localhost:1313/tags/c%23/</link>
+    <link>https://www.garrardkitchen.com/tags/c%23/</link>
     <description>Recent content in C# on GPK</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/c%23/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.garrardkitchen.com/tags/c%23/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dashboard</title>
-      <link>http://localhost:1313/projects/creations/dashboard/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/dashboard/</link>
       <pubDate>Sun, 28 Apr 2019 17:12:59 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/dashboard/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/dashboard/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;I have researched several big data solutions but found them either too costly, lead time too lengthy or too complicated.&lt;/p&gt;&#xA;&lt;p&gt;Coach needed something to present actionable data.  Not knowing whether the idea matched reality, I proposed a phase 1 release that would lead to feature enhancements that would naturally lead to something that would help more.  I architected an ETL and data analytics process that would generate separate JSON formatted data, persisted to S3 for a specific user after being processed by a Pandas dataframe.  Implemented using CloudWatch trigger, S3, Redis &amp;amp; lambdas and Amazon Aurora (MySQL).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Retheme Product</title>
-      <link>http://localhost:1313/projects/creations/retheme-product/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/retheme-product/</link>
       <pubDate>Sun, 28 Apr 2019 16:38:24 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/retheme-product/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/retheme-product/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Formally a front-end developer, I feel confortable and confident carrying out work in this space&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The CXcoach cloud based product needed a ‘face lift’.&lt;/p&gt;&#xA;&lt;p&gt;I investigated the most frugal way to provide the product with a new look and feel, one that is aligned with industry expectations.  I settled on an open source theme and provided my UX lead developer a branch of code that used this new theme for him to complete and fix any style and placement issues.  For specific areas of the product (features), I provided the same person with a mock up (HTML and style) for him to incorporate into the React front-end.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Coach</title>
-      <link>http://localhost:1313/projects/creations/coach/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/coach/</link>
       <pubDate>Sun, 28 Apr 2019 16:13:20 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/coach/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/coach/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;Created a web based product of our successful client/server product.&lt;/li&gt;&#xA;&lt;li&gt;Chose appropriate tech to fit the timeline.&lt;/li&gt;&#xA;&lt;li&gt;Worked with a Pakistani development outsourcing company and Recorder vendor that the product was integrating with at the time.  Later developing the application to integrate with the Redbox Recorder, leading Redbox to purchase the code after an agreed sign off.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

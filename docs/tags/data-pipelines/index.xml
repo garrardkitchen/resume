@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Pipelines on GPK</title>
-    <link>http://localhost:1313/tags/data-pipelines/</link>
+    <link>https://www.garrardkitchen.com/tags/data-pipelines/</link>
     <description>Recent content in Data Pipelines on GPK</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/data-pipelines/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.garrardkitchen.com/tags/data-pipelines/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ETL</title>
-      <link>http://localhost:1313/projects/creations/etl/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/etl/</link>
       <pubDate>Sun, 28 Apr 2019 17:29:12 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/etl/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/etl/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;I have implemented several solutions around this space using serverless technology and purpose built services [Glue, Athena, Data Pipeline and DMS].&lt;/li&gt;&#xA;&lt;li&gt;Tools that I have used to help me develop a solution are Jupyter Labs and Pandas &amp;amp; NumPy.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
