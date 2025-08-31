@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>telax on GPK</title>
-    <link>https://www.garrardkitchen.com/tags/telax/</link>
-    <description>Recent content in telax on GPK</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Telax on GPK</title>
+    <link>http://localhost:1313/tags/telax/</link>
+    <description>Recent content in Telax on GPK</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Apr 2019 15:22:47 +0100</lastBuildDate><atom:link href="https://www.garrardkitchen.com/tags/telax/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/telax/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Integrations</title>
-      <link>https://www.garrardkitchen.com/projects/creations/integrations/</link>
+      <link>http://localhost:1313/projects/creations/integrations/</link>
       <pubDate>Sun, 28 Apr 2019 15:22:47 +0100</pubDate>
-      
-      <guid>https://www.garrardkitchen.com/projects/creations/integrations/</guid>
-      <description>Liaised with a vendor to create conduit [data connector] between our products and theirs. Worked with many vendors including Twilio (including Flex), Zendesk, Telax, DataVoice, Novo, Comways, Altitude, Dubber, Frequentis, Spitch, Amazon Connect, Redbox.
-Worked with teams to scope requirements, define every stage up to sign off and team responsibilities. Each integration would start with a technical presentation delivered by me. This would encompass architecture, stages and responsibilities, establishing test environments and training requirements.</description>
+      <guid>http://localhost:1313/projects/creations/integrations/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Liaised with a vendor to create conduit [data connector] between our products and theirs. Worked with many vendors including Twilio (including Flex), Zendesk, Telax, DataVoice, Novo, Comways, Altitude, Dubber, Frequentis, Spitch, Amazon Connect, Redbox.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Worked with teams to scope requirements, define every stage up to sign off and team responsibilities.&#xA;Each integration would start with a technical presentation delivered by me. This would encompass architecture, stages and responsibilities, establishing test environments and training requirements.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

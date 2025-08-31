@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>developer site on GPK</title>
-    <link>https://www.garrardkitchen.com/tags/developer-site/</link>
-    <description>Recent content in developer site on GPK</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Developer Site on GPK</title>
+    <link>http://localhost:1313/tags/developer-site/</link>
+    <description>Recent content in Developer Site on GPK</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Apr 2019 16:30:38 +0100</lastBuildDate><atom:link href="https://www.garrardkitchen.com/tags/developer-site/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/developer-site/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SDK</title>
-      <link>https://www.garrardkitchen.com/projects/creations/sdk/</link>
+      <link>http://localhost:1313/projects/creations/sdk/</link>
       <pubDate>Sun, 28 Apr 2019 16:30:38 +0100</pubDate>
-      
-      <guid>https://www.garrardkitchen.com/projects/creations/sdk/</guid>
-      <description>I created a process for others, external to the company, to perform integrations. The concept is simple and still used today.
-In summary, a conduit known as a Data Connector was developed to (a) be used by Coach via a RESTful API and (b) integrate with Vendor or other system(s) APIs or data sources. Metadata for users &amp;amp; recordings could then be exchanged via the Data Connector. Additional [configurable] data was also passed along this pipeline.</description>
+      <guid>http://localhost:1313/projects/creations/sdk/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;I created a process for others, external to the company, to perform integrations.  The concept is simple and still used today.&lt;/p&gt;&#xA;&lt;p&gt;In summary, a conduit known as a Data Connector was developed to (a) be used by Coach via a RESTful API and (b) integrate with Vendor or other system(s) APIs or data sources.  Metadata for users &amp;amp; recordings could then be exchanged via the Data Connector. Additional [configurable] data was also passed along this pipeline.  Multiple authentication protocols and approaches were used to permit the flow of data.  Data and required credentials were and are always encrypted.  The SDK is supported by a sample data connector, API documentation and a test bed via the Azure Platform.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

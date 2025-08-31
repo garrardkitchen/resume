@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>recruitment on GPK</title>
-    <link>https://www.garrardkitchen.com/tags/recruitment/</link>
-    <description>Recent content in recruitment on GPK</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Recruitment on GPK</title>
+    <link>http://localhost:1313/tags/recruitment/</link>
+    <description>Recent content in Recruitment on GPK</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Apr 2019 17:25:55 +0100</lastBuildDate><atom:link href="https://www.garrardkitchen.com/tags/recruitment/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/recruitment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Recruitment</title>
-      <link>https://www.garrardkitchen.com/projects/creations/recruitment/</link>
+      <link>http://localhost:1313/projects/creations/recruitment/</link>
       <pubDate>Sun, 28 Apr 2019 17:25:55 +0100</pubDate>
-      
-      <guid>https://www.garrardkitchen.com/projects/creations/recruitment/</guid>
-      <description>I have had the honour and experience of hiring several talented individuals.
-I have tried different approaches to assessing a team member. My secret is that I look for crucial character traits. Having tried different approaches to evaluating a prospects suitability, I have come to the conclusion that in most cases lengthy tests or situations that induce stress, are both unnecessary and unfair. I am of the opinion that if you are faced with that kind of situation then something/someone up stream has messed up and it’s more important to me to know how a person (a) handles that situation and (2) how they identify learning points.</description>
+      <guid>http://localhost:1313/projects/creations/recruitment/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;I have had the honour and experience of hiring several talented individuals.&lt;/p&gt;&#xA;&lt;p&gt;I have tried different approaches to assessing a team member. My secret is that I look for crucial character traits.  Having tried different approaches to evaluating a prospects suitability, I have come to the conclusion that in most cases lengthy tests or situations that induce stress, are both unnecessary and unfair.  I am of the opinion that if you are faced with that kind of situation then something/someone up stream has messed up and it’s more important to me to know how a person (a) handles that situation and (2) how they identify learning points.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

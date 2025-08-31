@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>glue on GPK</title>
-    <link>https://www.garrardkitchen.com/tags/glue/</link>
-    <description>Recent content in glue on GPK</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Glue on GPK</title>
+    <link>http://localhost:1313/tags/glue/</link>
+    <description>Recent content in Glue on GPK</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Apr 2019 17:29:12 +0100</lastBuildDate><atom:link href="https://www.garrardkitchen.com/tags/glue/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/glue/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ETL</title>
-      <link>https://www.garrardkitchen.com/projects/creations/etl/</link>
+      <link>http://localhost:1313/projects/creations/etl/</link>
       <pubDate>Sun, 28 Apr 2019 17:29:12 +0100</pubDate>
-      
-      <guid>https://www.garrardkitchen.com/projects/creations/etl/</guid>
-      <description> I have implemented several solutions around this space using serverless technology and purpose built services [Glue, Athena, Data Pipeline and DMS]. Tools that I have used to help me develop a solution are Jupyter Labs and Pandas &amp;amp; NumPy. </description>
+      <guid>http://localhost:1313/projects/creations/etl/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;I have implemented several solutions around this space using serverless technology and purpose built services [Glue, Athena, Data Pipeline and DMS].&lt;/li&gt;&#xA;&lt;li&gt;Tools that I have used to help me develop a solution are Jupyter Labs and Pandas &amp;amp; NumPy.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

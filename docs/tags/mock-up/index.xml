@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>mock up on GPK</title>
-    <link>https://www.garrardkitchen.com/tags/mock-up/</link>
-    <description>Recent content in mock up on GPK</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Mock Up on GPK</title>
+    <link>http://localhost:1313/tags/mock-up/</link>
+    <description>Recent content in Mock Up on GPK</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Apr 2019 16:38:24 +0100</lastBuildDate><atom:link href="https://www.garrardkitchen.com/tags/mock-up/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mock-up/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Retheme Product</title>
-      <link>https://www.garrardkitchen.com/projects/creations/retheme-product/</link>
+      <link>http://localhost:1313/projects/creations/retheme-product/</link>
       <pubDate>Sun, 28 Apr 2019 16:38:24 +0100</pubDate>
-      
-      <guid>https://www.garrardkitchen.com/projects/creations/retheme-product/</guid>
-      <description>Formally a front-end developer, I feel confortable and confident carrying out work in this space
-The CXcoach cloud based product needed a ‘face lift’.
-I investigated the most frugal way to provide the product with a new look and feel, one that is aligned with industry expectations. I settled on an open source theme and provided my UX lead developer a branch of code that used this new theme for him to complete and fix any style and placement issues.</description>
+      <guid>http://localhost:1313/projects/creations/retheme-product/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Formally a front-end developer, I feel confortable and confident carrying out work in this space&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The CXcoach cloud based product needed a ‘face lift’.&lt;/p&gt;&#xA;&lt;p&gt;I investigated the most frugal way to provide the product with a new look and feel, one that is aligned with industry expectations.  I settled on an open source theme and provided my UX lead developer a branch of code that used this new theme for him to complete and fix any style and placement issues.  For specific areas of the product (features), I provided the same person with a mock up (HTML and style) for him to incorporate into the React front-end.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
