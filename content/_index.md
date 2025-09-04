@@ -25,11 +25,14 @@ _These are my Azure, HCL, Linux Foundation and AWS certificates_:
 
 - **Cloud Native Lead** @ [Fujitsu](http://www.fujitsu.com)
 
-- Awarded the title of **Fujitsu Distinguished Engineer**
+- Awarded the title of **Fujitsu Distinguished Engineer** (2024)
 
   ![](img/FJ_RFDE.png)
 
 - [Fujitsu](http://www.fujitsu.com) **FUSION**/_Applications_ co-lead
+  
+  > FUSION is our technical community network designed to break down silos across teams, connect people, and unlock technical knowledge from across Fujitsu.
+  
 - Delivered talks on:
   - What is CI/CD
   - Test automation with MS Playwright and Azure Functions (C#, TS)
@@ -40,7 +43,8 @@ _These are my Azure, HCL, Linux Foundation and AWS certificates_:
 
 - Blogging
 - Mentoring
-- Collaborating with multiple clients on Azure and HCL solutions
+- `Early Careers` technical skills assessor
+- Collaborating with multiple clients using Azure and HCL solutions
 - Contributing DevSecOps expertise to support our proposal development
 - Some of the projects I have worked on for clients are:
 
