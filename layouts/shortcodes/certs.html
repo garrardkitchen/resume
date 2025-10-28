@@ -1,29 +1,17 @@
-{{ "<table>" | safeHTML }}
-    <!-- <thead>
-      <tr>
-        <th>Title</th>        
-      </tr>
-    </thead> -->
-    <tbody>
-        <tr>
-        
-      {{ range $.Site.Data.certs }}
-          
-        <td style="text-align: center;">
-            <img src="{{ .path }}" alt="{{ .title }}" title="{{ .title }}" />
-        </td>
-      {{ end }}
-        </tr>
-        <tr>
-     
-        {{ range $.Site.Data.certs }}
-        <td style="text-align: center;"><b>exp:</b> {{ .expiry }}</td>
-        
-     
-    {{ end }}
-
-</tr>
-    </tbody>
-  {{ "</table>" | safeHTML }}
-
-  {{ .Inner }}
+<div class="certs-grid">
+  {{ range $.Site.Data.certs }}
+    <div class="cert-card">
+      <div class="cert-image-wrapper">
+        <img src="{{ .path }}" alt="{{ .title }}" title="{{ .title }}" />
+      </div>
+      <div class="cert-info">
+        <h5 class="cert-title">{{ .title }}</h5>
+        <div class="cert-expiry {{ if eq .expiry "Retired" }}retired{{ else if eq .expiry "None" }}no-expiry{{ else }}active{{ end }}">
+          <span class="expiry-label">Expires:</span> 
+          <span class="expiry-date">{{ .expiry }}</span>
+        </div>
+      </div>
+    </div>
+  {{ end }}
+</div>
+{{ .Inner }}

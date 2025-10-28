@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Serverless on GPK</title>
-    <link>https://www.garrardkitchen.com/tags/serverless/</link>
+    <link>http://localhost:1313/tags/serverless/</link>
     <description>Recent content in Serverless on GPK</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
-    <atom:link href="https://www.garrardkitchen.com/tags/serverless/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/serverless/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Corporate Website</title>
-      <link>https://www.garrardkitchen.com/projects/creations/corporate-website/</link>
+      <link>http://localhost:1313/projects/creations/corporate-website/</link>
       <pubDate>Sun, 28 Apr 2019 17:31:27 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/projects/creations/corporate-website/</guid>
+      <guid>http://localhost:1313/projects/creations/corporate-website/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;Used mainly static content and ported new copy/layout to SAM Serverless Application C# .NET Core Razor Pages solution. Originally WP was in place, so removing MySQL reduced the cost. I created a CI/CD Pipeline using BitBucket.  It is now hosted via API Gateway &amp;amp; Lambda and not via an Azure Website.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Automation</title>
-      <link>https://www.garrardkitchen.com/projects/creations/automation/</link>
+      <link>http://localhost:1313/projects/creations/automation/</link>
       <pubDate>Sun, 28 Apr 2019 17:20:51 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/projects/creations/automation/</guid>
+      <guid>http://localhost:1313/projects/creations/automation/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;Serverless is ideal for so many use cases.  Automation is a prime example of where serverless technology can fit so well.&lt;/li&gt;&#xA;&lt;li&gt;I have used Lambdas and supporting services to help automating both mundane and configuration tasks.&lt;br&gt;&#xA;Some examples of these are; setting log retention durations on log group creations, log subscription and adding API Gateway API keys to SSM Parameter Store.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Migrations</title>
-      <link>https://www.garrardkitchen.com/projects/creations/migrations/</link>
+      <link>http://localhost:1313/projects/creations/migrations/</link>
       <pubDate>Sun, 28 Apr 2019 17:16:53 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/projects/creations/migrations/</guid>
+      <guid>http://localhost:1313/projects/creations/migrations/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Migrate Coach product away from a monolyth to being 100% serverless.  Main web platform hosted via ECS Fargate and all features, RESTul APIs be Lambda backed API Gateways and Step Functions.  Data repositories used are dynamoDB, ElasticSearch, Amazon Aurora (mySQL), Redis and S3.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Coach migrated from MSSQL to MySQL as costs were too high for Always-On capabilities. I was accepted onto Aurora MySQL Preview programme and contributed to this phase.  The product had a key dependency that required a specific version of MySQL. As a result we are now using Amazon Aurora and plan to migrate over to  Aurora Serverless when version 5.7 is supported.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Observability</title>
-      <link>https://www.garrardkitchen.com/projects/creations/observability/</link>
+      <link>http://localhost:1313/projects/creations/observability/</link>
       <pubDate>Sun, 28 Apr 2019 16:24:21 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/projects/creations/observability/</guid>
+      <guid>http://localhost:1313/projects/creations/observability/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The 3 pillars of observability (logging, metrics and tracing) presents new challenges for serverless solutions.&lt;/p&gt;&#xA;&lt;p&gt;Having experienced this first hand, I set about looking for a solution that will enable rapid root cause analysis to ultimately greatly reduce or even better, mitigate [think runbooks] known undesirable scenarios.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;I believe in positive Customer Experience (CX) and apply this philosophy across everything I do.&lt;/p&gt;&#xA;&lt;p&gt;I spent time with Datadog [a few months of meetings] discussing ways to help this serverless space to improve observability.  I was accepted onto a few of their beta programmes.  Coach’s cloud solution is 100% serverless which presents a unique challenge for tracing and logging.  I liked what Datadog additionally had to offer.  The company now uses their new APM for .NET Core and their Cloud Functions feature. Since then, I have, with the rest of the team, adopted a streamlined approach which is more workflow orientated. Using Epsagon for the lambda based solutions, Sentry.io for client-side and server-side error management.  All observability solutions were researched and implemented by me.  The company’s morning DSU, when necessary, use both Epsagon and Sentry.io to review priorities and where necessary, assign somebody to deal with an issue.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Serverless</title>
-      <link>https://www.garrardkitchen.com/projects/creations/serverless/</link>
+      <link>http://localhost:1313/projects/creations/serverless/</link>
       <pubDate>Sun, 28 Apr 2019 16:01:53 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/projects/creations/serverless/</guid>
+      <guid>http://localhost:1313/projects/creations/serverless/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Investigated ways to reduce time to market, end-client license costs, hosting costs and development costs.&lt;/p&gt;&#xA;&lt;p&gt;This research and later development efforts contributed to formulating and maintaining a best practice set of guidelines/principals covering all frameworks and languages employed to deliver a solution [product, automation and integrations].&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Used both Serverless Framework and SAM.  I use several IDEs, dependant on task/requirement, mainly VSCode, Rider, PyCharm and VS.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;These are samples of use cases where I have employed Serverless technologies: Websites (ASP.NET Core Razor), major features (utilising full AWS stack), automation (set log retention via CLoudWatch Events, set Log subscription, Set API Gateway Key and store in SSM).&lt;/p&gt;</description>
     </item>
   </channel>

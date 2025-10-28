@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cloudwatch Trigger on GPK</title>
-    <link>https://www.garrardkitchen.com/tags/cloudwatch-trigger/</link>
+    <link>http://localhost:1313/tags/cloudwatch-trigger/</link>
     <description>Recent content in Cloudwatch Trigger on GPK</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
-    <atom:link href="https://www.garrardkitchen.com/tags/cloudwatch-trigger/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/cloudwatch-trigger/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dashboard</title>
-      <link>https://www.garrardkitchen.com/projects/creations/dashboard/</link>
+      <link>http://localhost:1313/projects/creations/dashboard/</link>
       <pubDate>Sun, 28 Apr 2019 17:12:59 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/projects/creations/dashboard/</guid>
+      <guid>http://localhost:1313/projects/creations/dashboard/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;I have researched several big data solutions but found them either too costly, lead time too lengthy or too complicated.&lt;/p&gt;&#xA;&lt;p&gt;Coach needed something to present actionable data.  Not knowing whether the idea matched reality, I proposed a phase 1 release that would lead to feature enhancements that would naturally lead to something that would help more.  I architected an ETL and data analytics process that would generate separate JSON formatted data, persisted to S3 for a specific user after being processed by a Pandas dataframe.  Implemented using CloudWatch trigger, S3, Redis &amp;amp; lambdas and Amazon Aurora (MySQL).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Health of the SaaS product</title>
-      <link>https://www.garrardkitchen.com/projects/creations/health/</link>
+      <link>http://localhost:1313/projects/creations/health/</link>
       <pubDate>Sun, 28 Apr 2019 17:09:54 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/projects/creations/health/</guid>
+      <guid>http://localhost:1313/projects/creations/health/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;For me, CX (Customer Experience) is paramount.&lt;/li&gt;&#xA;&lt;li&gt;Even if there is an outage, the CX doesn’t have to suffer.  In my current project, there are key AWS services, as well as the CXcoach product, that are required to be running for the application to function.  I have architected both full systems and application features in such a way for them not to fail because of transient outages or worse and furthermore to provide instant feedback to users.  This also includes not losing anything that has yet to be persisted.&lt;/li&gt;&#xA;&lt;li&gt;I architected and implemented a serverless solution to check at regular intervals the state of key application services and other endpoints (e.g. app health check).  If an outage is experienced the ALB is switched to a Lambda backed LB where the user is provided with information up until the time the service(s) is back online.  This is all hooked into Slack and OpsGenie.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

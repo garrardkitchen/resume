@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Owasp on GPK</title>
-    <link>https://www.garrardkitchen.com/tags/owasp/</link>
+    <link>http://localhost:1313/tags/owasp/</link>
     <description>Recent content in Owasp on GPK</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
-    <atom:link href="https://www.garrardkitchen.com/tags/owasp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/owasp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Security</title>
-      <link>https://www.garrardkitchen.com/projects/creations/security/</link>
+      <link>http://localhost:1313/projects/creations/security/</link>
       <pubDate>Tue, 30 Apr 2019 11:47:28 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/projects/creations/security/</guid>
+      <guid>http://localhost:1313/projects/creations/security/</guid>
       <description>&lt;p&gt;These are some of the areas where I have dedicated my efforts when it comes to security:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;All vital and IPR associated systems are protected via MFA&lt;/li&gt;&#xA;&lt;li&gt;Grandular IAM permissions configured for AWS services, users and roles&lt;/li&gt;&#xA;&lt;li&gt;I always adhere to the Least Privilege Principle&lt;/li&gt;&#xA;&lt;li&gt;Web Application Firewall (OWASP)&lt;/li&gt;&#xA;&lt;li&gt;Web application XSS, SQL Injection, encoding, securing cookies, role &amp;amp; claims based authz&lt;/li&gt;&#xA;&lt;li&gt;I always encrypt data at rest and also when in transit&lt;/li&gt;&#xA;&lt;li&gt;I always encrypt systems credentials (including 3rd party&amp;rsquo;s) and always include extra layer of encryption&lt;/li&gt;&#xA;&lt;li&gt;All passwords are hashed&lt;/li&gt;&#xA;&lt;li&gt;To isolated blast radius of environments by separating dev/test &amp;amp; prod into different accounts. I restricted account user access in production&lt;/li&gt;&#xA;&lt;li&gt;When I need to share a password, I do it via keybase and I never accompanied it with username or other identifiable key.&lt;/li&gt;&#xA;&lt;li&gt;I use a password manager &amp;amp; where appropriate share credentials via this route (avoids colleague writing down and exposing during demo)&lt;/li&gt;&#xA;&lt;li&gt;I never show passwords via a communication platform (slack, skype, &amp;hellip;)&lt;/li&gt;&#xA;&lt;li&gt;If I use wifi, I use vyprvpn&lt;/li&gt;&#xA;&lt;li&gt;I educate my colleagues on the above actions &amp;amp; preventitive measures&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
