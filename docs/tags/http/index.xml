@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Http on GPK</title>
-    <link>http://localhost:1313/tags/http/</link>
+    <link>https://www.garrardkitchen.com/tags/http/</link>
     <description>Recent content in Http on GPK</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/http/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.garrardkitchen.com/tags/http/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Health of the SaaS product</title>
-      <link>http://localhost:1313/projects/creations/health/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/health/</link>
       <pubDate>Sun, 28 Apr 2019 17:09:54 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/health/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/health/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;For me, CX (Customer Experience) is paramount.&lt;/li&gt;&#xA;&lt;li&gt;Even if there is an outage, the CX doesn’t have to suffer.  In my current project, there are key AWS services, as well as the CXcoach product, that are required to be running for the application to function.  I have architected both full systems and application features in such a way for them not to fail because of transient outages or worse and furthermore to provide instant feedback to users.  This also includes not losing anything that has yet to be persisted.&lt;/li&gt;&#xA;&lt;li&gt;I architected and implemented a serverless solution to check at regular intervals the state of key application services and other endpoints (e.g. app health check).  If an outage is experienced the ALB is switched to a Lambda backed LB where the user is provided with information up until the time the service(s) is back online.  This is all hooked into Slack and OpsGenie.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

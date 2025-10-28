@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Azure Web Services on GPK</title>
-    <link>http://localhost:1313/tags/azure-web-services/</link>
+    <link>https://www.garrardkitchen.com/tags/azure-web-services/</link>
     <description>Recent content in Azure Web Services on GPK</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/azure-web-services/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.garrardkitchen.com/tags/azure-web-services/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>QTag</title>
-      <link>http://localhost:1313/projects/creations/qtag/</link>
+      <link>https://www.garrardkitchen.com/projects/creations/qtag/</link>
       <pubDate>Sun, 28 Apr 2019 16:09:25 +0100</pubDate>
-      <guid>http://localhost:1313/projects/creations/qtag/</guid>
+      <guid>https://www.garrardkitchen.com/projects/creations/qtag/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;For a particular integration, the necessary data for the integration was not discoverable. I architected a bespoke cloud based solution that used several Azure services.  The web app was written with node.js, Azure mobile services, table storage, service bus and Azure Web App (plus staging).&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
