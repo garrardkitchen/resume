@@ -20,6 +20,29 @@ _These are my Azure, HCL, Linux Foundation and AWS certificates_:
 
 ---
 
+## 🌟 Career Highlights
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 10px; margin: 1.5rem 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+
+### 🏆 **Recognition & Leadership**
+- **Fujitsu Distinguished Engineer** (2024) - Awarded for exceptional technical excellence and innovation
+- **FUSION Community Co-Lead** (2025) - Leading technical communities to break down silos and unlock knowledge across Fujitsu
+
+### 🎤 **Speaking & Thought Leadership**
+- **NDC London '23** (2023) - Sustainability Transformation in Tech
+- **Manchester Meetup** (2020) - Deep dive into Dapr, KEDA & NestJS framework
+
+### 💼 **Executive Leadership**
+- **Head of Cloud Platform** @ Carfinance247 (2018) - Led digital transformation using Azure Cloud Adoption Framework
+- **Chief Technology Officer** @ Qualtrak (2008) - 10+ years leading development teams in Contact Centre domain (Agent Evaluation & Coaching)
+
+### 🚀 **Industry Impact**
+- **Published AWS Quick Start** - [Connect Integration for Qualtrak Evaluate](https://github.com/qualtrak/connect-integration-qualtrak-evaluate)
+- **AWS Marketplace Product** - [Evaluate for Amazon Connect](https://aws.amazon.com/marketplace/pp/prodview-7dhd7dpeuvolc)
+
+</div>
+
+---
 
 ## Current position
 
