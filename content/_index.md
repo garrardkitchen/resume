@@ -23,44 +23,64 @@ _These are my Azure, HCL, Linux Foundation and AWS certificates_:
 
 ## Current position
 
-- **Cloud Native Lead** @ [Fujitsu](http://www.fujitsu.com)
+### **Cloud Native Lead** @ [Fujitsu](http://www.fujitsu.com)
 
-- Awarded the title of **Fujitsu Distinguished Engineer** (2024)
+#### 🏆 Recognition & Leadership
+
+- **Fujitsu Distinguished Engineer** (2024)
 
   ![](img/FJ_RFDE.png)
 
-- [Fujitsu](http://www.fujitsu.com) **FUSION**/_Applications_ co-lead
+- **FUSION**/_Applications_ co-lead
   
   > FUSION is our technical community network designed to break down silos across teams, connect people, and unlock technical knowledge from across Fujitsu.
-  
-- Delivered talks on:
-  - What is CI/CD
-  - Test automation with MS Playwright and Azure Functions (C#, TS)
-  - Models as Code
-  - Sustainability Transformation (NDC, London '23)
-  - Modern CI/CD
-  - .NET Aspire, the inner loop and the Azure Developer CLI ('AZD')
 
-- Blogging
-- Mentoring
+#### 🎤 Speaking Engagements
+
+Delivered technical talks on:
+- What is CI/CD
+- Test automation with MS Playwright and Azure Functions (C#, TS)
+- Models as Code
+- Sustainability Transformation (NDC, London '23)
+- Modern CI/CD
+- .NET Aspire, the inner loop and the Azure Developer CLI ('AZD')
+
+#### 👥 Community & Mentorship
+
+- Technical blogging and thought leadership
+- Mentoring engineers across the organization
 - `Early Careers` technical skills assessor
-- Collaborating with multiple clients using Azure and HCL solutions
-- Contributing DevSecOps expertise to support our proposal development
-- Some of the projects I have worked on for clients are:
+- Collaborating with multiple clients using **Azure** and **HCL** solutions
+- Contributing **DevSecOps** expertise to support proposal development
 
-  - Lead for Microsoft Team integrated intelligence in the digital workplace
-  - Architected and developed secure AI Agents (Azure AI Foundry) & MCP Servers using .NET Core, .NET Aspire and Dapr
-  - Demystified Azure Landing Zones and created a Framework (ALZIF) that delivers a scalable, secure, and modular foundation for deploying and managing cloud environments in Azure, aligning with best practices and organizational requirements. 
-  - Designed and built a Power App that connects to a backend .NET 8.0 C# API Azure Container Application using a Custom Connector, OAuth 2.0 and Entra ID. The backend API is secured by an APIM API that validates JWT tokens, including pre-authorize requests. I used Azure DevOps and AZD to deploy and manage the Power App, the backend API and the supporting infrastructure.
-  - Developed a remote state solution for Terraform that uses Azure Blob Storage with no public access, no Shared Access Keys and no public blob access. I used MSI and Private Endpoints to enable secure communication.
-  - Designed and delivered a Release Flow branching strategy that matches the customer’s release cycle and change request process, while reducing environmental impact and carbon emissions.
-  - Led the implementation of Scrum practices, such as Retrospectives and Blameless Post-Mortems, to enhance team collaboration and efficiency.
+#### 🚀 Key Client Projects & Achievements
+
+**AI & Intelligent Systems**
+- Lead for Microsoft Team focusing on integrated intelligence in the digital workplace
+- Architected (and developed) secure aolutions that use **AI Agents** (incl. Azure AI Foundry) & **MCP Servers** -  `.NET Aspire`, `Dapr`
+
+**Cloud Infrastructure & Architecture**
+- Demystified **Azure Landing Zones** and created a Framework (**ALZIF**) that delivers a scalable, secure, and modular foundation for deploying and managing cloud environments in Azure, aligning with best practices, policy driven compliance and organizational requirements
+- Developed a **secure remote state solution for Terraform** using Azure Blob Storage with zero public access, leveraging MSI and Private Endpoints
+
+**Application Development & Integration**
+- Designed and built a **Power App**
+  - Connected to a backend .NET 8.0 C# API (Azure Container Application) using Custom Connector, OAuth 2.0 and Microsoft Platform Identity
+  - Backend API secured by **APIM** with JWT token validation and pre-authorization
+  - Deployed using **Azure DevOps** and **AZD** for complete infrastructure and application lifecycle management
+
+**DevOps & Process Improvement**
+- Designed and delivered a **Release Flow branching strategy** aligned with customer release cycles and change management, while reducing environmental impact and carbon emissions
+- Led implementation of **Scrum practices**
+  - Redefined Retrospectives and Blameless Post-Mortems
+  - Improved release management through enhance team collaboration and efficiency resulting in time, resource savings
+  - Reduced cognative overload
   
 ---
 
 ## Previous positions
 
-- **Head of Cloud Platform** @ [Carfinance247](http://www.carfinance247.co.uk)
+**Head of Cloud Platform** @ [Carfinance247](http://www.carfinance247.co.uk)
 
 I am leading the digital transformation of Carfinance 247, where our infrastructure and hosting platforms are outdated. I am using the Azure Cloud Adaption Framework to help modernize our web applications, APIs (some microservices, mostly coarse-grained RESTful services), and workers. I have a lot of experience and enthusiasm for the cloud. I have always followed a **Cloud First** and **Serverless** approach on both the Azure and AWS cloud platforms. I am passionate about cloud-native, twelve-factor apps, patterns, standards, and their benefits for the enterprise and small business. I enjoy working with cloud providers the most.
 
