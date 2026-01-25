@@ -20,25 +20,73 @@ _These are my Azure, HCL, Linux Foundation and AWS certificates_:
 
 ---
 
+## 🛠️ Open Source Developer Tools
+
+<div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); padding: 2rem; border-radius: 15px; margin: 1.5rem 0; box-shadow: 0 8px 32px rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1);">
+
+<p style="text-align: center; color: #e94560; font-size: 1.1rem; margin-bottom: 1.5rem; font-weight: 500;">
+✨ Tools I've built to solve real developer problems ✨
+</p>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
+
+<div style="background: rgba(255,255,255,0.05); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #00d4ff; backdrop-filter: blur(10px);">
+<h4 style="color: #00d4ff; margin-top: 0; display: flex; align-items: center; gap: 0.5rem;">
+🔍 MCP Explorer
+</h4>
+<p style="color: #b8b8b8; font-size: 0.95rem; line-height: 1.6;">
+A comprehensive Blazor application for testing, debugging, and exploring Model Context Protocol (MCP) servers. It provides full transparency with open-source code, enabling developers to execute MCP tools, chain workflows together, and interact with AI-powered chat—all while keeping sensitive data encrypted with AES-256 protection.
+</p>
+<a href="https://mcp-explorer-docs.garrardkitchen.com/" target="_blank" style="display: inline-flex; align-items: center; gap: 0.5rem; background: linear-gradient(90deg, #00d4ff, #0099cc); color: #1a1a2e; padding: 0.6rem 1.2rem; border-radius: 25px; text-decoration: none; font-weight: 600; font-size: 0.9rem; transition: transform 0.2s;">
+📚 View Documentation →
+</a>
+</div>
+
+<div style="background: rgba(255,255,255,0.05); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #e94560; backdrop-filter: blur(10px);">
+<h4 style="color: #e94560; margin-top: 0; display: flex; align-items: center; gap: 0.5rem;">
+🔑 Entra Auth CLI
+</h4>
+<p style="color: #b8b8b8; font-size: 0.95rem; line-height: 1.6;">
+A powerful .NET global tool that simplifies Microsoft Entra ID (Azure AD) token generation across multiple OAuth2 flows. It eliminates the complexity of authentication by automatically selecting the right flow, securely storing secrets using platform-native encryption (Windows DPAPI/macOS Keychain), and supporting enterprise certificate authentication.
+</p>
+<a href="https://entra-auth-cli-docs.garrardkitchen.com/" target="_blank" style="display: inline-flex; align-items: center; gap: 0.5rem; background: linear-gradient(90deg, #e94560, #c23a51); color: #fff; padding: 0.6rem 1.2rem; border-radius: 25px; text-decoration: none; font-weight: 600; font-size: 0.9rem; transition: transform 0.2s;">
+📚 View Documentation →
+</a>
+</div>
+
+</div>
+
+</div>
+
+---
+
 ## 🌟 Career Highlights
 
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 10px; margin: 1.5rem 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 10px; margin: 1.5rem 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1); color: #ffffff;">
 
-### 🏆 **Recognition & Leadership**
-- **Fujitsu Distinguished Engineer** (2024) - Awarded for exceptional technical excellence and innovation
-- **FUSION Community Co-Lead** (2025) - Leading technical communities to break down silos and unlock knowledge across Fujitsu
+<h3 style="color: #ffffff;">🏆 <strong>Recognition & Leadership</strong></h3>
+<ul style="color: #ffffff;">
+<li><strong>Fujitsu Distinguished Engineer</strong> (2024) - Awarded for exceptional technical excellence and innovation</li>
+<li><strong>FUSION Community Co-Lead</strong> (2025) - Leading technical communities to break down silos and unlock knowledge across Fujitsu</li>
+</ul>
 
-### 🎤 **Speaking & Thought Leadership**
-- **NDC London '23** (2023) - Sustainability Transformation in Tech
-- **Manchester Meetup** (2020) - Deep dive into Dapr, KEDA & NestJS framework
+<h3 style="color: #ffffff;">🎤 <strong>Speaking & Thought Leadership</strong></h3>
+<ul style="color: #ffffff;">
+<li><strong>NDC London '23</strong> (2023) - Sustainability Transformation in Tech</li>
+<li><strong>Manchester Meetup</strong> (2020) - Deep dive into Dapr, KEDA & NestJS framework</li>
+</ul>
 
-### 💼 **Executive Leadership**
-- **Head of Cloud Platform** @ Carfinance247 (2018) - Led digital transformation using Azure Cloud Adoption Framework
-- **Chief Technology Officer** @ Qualtrak (2008) - 10+ years leading development teams in Contact Centre domain (Agent Evaluation & Coaching)
+<h3 style="color: #ffffff;">💼 <strong>Executive Leadership</strong></h3>
+<ul style="color: #ffffff;">
+<li><strong>Head of Cloud Platform</strong> @ Carfinance247 (2018) - Led digital transformation using Azure Cloud Adoption Framework</li>
+<li><strong>Chief Technology Officer</strong> @ Qualtrak (2008) - 10+ years leading development teams in Contact Centre domain (Agent Evaluation & Coaching)</li>
+</ul>
 
-### 🚀 **Industry Impact**
-- **Published AWS Quick Start** - [Connect Integration for Qualtrak Evaluate](https://github.com/qualtrak/connect-integration-qualtrak-evaluate)
-- **AWS Marketplace Product** - [Evaluate for Amazon Connect](https://aws.amazon.com/marketplace/pp/prodview-7dhd7dpeuvolc)
+<h3 style="color: #ffffff;">🚀 <strong>Industry Impact</strong></h3>
+<ul style="color: #ffffff;">
+<li><strong>Published AWS Quick Start</strong> - <a href="https://github.com/qualtrak/connect-integration-qualtrak-evaluate" style="color: #ffd700;">Connect Integration for Qualtrak Evaluate</a></li>
+<li><strong>AWS Marketplace Product</strong> - <a href="https://aws.amazon.com/marketplace/pp/prodview-7dhd7dpeuvolc" style="color: #ffd700;">Evaluate for Amazon Connect</a></li>
+</ul>
 
 </div>
 
