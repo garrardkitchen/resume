@@ -66,7 +66,7 @@ Delivered technical talks on:
 - Models as Code
 - Sustainability Transformation (NDC, London '23)
 - Modern CI/CD
-- .NET Aspire, the inner loop and the Azure Developer CLI ('AZD')
+- Aspire, the inner loop and the Azure Developer CLI ('AZD')
 
 #### 👥 Community & Mentorship
 
@@ -80,7 +80,7 @@ Delivered technical talks on:
 
 **AI & Intelligent Systems**
 - Lead for Microsoft Team focusing on integrated intelligence in the digital workplace
-- Architected (and developed) secure aolutions that use **AI Agents** (incl. Azure AI Foundry) & **MCP Servers** -  `.NET Aspire`, `Dapr`
+- Architected (and developed) secure aolutions that use **AI Agents** (incl. Azure AI Foundry) & **MCP Servers** -  `Aspire`, `Dapr`
 
 **Cloud Infrastructure & Architecture**
 - Demystified **Azure Landing Zones** and created a Framework (**ALZIF**) that delivers a scalable, secure, and modular foundation for deploying and managing cloud environments in Azure, aligning with best practices, policy driven compliance and organizational requirements

@@ -1,5 +1,18 @@
 [
     {
+        "grouping": "AI",
+        "skills": [
+            "LLM",
+            "MCP (+ spec)",
+            "Claude Code (+ CLI)",
+            "GitHub Copilot (+ CLI)",
+            "Claude Sonnet 4.5",
+            "Claude Opus 4.5",
+            "AI Foundry",
+            "MS Agent Framework"
+        ]
+    },
+    {
         "grouping": "Agile",
         "skills": [
             "Agile",
@@ -38,8 +51,8 @@
     {
         "grouping": "Microservices",
         "skills": [
-            ".NET Core 8.0",
-            ".NET Aspire",
+            ".NET 10.0",
+            "Aspire",
             "ASP.NET Core",
             "NodeJS",
             "TypeScript",
@@ -168,7 +181,7 @@
         "skills": [
             "C#",
             "Blazor",
-            ".NET Aspire 9.2",
+            "Aspire 13.2",
             "AZD (Azure Developer CLI)",
             "NodeJS",
             "Java",
@@ -202,8 +215,9 @@
             ".NET Core 2.1 - 9.0",            
             ".NET Frameworks 4.8",                      
             "ASP.NET Core",
+            ".NET",
             "ASP.NET",
-            ".NET Aspire",
+            "Aspire",
             "TypeScript",  
             "Razor Pages",
             "Blazor"
@@ -228,6 +242,10 @@
     {
         "grouping": "IDEs, Dev Tools & Productivities Tools",
         "skills": [
+            "Claude Code",
+            "Claude Code CLI",
+            "GitHub Copilot",
+            "GitHub Copilot CLI",
             "Visual Studio",
             "VSCode",
             "Rider",
