@@ -54,6 +54,18 @@ A powerful .NET global tool that simplifies Microsoft Entra ID (Azure AD) token 
 </a>
 </div>
 
+<div style="background: rgba(255,255,255,0.05); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #7c3aed; backdrop-filter: blur(10px);">
+<h4 style="color: #7c3aed; margin-top: 0; display: flex; align-items: center; gap: 0.5rem;">
+🧾 GitLab Summary
+</h4>
+<p style="color: #b8b8b8; font-size: 0.95rem; line-height: 1.6;">
+An open-source tool that generates concise, actionable summaries for GitLab projects and merge requests. It leverages AI (Copilot SDK) to analyze failed pipeline jobs, providing intelligent insights into errors and root causes. This helps teams quickly understand changes, key decisions, and context across activity, reducing review time and improving collaboration.
+</p>
+<a href="https://gitlab-summary-docs.garrardkitchen.com/" target="_blank" style="display: inline-flex; align-items: center; gap: 0.5rem; background: linear-gradient(90deg, #7c3aed, #5b21b6); color: #fff; padding: 0.6rem 1.2rem; border-radius: 25px; text-decoration: none; font-weight: 600; font-size: 0.9rem; transition: transform 0.2s;">
+📚 View Documentation →
+</a>
+</div>
+
 </div>
 
 </div>
