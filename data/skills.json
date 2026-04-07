@@ -6,8 +6,9 @@
             "MCP (+ spec)",
             "Claude Code (+ CLI)",
             "GitHub Copilot (+ CLI)",
-            "Claude Sonnet 4.5",
-            "Claude Opus 4.5",
+            "Claude Sonnet 4.6",
+            "Claude Opus 4.6",
+            "GPT-5.4",
             "AI Foundry",
             "MS Agent Framework"
         ]
