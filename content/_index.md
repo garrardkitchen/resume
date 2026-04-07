@@ -78,6 +78,30 @@ A pair of cross-platform .NET global tools for secure, zero-infrastructure peer-
 </a>
 </div>
 
+<div style="background: rgba(255,255,255,0.05); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #ff6b35; backdrop-filter: blur(10px);">
+<h4 style="color: #ff6b35; margin-top: 0; display: flex; align-items: center; gap: 0.5rem;">
+🎬 GIF Creator
+</h4>
+<p style="color: #b8b8b8; font-size: 0.95rem; line-height: 1.6;">
+A browser-based tool for creating safer, sharper GIFs with AI-assisted redaction, animated title frames, and fast export controls. It detects sensitive content — passwords, API keys, emails — on individual frames with a single click, lets you propagate blur regions across remaining frames automatically, and supports scene-aware frame extraction (fixed FPS, all frames, or scene-change) to keep output sizes lean. Branded animated intro/outro cards, quality presets, and a live encode queue make the full workflow from raw recording to shareable GIF seamless and secure.
+</p>
+<a href="https://gif-creator-docs.garrardkitchen.com/" target="_blank" style="display: inline-flex; align-items: center; gap: 0.5rem; background: linear-gradient(90deg, #ff6b35, #cc5228); color: #fff; padding: 0.6rem 1.2rem; border-radius: 25px; text-decoration: none; font-weight: 600; font-size: 0.9rem; transition: transform 0.2s;">
+📚 View Documentation →
+</a>
+</div>
+
+<div style="background: rgba(255,255,255,0.05); padding: 1.5rem; border-radius: 12px; border-left: 4px solid #a78bfa; backdrop-filter: blur(10px);">
+<h4 style="color: #a78bfa; margin-top: 0; display: flex; align-items: center; gap: 0.5rem;">
+🔌 MCP Explorer X
+</h4>
+<p style="color: #b8b8b8; font-size: 0.95rem; line-height: 1.6;">
+A Docker-first developer workbench for the Model Context Protocol, built with Vue 3 and ASP.NET Core. It lets you browse tools, run prompts, inspect resources, and chat with LLMs — all over live MCP connections. Key features include SSE-streamed AI chat with automatic tool calling, a workflow builder for chaining MCP tools into multi-step pipelines with built-in load testing, multi-provider LLM support (OpenAI, Azure OpenAI, Azure AI Foundry, Ollama, and more), heuristic secret detection with AES-256 encryption at rest, and Azure Key Vault integration for credential management. Ships as a single container image with zero external dependencies.
+</p>
+<a href="https://mcp-explorer-x-docs.garrardkitchen.com/" target="_blank" style="display: inline-flex; align-items: center; gap: 0.5rem; background: linear-gradient(90deg, #a78bfa, #7c5cbf); color: #fff; padding: 0.6rem 1.2rem; border-radius: 25px; text-decoration: none; font-weight: 600; font-size: 0.9rem; transition: transform 0.2s;">
+📚 View Documentation →
+</a>
+</div>
+
 </div>
 
 </div>
