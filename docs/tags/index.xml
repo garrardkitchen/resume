@@ -1,13 +1,160 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on GPK</title>
+    <title>Tags on Garrard Kitchen</title>
     <link>https://www.garrardkitchen.com/tags/</link>
-    <description>Recent content in Tags on GPK</description>
+    <description>Recent content in Tags on Garrard Kitchen</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Apr 2020 11:14:39 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.garrardkitchen.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>.NET</title>
+      <link>https://www.garrardkitchen.com/tags/.net/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.garrardkitchen.com/tags/.net/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Aspire</title>
+      <link>https://www.garrardkitchen.com/tags/aspire/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.garrardkitchen.com/tags/aspire/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Azure AI Foundry</title>
+      <link>https://www.garrardkitchen.com/tags/azure-ai-foundry/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.garrardkitchen.com/tags/azure-ai-foundry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dapr</title>
+      <link>https://www.garrardkitchen.com/tags/dapr/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.garrardkitchen.com/tags/dapr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MCP</title>
+      <link>https://www.garrardkitchen.com/tags/mcp/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.garrardkitchen.com/tags/mcp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>https://www.garrardkitchen.com/tags/security/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.garrardkitchen.com/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Azure</title>
+      <link>https://www.garrardkitchen.com/tags/azure/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.garrardkitchen.com/tags/azure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Governance</title>
+      <link>https://www.garrardkitchen.com/tags/governance/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.garrardkitchen.com/tags/governance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Landing Zones</title>
+      <link>https://www.garrardkitchen.com/tags/landing-zones/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.garrardkitchen.com/tags/landing-zones/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Networking</title>
+      <link>https://www.garrardkitchen.com/tags/networking/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.garrardkitchen.com/tags/networking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Terraform</title>
+      <link>https://www.garrardkitchen.com/tags/terraform/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.garrardkitchen.com/tags/terraform/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>API Management</title>
+      <link>https://www.garrardkitchen.com/tags/api-management/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.garrardkitchen.com/tags/api-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AZD</title>
+      <link>https://www.garrardkitchen.com/tags/azd/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.garrardkitchen.com/tags/azd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Azure Container Apps</title>
+      <link>https://www.garrardkitchen.com/tags/azure-container-apps/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.garrardkitchen.com/tags/azure-container-apps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OAuth 2.0</title>
+      <link>https://www.garrardkitchen.com/tags/oauth-2.0/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.garrardkitchen.com/tags/oauth-2.0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Power Apps</title>
+      <link>https://www.garrardkitchen.com/tags/power-apps/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.garrardkitchen.com/tags/power-apps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AKS</title>
+      <link>https://www.garrardkitchen.com/tags/aks/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.garrardkitchen.com/tags/aks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CI/CD</title>
+      <link>https://www.garrardkitchen.com/tags/ci/cd/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.garrardkitchen.com/tags/ci/cd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud Adoption Framework</title>
+      <link>https://www.garrardkitchen.com/tags/cloud-adoption-framework/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.garrardkitchen.com/tags/cloud-adoption-framework/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Observability</title>
+      <link>https://www.garrardkitchen.com/tags/observability/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.garrardkitchen.com/tags/observability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Private Link</title>
+      <link>https://www.garrardkitchen.com/tags/private-link/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.garrardkitchen.com/tags/private-link/</guid>
+      <description></description>
+    </item>
     <item>
       <title>At Rest</title>
       <link>https://www.garrardkitchen.com/tags/at-rest/</link>
@@ -55,13 +202,6 @@
       <link>https://www.garrardkitchen.com/tags/password-manager/</link>
       <pubDate>Tue, 30 Apr 2019 11:47:28 +0100</pubDate>
       <guid>https://www.garrardkitchen.com/tags/password-manager/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Security</title>
-      <link>https://www.garrardkitchen.com/tags/security/</link>
-      <pubDate>Tue, 30 Apr 2019 11:47:28 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/security/</guid>
       <description></description>
     </item>
     <item>
@@ -118,13 +258,6 @@
       <link>https://www.garrardkitchen.com/tags/api-gateway/</link>
       <pubDate>Sun, 28 Apr 2019 17:31:27 +0100</pubDate>
       <guid>https://www.garrardkitchen.com/tags/api-gateway/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>CI/CD</title>
-      <link>https://www.garrardkitchen.com/tags/ci/cd/</link>
-      <pubDate>Sun, 28 Apr 2019 17:31:27 +0100</pubDate>
-      <guid>https://www.garrardkitchen.com/tags/ci/cd/</guid>
       <description></description>
     </item>
     <item>

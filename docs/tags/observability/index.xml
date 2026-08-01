@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Observability on Garrard Kitchen</title>
+    <link>https://www.garrardkitchen.com/tags/observability/</link>
+    <description>Recent content in Observability on Garrard Kitchen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.garrardkitchen.com/tags/observability/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building an Azure platform that product teams could operate</title>
+      <link>https://www.garrardkitchen.com/work/azure-platform-transformation/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.garrardkitchen.com/work/azure-platform-transformation/</guid>
+      <description>&lt;h2 id=&#34;the-problem&#34;&gt;The problem&lt;/h2&gt;&#xA;&lt;p&gt;The existing estate combined ageing hosting with a mix of application generations. Modernisation needed to address compute, networking, security, observability and delivery as a connected platform problem.&lt;/p&gt;&#xA;&lt;h2 id=&#34;my-contribution&#34;&gt;My contribution&lt;/h2&gt;&#xA;&lt;p&gt;I designed and led the new Azure platform, including AKS, hub-and-spoke networking, access to private endpoints from the corporate network, and DNS resolution across Azure and on-premises environments. I also shaped CI/CD for .NET Framework, modern .NET and Node.js workloads, with an emphasis on reducing delivery complexity.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

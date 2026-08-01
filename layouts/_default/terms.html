@@ -1,0 +1,4 @@
+{{ define "main" }}
+<header class="page-hero"><div class="shell narrow"><p class="eyebrow">Index</p><h1>{{ .Title }}</h1><p class="page-lede">Browse the historical project archive by topic.</p></div></header>
+<section class="section shell narrow"><div class="tag-index">{{ range .Data.Terms.Alphabetical }}<a href="{{ .Page.RelPermalink }}"><span>{{ .Page.Title }}</span><small>{{ .Count }}</small></a>{{ end }}</div></section>
+{{ end }}

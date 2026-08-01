@@ -1,0 +1,44 @@
+[
+  {
+    "name": "MCP Explorer X",
+    "mark": "MX",
+    "description": "A Docker-first developer workbench for exploring MCP tools, prompts and resources, building workflows, and working with multiple LLM providers.",
+    "url": "https://mcp-explorer-x-docs.garrardkitchen.com/",
+    "meta": "Vue 3 · ASP.NET Core · Docker · MCP"
+  },
+  {
+    "name": "Entra Auth CLI",
+    "mark": "EA",
+    "description": "A cross-platform .NET global tool that simplifies Microsoft Entra ID token generation across common OAuth 2.0 flows.",
+    "url": "https://entra-auth-cli-docs.garrardkitchen.com/",
+    "meta": ".NET · OAuth 2.0 · Entra ID"
+  },
+  {
+    "name": "GitLab Summary",
+    "mark": "GS",
+    "description": "AI-assisted summaries of GitLab projects, merge requests and failed pipelines, designed to reduce the time needed to find useful context.",
+    "url": "https://gitlab-summary-docs.garrardkitchen.com/",
+    "meta": "AI · GitLab · Developer experience"
+  },
+  {
+    "name": "Cloud Share",
+    "mark": "CS",
+    "description": "Secure peer-to-peer file and text sharing through temporary public HTTPS endpoints, without running dedicated infrastructure.",
+    "url": "https://cloud-share-docs.garrardkitchen.com/",
+    "meta": ".NET · Dev Tunnels · Encryption"
+  },
+  {
+    "name": "GIF Creator",
+    "mark": "GC",
+    "description": "A browser-based workflow for producing polished GIFs with sensitive-content redaction, title frames and practical export controls.",
+    "url": "https://gif-creator-docs.garrardkitchen.com/",
+    "meta": "AI redaction · Browser tooling · Security"
+  },
+  {
+    "name": "MCP Explorer",
+    "mark": "ME",
+    "description": "The original Blazor workbench for testing, debugging and exploring MCP servers, including tool execution, workflows and AI chat.",
+    "url": "https://mcp-explorer-docs.garrardkitchen.com/",
+    "meta": "Blazor · MCP · AES-256"
+  }
+]

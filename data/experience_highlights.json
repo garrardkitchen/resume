@@ -1,0 +1,32 @@
+[
+  {
+    "role": "Fujitsu Distinguished Engineer",
+    "company": "Fujitsu UK",
+    "summary": "Recognised for sustained technical excellence, innovation and influence. I use the role to set direction, mentor engineers, connect technical communities and help teams make stronger architecture and delivery decisions.",
+    "range": "Mar 2024 - Present"
+  },
+  {
+    "role": "Cloud Native Lead",
+    "company": "Fujitsu UK",
+    "summary": "I lead technical delivery across Azure platforms and cloud-native applications, currently focusing on a high-priority modern workplace agentic platform. My work spans AI agents and MCP, application architecture, secure platform foundations, DevSecOps, policy-driven governance and hands-on reference implementations.",
+    "range": "May 2022 - Present"
+  },
+  {
+    "role": "Head of Cloud Platform",
+    "company": "Carfinance247",
+    "summary": "Led the creation and governance of a new Azure cloud platform for a wider digital transformation. Designed AKS-based hosting, hub-and-spoke networking, private connectivity, DNS, observability and CI/CD approaches that supported the migration of .NET and Node.js workloads while making the delivery path easier for engineering teams to operate.",
+    "range": "Feb 2021 - May 2022"
+  },
+  {
+    "role": "Principal Engineer",
+    "company": "Carfinance247",
+    "summary": "Worked across product and platform teams to shape high-level architecture, engineering standards and cloud adoption. Combined active delivery with proofs of concept, coaching and technical talks, including practical work with serverless platforms, NestJS, Dapr and KEDA.",
+    "range": "May 2019 - Jan 2021"
+  },
+  {
+    "role": "Chief Technology Officer",
+    "company": "Qualtrak Solutions",
+    "summary": "Led a distributed European engineering team and the technical direction of contact-centre quality and coaching products for more than a decade. Introduced agile delivery and CI/CD, architected product and integration platforms, worked with global partners, and remained hands-on in development. Delivered an AWS Quick Start and supported a product listing in AWS Marketplace for Amazon Connect.",
+    "range": "Sep 2008 - Apr 2019"
+  }
+]

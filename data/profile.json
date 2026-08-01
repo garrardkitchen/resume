@@ -1,0 +1,40 @@
+{
+  "eyebrow": "Azure Cloud Native Lead · Fujitsu Distinguished Engineer",
+  "headline": "I make complex cloud platforms clear, secure and deliverable.",
+  "introduction": "I help organisations turn ambitious Azure programmes into scalable platforms and working software—connecting architecture, application engineering, DevSecOps and the people who deliver them.",
+  "currentFocus": "Leading technical delivery for a modern workplace agentic platform across AI agents, MCP, Azure and policy-driven governance.",
+  "principles": [
+    {
+      "name": "Secure by Design",
+      "statement": "Identity, policy and threat thinking are architecture inputs.",
+      "detail": "Security is designed into the platform and delivery path, rather than becoming a gate at the end."
+    },
+    {
+      "name": "Cloud First",
+      "statement": "Use managed capabilities deliberately—not automatically.",
+      "detail": "Choose the smallest, clearest architecture that meets resilience, operability and business needs."
+    },
+    {
+      "name": "Green by Design",
+      "statement": "Efficiency is a technical and commercial concern.",
+      "detail": "Reduce waste across infrastructure, build pipelines and team processes while protecting delivery outcomes."
+    }
+  ],
+  "speaking": [
+    {
+      "title": "Sustainability Transformation in Tech",
+      "event": "NDC London",
+      "year": "2023"
+    },
+    {
+      "title": "Dapr, KEDA and the NestJS framework",
+      "event": "Manchester technical meetup",
+      "year": "2020"
+    },
+    {
+      "title": "Modern delivery and cloud-native engineering",
+      "event": "Internal talks and technical communities",
+      "year": "Ongoing"
+    }
+  ]
+}

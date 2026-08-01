@@ -1,0 +1,7 @@
+{
+  "name": "Garrard Kitchen",
+  "title": "Azure Cloud Native Lead and Fujitsu Distinguished Engineer",
+  "description": "Azure cloud-native leadership across secure platforms, application engineering, DevSecOps and developer tooling.",
+  "url": "{{ .Permalink }}",
+  "sections": ["work", "tools", "credentials", "skills", "experience", "contact"]
+}

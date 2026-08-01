@@ -1,0 +1,17 @@
+{{ define "main" }}
+<header class="page-hero"><div class="shell narrow"><p class="eyebrow">Portfolio</p><h1>{{ .Title }}</h1><p class="page-lede">{{ .Description }}</p>{{ with .Content }}<div class="page-intro">{{ . }}</div>{{ end }}</div></header>
+<section class="section shell">
+  <div class="work-grid list-grid">
+    {{ range .Pages.ByWeight }}
+      <article class="work-card">
+        <p class="card-kicker">{{ .Params.area }}</p>
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p>{{ .Description }}</p>
+        <div class="tag-row">{{ range .Params.tags }}<span class="tag">{{ . }}</span>{{ end }}</div>
+        <a class="card-link" href="{{ .RelPermalink }}">Read case study <span aria-hidden="true">→</span></a>
+      </article>
+    {{ end }}
+  </div>
+  <aside class="archive-callout"><div><p class="eyebrow">Extended archive</p><h2>More projects from across my career</h2></div><div><p>The original portfolio remains available for visitors who want deeper historical evidence across SaaS, serverless, CI/CD, integrations, security, data and product engineering.</p><a class="button secondary" href="{{ "projects/creations/" | relURL }}">Browse the project archive</a></div></aside>
+</section>
+{{ end }}

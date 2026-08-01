@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terraform on Garrard Kitchen</title>
+    <link>https://www.garrardkitchen.com/tags/terraform/</link>
+    <description>Recent content in Terraform on Garrard Kitchen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.garrardkitchen.com/tags/terraform/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making Azure landing zones easier to understand and adopt</title>
+      <link>https://www.garrardkitchen.com/work/azure-landing-zone-framework/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.garrardkitchen.com/work/azure-landing-zone-framework/</guid>
+      <description>&lt;h2 id=&#34;the-problem&#34;&gt;The problem&lt;/h2&gt;&#xA;&lt;p&gt;Azure landing zones span organisational structure, identity, networking, security, policy and operations. The challenge is rarely a lack of documentation; it is turning that breadth into an implementation that teams can understand and maintain.&lt;/p&gt;&#xA;&lt;h2 id=&#34;my-contribution&#34;&gt;My contribution&lt;/h2&gt;&#xA;&lt;p&gt;I created the Azure Landing Zone Implementation Framework (ALZIF) to provide a modular route from requirements to a governed cloud foundation. I combined architecture guidance with infrastructure-as-code patterns and practical implementation decisions, including a secure Terraform remote-state design using managed identity, private endpoints and storage with no public access.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

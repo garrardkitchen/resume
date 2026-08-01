@@ -1,0 +1,4 @@
+{{ define "main" }}
+<header class="page-hero"><div class="shell narrow"><a class="back-link" href="{{ "tags/" | relURL }}">← All topics</a><p class="eyebrow">Topic</p><h1>{{ .Title }}</h1></div></header>
+<section class="section shell narrow"><div class="article-list">{{ range .Pages }}<article><div><p class="card-kicker">{{ .Section }}</p><h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2><p>{{ .Description }}</p></div><a class="circle-link" href="{{ .RelPermalink }}">→</a></article>{{ end }}</div></section>
+{{ end }}

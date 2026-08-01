@@ -1,0 +1,21 @@
+{{ $home := site.Home.RelPermalink }}
+<header class="site-header" data-site-header>
+  <nav class="site-nav shell" aria-label="Primary navigation">
+    <a class="brand" href="{{ $home }}" aria-label="Garrard Kitchen, home">
+      <span class="monogram" aria-hidden="true">GK</span>
+      <span class="brand-name">Garrard Kitchen<small>Azure cloud native lead</small></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu" data-nav-toggle>
+      <span></span><span></span><span></span><span class="sr-only">Menu</span>
+    </button>
+    <div class="nav-menu" id="site-menu" data-nav-menu>
+      <a href="{{ $home }}#work">Work</a>
+      <a href="{{ $home }}#tools">Tools</a>
+      <a href="{{ $home }}#credentials">Credentials</a>
+      <a href="{{ $home }}#experience">Experience</a>
+      <a href="https://blog-dev.garrardkitchen.com/">Writing <span aria-hidden="true">↗</span></a>
+      <a class="nav-resume" href="{{ "resume.pdf" | relURL }}">Résumé</a>
+      <a class="nav-contact" href="mailto:{{ site.Params.email }}">Contact <span aria-hidden="true">↗</span></a>
+    </div>
+  </nav>
+</header>

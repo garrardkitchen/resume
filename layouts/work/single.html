@@ -1,0 +1,12 @@
+{{ define "main" }}
+<article>
+  <header class="case-hero"><div class="shell narrow"><a class="back-link" href="{{ "work/" | relURL }}">← Selected work</a><p class="eyebrow">{{ .Params.area }} · Case study</p><h1>{{ .Title }}</h1><p class="page-lede">{{ .Description }}</p><div class="tag-row">{{ range .Params.tags }}<span class="tag">{{ . }}</span>{{ end }}</div></div></header>
+  <section class="case-summary shell">
+    <div><span>01</span><h2>Problem</h2><p>{{ .Params.problem }}</p></div>
+    <div><span>02</span><h2>Contribution</h2><p>{{ .Params.contribution }}</p></div>
+    <div><span>03</span><h2>Outcome</h2><p>{{ .Params.outcome }}</p></div>
+  </section>
+  <section class="prose shell narrow">{{ .Content }}</section>
+  <footer class="next-step shell narrow"><p class="eyebrow">Discuss this work</p><h2>Facing a related platform or application challenge?</h2><a class="button primary" href="mailto:{{ site.Params.email }}">Start a conversation <span aria-hidden="true">↗</span></a></footer>
+</article>
+{{ end }}

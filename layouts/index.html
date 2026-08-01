@@ -1,0 +1,172 @@
+{{ define "main" }}
+{{ $profile := site.Data.profile }}
+<section class="hero" id="top">
+  <div class="hero-grid shell">
+    <div class="hero-copy">
+      <p class="eyebrow">{{ $profile.eyebrow }}</p>
+      <h1>I make complex cloud platforms <span>clear, secure and deliverable.</span></h1>
+      <p class="hero-lede">{{ $profile.introduction }}</p>
+      <div class="actions">
+        <a class="button primary" href="#work">See selected work <span aria-hidden="true">↓</span></a>
+        <a class="button secondary" href="{{ "resume.pdf" | relURL }}">View résumé</a>
+      </div>
+      <ul class="hero-links" aria-label="Professional links">
+        <li><a href="https://www.linkedin.com/in/garrard-kitchen/">LinkedIn <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://github.com/garrardkitchen/">GitHub <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://blog-dev.garrardkitchen.com/">Technical writing <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </div>
+    <aside class="portrait-card" aria-label="Current professional focus">
+      <img src="{{ site.Params.profileImage }}?s=900" alt="Garrard Kitchen" width="720" height="900">
+      <div class="portrait-note">
+        <strong>Current focus</strong>
+        <span>{{ $profile.currentFocus }}</span>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<div class="proof-wrap shell">
+  <section class="proof-row" aria-label="Professional highlights">
+    <div class="proof"><strong>30+ years</strong><span>Engineering and technical leadership</span></div>
+    <div class="proof"><strong>{{ len site.Data.tools }} tools</strong><span>Free, documented developer products</span></div>
+    <div class="proof"><strong>Distinguished</strong><span>Fujitsu engineering recognition, 2024</span></div>
+    <div class="proof"><strong>Platform → code</strong><span>Infrastructure and applications</span></div>
+  </section>
+</div>
+
+<section class="section shell" id="work">
+  <header class="section-head">
+    <div><p class="eyebrow">Selected work</p><h2>Architecture with a job to do.</h2></div>
+    <div><p>Cloud foundations, applications and delivery practices framed around the problem, my contribution and the outcome.</p><a class="text-link" href="{{ "work/" | relURL }}">See all selected work <span aria-hidden="true">→</span></a></div>
+  </header>
+  <div class="work-grid">
+    {{ with site.GetPage "/work" }}
+      {{ range first 4 (where .Pages.ByWeight "Params.featured" true) }}
+        <article class="work-card">
+          <p class="card-kicker">{{ .Params.area }}</p>
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p>{{ .Description }}</p>
+          <div class="tag-row">{{ range first 4 .Params.tags }}<span class="tag">{{ . }}</span>{{ end }}</div>
+          <a class="card-link" href="{{ .RelPermalink }}" aria-label="Read case study: {{ .Title }}">Read case study <span aria-hidden="true">→</span></a>
+        </article>
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
+
+<section class="principles section">
+  <div class="shell">
+    <header class="section-head inverse">
+      <div><p class="eyebrow">How I lead</p><h2>Three principles, end to end.</h2></div>
+      <p>From the first whiteboard sketch through to production operations.</p>
+    </header>
+    <div class="principle-list">
+      {{ range $index, $principle := $profile.principles }}
+        <article class="principle">
+          <span class="principle-number">0{{ add $index 1 }}</span>
+          <div><p>{{ $principle.name }}</p><h3>{{ $principle.statement }}</h3></div>
+          <p>{{ $principle.detail }}</p>
+        </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section tools-section" id="tools">
+  <div class="shell">
+    <header class="section-head">
+      <div><p class="eyebrow">Developer tools</p><h2>Proof that ships in the open.</h2></div>
+      <p>I build free, documented tools that solve practical developer problems across AI, identity, security and collaboration.</p>
+    </header>
+    <div class="tool-grid">
+      {{ range site.Data.tools }}
+        <a class="tool-card" href="{{ .url }}">
+          <span class="tool-mark" aria-hidden="true">{{ .mark }}</span>
+          <span class="tool-copy"><strong>{{ .name }}</strong><span>{{ .description }}</span><small>{{ .meta }}</small></span>
+          <span class="tool-arrow" aria-hidden="true">↗</span>
+        </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section credentials" id="credentials">
+  <div class="shell">
+    <header class="section-head">
+      <div><p class="eyebrow">Credentials and capability</p><h2>Depth you can inspect.</h2></div>
+      <p>The concise profile comes first; the complete, data-driven certification and skills record remains available for technical reviewers.</p>
+    </header>
+
+    <div class="credential-heading">
+      <div><h3>Certifications</h3><p>{{ len site.Data.certs }} credentials across Azure, HashiCorp, green software and AWS.</p></div>
+      <button class="quiet-button" type="button" data-cert-toggle aria-expanded="false">Show all certifications</button>
+    </div>
+    <div class="cert-grid" data-cert-grid>
+      {{ range $index, $cert := site.Data.certs }}
+        <article class="cert-card{{ if ge $index 6 }} cert-extra{{ end }}">
+          <div class="cert-image"><img src="{{ $cert.path | relURL }}" alt="" loading="lazy"></div>
+          <div><h4>{{ $cert.title }}</h4><p class="cert-status {{ if eq $cert.expiry "Retired" }}retired{{ else if eq $cert.expiry "None" }}permanent{{ end }}">{{ if eq $cert.expiry "None" }}No expiry{{ else if eq $cert.expiry "Retired" }}Retired credential{{ else }}Valid / expiry: {{ $cert.expiry }}{{ end }}</p></div>
+        </article>
+      {{ end }}
+    </div>
+
+    {{ $skillCount := newScratch }}{{ $skillCount.Set "total" 0 }}
+    {{ range site.Data.skills }}{{ $skillCount.Add "total" (len .skills) }}{{ end }}
+    <div class="skills-heading">
+      <div><h3>Skills</h3><p>{{ $skillCount.Get "total" }} entries across {{ len site.Data.skills }} capability groups, sourced directly from the résumé data.</p></div>
+      <div class="skill-actions"><label class="skill-search"><span class="sr-only">Filter skills</span><input type="search" placeholder="Filter skills…" data-skill-search></label><button class="quiet-button" type="button" data-skills-toggle aria-expanded="false">Expand all</button></div>
+    </div>
+    <p class="skill-empty" data-skill-empty hidden>No matching skills found.</p>
+    <div class="skill-groups" data-skill-groups>
+      {{ range $index, $group := site.Data.skills }}
+        <details class="skill-group" data-skill-group{{ if lt $index 3 }} open{{ end }}>
+          <summary><span>{{ $group.grouping }}</span><small>{{ len $group.skills }} capabilities</small><i aria-hidden="true"></i></summary>
+          <ul>
+            {{ range $group.skills }}
+              {{ if reflect.IsMap . }}<li data-skill="{{ lower .name }}"><a href="{{ .link }}">{{ .name }}</a></li>{{ else }}<li data-skill="{{ lower . }}">{{ . }}</li>{{ end }}
+            {{ end }}
+          </ul>
+        </details>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section experience-section" id="experience">
+  <div class="shell">
+    <header class="section-head">
+      <div><p class="eyebrow">Experience</p><h2>Builder. Architect. Multiplier.</h2></div>
+      <p>A complete career history, from early application and BI roles through CTO, platform leadership and distinguished engineering.</p>
+    </header>
+    <div class="timeline">
+      {{ range site.Data.experience_highlights }}
+        <article class="timeline-item"><div class="timeline-date">{{ .range }}</div><div><h3>{{ .role }}</h3><p class="timeline-company">{{ .company }}</p><p>{{ .summary }}</p></div></article>
+      {{ end }}
+    </div>
+    <details class="earlier-career">
+      <summary><span>Earlier career</span><small>{{ sub (len site.Data.experience) 5 }} additional roles</small><i aria-hidden="true"></i></summary>
+      <div class="timeline compact">
+        {{ range after 5 site.Data.experience }}
+          <article class="timeline-item"><div class="timeline-date">{{ .range }}</div><div><h3>{{ .role }}</h3><p class="timeline-company">{{ .company }}</p><p>{{ .summary }}</p></div></article>
+        {{ end }}
+      </div>
+    </details>
+    <div class="education-strip">
+      <div><p class="eyebrow">Education</p><h3>Formal foundations and continued development</h3></div>
+      <div class="education-list">{{ range site.Data.education }}<article><strong>{{ .degree }}</strong><span>{{ .school }}</span><small>{{ .major }} · {{ .range }}</small></article>{{ end }}</div>
+    </div>
+  </div>
+</section>
+
+<section class="section profile-section" id="profile">
+  <div class="shell profile-grid">
+    <div><p class="eyebrow">Leadership profile</p><h2>Senior enough to set direction. Hands-on enough to prove it.</h2><p class="quote">“The valuable part of architecture is not the diagram. It is helping a team make better decisions—and ship.”</p></div>
+    <div class="profile-copy"><p class="lead">I’m an agentic engineer, DevSecOps specialist, Cloud Native Lead and Fujitsu Distinguished Engineer working across the Azure ecosystem.</p><p>My career connects infrastructure and application engineering: cloud foundations, .NET and distributed systems, identity and security, delivery automation, AI and MCP tooling. I co-lead a technical community, mentor engineers and translate complex technical choices for both delivery teams and senior stakeholders.</p><div class="recognition-grid"><div><strong>FUSION Applications</strong><span>Technical community co-lead</span></div><div><strong>NDC London ’23</strong><span>Sustainability Transformation in Tech</span></div><div><strong>AWS Quick Start</strong><span>Published Amazon Connect integration</span></div><div><strong>Former CTO</strong><span>More than a decade leading product engineering</span></div></div><div class="actions"><a class="button primary" href="{{ "resume.pdf" | relURL }}">Read the full résumé</a><a class="button secondary" href="mailto:{{ site.Params.email }}">Get in touch</a></div></div>
+  </div>
+</section>
+
+<section class="contact-section" id="contact">
+  <div class="shell contact-grid"><div><p class="eyebrow">Start a conversation</p><h2>Have a cloud challenge that needs both direction and delivery?</h2></div><div><p>I’m open to conversations about technical leadership, Azure and cloud-native architecture, speaking, collaboration and practical developer tooling.</p><a class="button light" href="mailto:{{ site.Params.email }}">Email Garrard <span aria-hidden="true">↗</span></a></div></div>
+</section>
+{{ end }}

@@ -1,0 +1,10 @@
+{{ define "main" }}
+<header class="page-hero"><div class="shell narrow"><p class="eyebrow">Explore</p><h1>{{ .Title }}</h1>{{ with .Description }}<p class="page-lede">{{ . }}</p>{{ end }}{{ with .Content }}<div class="page-intro">{{ . }}</div>{{ end }}</div></header>
+<section class="section shell narrow">
+  <div class="article-list">
+    {{ range .Pages.ByWeight }}
+      <article><div><p class="card-kicker">{{ .Section }}</p><h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2><p>{{ .Description }}</p></div><a class="circle-link" href="{{ .RelPermalink }}" aria-label="Read {{ .Title }}">→</a></article>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

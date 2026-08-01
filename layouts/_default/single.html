@@ -1,0 +1,6 @@
+{{ define "main" }}
+<article>
+  <header class="page-hero"><div class="shell narrow"><a class="back-link" href="{{ .Parent.RelPermalink }}">← {{ .Parent.Title }}</a><p class="eyebrow">{{ .Section }}</p><h1>{{ .Title }}</h1>{{ with .Description }}<p class="page-lede">{{ . }}</p>{{ end }}{{ with .Params.tags }}<div class="tag-row">{{ range . }}<span class="tag">{{ . }}</span>{{ end }}</div>{{ end }}</div></header>
+  <section class="prose shell narrow">{{ .Content }}</section>
+</article>
+{{ end }}

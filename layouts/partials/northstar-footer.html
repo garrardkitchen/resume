@@ -1,0 +1,22 @@
+<footer class="site-footer">
+  <div class="footer-grid shell">
+    <div>
+      <a class="footer-brand" href="{{ site.Home.RelPermalink }}">Garrard Kitchen</a>
+      <p>Azure cloud-native leadership from platform to product.</p>
+    </div>
+    <div class="footer-callout">
+      <span>Have a complex cloud challenge?</span>
+      <a href="mailto:{{ site.Params.email }}">Start a conversation <span aria-hidden="true">↗</span></a>
+    </div>
+    <nav class="footer-links" aria-label="Professional links">
+      <a href="https://www.linkedin.com/in/garrard-kitchen/">LinkedIn</a>
+      <a href="https://github.com/garrardkitchen/">GitHub</a>
+      <a href="https://blog-dev.garrardkitchen.com/">Writing</a>
+      <a href="{{ "resume.pdf" | relURL }}">Résumé</a>
+    </nav>
+  </div>
+  <div class="footer-meta shell">
+    <span>© {{ now.Year }} Garrard Kitchen</span>
+    <span>Secure by Design · Cloud First · Green by Design</span>
+  </div>
+</footer>

@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.garrardkitchen.com/work/azure-landing-zone-framework/</loc>
+    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.garrardkitchen.com/work/agentic-workplace-platform/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.garrardkitchen.com/work/azure-platform-transformation/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.garrardkitchen.com/work/secure-power-platform-integration/</loc>
+    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.garrardkitchen.com/projects/creations/security/</loc>
     <lastmod>2020-04-27T11:14:39+01:00</lastmod>
     <priority>0.8</priority>
@@ -102,6 +114,76 @@
     <lastmod>2020-04-27T11:14:39+01:00</lastmod>
     <priority>0.8</priority>
   </url><url>
+    <loc>https://www.garrardkitchen.com/tags/.net/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.garrardkitchen.com/tags/aspire/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.garrardkitchen.com/tags/azure-ai-foundry/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.garrardkitchen.com/tags/dapr/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.garrardkitchen.com/tags/mcp/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.garrardkitchen.com/tags/security/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.garrardkitchen.com/work/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>https://www.garrardkitchen.com/tags/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.garrardkitchen.com/tags/azure/</loc>
+    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.garrardkitchen.com/tags/governance/</loc>
+    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.garrardkitchen.com/tags/landing-zones/</loc>
+    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.garrardkitchen.com/tags/networking/</loc>
+    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.garrardkitchen.com/tags/terraform/</loc>
+    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.garrardkitchen.com/tags/api-management/</loc>
+    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.garrardkitchen.com/tags/azd/</loc>
+    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.garrardkitchen.com/tags/azure-container-apps/</loc>
+    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.garrardkitchen.com/tags/oauth-2.0/</loc>
+    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.garrardkitchen.com/tags/power-apps/</loc>
+    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.garrardkitchen.com/tags/aks/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.garrardkitchen.com/tags/ci/cd/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.garrardkitchen.com/tags/cloud-adoption-framework/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.garrardkitchen.com/tags/observability/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.garrardkitchen.com/tags/private-link/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.garrardkitchen.com/tags/at-rest/</loc>
     <lastmod>2020-04-27T11:14:39+01:00</lastmod>
   </url><url>
@@ -126,12 +208,6 @@
     <loc>https://www.garrardkitchen.com/projects/</loc>
     <lastmod>2020-04-27T11:14:39+01:00</lastmod>
   </url><url>
-    <loc>https://www.garrardkitchen.com/tags/security/</loc>
-    <lastmod>2020-04-27T11:14:39+01:00</lastmod>
-  </url><url>
-    <loc>https://www.garrardkitchen.com/tags/</loc>
-    <lastmod>2020-04-27T11:14:39+01:00</lastmod>
-  </url><url>
     <loc>https://www.garrardkitchen.com/tags/tls/</loc>
     <lastmod>2020-04-27T11:14:39+01:00</lastmod>
   </url><url>
@@ -154,9 +230,6 @@
     <lastmod>2020-04-27T11:14:39+01:00</lastmod>
   </url><url>
     <loc>https://www.garrardkitchen.com/tags/api-gateway/</loc>
-    <lastmod>2020-04-27T11:14:39+01:00</lastmod>
-  </url><url>
-    <loc>https://www.garrardkitchen.com/tags/ci/cd/</loc>
     <lastmod>2020-04-27T11:14:39+01:00</lastmod>
   </url><url>
     <loc>https://www.garrardkitchen.com/tags/serverless/</loc>
