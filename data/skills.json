@@ -3,14 +3,16 @@
         "grouping": "AI",
         "skills": [
             "LLM",
-            "MCP (+ spec)",
+            "MCP (+ V2.0 C# spec)",
             "Claude Code (+ CLI)",
             "GitHub Copilot (+ CLI)",
-            "Claude Sonnet 4.6",
-            "Claude Opus 4.6",
-            "GPT-5.4",
+            "Claude Sonnet 5",
+            "Claude Opus 5",
+            "ChatGPT-5.6",
             "AI Foundry",
-            "MS Agent Framework"
+            "Foundry IQ",
+            "MS Agent Framework",
+            "Hermes Agent (+ desktop & remote)"
         ]
     },
     {
@@ -213,7 +215,7 @@
         "skills": [
             "IIS",
             "MSSQL",
-            ".NET Core 2.1 - 9.0",            
+            ".NET Core 2.1 - 10.0",            
             ".NET Frameworks 4.8",                      
             "ASP.NET Core",
             ".NET",
@@ -427,6 +429,7 @@
             "Azure DevOps",
             "Application Insights",
             "Kusto query language",
+            "Azure Container Environments",
             "Azure Container Apps",
             "Load Balancer",
             "Event Grid",
@@ -440,6 +443,8 @@
             "VPN Gateway",
             "CDN",
             "Front Door",
+            "AI Foundry",
+            "Foundry IQ",
             "Traffic Manager",
             "Azure Monitor",
             "Storge - Table, Queue, File & Blob",
