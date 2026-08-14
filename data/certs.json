@@ -1,24 +1,26 @@
 [
     {
+        "title": "Microsoft Certified: Azure AI Apps and Agents Developer Associate",
+        "expiry": "15-08-2027",
+        "path": "/img/microsoft-certified-associate-badge.svg"
+    },
+    {
         "title": "Microsoft Certified: Azure Developer Associate",
         "expiry": "22-02-2027",
         "path": "/img/azure-developer-associate-600x600.png"
     },
-    {
-        "title": "Microsoft Certified: DevOps Engineer Expert",
-        "expiry": "25-08-2027",
-        "path": "/img/CERT-Expert-DevOps-Engineer-600x600.png"
-    },
+    
     {
         "title": "Microsoft Certified: Azure Solutions Architect Expert",
         "expiry": "02-11-2027",
         "path": "/img/azure-solutions-architect-expert-600x600.png"
     },    
     {
-        "title": "Microsoft Certified: Azure IoT Developer Specialty",
-        "expiry": "Retired",
-        "path": "/img/specialty-azure-iot-developer-600x600.png"
+        "title": "Microsoft Certified: DevOps Engineer Expert",
+        "expiry": "25-08-2027",
+        "path": "/img/CERT-Expert-DevOps-Engineer-600x600.png"
     },
+   
     {
         "title": "Microsoft Certified: Azure Security Engineer Associate",
         "expiry": "31-10-2027",
@@ -28,6 +30,11 @@
         "title": "HashiCorp Certified: Terraform Associate (004)",
         "expiry": "20-01-2028",
         "path": "/img/hashicorp-certified-terraform-associate-004-400x400.png"
+    },
+     {
+        "title": "Microsoft Certified: Azure IoT Developer Specialty",
+        "expiry": "Retired",
+        "path": "/img/specialty-azure-iot-developer-600x600.png"
     },
     {
         "title": "LFC131: Green Software for Practitioners",
