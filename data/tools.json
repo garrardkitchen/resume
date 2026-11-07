@@ -1,5 +1,12 @@
 [
   {
+    "name": "Termorq",
+    "mark": "TQ",
+    "description": "An intelligent desktop terminal bringing shells, AI, runbooks, workflows, API and MCP testing, and forge integrations together.",
+    "url": "https://termorq-docs.garrardkitchen.com/",
+    "meta": "Microsoft Store · Free + Pro · Developer productivity"
+  },
+  {
     "name": "MCP Explorer X",
     "mark": "MX",
     "description": "A Docker-first developer workbench for exploring MCP tools, prompts and resources, building workflows, and working with multiple LLM providers.",
