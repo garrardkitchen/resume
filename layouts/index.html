@@ -29,7 +29,7 @@
 <div class="proof-wrap shell">
   <section class="proof-row" aria-label="Professional highlights">
     <div class="proof"><strong>30+ years</strong><span>Engineering and technical leadership</span></div>
-    <div class="proof"><strong>{{ len site.Data.tools }} tools</strong><span>Free, documented developer products</span></div>
+    <div class="proof"><strong>{{ len site.Data.tools }} tools</strong><span>Documented developer products</span></div>
     <div class="proof"><strong>Distinguished</strong><span>Fujitsu engineering recognition, 2024</span></div>
     <div class="proof"><strong>Platform → code</strong><span>Infrastructure and applications</span></div>
   </section>
@@ -77,8 +77,9 @@
   <div class="shell">
     <header class="section-head">
       <div><p class="eyebrow">Developer tools</p><h2>Proof that ships in the open.</h2></div>
-      <p>I build free, documented tools that solve practical developer problems across AI, identity, security and collaboration.</p>
+      <p>I build documented tools that solve practical developer problems across AI, identity, security and collaboration, with free editions and advanced Pro features where available.</p>
     </header>
+    {{ partial "termorq-showcase.html" . }}
     <div class="tool-grid">
       {{ range site.Data.tools }}
         <a class="tool-card" href="{{ .url }}">
